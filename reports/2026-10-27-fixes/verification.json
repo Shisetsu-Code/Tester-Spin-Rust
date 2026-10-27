@@ -80,5 +80,23 @@
       "PARCIAL": 3
     },
     "artifact_id": 12757513462
+  },
+  "yggdrasil_fixed_followup": {
+    "run_id": 40561470969,
+    "commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+    "workflow_conclusion": "success",
+    "artifact_id": 12762445188,
+    "artifact_sha256": "7124e558c15304224013fbf964ad4c73e6a694ebb97da434c6c8de586b862a25",
+    "job_id": 122391328529,
+    "python_tests": 220,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "statuses": {
+      "PARCIAL": 3
+    },
+    "source_files_matched_to_local_tests": 463,
+    "prior_diagnostic_run_id": 40556151509,
+    "scope": "Fresh sessions with the same three selected games and two samples per path. New unknown outcomes remain PARCIAL."
   }
 }

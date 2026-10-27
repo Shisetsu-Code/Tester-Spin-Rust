@@ -24,7 +24,7 @@
   },
   "games_with_final_result": 57,
   "games_with_recorded_attempts": 36,
-  "closed_base_rounds": 71,
+  "closed_base_rounds": 70,
   "changed_games": [
     {
       "provider": "1spin4win",
@@ -990,10 +990,10 @@
       "statuses": {
         "PARCIAL": 3
       },
-      "run_id": 40556151509,
-      "commit": "08dbf1b4b0d52f04a52a11b60b96e24c33eca953",
-      "artifact_id": 12757513462,
-      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509/artifacts/12757513462",
+      "run_id": 40561470969,
+      "commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+      "artifact_id": 12762445188,
+      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969/artifacts/12762445188",
       "catalog_exit": 0,
       "run_exit": 0
     }
@@ -5734,13 +5734,13 @@
       "before_status": "PARCIAL",
       "status": "PARCIAL",
       "changed": false,
-      "error": "BB_DEATHMATCH_3: Retorno al giro normal: REVIEW_REQUIRED (UNRECOGNIZED_CLOSED_OUTCOME) Cobertura de ramificaciones pendiente: BB_DEATHMATCH_3 -> ['BB_DEATHMATCH_3']; BB_TRAINING -> ['BB_TRAINING']; PAID_OPTIONS -> ['purchase:BB_TRAINING']; PURCHASE_DECLARATION -> ['BB_TRAINING', 'BB_DEATHMATCH_3'].",
+      "error": "BB_DEATHMATCH_3: Retorno al giro normal: REVIEW_REQUIRED (UNRECOGNIZED_CLOSED_OUTCOME) Cobertura de ramificaciones pendiente: BB_DEATHMATCH_3 -> ['BB_DEATHMATCH_3']; BB_TRAINING -> ['BB_TRAINING']; PAID_OPTIONS -> ['purchase:BB_TRAINING', 'purchase:BB_DEATHMATCH_3']; PURCHASE_DECLARATION -> ['BB_TRAINING', 'BB_DEATHMATCH_3'].",
       "result_recorded": true,
       "has_recorded_attempts": true,
       "requested_samples_per_path": 2,
       "closed_base_rounds": 2,
-      "reported_successful_spins": 7,
-      "reported_failed_spins": 3,
+      "reported_successful_spins": 6,
+      "reported_failed_spins": 4,
       "attempts_by_mode": [
         {
           "mode_id": "SPIN",
@@ -5769,10 +5769,10 @@
         {
           "mode_id": "BB_DEATHMATCH_3",
           "mode_kind": "PURCHASE",
-          "attempts": 2,
-          "ok": 2,
-          "terminal": 1,
-          "ok_terminal": 1
+          "attempts": 1,
+          "ok": 1,
+          "terminal": 0,
+          "ok_terminal": 0
         }
       ],
       "paid_inventory_complete": true,
@@ -5811,10 +5811,10 @@
           "complete": false,
           "required_samples": 2,
           "sample_counts": {
-            "BB_DEATHMATCH_3": 1
+            "BB_DEATHMATCH_3": 0
           },
           "sample_deficits": {
-            "BB_DEATHMATCH_3": 1
+            "BB_DEATHMATCH_3": 2
           }
         },
         {
@@ -5849,11 +5849,11 @@
           ],
           "covered": [
             "purchase:BB_DEATHMATCH_1",
-            "purchase:BB_DEATHMATCH_2",
-            "purchase:BB_DEATHMATCH_3"
+            "purchase:BB_DEATHMATCH_2"
           ],
           "missing": [
-            "purchase:BB_TRAINING"
+            "purchase:BB_TRAINING",
+            "purchase:BB_DEATHMATCH_3"
           ],
           "complete": false,
           "required_samples": 1,
@@ -5884,10 +5884,10 @@
           "sample_deficits": {}
         }
       ],
-      "source_run_id": 40556151509,
-      "source_commit": "08dbf1b4b0d52f04a52a11b60b96e24c33eca953",
-      "artifact_id": 12757513462,
-      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509/artifacts/12757513462",
+      "source_run_id": 40561470969,
+      "source_commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+      "artifact_id": 12762445188,
+      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969/artifacts/12762445188",
       "evidence_files": [
         "evidence/0/result.json",
         "evidence/0/diagnostic.json",
@@ -5918,17 +5918,17 @@
       "result_recorded": true,
       "has_recorded_attempts": true,
       "requested_samples_per_path": 2,
-      "closed_base_rounds": 0,
-      "reported_successful_spins": 0,
-      "reported_failed_spins": 12,
+      "closed_base_rounds": 1,
+      "reported_successful_spins": 1,
+      "reported_failed_spins": 11,
       "attempts_by_mode": [
         {
           "mode_id": "SPIN",
           "mode_kind": "SPIN",
-          "attempts": 1,
-          "ok": 1,
-          "terminal": 0,
-          "ok_terminal": 0
+          "attempts": 2,
+          "ok": 2,
+          "terminal": 1,
+          "ok_terminal": 1
         }
       ],
       "paid_inventory_complete": true,
@@ -5968,10 +5968,10 @@
           "complete": false,
           "required_samples": 2,
           "sample_counts": {
-            "BASIC": 0
+            "BASIC": 1
           },
           "sample_deficits": {
-            "BASIC": 2
+            "BASIC": 1
           }
         },
         {
@@ -6123,10 +6123,10 @@
           "sample_deficits": {}
         }
       ],
-      "source_run_id": 40556151509,
-      "source_commit": "08dbf1b4b0d52f04a52a11b60b96e24c33eca953",
-      "artifact_id": 12757513462,
-      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509/artifacts/12757513462",
+      "source_run_id": 40561470969,
+      "source_commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+      "artifact_id": 12762445188,
+      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969/artifacts/12762445188",
       "evidence_files": [
         "evidence/1/result.json",
         "evidence/1/diagnostic.json",
@@ -6153,53 +6153,21 @@
       "before_status": "PARCIAL",
       "status": "PARCIAL",
       "changed": false,
-      "error": "MAX_BUY_A_BONUS: Retorno al giro normal: REVIEW_REQUIRED (UNRECOGNIZED_CLOSED_OUTCOME) Cobertura de ramificaciones pendiente: MAX_BUY_A_BONUS -> ['MAX_BUY_A_BONUS']; PURCHASE_DECLARATION -> ['MAX_BUY_A_BONUS'].",
+      "error": "SPIN: Retorno al giro normal: REVIEW_REQUIRED (UNRECOGNIZED_CLOSED_OUTCOME) Cobertura de ramificaciones pendiente: SPIN -> ['BASIC']; BUY_A_BONUS -> ['BUY_A_BONUS']; GOLDEN_BET -> ['GOLDEN_BET']; GOLDEN_BET_WILD -> ['GOLDEN_BET_WILD']; MAX_BUY_A_BONUS -> ['MAX_BUY_A_BONUS']; PAID_OPTIONS -> ['ante:GOLDEN_BET', 'ante:GOLDEN_BET_WILD', 'purchase:BUY_A_BONUS', 'purchase:MAX_BUY_A_BONUS']; PURCHASE_DECLARATION -> ['BUY_A_BONUS', 'MAX_BUY_A_BONUS']; ANTE_DECLARATION -> ['GOLDEN_BET', 'GOLDEN_BET_WILD'].",
       "result_recorded": true,
       "has_recorded_attempts": true,
       "requested_samples_per_path": 2,
-      "closed_base_rounds": 2,
-      "reported_successful_spins": 9,
-      "reported_failed_spins": 1,
+      "closed_base_rounds": 0,
+      "reported_successful_spins": 0,
+      "reported_failed_spins": 10,
       "attempts_by_mode": [
         {
           "mode_id": "SPIN",
           "mode_kind": "SPIN",
-          "attempts": 2,
-          "ok": 2,
-          "terminal": 2,
-          "ok_terminal": 2
-        },
-        {
-          "mode_id": "BUY_A_BONUS",
-          "mode_kind": "PURCHASE",
-          "attempts": 2,
-          "ok": 2,
-          "terminal": 2,
-          "ok_terminal": 2
-        },
-        {
-          "mode_id": "GOLDEN_BET",
-          "mode_kind": "ANTE_BET",
-          "attempts": 2,
-          "ok": 2,
-          "terminal": 2,
-          "ok_terminal": 2
-        },
-        {
-          "mode_id": "GOLDEN_BET_WILD",
-          "mode_kind": "ANTE_BET",
-          "attempts": 2,
-          "ok": 2,
-          "terminal": 2,
-          "ok_terminal": 2
-        },
-        {
-          "mode_id": "MAX_BUY_A_BONUS",
-          "mode_kind": "PURCHASE",
-          "attempts": 2,
-          "ok": 2,
-          "terminal": 1,
-          "ok_terminal": 1
+          "attempts": 1,
+          "ok": 1,
+          "terminal": 0,
+          "ok_terminal": 0
         }
       ],
       "paid_inventory_complete": true,
@@ -6227,6 +6195,86 @@
       "missing_branches": [
         {
           "source": "discovered_modes",
+          "mode_id": "SPIN",
+          "signature": "SPIN",
+          "required": [
+            "BASIC"
+          ],
+          "covered": [],
+          "missing": [
+            "BASIC"
+          ],
+          "complete": false,
+          "required_samples": 2,
+          "sample_counts": {
+            "BASIC": 0
+          },
+          "sample_deficits": {
+            "BASIC": 2
+          }
+        },
+        {
+          "source": "discovered_modes",
+          "mode_id": "BUY_A_BONUS",
+          "signature": "BUY_A_BONUS",
+          "required": [
+            "BUY_A_BONUS"
+          ],
+          "covered": [],
+          "missing": [
+            "BUY_A_BONUS"
+          ],
+          "complete": false,
+          "required_samples": 2,
+          "sample_counts": {
+            "BUY_A_BONUS": 0
+          },
+          "sample_deficits": {
+            "BUY_A_BONUS": 2
+          }
+        },
+        {
+          "source": "discovered_modes",
+          "mode_id": "GOLDEN_BET",
+          "signature": "GOLDEN_BET",
+          "required": [
+            "GOLDEN_BET"
+          ],
+          "covered": [],
+          "missing": [
+            "GOLDEN_BET"
+          ],
+          "complete": false,
+          "required_samples": 2,
+          "sample_counts": {
+            "GOLDEN_BET": 0
+          },
+          "sample_deficits": {
+            "GOLDEN_BET": 2
+          }
+        },
+        {
+          "source": "discovered_modes",
+          "mode_id": "GOLDEN_BET_WILD",
+          "signature": "GOLDEN_BET_WILD",
+          "required": [
+            "GOLDEN_BET_WILD"
+          ],
+          "covered": [],
+          "missing": [
+            "GOLDEN_BET_WILD"
+          ],
+          "complete": false,
+          "required_samples": 2,
+          "sample_counts": {
+            "GOLDEN_BET_WILD": 0
+          },
+          "sample_deficits": {
+            "GOLDEN_BET_WILD": 2
+          }
+        },
+        {
+          "source": "discovered_modes",
           "mode_id": "MAX_BUY_A_BONUS",
           "signature": "MAX_BUY_A_BONUS",
           "required": [
@@ -6239,11 +6287,33 @@
           "complete": false,
           "required_samples": 2,
           "sample_counts": {
-            "MAX_BUY_A_BONUS": 1
+            "MAX_BUY_A_BONUS": 0
           },
           "sample_deficits": {
-            "MAX_BUY_A_BONUS": 1
+            "MAX_BUY_A_BONUS": 2
           }
+        },
+        {
+          "source": "paid_option_inventory",
+          "mode_id": "PAID_OPTIONS",
+          "signature": "paid:execution",
+          "required": [
+            "ante:GOLDEN_BET",
+            "ante:GOLDEN_BET_WILD",
+            "purchase:BUY_A_BONUS",
+            "purchase:MAX_BUY_A_BONUS"
+          ],
+          "covered": [],
+          "missing": [
+            "ante:GOLDEN_BET",
+            "ante:GOLDEN_BET_WILD",
+            "purchase:BUY_A_BONUS",
+            "purchase:MAX_BUY_A_BONUS"
+          ],
+          "complete": false,
+          "required_samples": 1,
+          "sample_counts": null,
+          "sample_deficits": {}
         },
         {
           "source": "server.game.cfg.Config.bettingModes",
@@ -6253,11 +6323,28 @@
             "BUY_A_BONUS",
             "MAX_BUY_A_BONUS"
           ],
-          "covered": [
-            "BUY_A_BONUS"
-          ],
+          "covered": [],
           "missing": [
+            "BUY_A_BONUS",
             "MAX_BUY_A_BONUS"
+          ],
+          "complete": false,
+          "required_samples": 1,
+          "sample_counts": null,
+          "sample_deficits": {}
+        },
+        {
+          "source": "server.game.cfg.Config.bettingModes",
+          "mode_id": "ANTE_DECLARATION",
+          "signature": "ante:DECLARED_DOMAIN",
+          "required": [
+            "GOLDEN_BET",
+            "GOLDEN_BET_WILD"
+          ],
+          "covered": [],
+          "missing": [
+            "GOLDEN_BET",
+            "GOLDEN_BET_WILD"
           ],
           "complete": false,
           "required_samples": 1,
@@ -6265,10 +6352,10 @@
           "sample_deficits": {}
         }
       ],
-      "source_run_id": 40556151509,
-      "source_commit": "08dbf1b4b0d52f04a52a11b60b96e24c33eca953",
-      "artifact_id": 12757513462,
-      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509/artifacts/12757513462",
+      "source_run_id": 40561470969,
+      "source_commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+      "artifact_id": 12762445188,
+      "artifact_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969/artifacts/12762445188",
       "evidence_files": [
         "evidence/2/result.json",
         "evidence/2/diagnostic.json",
@@ -6319,10 +6406,10 @@
     },
     {
       "provider": "yggdrasil",
-      "run_id": 40556151509,
-      "commit": "08dbf1b4b0d52f04a52a11b60b96e24c33eca953",
-      "artifact_id": 12757513462,
-      "audit_path": "artifacts/actions-40556151509/diagnostic-yggdrasil/audit.json"
+      "run_id": 40561470969,
+      "commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+      "artifact_id": 12762445188,
+      "audit_path": "artifacts/actions-40561470969/diagnostic-yggdrasil/audit.json"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 **La última observación disponible de los mismos 72 juegos alcanza 19 OK, 29 PARCIAL, 9 ERROR y 15 SIN_EJECUTOR, frente a 11 OK, 37 PARCIAL, 9 ERROR y 15 SIN_EJECUTOR de la referencia inicial.** Son ocho juegos adicionales que cumplen los controles del motor: tres de 1Spin4Win, dos de Playtech y tres de Hacksaw.
 
-El total de 19 OK combina la campaña principal con comprobaciones posteriores en sesiones nuevas: Hacksaw, ELK/RubyPlay y un diagnóstico adicional Yggdrasil. No es el resultado de una sola corrida. Hacksaw aporta los tres OK adicionales respecto de la campaña principal; ELK, RubyPlay y Yggdrasil permanecen PARCIAL, aunque ahora acreditan más pasos y permiten precisar lo que falta.
+El total de 19 OK combina la campaña principal con comprobaciones posteriores en sesiones nuevas: Hacksaw, ELK/RubyPlay y el diagnóstico final Yggdrasil. No es el resultado de una sola corrida. Hacksaw aporta los tres OK adicionales respecto de la campaña principal; ELK, RubyPlay y Yggdrasil permanecen PARCIAL. Los 19 OK se conservan en la última vista; las observaciones posteriores precisan los pasos acreditados y lo que falta, sin promover estados por una comparación offline.
 
 ## Qué se ejecutó y qué representa cada total
 
@@ -10,9 +10,9 @@ El total de 19 OK combina la campaña principal con comprobaciones posteriores e
 | --- | ---: | ---: | ---: | ---: | --- |
 | Referencia inicial, 72 juegos | 11 | 37 | 9 | 15 | [Informe original](../2026-10-27-actions/README.md) |
 | Nueva campaña principal, los mismos 72 juegos | 16 | 29 | 12 | 15 | [Actions 40553999461](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40553999461), commit `f5d9db2a4734fa5bebf7039fc614ea4fb644da65` |
-| Última observación por juego, incorporando comprobaciones posteriores | **19** | **29** | **9** | **15** | Campaña principal + [Hacksaw](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40554710711), [ELK/RubyPlay](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852) y [Yggdrasil](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509) |
+| Última observación por juego, incorporando comprobaciones posteriores | **19** | **29** | **9** | **15** | Campaña principal + [Hacksaw](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40554710711), [ELK/RubyPlay](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852) y [Yggdrasil](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969) |
 
-La campaña principal seleccionó tres registros verificados por proveedor, sin selección aleatoria. Se conserva la misma cohorte por `provider + slug`: 24 proveedores y 72 títulos. La vista más reciente contiene **57 payloads finales** del motor; los otros 15 títulos corresponden a los cinco proveedores cuyo registro activo sólo ofrece catálogo. En esa vista, 36 juegos tienen intentos registrados y se acreditan 71 cierres base. Descubrir un título o producir un resultado de preparación no se contabiliza como haber ejecutado un giro.
+La campaña principal seleccionó tres registros verificados por proveedor, sin selección aleatoria. Se conserva la misma cohorte por `provider + slug`: 24 proveedores y 72 títulos. La vista más reciente contiene **57 payloads finales** del motor; los otros 15 títulos corresponden a los cinco proveedores cuyo registro activo sólo ofrece catálogo. En esa vista, **36 juegos tienen intentos registrados y se acreditan 70 muestras base completas**. Descubrir un título o producir un resultado de preparación no se contabiliza como haber ejecutado un giro.
 
 Se solicitaron dos muestras por ruta, timeout de request de 30 segundos y límite por juego de 240 segundos. `--spins 2` no significa que el motor deba hacer únicamente dos giros base: puede ejecutar compras, antebets, continuaciones y probes de retorno. Los estados proceden del payload automático final persistido; no se usan aprobaciones manuales ni se convierten inventarios UNKNOWN en cero.
 
@@ -22,6 +22,7 @@ Los datos que sostienen cada vista están separados:
 - **Campaña principal sin sustituir resultados:** [games.csv](games.csv) y [games.json](games.json).
 - **Compilación y pruebas:** [verification.json](verification.json).
 - **Comprobación específica de Hacksaw:** [hacksaw-followup-verification.json](hacksaw-followup-verification.json).
+- **Diagnóstico final Yggdrasil y comparación con el anterior:** [YGGDRASIL.md](YGGDRASIL.md).
 - **Cambios de implementación:** [IMPLEMENTATION.md](IMPLEMENTATION.md).
 - **Capturas de arranque y límites:** [BOOTSTRAP.md](BOOTSTRAP.md).
 
@@ -70,7 +71,7 @@ Estos son los estados de la última observación disponible. Un OK acredita el c
 | Relax Gaming | 0 | 3 | 0 | 0 | Falta contrato observado del launcher/login demo. Try Game llegó a confirmación de edad; no se obtuvo inicialización. |
 | RubyPlay | 0 | 3 | 0 | 0 | Ante permanece desconocido en los tres. En batch 2 Marlin acredita también su compra; queda el dominio pick observado sin resolver. |
 | Wazdan | 0 | 0 | 0 | 3 | Sólo catálogo; falta un ejecutor registrado y verificado. |
-| Yggdrasil | 0 | 3 | 0 | 0 | El diagnóstico adicional acredita más rutas en Gladiators/Foxx, pero conserva un retorno desconocido; Piggies sigue detenido en el primer retorno. |
+| Yggdrasil | 0 | 3 | 0 | 0 | El diagnóstico final acredita seis muestras en Gladiators y la primera SPIN de Piggies con dos probes. Frenan variantes no reconocidas: Sword NORMAL→Wild, expandingWilds con `SetCounterCell` con `Multiplier=2` y BOMB/applyBombFeature en Foxx. |
 | **Total** | **19** | **29** | **9** | **15** | **72 títulos; 57 resultados del motor y 15 títulos sin ejecutor.** |
 
 Los nombres públicos, incluido **25 Cookies: Hit the Bonus™**, identifican los títulos; una redacción de captura no se interpreta como un cambio del nombre ni del estado del juego.
@@ -87,7 +88,11 @@ Harvest y Oasis declaran cero compras por la bandera explícita del servidor y s
 
 ### Cierre y arranque portable
 
-Los cambios Yggdrasil amplían familias concretas de resultados reconocidos, pero no cubren todavía los tres casos observados. Un bonus cerrado no se cuenta como una ronda base ordinaria: se siguen exigiendo dos probes base reconocidos después. En el diagnóstico adicional, Gladiators avanza hasta el retorno de BB_DEATHMATCH_3; Foxx acredita dos bases y dos muestras de BUY_A_BONUS, GOLDEN_BET y GOLDEN_BET_WILD, pero MAX_BUY_A_BONUS conserva un retorno desconocido. Piggies queda detenido en el retorno del primer SPIN. Los tres siguen PARCIAL; el análisis de las variantes concretas de respuesta no se sustituye por una promoción de estado.
+Los cambios Yggdrasil amplían familias concretas de resultados reconocidos. Un bonus cerrado no se cuenta como una ronda base ordinaria: se siguen exigiendo dos probes base reconocidos después. El diagnóstico histórico [40556151509](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509) acreditó avances mayores en algunas rutas: Gladiators llegó al retorno de BB_DEATHMATCH_3 y Foxx acreditó dos bases y dos muestras de BUY_A_BONUS, GOLDEN_BET y GOLDEN_BET_WILD antes de un retorno desconocido en MAX_BUY_A_BONUS. Piggies se detuvo en el retorno del primer SPIN. Esos tres PARCIAL se conservan como evidencia anterior; esa corrida ya no es la fuente de las filas más recientes.
+
+En la ejecución final [40561470969](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969), commit `20a5f9f`, los tres vuelven a quedar PARCIAL con respuestas distintas. **Gladiators completa seis muestras**, dos de SPIN, dos de BB_DEATHMATCH_1 y dos de BB_DEATHMATCH_2, y se detiene ante Sword NORMAL→Wild en el primer probe de retorno de BB_DEATHMATCH_3. **Piggies confirma la primera SPIN con sus dos probes**, incluido un payline de 0,07 que antes no se reconocía; la segunda se detiene ante expandingWilds con `SetCounterCell` con `Multiplier=2`. **Foxx se detiene en el segundo probe de retorno de la primera SPIN**, ante BOMB/applyBombFeature; esa respuesta no contiene vidas y no alcanza a iniciar los modos pagados.
+
+La comparación offline con el clasificador anterior también deja desconocidos los tres DTO que bloquean esta ejecución: **no se reproduce una regresión en esos casos**. Las diferencias de avance entre corridas corresponden a respuestas observadas distintas; no demuestran pérdida de las rutas acreditadas antes ni autorizan a sustituir el resultado más reciente por el histórico más favorable. Los contratos y límites concretos se detallan en [YGGDRASIL.md](YGGDRASIL.md).
 
 ELK batch 2 enlaza el bootstrap oficial con la identidad/endpoint de cada demo. Arcanum, Ashoka y Ashoka Eternal cierran **dos rondas base por título**. Esto corrige el bloqueo de preparación de la campaña principal; no acredita los cinco BMODES X01–X05 pendientes ni el inventario universal de controles pagados. Los tres resultados permanecen PARCIAL.
 
@@ -107,6 +112,8 @@ Se versionaron fixtures y se identificaron claramente los añadidos sintéticos;
 
 El [batch 2, Actions 40557863852](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852), commit `5824816`, terminó también verde y confirmó **190 pruebas Python en Actions**, además de la comprobación local previa. Esa cifra corresponde al código posterior; se conserva separadamente la evidencia de las 173 pruebas del commit principal y de las cuatro pruebas Rust en Windows.
 
+El [diagnóstico final Yggdrasil, Actions 40561470969](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969), commit `20a5f9f`, terminó **SUCCESS y confirmó las 220 pruebas Python en CI**, además de la comprobación local previa. El job conserva los tres resultados PARCIAL del motor. Las cuatro pruebas Rust citadas arriba corresponden a la campaña principal `f5d9db2`, no a esta ejecución focal.
+
 También se corrigió el exportador para que una propiedad JavaScript `cookie:` no eliminase el resto del bundle: las pruebas verifican simultáneamente conservación del código posterior y redacción de cookies, tokens, sesiones, contraseñas y secretos. No se publican bundles crudos ni credenciales.
 
 ## Procedencia de las comprobaciones posteriores
@@ -114,8 +121,9 @@ También se corrigió el exportador para que una propiedad JavaScript `cookie:` 
 | Trabajo | Resultado incorporado | Fuente |
 | --- | --- | --- |
 | ELK y RubyPlay, batch 2 | Ambos jobs correctos; 190 pruebas Python verificadas en Actions. Tres PARCIAL por proveedor, con las mejoras y pendientes descritos arriba. | [Run 40557863852](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852), commit `5824816`; [artefacto ELK](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852/artifacts/12757713777) y [artefacto RubyPlay](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852/artifacts/12758370971) |
-| Diagnóstico adicional Yggdrasil | Tres PARCIAL; avances de rutas acreditados y retornos desconocidos conservados. El análisis exacto de las últimas variantes continúa. | [Run 40556151509](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509) |
+| Diagnóstico histórico Yggdrasil | Tres PARCIAL; avances de rutas y retornos desconocidos conservados como evidencia anterior. Ya no es la fuente de las tres filas latest. | [Run 40556151509](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40556151509) |
+| Diagnóstico final Yggdrasil, batch 3 | SUCCESS; 220 pruebas Python verificadas en Actions. Tres PARCIAL, con seis muestras completas en Gladiators, una SPIN completa en Piggies y un retorno desconocido por BOMB en Foxx. | [Run 40561470969](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969), commit `20a5f9f`; [artefacto 12762445188](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40561470969/artifacts/12762445188) |
 
 El primer intento de CI del batch 2 se interrumpió antes de jugar porque faltaba crear la carpeta `evidence` requerida por las pruebas. Se corrigió esa preparación y se verificó la ejecución posterior enlazada. Ese fallo previo no se contabiliza como un resultado de juego.
 
-Los CSV/JSON más recientes incorporan las nueve filas ELK/RubyPlay/Yggdrasil con su procedencia nueva y mantienen el mismo total **19/29/9/15**. La campaña principal y la comprobación Hacksaw se conservan por separado para que las mejoras, los fallos transitorios y los bloqueos aún abiertos puedan revisarse sin confundir sus fuentes.
+Los [CSV](latest-games.csv)/[JSON](latest-games.json) más recientes incorporan las nueve filas ELK/RubyPlay/Yggdrasil con su procedencia nueva; las tres Yggdrasil proceden ahora del run `40561470969`. Conservan los mismos 72 títulos, los 19 OK anteriores y el total **19/29/9/15**, con ocho nuevos OK sobre la referencia inicial y 70 muestras base completas. La campaña principal, la comprobación Hacksaw y el diagnóstico histórico Yggdrasil se conservan por separado para que las mejoras, los fallos observados y los bloqueos aún abiertos puedan revisarse sin confundir sus fuentes.
