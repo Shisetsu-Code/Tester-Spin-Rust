@@ -25,8 +25,11 @@ def _declaration_json(raw):
     return json.loads(quoted,object_pairs_hook=object_from_pairs)
 
 
-def initialization_domains(provider, data, modes):
+def initialization_domains(provider, data, modes, *, client_profile=None):
     domains={}
+    if provider == 'rubyplay':
+        from tester_spin.providers.rubyplay.paid_domains import initialization_domains as rubyplay_domains
+        return rubyplay_domains(data, modes, client_profile)
     if provider=='pragmatic':
         raw=data.get('purInit')
         if isinstance(raw,str):

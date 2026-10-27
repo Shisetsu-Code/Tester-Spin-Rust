@@ -15,6 +15,7 @@ import requests
 from bs4 import BeautifulSoup, Tag
 
 from tester_spin.providers.one_spin4win_purchases import discover_purchase_modes, discover_antebet_modes, apply_purchase_coverage, purchase_modes_for_init, classify_spin_message
+from tester_spin.providers.one_spin4win_purchases import discover_paid_contract, bind_paid_contract_init, legacy_ante_cost, verify_ante_debit
 from tester_spin.models import Game, GameTestResult, SpinAttempt, utc_now_iso
 from tester_spin.providers.base import GameCallback, Progress, ProviderAdapter
 
@@ -580,6 +581,7 @@ class OneSpin4WinProvider(ProviderAdapter):
 
         purchase_sources = [response.text]
         scanned: list[str] = []
+        failed_assets: list[str] = []
         while queue and len(scanned) < 32:
             src = queue.pop(0)
             if src in scanned:
@@ -589,10 +591,12 @@ class OneSpin4WinProvider(ProviderAdapter):
                 js = session.get(src, timeout=min(timeout_s, 20.0), allow_redirects=True)
                 js.raise_for_status()
                 if len(js.content) > 8 * 1024 * 1024:
+                    failed_assets.append(src)
                     continue
                 text = js.text
                 purchase_sources.append(text)
             except Exception:
+                failed_assets.append(src)
                 continue
 
             candidate_ws, candidate_args = self._parse_runtime_source(text)
@@ -647,6 +651,7 @@ class OneSpin4WinProvider(ProviderAdapter):
         if not currency:
             currency = "EUR"
 
+        paid_contract = discover_paid_contract(purchase_sources, game_name, assets_complete=not failed_assets and not queue)
         spec = {
             "ws_url": ws_url,
             "origin": origin,
@@ -657,8 +662,10 @@ class OneSpin4WinProvider(ProviderAdapter):
             "freeplay": True,
             "demo_url": response.url,
             "scripts_scanned": scanned,
-            "purchase_modes": discover_purchase_modes(purchase_sources, game_name),
-            "antebet_modes": discover_antebet_modes(purchase_sources, game_name),
+            "purchase_modes": paid_contract['purchase_modes'],
+            "antebet_modes": paid_contract['antebet_modes'],
+            "paid_client_contract": paid_contract,
+            "failed_assets": failed_assets,
             "discovery": {
                 "ws_from_static_assets": static_ws_found,
                 "connect_from_static_assets": static_connect_found,
@@ -821,8 +828,11 @@ class OneSpin4WinProvider(ProviderAdapter):
             if init_payload is None:
                 raise TimeoutError("D1: no llegó respuesta type=1 de inicialización.")
 
-            spec["purchase_modes"] = purchase_modes_for_init(spec.get("purchase_modes") or [], init_payload)
-            spec["antebet_modes"] = purchase_modes_for_init(spec.get("antebet_modes") or [], init_payload)
+            bound = bind_paid_contract_init(spec['paid_client_contract'], init_payload)
+            spec['paid_client_contract'] = bound
+            spec['feature_domains'] = bound['feature_domains']
+            spec['purchase_modes'] = bound['purchase_modes']
+            spec['antebet_modes'] = bound['antebet_modes']
             (attempt_dir / "runtime-spec.json").write_text(
                 json.dumps(spec, ensure_ascii=False, indent=2), encoding="utf-8"
             )
@@ -840,6 +850,11 @@ class OneSpin4WinProvider(ProviderAdapter):
                     raise RuntimeError('D1: compra deshabilitada o selector sin contrato en este juego.')
                 if self._d1_feature_active(init_payload):
                     raise RuntimeError('D1: sesión con bonus activo; no se inicia otra compra.')
+            ante_cost = None
+            if feature_kind == 'ANTE_BET' and feature_selector is not None:
+                selected = next(m for m in spec['antebet_modes'] if m.get('feature_selector') == feature_selector)
+                if selected.get('requires_buy_feature') is False:
+                    ante_cost = legacy_ante_cost(bound, init_payload)
             purchase_accepted = feature_selector is None or feature_kind == "ANTE_BET"
             result_payload: dict[str, Any] | None = None
             terminal = False
@@ -879,6 +894,18 @@ class OneSpin4WinProvider(ProviderAdapter):
                 if result_payload is None:
                     raise TimeoutError("D1: no llegó resultado type=3 de la tirada.")
 
+                if ante_cost is not None and steps == 1:
+                    verify_ante_debit(init_payload, result_payload, ante_cost)
+                    (attempt_dir / 'ante-debit.json').write_text(json.dumps({'schema': 'd1/legacy-ante-debit/v1',
+                        'cost': ante_cost, 'balance_before': init_payload['b'], 'balance_after': result_payload['b'],
+                        'win': result_payload['w'], 'feature_selector': feature_selector}), encoding='utf-8')
+                    if self._d1_feature_active(result_payload):
+                        # The legacy ante debit is bound, but this family has no
+                        # observed bonus-credit ledger yet. Do not infer final
+                        # money from a later st=12 or send another paid command.
+                        warning = 'D1: ANTE_FEATURE_LEDGER_UNBOUND; bonus pendiente de contrato contable.'
+                        break
+
                 if feature_selector is not None and feature_kind == "PURCHASE" and steps == 1:
                     current = self._int_field(result_payload.get('b8'), -1)
                     total = self._int_field(result_payload.get('b9'), -1)
@@ -911,7 +938,8 @@ class OneSpin4WinProvider(ProviderAdapter):
 
             if audit_enabled():
                 from tester_spin.provider_return_checks import d1_check
-                proof = d1_check(self, ws, frames, lines, bet_index, result_payload.get('st') if result_payload else None, attempt_dir, timeout_s, initial_terminal=self._d1_result_terminal(result_payload)) if terminal else pending_return(attempt_dir, 'Estado D1 no resuelto')
+                money = {'balance_before': result_payload['b'], 'base_cost': init_payload['b1']} if ante_cost is not None and terminal else {}
+                proof = d1_check(self, ws, frames, lines, bet_index, result_payload.get('st') if result_payload else None, attempt_dir, timeout_s, initial_terminal=self._d1_result_terminal(result_payload), **money) if terminal else pending_return(attempt_dir, 'Estado D1 no resuelto')
                 if proof['status'] != 'CONFIRMED':
                     warning = (warning+' Regreso al juego base pendiente: '+proof['status']).strip()
                     terminal = False
@@ -1044,6 +1072,7 @@ class OneSpin4WinProvider(ProviderAdapter):
         errors: list[str] = []
         resolved_symbol = game.symbol
         purchase_modes: list[dict[str, Any]] = []
+        feature_domains: dict[str, Any] = {}
 
         progress(
             f"[{game.name}] D1: ejecutando {repetitions} tirada(s) directamente "
@@ -1078,6 +1107,7 @@ class OneSpin4WinProvider(ProviderAdapter):
                     )
                     resolved_symbol = str(spec.get("game_name") or resolved_symbol)
                     if not purchases_added and mode_id == 'SPIN':
+                        feature_domains = spec.get('feature_domains', {})
                         purchase_modes.extend(spec.get("purchase_modes") or [])
                         purchase_modes.extend(spec.get("antebet_modes") or [])
                         for mode in purchase_modes:
@@ -1176,6 +1206,7 @@ class OneSpin4WinProvider(ProviderAdapter):
             error=error,
             run_dir=str(run_dir),
             attempts=attempts,
+            feature_domains=feature_domains,
         )
         for mode in purchase_modes:
             completed = sum(1 for attempt in attempts if attempt.mode_id == mode['id'] and attempt.ok and attempt.terminal and not attempt.warning)

@@ -1,0 +1,111 @@
+{
+  "python_actions": {
+    "run_id": 40544934511,
+    "job_id": 122332877118,
+    "run": 108,
+    "failures": 7,
+    "errors": 13,
+    "details": [
+      {
+        "test": "test_claimed_complete_run_with_dispatched_round_stays_partial (test_elk_campaign_import.ElkCampaignImportTests.test_claimed_complete_run_with_dispatched_round_stays_partial)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_inventory_is_checked_against_init_not_only_report (test_elk_campaign_import.ElkCampaignImportTests.test_inventory_is_checked_against_init_not_only_report)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_missing_settlement_is_not_synthesized_from_the_summary (test_elk_campaign_import.ElkCampaignImportTests.test_missing_settlement_is_not_synthesized_from_the_summary)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_purchase_balance_must_confirm_the_actual_debit_before_win (test_elk_campaign_import.ElkCampaignImportTests.test_purchase_balance_must_confirm_the_actual_debit_before_win)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_purchase_request_cost_must_match_the_declared_level (test_elk_campaign_import.ElkCampaignImportTests.test_purchase_request_cost_must_match_the_declared_level)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_real_capture_covers_all_six_declared_modes_and_return (test_elk_campaign_import.ElkCampaignImportTests.test_real_capture_covers_all_six_declared_modes_and_return)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_settlement_xml_disagreement_blocks_ok_even_if_summary_claims_success (test_elk_campaign_import.ElkCampaignImportTests.test_settlement_xml_disagreement_blocks_ok_even_if_summary_claims_success)",
+        "last_line": "AssertionError: False is not true : ELK campaign converter is not implemented"
+      },
+      {
+        "test": "test_executor_runs_all_twelve_continuations_before_close (test_amusnet_feature_paths.AmusnetFeaturePathTests.test_executor_runs_all_twelve_continuations_before_close)",
+        "last_line": "ImportError: cannot import name 'execute_path' from 'tester_spin.providers.amusnet_paths' (<repo>/engine/tester_spin/providers/amusnet_paths.py)"
+      },
+      {
+        "test": "test_contract_requires_official_test_key_and_game (test_playson_executor.PlaysonExecutorTests.test_contract_requires_official_test_key_and_game)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/data/providers/playson/lucky-pots-x1000/analysis/observed-rest-contract.json'"
+      },
+      {
+        "test": "test_ack_uses_actual_numeric_action_identity (test_pushgaming_executor.PushExecutorTests.test_ack_uses_actual_numeric_action_identity)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/provider-discovery-20261027/pushgaming/diamond-supernova-100/original/base-spin.har'"
+      },
+      {
+        "test": "test_actual_base_round_reconciles_only_after_ack (test_pushgaming_executor.PushExecutorTests.test_actual_base_round_reconciles_only_after_ack)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/provider-discovery-20261027/pushgaming/diamond-supernova-100/original/base-spin.har'"
+      },
+      {
+        "test": "test_launcher_is_official_demo_and_no_external_authority (test_pushgaming_executor.PushExecutorTests.test_launcher_is_official_demo_and_no_external_authority)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/push-executor-20261027/public-launcher.html'"
+      },
+      {
+        "test": "test_other_round_or_wallet_tamper_rejected (test_pushgaming_executor.PushExecutorTests.test_other_round_or_wallet_tamper_rejected)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/provider-discovery-20261027/pushgaming/diamond-supernova-100/original/base-spin.har'"
+      },
+      {
+        "test": "test_contract_rejects_real_login_or_mismatched_game (test_relax_executor.RelaxExecutorTests.test_contract_rejects_real_login_or_mismatched_game)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/data/providers/relax/diamondsdd/analysis/observed-rest-contract.json'"
+      },
+      {
+        "test": "test_mismatched_round_or_currency_rejected (test_worker_primitives.WorkerPrimitiveTests.test_mismatched_round_or_currency_rejected)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/primitives-discovery-20261027/elk/ryze-2/xiter-bonus-hunt-1-redacted.json'"
+      },
+      {
+        "test": "test_real_playngo_frames_remain_semantically_unknown (test_worker_primitives.WorkerPrimitiveTests.test_real_playngo_frames_remain_semantically_unknown)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/primitives-discovery-20261027/playngo/divina-commedia/offline/fixtures/spin-1.raw.json'"
+      },
+      {
+        "test": "test_real_x01_acceptance_is_not_settlement_or_inventory (test_worker_primitives.WorkerPrimitiveTests.test_real_x01_acceptance_is_not_settlement_or_inventory)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/primitives-discovery-20261027/elk/ryze-2/xiter-bonus-hunt-1-redacted.json'"
+      },
+      {
+        "test": "test_server_rejection_or_public_cost_tamper_rejected (test_worker_primitives.WorkerPrimitiveTests.test_server_rejection_or_public_cost_tamper_rejected)",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/primitives-discovery-20261027/elk/ryze-2/xiter-bonus-hunt-1-redacted.json'"
+      },
+      {
+        "test": "test_wrong_quote_and_identity_rejected (test_worker_primitives.WorkerPrimitiveTests.test_wrong_quote_and_identity_rejected) (game='10261', price='2.50')",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/primitives-discovery-20261027/elk/ryze-2/xiter-bonus-hunt-1-redacted.json'"
+      },
+      {
+        "test": "test_wrong_quote_and_identity_rejected (test_worker_primitives.WorkerPrimitiveTests.test_wrong_quote_and_identity_rejected) (game='10260', price='1.00')",
+        "last_line": "FileNotFoundError: [Errno 2] No such file or directory: '<repo>/evidence/primitives-discovery-20261027/elk/ryze-2/xiter-bonus-hunt-1-redacted.json'"
+      }
+    ]
+  },
+  "rust_actions": {
+    "run_id": 40544934511,
+    "job_id": 122332876121,
+    "compiled": true,
+    "library_tests_passed": 3,
+    "integration_tests_failed": 1,
+    "integration_failure": "CannotOpen data/tester-spin.sqlite3"
+  },
+  "audit_harness_local": {
+    "tests": 17,
+    "failures": 0,
+    "errors": 0
+  },
+  "invariants": {
+    "providers": 24,
+    "selected": 72,
+    "unique_provider_slug_pairs": 72,
+    "final_statuses_preserved": true,
+    "engine_source_unchanged": true
+  }
+}

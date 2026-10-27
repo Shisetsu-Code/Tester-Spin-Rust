@@ -19,7 +19,7 @@ EVIDENCE = {
  'nolimit_city':('bootstrap/0001.response.json','capture.har'),
  'ka_gaming':('bootstrap/*startGame*.response.raw.json','*startGame*.response.raw.json','feature-declaration.json'),
  'redtiger':('bootstrap/settings.response.json',),
- 'rubyplay':('bootstrap/**/init-response.json','bootstrap/init-response.json'),
+ 'rubyplay':('bootstrap/**/init-response.json','bootstrap/init-response.json','bootstrap/paid-client-profile.json'),
  'yggdrasil':('current-server-configuration.json',),
  '1spin4win':('**/runtime-spec.json',),
  'playtech':('ngm-har-contracts.json','execution-plan.json'),

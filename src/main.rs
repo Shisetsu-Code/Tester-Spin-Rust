@@ -839,8 +839,63 @@ mod integration {
     use super::*;
     #[test]
     fn native_client_starts_engine_and_checks_selection_without_playing() {
-        let config = Config::load(std::path::Path::new(env!("CARGO_MANIFEST_DIR"))).unwrap();
+        // The integration contract must work on a fresh checkout: no developer
+        // database, machine-specific Python path or previously crawled catalogue.
+        struct Project(std::path::PathBuf);
+        impl Drop for Project {
+            fn drop(&mut self) {
+                let _ = std::fs::remove_dir_all(&self.0);
+            }
+        }
+        fn copy_engine(source: &std::path::Path, target: &std::path::Path) {
+            std::fs::create_dir_all(target).unwrap();
+            for entry in std::fs::read_dir(source).unwrap() {
+                let entry = entry.unwrap();
+                if entry.file_name() == "__pycache__" {
+                    continue;
+                }
+                let destination = target.join(entry.file_name());
+                if entry.file_type().unwrap().is_dir() {
+                    copy_engine(&entry.path(), &destination);
+                } else if entry.path().extension().is_none_or(|ext| ext != "pyc") {
+                    std::fs::copy(entry.path(), destination).unwrap();
+                }
+            }
+        }
+        let manifest = std::path::Path::new(env!("CARGO_MANIFEST_DIR"));
+        let unique = std::time::SystemTime::now()
+            .duration_since(std::time::UNIX_EPOCH)
+            .unwrap()
+            .as_nanos();
+        let project = Project(std::env::temp_dir().join(format!(
+            "tester-spin-integration-{}-{unique}",
+            std::process::id()
+        )));
+        copy_engine(&manifest.join("engine"), &project.0.join("engine"));
+        let python = std::env::var_os("TESTER_SPIN_TEST_PYTHON")
+            .map(PathBuf::from)
+            .unwrap_or_else(|| PathBuf::from(if cfg!(windows) { "python" } else { "python3" }));
+        let config_json = json!({
+            "python": python,
+            "source_data": project.0.join("unused-source"),
+            "data_dir": "data",
+            "engine_dir": "engine"
+        });
+        std::fs::write(
+            project.0.join("config.json"),
+            serde_json::to_vec(&config_json).unwrap(),
+        ).unwrap();
+        let config = Config::load(&project.0).unwrap();
+        let seed = std::process::Command::new(&config.python)
+            .args(["-c", "from pathlib import Path; from tester_spin.storage import Storage; from tester_spin.models import Game; store=Storage(Path('data/tester-spin.sqlite3')); store.upsert_games([Game('elk','synthetic-integration','Synthetic integration fixture','https://example.invalid/demo')])"])
+            .current_dir(&project.0)
+            .env("PYTHONPATH", config.engine_root())
+            .env("PYTHONDONTWRITEBYTECODE", "1")
+            .output()
+            .expect("Python with requirements-ci.txt is required for the bridge integration test");
+        assert!(seed.status.success(), "Unable to seed isolated SQLite: {}", String::from_utf8_lossy(&seed.stderr));
         let (games, _) = load_games(&config.database()).unwrap();
+        assert_eq!(games.len(), 1);
         let game = games.iter().find(|game| game.provider == "elk").unwrap();
         let (tx, rx) = mpsc::channel();
         let engine = engine::Engine::start(&config, tx, egui::Context::default()).unwrap();
@@ -875,6 +930,12 @@ mod integration {
             }
         }
         assert!(planned && ready);
+        let database = rusqlite::Connection::open_with_flags(
+            config.database(), rusqlite::OpenFlags::SQLITE_OPEN_READ_ONLY
+        ).unwrap();
+        let result_count: i64 = database.query_row("SELECT COUNT(*) FROM test_results", [], |row| row.get(0)).unwrap();
+        assert_eq!(result_count, 0, "dry run must not create gameplay results");
+        drop(database);
         engine.send(json!({"cmd":"shutdown"})).unwrap();
         loop {
             if let UiEvent::EngineExited(ok) =

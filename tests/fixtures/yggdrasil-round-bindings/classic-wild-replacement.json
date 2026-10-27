@@ -1,0 +1,255 @@
+{
+  "provenance": {
+    "kind": "captured-response-subtrees",
+    "actions_run": 40550335443,
+    "source": "protocol/providers/yggdrasil/3-gladiators-vs-caesar/tests/20261027-172525-48fdce/analysis/http.har.json",
+    "source_sha256": "2f90fded9b133d4901b3e6fc903af7d467958d7c2d8430c029cb35ee5d5c67b8",
+    "note": "Only wager/financial/action subtrees retained; opaque wager identity replaced consistently. No semantic action fields synthesized."
+  },
+  "constraints": {
+    "collection_modes": [
+      "BASIC",
+      "BB_DEATHMATCH_1",
+      "BB_DEATHMATCH_2",
+      "BB_DEATHMATCH_3",
+      "BB_TRAINING"
+    ],
+    "currency": "EUR",
+    "basic_amount": "0.1",
+    "basic_coin": "0.005",
+    "purchase_quotes": {
+      "BB_DEATHMATCH_2": {
+        "coin": "0.005",
+        "coins": "1000",
+        "amount": "5",
+        "lines": "11111111111111111111",
+        "cmd": "BB_DEATHMATCH_2"
+      },
+      "BB_DEATHMATCH_1": {
+        "coin": "0.005",
+        "coins": "1000",
+        "amount": "5",
+        "lines": "11111111111111111111",
+        "cmd": "BB_DEATHMATCH_1"
+      },
+      "BB_TRAINING": {
+        "coin": "0.005",
+        "coins": "1000",
+        "amount": "5",
+        "lines": "11111111111111111111",
+        "cmd": "BB_TRAINING"
+      },
+      "BB_DEATHMATCH_3": {
+        "coin": "0.005",
+        "coins": "1000",
+        "amount": "5",
+        "lines": "11111111111111111111",
+        "cmd": "BB_DEATHMATCH_3"
+      }
+    }
+  },
+  "template": {
+    "coin": "0.005",
+    "coins": "20",
+    "amount": "0.1",
+    "lines": "11111111111111111111"
+  },
+  "responses": [
+    {
+      "code": 0,
+      "data": {
+        "wager": {
+          "wagerid": "captured-round",
+          "status": "Pending",
+          "bets": [
+            {
+              "step": 1,
+              "betamount": "0.10",
+              "betcurrency": "EUR",
+              "wonamount": "0.00",
+              "status": "RESULTED",
+              "betdata": {
+                "coin": "0.005",
+                "cashBet": "0.10",
+                "initialBalance": "10995.54",
+                "cmd": "BASE_SPIN",
+                "accWa": "0.07",
+                "accC": 14,
+                "cmds": [
+                  "C"
+                ]
+              },
+              "eventdata": {
+                "accC": 14,
+                "accWa": "0.07",
+                "boostData": {
+                  "gotScatter2OrMore": true,
+                  "gotScatter3AndEnteredFreespins": false,
+                  "gotScatter3AndWonDeathmatch": false
+                },
+                "nextCmds": "C",
+                "response": {
+                  "coinWin": 14,
+                  "cashWin": "0.07",
+                  "clientData": {
+                    "accC": 14,
+                    "accWa": "0.07",
+                    "featuresUsed": [
+                      "spearFeature"
+                    ],
+                    "finalBoard": [
+                      [
+                        "High3",
+                        "Mid2",
+                        "Low1"
+                      ],
+                      [
+                        "Scatter",
+                        "Low2",
+                        "Wild"
+                      ],
+                      [
+                        "High3",
+                        "Wild",
+                        "Scatter"
+                      ],
+                      [
+                        "Wild",
+                        "Low4",
+                        "Mid3"
+                      ],
+                      [
+                        "Wild",
+                        "Mid1",
+                        "High3"
+                      ]
+                    ],
+                    "reelSet": "BaseReel",
+                    "reels": [
+                      [
+                        "High3",
+                        "Mid2",
+                        "Low1"
+                      ],
+                      [
+                        "Scatter",
+                        "Low2",
+                        "Low3"
+                      ],
+                      [
+                        "High3",
+                        "Low3",
+                        "Scatter"
+                      ],
+                      [
+                        "High3",
+                        "Low4",
+                        "Mid3"
+                      ],
+                      [
+                        "Low1",
+                        "Mid1",
+                        "High3"
+                      ]
+                    ],
+                    "rpos": [
+                      38,
+                      22,
+                      4,
+                      31,
+                      49
+                    ],
+                    "scatterWonExtraCoins": 0,
+                    "scatterWonExtraMoney": "0.00",
+                    "wildsAwarded": [
+                      {
+                        "row": 2,
+                        "column": 1,
+                        "icon": {
+                          "iconEnum": "Low3",
+                          "iconType": "NORMAL"
+                        }
+                      },
+                      {
+                        "row": 1,
+                        "column": 2,
+                        "icon": {
+                          "iconEnum": "Low3",
+                          "iconType": "NORMAL"
+                        }
+                      },
+                      {
+                        "row": 0,
+                        "column": 3,
+                        "icon": {
+                          "iconEnum": "High3",
+                          "iconType": "NORMAL"
+                        }
+                      },
+                      {
+                        "row": 0,
+                        "column": 4,
+                        "icon": {
+                          "iconEnum": "Low1",
+                          "iconType": "NORMAL"
+                        }
+                      }
+                    ],
+                    "wonCoins": 14,
+                    "wonMoney": "0.07",
+                    "wtw": [
+                      [
+                        13,
+                        4,
+                        "001001010000000",
+                        "0.02",
+                        4,
+                        "0.02"
+                      ],
+                      [
+                        17,
+                        10,
+                        "010001010000000",
+                        "0.05",
+                        10,
+                        "0.05"
+                      ]
+                    ]
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": 0,
+      "data": {
+        "wager": {
+          "wagerid": "captured-round",
+          "status": "Finished",
+          "bets": [
+            {
+              "step": 2,
+              "betamount": "0.00",
+              "betcurrency": "EUR",
+              "wonamount": "0.07",
+              "status": "RESULTED",
+              "betdata": {
+                "coin": "0.005",
+                "cashBet": "0.10",
+                "cmd": "C",
+                "accWa": "0.07",
+                "accC": 14
+              },
+              "eventdata": {
+                "exactWon": "0.0700"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

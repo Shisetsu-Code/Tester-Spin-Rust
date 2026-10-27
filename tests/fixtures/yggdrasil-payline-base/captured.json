@@ -1,0 +1,1024 @@
+{
+  "provenance": {
+    "actions_run": 40556151509,
+    "kind": "captured-response-subtrees",
+    "source": "protocol/providers/yggdrasil/3-piggies-of-bank/tests/20261027-180943-49a458/analysis/http.har.json",
+    "source_sha256": "9b55abb95cc35285bb8ae21c4a8dd642c206b36c8da05b33f101420b302d1102",
+    "har_entries": [
+      [
+        3,
+        4
+      ],
+      [
+        5,
+        6
+      ]
+    ],
+    "note": "Wager, financial, cash-prize and action DTO subtrees retained exactly; opaque round/prize identities replaced consistently; account/time fields omitted. No semantic action fields synthesized.",
+    "game_id_source": {
+      "location": "HAR request.postData.text gameid",
+      "entry_indexes": [
+        3,
+        4,
+        5,
+        6
+      ],
+      "value": "10945"
+    }
+  },
+  "constraints": {
+    "currency": "EUR",
+    "basic_amount": "0.1",
+    "basic_coin": "0.1"
+  },
+  "template": {
+    "coin": "0.1",
+    "coins": "1",
+    "amount": "0.1"
+  },
+  "samples": [
+    {
+      "responses": [
+        {
+          "code": 0,
+          "data": {
+            "wager": {
+              "wagerid": "captured-payline-3",
+              "status": "Pending",
+              "bets": [
+                {
+                  "step": 1,
+                  "betamount": "0.10",
+                  "betcurrency": "EUR",
+                  "wonamount": "0.00",
+                  "status": "RESULTED",
+                  "betdata": {
+                    "coin": "0.10",
+                    "cashBet": "0.10",
+                    "initialBalance": "11000.00",
+                    "cmd": "BASE_SPIN",
+                    "accWa": "0.08",
+                    "accC": 0,
+                    "cmds": [
+                      "C"
+                    ]
+                  },
+                  "eventdata": {
+                    "accC": 0,
+                    "accWa": "0.08",
+                    "nextCmds": "C",
+                    "response": {
+                      "coinWin": 0,
+                      "cashWin": "0.08",
+                      "clientData": {
+                        "actions": [
+                          {
+                            "$type": "ActionGame_PresentModeStart",
+                            "animationIdentifier": "Default",
+                            "modeName": "BaseGame",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_NewSpin",
+                            "board": {
+                              "cells": [
+                                {
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H3",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 0,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 1,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H3",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 1,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 1,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 2,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 2,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L4",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 2,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 3,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 3,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 3,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 4,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 4,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 4,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H1",
+                                    "counters": []
+                                  }
+                                }
+                              ],
+                              "counters": []
+                            },
+                            "animationIdentifier": "Default",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_FeatureHappened",
+                            "featureIdentifier": "spin",
+                            "animationIdentifier": "Default",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.02,
+                              "amountNormalizedToBet": 0.2
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 0
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 0
+                              },
+                              {
+                                "x": 3,
+                                "y": 1
+                              },
+                              {
+                                "x": 4,
+                                "y": 2
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.02,
+                              "amountNormalizedToBet": 0.2
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              },
+                              {
+                                "x": 3,
+                                "y": 1
+                              },
+                              {
+                                "x": 4,
+                                "y": 2
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.02,
+                              "amountNormalizedToBet": 0.2
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 1
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 0
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 1
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 0
+                              },
+                              {
+                                "x": 3,
+                                "y": 1
+                              },
+                              {
+                                "x": 4,
+                                "y": 1
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.02,
+                              "amountNormalizedToBet": 0.2
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 1
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 1
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              },
+                              {
+                                "x": 3,
+                                "y": 1
+                              },
+                              {
+                                "x": 4,
+                                "y": 1
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentIntermediateWin",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.08,
+                              "amountNormalizedToBet": 0.8
+                            },
+                            "accumulatedRoundWin": {
+                              "currency": "EUR",
+                              "amount": 0.08,
+                              "amountNormalizedToBet": 0.8
+                            },
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_FeatureHappened",
+                            "featureIdentifier": "winEvaluation",
+                            "animationIdentifier": "Default",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_PresentModeWin",
+                            "animationIdentifier": "Default",
+                            "modeWin": {
+                              "currency": "EUR",
+                              "amount": 0.08,
+                              "amountNormalizedToBet": 0.8
+                            },
+                            "accumulatedRoundWin": {
+                              "currency": "EUR",
+                              "amount": 0.08,
+                              "amountNormalizedToBet": 0.8
+                            },
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          }
+                        ],
+                        "isFinished": true
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "code": 0,
+          "data": {
+            "wager": {
+              "wagerid": "captured-payline-3",
+              "status": "Finished",
+              "bets": [
+                {
+                  "step": 2,
+                  "betamount": "0.00",
+                  "betcurrency": "EUR",
+                  "wonamount": "0.08",
+                  "status": "RESULTED",
+                  "betdata": {
+                    "coin": "0.10",
+                    "cashBet": "0.10",
+                    "cmd": "C",
+                    "accWa": "0.08",
+                    "accC": 0
+                  },
+                  "eventdata": {
+                    "exactWon": "0.0800"
+                  },
+                  "prizes": [
+                    {
+                      "prizeid": "captured-payline-prize-4-1",
+                      "type": "FIXED",
+                      "descr": "Cash out",
+                      "wonamount": "0.08",
+                      "netamount": "0.08",
+                      "woncurrency": "EUR",
+                      "gameId": 10945,
+                      "wonAspect": "CASH",
+                      "prizedata": null
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "responses": [
+        {
+          "code": 0,
+          "data": {
+            "wager": {
+              "wagerid": "captured-payline-5",
+              "status": "Pending",
+              "bets": [
+                {
+                  "step": 1,
+                  "betamount": "0.10",
+                  "betcurrency": "EUR",
+                  "wonamount": "0.00",
+                  "status": "RESULTED",
+                  "betdata": {
+                    "coin": "0.10",
+                    "cashBet": "0.10",
+                    "initialBalance": "10999.98",
+                    "cmd": "BASE_SPIN",
+                    "accWa": "0.13",
+                    "accC": 0,
+                    "cmds": [
+                      "C"
+                    ]
+                  },
+                  "eventdata": {
+                    "accC": 0,
+                    "accWa": "0.13",
+                    "nextCmds": "C",
+                    "response": {
+                      "coinWin": 0,
+                      "cashWin": "0.13",
+                      "clientData": {
+                        "actions": [
+                          {
+                            "$type": "ActionGame_PresentModeStart",
+                            "animationIdentifier": "Default",
+                            "modeName": "BaseGame",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_NewSpin",
+                            "board": {
+                              "cells": [
+                                {
+                                  "position": {
+                                    "x": 0,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H4",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 0,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 0,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 1,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H4",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 1,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 1,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L3",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 2,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 2,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 2,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "Wild",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 3,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 3,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 3,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "H1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 4,
+                                    "y": 0
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 4,
+                                    "y": 1
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L1",
+                                    "counters": []
+                                  }
+                                },
+                                {
+                                  "position": {
+                                    "x": 4,
+                                    "y": 2
+                                  },
+                                  "counters": [],
+                                  "symbol": {
+                                    "symbolCode": "L2",
+                                    "counters": []
+                                  }
+                                }
+                              ],
+                              "counters": []
+                            },
+                            "animationIdentifier": "Default",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_FeatureHappened",
+                            "featureIdentifier": "spin",
+                            "animationIdentifier": "Default",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.05,
+                              "amountNormalizedToBet": 0.5
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 0
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 0
+                              },
+                              {
+                                "x": 3,
+                                "y": 1
+                              },
+                              {
+                                "x": 4,
+                                "y": 2
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.05,
+                              "amountNormalizedToBet": 0.5
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 2
+                              },
+                              {
+                                "x": 1,
+                                "y": 1
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              },
+                              {
+                                "x": 3,
+                                "y": 1
+                              },
+                              {
+                                "x": 4,
+                                "y": 2
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentPaylineWinCombination",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.03,
+                              "amountNormalizedToBet": 0.3
+                            },
+                            "winningCells": [
+                              {
+                                "x": 0,
+                                "y": 0
+                              },
+                              {
+                                "x": 1,
+                                "y": 0
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              }
+                            ],
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            },
+                            "payline": [
+                              {
+                                "x": 0,
+                                "y": 0
+                              },
+                              {
+                                "x": 1,
+                                "y": 0
+                              },
+                              {
+                                "x": 2,
+                                "y": 2
+                              },
+                              {
+                                "x": 3,
+                                "y": 0
+                              },
+                              {
+                                "x": 4,
+                                "y": 0
+                              }
+                            ]
+                          },
+                          {
+                            "$type": "ActionGame_PresentIntermediateWin",
+                            "animationIdentifier": "Default",
+                            "win": {
+                              "currency": "EUR",
+                              "amount": 0.13,
+                              "amountNormalizedToBet": 1.3
+                            },
+                            "accumulatedRoundWin": {
+                              "currency": "EUR",
+                              "amount": 0.13,
+                              "amountNormalizedToBet": 1.3
+                            },
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_FeatureHappened",
+                            "featureIdentifier": "winEvaluation",
+                            "animationIdentifier": "Default",
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          },
+                          {
+                            "$type": "ActionGame_PresentModeWin",
+                            "animationIdentifier": "Default",
+                            "modeWin": {
+                              "currency": "EUR",
+                              "amount": 0.13,
+                              "amountNormalizedToBet": 1.3
+                            },
+                            "accumulatedRoundWin": {
+                              "currency": "EUR",
+                              "amount": 0.13,
+                              "amountNormalizedToBet": 1.3
+                            },
+                            "actionSource": {
+                              "$type": "ActionSource_Empty"
+                            }
+                          }
+                        ],
+                        "isFinished": true
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "code": 0,
+          "data": {
+            "wager": {
+              "wagerid": "captured-payline-5",
+              "status": "Finished",
+              "bets": [
+                {
+                  "step": 2,
+                  "betamount": "0.00",
+                  "betcurrency": "EUR",
+                  "wonamount": "0.13",
+                  "status": "RESULTED",
+                  "betdata": {
+                    "coin": "0.10",
+                    "cashBet": "0.10",
+                    "cmd": "C",
+                    "accWa": "0.13",
+                    "accC": 0
+                  },
+                  "eventdata": {
+                    "exactWon": "0.1300"
+                  },
+                  "prizes": [
+                    {
+                      "prizeid": "captured-payline-prize-6-1",
+                      "type": "FIXED",
+                      "descr": "Cash out",
+                      "wonamount": "0.13",
+                      "netamount": "0.13",
+                      "woncurrency": "EUR",
+                      "gameId": 10945,
+                      "wonAspect": "CASH",
+                      "prizedata": null
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "game_id": "10945"
+}

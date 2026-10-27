@@ -1,0 +1,41 @@
+name: Pragmatic public bootstrap observation
+
+on:
+  push:
+    branches: ['ci/pragmatic-bootstrap-*']
+    paths:
+      - 'scripts/ci_pragmatic_bootstrap.py'
+      - '.github/workflows/pragmatic-bootstrap.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONPATH: engine
+      PYTHONUNBUFFERED: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install observation dependencies
+        run: |
+          python -m pip install -r requirements-ci.txt
+          python -m playwright install --with-deps chromium
+      - name: Observe three fresh Pragmatic public demo bootstraps
+        run: |
+          timeout --signal=TERM --kill-after=15s 240s python scripts/ci_pragmatic_bootstrap.py --output artifacts/bootstrap-pragmatic --seconds 45
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bootstrap-pragmatic
+          path: artifacts/bootstrap-pragmatic/
+          if-no-files-found: warn
+          retention-days: 7

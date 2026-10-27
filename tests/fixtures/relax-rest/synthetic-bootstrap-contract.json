@@ -1,0 +1,23 @@
+{
+  "_fixture": {
+    "kind": "synthetic-contract-wrapper",
+    "network_capture": false,
+    "request_source": "funmoneylogin.json",
+    "note": "Wrapper around the versioned request; not independently observed bootstrap evidence."
+  },
+  "schema": "relax.observed-rest-bootstrap/v1",
+  "game": "diamondsdd",
+  "endpoint": "https://stag-casino-client.api.relaxg.net/engine1/game/",
+  "login": {
+    "userid": null,
+    "mode": "dev",
+    "partnerid": "1",
+    "channel": "web",
+    "clientid": "",
+    "g": "diamondsdd",
+    "immediatePayouts": false,
+    "clientversion": "1.0.9",
+    "jurisdiction": "MT"
+  },
+  "source_sha256": "97b09ed327f7d8e8189eaa9f2505812abde55f4719c17af25bfc60e2fe2a0c39"
+}

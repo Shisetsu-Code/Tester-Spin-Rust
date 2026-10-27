@@ -1,0 +1,47 @@
+name: Public bootstrap observation
+
+on:
+  push:
+    branches: ['ci/bootstrap-*']
+    paths:
+      - 'scripts/ci_bootstrap_observe.py'
+      - '.github/workflows/bootstrap-observation.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  observe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        provider: [elk, relax, playson, playngo, games_global]
+    env:
+      PROVIDER: ${{ matrix.provider }}
+      PYTHONPATH: engine
+      PYTHONUNBUFFERED: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install observation dependencies
+        run: |
+          python -m pip install -r requirements-ci.txt
+          python -m playwright install --with-deps chromium
+      - name: Observe three fresh public demo bootstraps
+        run: |
+          timeout --signal=TERM --kill-after=15s 240s python scripts/ci_bootstrap_observe.py --provider "$PROVIDER" --output "artifacts/bootstrap-$PROVIDER" --seconds 45
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bootstrap-${{ matrix.provider }}
+          path: artifacts/bootstrap-${{ matrix.provider }}/
+          if-no-files-found: warn
+          retention-days: 7

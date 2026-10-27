@@ -1,0 +1,35 @@
+{
+  "_fixture": {
+    "kind": "synthetic-contract-wrapper",
+    "network_capture": false,
+    "request_source": "connect-request.xml",
+    "note": "Query values are unit-test placeholders; not a reviewed runtime launcher contract."
+  },
+  "schema": "playson.observed-test-bootstrap/v1",
+  "slug": "lucky-pots-x1000",
+  "endpoint": "https://demo.0y81pm-c-o6pywcq.com/",
+  "game_id": "lucky_pots",
+  "connect": {
+    "rnd": "1793106112806",
+    "command": "connect",
+    "playerguid": "TEST1100000",
+    "gameid": "lucky_pots",
+    "platform": "desk",
+    "engine_type": "unicore",
+    "engine_version": "15.95",
+    "wl": "demomode",
+    "snd": "1",
+    "spn": "0",
+    "_uip": "REDACTED",
+    "dwnl": "15.827102773576499",
+    "iif": "1",
+    "ourl": "https://playson.com/",
+    "furl": "https://xplatformwl-lrs.box-int-54f2g.com/launch"
+  },
+  "query": {
+    "gid": "synthetic-gid",
+    "wlCode": "synthetic-wl",
+    "projectId": "synthetic-project"
+  },
+  "source_sha256": "31e15fb540cb8cbaf1e0b42f8bc045bc225ce7d3c7478bf891bbacab294e67a5"
+}

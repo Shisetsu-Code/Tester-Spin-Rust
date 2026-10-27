@@ -359,16 +359,32 @@ def continuation_request(state,constraints=None):
     return request
 
 
-def validate_transition(before, after, request,constraints=None):
+def validate_transition(before, after, request,constraints=None,expected_game_id=None):
     if before["wagerid"] != after["wagerid"] or after["max_step"] <= before["max_step"]:
         raise Unsupported("Identidad o avance de ronda inconsistente")
     if not any(b["step"] == int(request["step"]) and isinstance(b.get("betdata"), dict) and b["betdata"].get("cmd") == request["cmd"] for b in after["bets"]):
         raise Unsupported("Respuesta sin reconocimiento del cobro")
     currency=before["bets"][0].get("betcurrency")
     for generated in after["bets"]:
+        # Present prize aliases must name the game selected by this runtime,
+        # independently of the mutable response. Some protocols have no prizes;
+        # direct offline callers without a trusted context retain compatibility.
+        if expected_game_id is not None and isinstance(generated.get('prizes'),list):
+            for prize in generated['prizes']:
+                if isinstance(prize,dict) and 'gameId' in prize and str(prize['gameId'])!=str(expected_game_id):
+                    raise Unsupported('Prize game identity contradicts the current runtime')
         if generated["step"] > before["max_step"]:
             if number(generated.get("betamount")) != 0 or generated.get("betcurrency") != currency:
                 raise Unsupported("Continuation charged a new stake or changed currency")
+    from .typed_payline_base import validate_collect as validate_payline_collect
+    try:validate_payline_collect(before,after,request,constraints)
+    except ValueError as exc:raise Unsupported(str(exc)) from None
+    from .classic_wild_replacement import validate_collect as validate_wild_collect
+    try:validate_wild_collect(before,after,request,constraints)
+    except ValueError as exc:raise Unsupported(str(exc)) from None
+    from .named_actions import validate_wild_life_collect
+    try:validate_wild_life_collect(before,after,request,constraints)
+    except ValueError as exc:raise Unsupported(str(exc)) from None
     from .repeated_purchase_award import validate_transition as validate_purchased_transition
     try:validate_purchased_transition(before,after,request,constraints)
     except (ValueError,TypeError,KeyError,AttributeError,ArithmeticError) as exc:raise Unsupported(str(exc)) from None
@@ -411,6 +427,12 @@ def validate_start(state, template, currency="EUR", *, classic_line_quantity=Fal
 def ordinary_round(state,constraints=None):
     if len(state["bets"]) != 1:
         return False
+    from .named_actions import ordinary_wild_life_round
+    if ordinary_wild_life_round(state['bets'][0],constraints):return True
+    from .typed_payline_base import ordinary as ordinary_payline_base
+    if ordinary_payline_base(state['bets'][0],constraints):return True
+    from .classic_wild_replacement import ordinary as ordinary_wild_replacement
+    if ordinary_wild_replacement(state['bets'][0],constraints):return True
     from .random_multiplier_base import ordinary as ordinary_random_multiplier
     if ordinary_random_multiplier(state['bets'][0],constraints):return True
     from .growing_ways import ordinary as ordinary_growing_ways
@@ -576,7 +598,8 @@ class DemoRuntime:
         for bet in state["bets"]:
             bd = bet.get("betdata") or {}
             cd = ((bet.get("eventdata") or {}).get("response") or {}).get("clientData") or {}
-            from .named_actions import ordinary_named_actions
+            from .named_actions import ordinary_named_actions,ordinary_wild_life_round
+            wild_life_base=ordinary_wild_life_round(bet,constraints)
             from .base_game_state import ordinary_base_game,ordinary_flat_multiplier
             from .balanced_features import ordinary_balanced_features
             from .base_game_state import ordinary_variable_heights,ordinary_no_award,ordinary_numeric_grid,ordinary_board_win,ordinary_multiplier_base,ordinary_numeric_bonus_flags,ordinary_multiplier_board,ordinary_board_metadata,ordinary_closed_flags
@@ -587,26 +610,31 @@ class DemoRuntime:
             if ordinary_collection_actions(bet,constraints):
                 safe.setdefault("ordinary_collection_outcomes",[]).append({"step":bet["step"],"schema":"current-stake-collection/v1","mode_domain":(constraints or {}).get("collection_modes"),"betdata":{"coin":bd["coin"],"cmd":bd["cmd"]},"eventdata":bet["eventdata"]})
             from .typed_actions import ordinary_typed_actions
-            typed_base=ordinary_typed_actions(bet)
+            from .typed_payline_base import ordinary as ordinary_payline_base
+            payline_base=ordinary_payline_base(bet,constraints)
+            typed_base=ordinary_typed_actions(bet) or payline_base
             from .bbg_cascades import ordinary_cascade
             bbg_base=ordinary_cascade(bet,constraints)
             if bbg_base:
                 safe.setdefault('ordinary_bbg_cascade_outcomes',[]).append({'step':bet['step'],'schema':'bbg-base-server-definition-cash-cascades/v1','definition':(constraints or {}).get('bbg_definition'),'bet':{**{k:bet[k] for k in ('step','status','betamount','betcurrency','eventdata')},'betdata':{k:v for k,v in bd.items() if k!='initialBalance'}}})
             if typed_base:
-                safe.setdefault("ordinary_typed_action_outcomes",[]).append({"step":bet["step"],"schema":"cash-normalized-base-actions/v1","bet":{**{k:bet[k] for k in ("step","status","betamount","betcurrency","eventdata")},"betdata":{k:v for k,v in bd.items() if k!="initialBalance"}}})
+                safe.setdefault("ordinary_typed_action_outcomes",[]).append({"step":bet["step"],"schema":"cash-normalized-base-paylines/v1" if payline_base else "cash-normalized-base-actions/v1","bet":{**{k:bet[k] for k in ("step","status","betamount","betcurrency","eventdata")},"betdata":{k:v for k,v in bd.items() if k!="initialBalance"}}})
             from .client_data_sequence import ordinary_sequence,known_awarded_sequence
             from .growing_ways import ordinary as ordinary_growing_ways
             from .side_ledgers import ordinary as ordinary_side_ledgers
-            explicit_base=(ordinary_side_ledgers(bet,constraints) or ordinary_growing_ways(bet,constraints) or typed_base or bbg_base or ordinary_variable_heights(cd) or ordinary_sequence(cd) or ordinary_collection_actions(bet,constraints) or ordinary_gati(cd) or ordinary_closed_flags(cd) or ordinary_board_metadata(cd) or ordinary_flat_multiplier(cd) or ordinary_multiplier_board(cd) or ordinary_enum_round(cd) or ordinary_base_game(cd) or ordinary_balanced_features(cd) or ordinary_numeric_bonus_flags(cd) or ordinary_multiplier_base(cd) or ordinary_board_win(cd) or ordinary_no_award(cd) or ordinary_numeric_grid(cd) or ordinary_flat_event(cd,constraints) or ordinary_jackpot_collections(cd)) if isinstance(cd,dict) else False
+            explicit_base=(wild_life_base or ordinary_side_ledgers(bet,constraints) or ordinary_growing_ways(bet,constraints) or typed_base or bbg_base or ordinary_variable_heights(cd) or ordinary_sequence(cd) or ordinary_collection_actions(bet,constraints) or ordinary_gati(cd) or ordinary_closed_flags(cd) or ordinary_board_metadata(cd) or ordinary_flat_multiplier(cd) or ordinary_multiplier_board(cd) or ordinary_enum_round(cd) or ordinary_base_game(cd) or ordinary_balanced_features(cd) or ordinary_numeric_bonus_flags(cd) or ordinary_multiplier_base(cd) or ordinary_board_win(cd) or ordinary_no_award(cd) or ordinary_numeric_grid(cd) or ordinary_flat_event(cd,constraints) or ordinary_jackpot_collections(cd)) if isinstance(cd,dict) else False
             named=(ordinary_collection_actions(bet,constraints) if collection_envelope(bet.get("eventdata")) else ordinary_named_actions(cd)) if isinstance(cd,dict) else False
-            if isinstance(cd.get("actions"), list) and not named and not explicit_base:
+            from .typed_automatic_bonus import recognized as recognized_automatic_bonus
+            known_bonus=recognized_automatic_bonus(bet,constraints)
+            if isinstance(cd.get("actions"), list) and not named and not explicit_base and not known_bonus:
                 cd = dict(cd)
                 cd["actions"] = [{k:a[k] for k in ("$type","modeName","featureIdentifier","name") if k in a} for a in cd["actions"] if isinstance(a,dict)]
             from .classic_wire import ordinary_flat_event,ordinary_jackpot_collections
             flat=bet.get("eventdata")
             if ordinary_flat_event(flat,constraints) or ordinary_jackpot_collections(flat) or ordinary_flat_multiplier(flat):
                 safe.setdefault("ordinary_flat_outcomes",[]).append({"step":bet["step"],"schema":"classic-flat/v1" if ordinary_flat_event(flat,constraints) else "flat-multiplier/v1" if ordinary_flat_multiplier(flat) else "classic-jackpot/v1","data":flat})
-            keep_cd=explicit_base or known_awarded_sequence(cd)
+            from .classic_wild_replacement import ordinary as ordinary_wild_replacement
+            keep_cd=explicit_base or known_awarded_sequence(cd) or ordinary_wild_replacement(bet,constraints) or known_bonus
             safe["bets"].append({"step":bet["step"],"status":bet.get("status"),"command":bd.get("cmd"),"clientData":{k:v for k,v in cd.items() if k not in {"wagerId","wagerid","ResultId","ResultTime"}} if keep_cd else {k:cd[k] for k in ("featuresUsed","freeSpinTypePlayed","freeSpins","isFinished","actions")+( ("finalBoard",) if named else ()) if k in cd}})
         clean = {k:v for k,v in request.items() if k in {"cmd","amount","coin","coins","lines","step","betid","type","clientParams"}}
         (directory / f"step-{index:03d}-request.json").write_text(json.dumps(clean),encoding="utf-8")
@@ -626,6 +654,8 @@ class DemoRuntime:
         from .parameter_choices import current_info
         root_cd=((state['bets'][0].get('eventdata') or {}).get('response') or {}).get('clientData')
         known_feature=bool(template.get('cmd')) or known_awarded_sequence(root_cd) or current_info(state,getattr(self,'config',{}).get('ordinary_constraints')) is not None
+        from .typed_automatic_bonus import recognized as recognized_automatic_bonus
+        known_feature=known_feature or recognized_automatic_bonus(state['bets'][0],getattr(self,'config',{}).get('ordinary_constraints'))
         self.save(directory,1,body,state)
         steps = 1
         continuation_commands=[]
@@ -636,7 +666,7 @@ class DemoRuntime:
             request = continuation_request(state,getattr(self,"config",{}).get("ordinary_constraints"))
             following = wager_state(self.call("play", {"channel":"pc","currency":self.currency,"lang":"en","gameid":self.gameid, **request}))
             self.save(directory,steps+1,request,following,choices={"available":state["commands"],"selected":request["cmd"]} if len(state["commands"])>1 and request["cmd"]!="Finished" else None)
-            validate_transition(state,following,request,getattr(self,"config",{}).get("ordinary_constraints"))
+            validate_transition(state,following,request,getattr(self,"config",{}).get("ordinary_constraints"),expected_game_id=self.gameid)
             self.save(directory,steps+1,request,following,choices={"available":state["commands"],"selected":request["cmd"]} if len(state["commands"])>1 and request["cmd"]!="Finished" else None,transition_validated=True)
             continuation_commands.append(request["cmd"])
             sequence_bets.extend(following["bets"])

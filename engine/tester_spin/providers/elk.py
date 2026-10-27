@@ -5,6 +5,7 @@ from xml.etree import ElementTree as ET
 from curl_cffi import requests
 from tester_spin.providers.catalogs.adapter import CatalogProvider
 from tester_spin.providers.elk_evidence import convert_case,declared_modes,money
+from tester_spin.providers.elk_bootstrap import extract_official_demo,official_script_url
 
 
 def validate_launch(url,symbol):
@@ -38,6 +39,42 @@ class ElkProvider(CatalogProvider):
     key='elk';display_name='ELK Studios';catalog_url='https://www.elk-studios.com/games/'
     execution_supported=True;max_test_concurrency=1
 
+    def __init__(self,data_root):
+        super().__init__(data_root)
+        self._launch_bindings={}
+
+    def prepare_test_artifacts(self,game,*,timeout_s,stop_event,progress):
+        # Preparation is best-effort in the scheduler.  Record failures in this
+        # instance too, so test_game cannot fall back to stale on-disk metadata.
+        self._launch_bindings[game.slug]={'error':'FRESH_PUBLIC_DEMO_BOOTSTRAP_REQUIRED'}
+        try:
+            if stop_event.is_set():raise ValueError('STOP_REQUESTED')
+            root=self.game_dir(game);path=root/'game.json'
+            meta=json.loads(path.read_text(encoding='utf8')) if path.exists() else {}
+            if meta.get('provider','elk')!='elk' or meta.get('slug',game.slug)!=game.slug:
+                raise ValueError('PUBLIC_DEMO_METADATA_IDENTITY_MISMATCH')
+            def fetch(url,limit):
+                if stop_event.is_set():raise ValueError('STOP_REQUESTED')
+                response=self.http.get(url,timeout=timeout_s,allow_redirects=False)
+                if response.status_code!=200 or response.url!=url or len(response.content)>limit:
+                    raise ValueError('OFFICIAL_DEMO_RESOURCE_REJECTED')
+                return response.text
+            html=fetch(game.url,4*1024*1024)
+            script=official_script_url(game,game.url,html)
+            source=fetch(script,2*1024*1024)
+            binding=extract_official_demo(game,game.url,html,script,source)
+            validate_launch(binding['client_url'],binding['symbol'])
+            if stop_event.is_set():raise ValueError('STOP_REQUESTED')
+            meta.update(provider='elk',slug=game.slug,name=game.name,public_url=game.url,**binding)
+            path.write_text(json.dumps(meta,ensure_ascii=False,indent=2),encoding='utf8')
+            game.symbol=binding['symbol']
+            self._launch_bindings[game.slug]=binding
+            progress('ELK: identidad demo vinculada a ficha y handler oficiales actuales.')
+        except Exception as exc:
+            message=str(exc) if isinstance(exc,ValueError) and re.fullmatch(r'[A-Z_]+',str(exc)) else 'OFFICIAL_DEMO_BOOTSTRAP_FAILED'
+            self._launch_bindings[game.slug]={'error':message}
+            raise ValueError(message) from None
+
     def test_game(self,game,*,spins,timeout_s,stop_event,progress):
         root=self.game_dir(game);capture=root/'tests'/(str(time.time_ns())+'-capture');capture.mkdir(parents=True)
         report={'slug':game.slug,'status':'PARCIAL','rounds':[],'declaredModes':[],'endpoint':''}
@@ -67,7 +104,12 @@ class ElkProvider(CatalogProvider):
                 if value:session=value.strip()
             return node
         try:
+            binding=self._launch_bindings.get(game.slug,{})
+            if binding.get('error') or not binding.get('client_url'):
+                raise ValueError(binding.get('error','FRESH_PUBLIC_DEMO_BOOTSTRAP_REQUIRED'))
             meta=json.loads((root/'game.json').read_text(encoding='utf8'));launch=meta.get('client_url','')
+            if launch!=binding['client_url'] or game.symbol!=binding['symbol']:
+                raise ValueError('PUBLIC_DEMO_METADATA_IDENTITY_MISMATCH')
             q=validate_launch(launch,game.symbol)
             if stop_event.is_set():raise ValueError('STOP_REQUESTED')
             response=get(launch);parts=urlsplit(response.url);parameters=parse_qs(parts.query+'&'+parts.fragment)

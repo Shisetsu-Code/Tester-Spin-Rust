@@ -28,7 +28,7 @@ class PlaysonExecutorTests(unittest.TestCase):
             root=ET.parse(ROOT/'tests/fixtures/playson-rest/bet-response.xml').getroot();root.find(node).set(key,value)
             with self.subTest(key=key),self.assertRaises(ValueError):verify_round(root,before=1100000,total=100)
     def test_contract_requires_official_test_key_and_game(self):
-        c=json.loads((ROOT/'data/providers/playson/lucky-pots-x1000/analysis/observed-rest-contract.json').read_text())
+        c=json.loads((ROOT/'tests/fixtures/playson-rest/synthetic-bootstrap-contract.json').read_text())
         self.assertTrue(validate_contract(c,'lucky-pots-x1000'))
         c['connect']['playerguid']='not-test'
         with self.assertRaises(ValueError):validate_contract(c,'lucky-pots-x1000')

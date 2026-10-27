@@ -1,0 +1,214 @@
+name: Game coverage audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      providers:
+        description: "Provider keys separated by commas, or all"
+        required: true
+        default: all
+        type: string
+      games_per_provider:
+        description: "Maximum games sampled from each provider catalog"
+        required: true
+        default: '3'
+        type: choice
+        options: ['1', '3', '5', '15']
+  push:
+    branches: ['ci/game-audit-*']
+    paths:
+      - '.github/workflows/game-audit.yml'
+      - 'requirements-ci.txt'
+      - 'scripts/ci_*.py'
+      - 'engine/**'
+      - 'tests/**'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: game-audit-${{ github.ref }}
+  cancel-in-progress: false
+
+env:
+  PYTHONPATH: engine
+  PYTHONUNBUFFERED: '1'
+  PYTHONUTF8: '1'
+
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      providers: ${{ steps.select.outputs.providers }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: select
+        env:
+          REQUESTED_PROVIDERS: ${{ inputs.providers || 'all' }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from tester_spin.providers.registry import PROVIDERS
+          requested = os.environ['REQUESTED_PROVIDERS'].strip()
+          selected = list(PROVIDERS) if requested == 'all' else list(dict.fromkeys(p.strip() for p in requested.split(',')))
+          if not selected or any(p not in PROVIDERS for p in selected):
+              raise SystemExit('Unknown or empty provider selection')
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write('providers=' + json.dumps(selected) + '\n')
+          PY
+
+  python-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - run: python -m pip install -r requirements-ci.txt
+      - name: Run full existing Python suite
+        run: |
+          set -o pipefail
+          mkdir -p evidence artifacts/unit
+          python -m pip freeze > artifacts/unit/dependencies.txt
+          python -m unittest discover -s tests -v 2>&1 | tee artifacts/unit/python-tests.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: python-unit-results
+          path: artifacts/unit
+          retention-days: 14
+
+  rust-tests:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install dependencies for the real Python bridge integration
+        run: python -m pip install -r requirements-ci.txt
+      - uses: dtolnay/rust-toolchain@stable
+      - uses: Swatinem/rust-cache@v2
+      - name: Compile and run Rust tests on the desktop target
+        run: cargo test --locked
+
+  live:
+    needs: matrix
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      max-parallel: 8
+      matrix:
+        provider: ${{ fromJSON(needs.matrix.outputs.providers) }}
+    env:
+      PROVIDER: ${{ matrix.provider }}
+      GAME_LIMIT: ${{ inputs.games_per_provider || '3' }}
+      DATA_ROOT: data/ci-${{ matrix.provider }}
+      OUTPUT_DIR: artifacts/${{ matrix.provider }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install engine dependencies and browser
+        run: |
+          python -m pip install -r requirements-ci.txt
+          python -m playwright install --with-deps chromium
+          mkdir -p "$OUTPUT_DIR" evidence
+          python -m pip freeze > "$OUTPUT_DIR/dependencies.txt"
+          git rev-parse HEAD > "$OUTPUT_DIR/commit.txt"
+      - name: Verify isolated process support
+        run: |
+          python - <<'PY'
+          from tester_spin.independent.processes import ProcessTree
+          tree = ProcessTree()
+          tree.close()
+          print('cgroup v2 process isolation verified')
+          PY
+      - name: Collect a bounded catalog sample
+        id: catalog
+        continue-on-error: true
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=15s 180s python scripts/ci_catalog.py --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR/selected-games.json" --limit "$GAME_LIMIT" > "$OUTPUT_DIR/catalog.log" 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit "$code"
+      - name: Run original scheduler through the independent CLI
+        id: execution
+        if: steps.catalog.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=20s 900s python -m tester_spin.cli run "$PROVIDER" --data-root "$DATA_ROOT" --statuses ALL --limit "$GAME_LIMIT" --spins 2 --timeout 30 --wall-timeout 240 --public-summary "$OUTPUT_DIR/summary.json" > "$OUTPUT_DIR/execution.log" 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit "$code"
+      - name: Export canonical results and coverage gaps
+        if: always()
+        env:
+          CATALOG_EXIT: ${{ steps.catalog.outputs.exit_code || '125' }}
+          RUN_EXIT: ${{ steps.execution.outputs.exit_code || '125' }}
+        run: |
+          python scripts/ci_audit_report.py provider --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR" --limit "$GAME_LIMIT" --spins 2 --catalog-exit "$CATALOG_EXIT" --run-exit "$RUN_EXIT"
+          cat "$OUTPUT_DIR/audit.md" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-${{ matrix.provider }}
+          path: |
+            artifacts/${{ matrix.provider }}/audit.*
+            artifacts/${{ matrix.provider }}/evidence/
+            artifacts/${{ matrix.provider }}/selected-games.json
+            artifacts/${{ matrix.provider }}/dependencies.txt
+            artifacts/${{ matrix.provider }}/commit.txt
+          if-no-files-found: warn
+          retention-days: 14
+
+  report:
+    if: always()
+    needs: [matrix, live, python-tests, rust-tests]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: audit-*
+          path: artifacts/providers
+      - name: Combine all provider reports
+        env:
+          PYTHON_TESTS: ${{ needs.python-tests.result }}
+          RUST_TESTS: ${{ needs.rust-tests.result }}
+          LIVE_JOBS: ${{ needs.live.result }}
+          EXPECTED_PROVIDERS: ${{ needs.matrix.outputs.providers }}
+        run: |
+          expected=$(python -c 'import json, os; print(",".join(json.loads(os.environ["EXPECTED_PROVIDERS"])))')
+          python scripts/ci_audit_report.py aggregate --input artifacts/providers --output artifacts/combined --expected-providers "$expected"
+          cat artifacts/combined/audit.md
+          cat artifacts/combined/audit.md >> "$GITHUB_STEP_SUMMARY"
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          result = {'python_tests': os.environ['PYTHON_TESTS'], 'rust_tests': os.environ['RUST_TESTS'], 'live_jobs': os.environ['LIVE_JOBS']}
+          Path('artifacts/combined/build-tests.json').write_text(json.dumps(result, indent=2))
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
+              output.write('\n## Build and unit tests\n\n' + json.dumps(result) + '\n')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: game-audit-combined
+          path: artifacts/combined
+          retention-days: 30

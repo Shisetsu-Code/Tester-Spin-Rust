@@ -92,6 +92,51 @@ def select_probe_plan(profile: RubyPlayClientProfile | None, feature_type: str, 
     return [indices[index % len(indices)] for index in range(max(repetitions, len(indices))) ]
 
 
+def _mark_validated_modes(modes, attempts, run_dir, required_by_mode):
+    """Propagate completed root-mode evidence without resolving sibling branches.
+
+    Attempt.ok already includes the provider's response/cost checks. Require the
+    planned sample count and independently persisted return-to-base proofs before
+    publishing the metadata consumed by the neutral declared-domain gate.
+    """
+    root = Path(run_dir).resolve()
+    for mode in modes:
+        identity, kind = mode.get('id'), mode.get('kind')
+        if identity not in required_by_mode or kind not in {'SPIN', 'PURCHASE'}:
+            continue
+        mode['validated'] = False
+        required = required_by_mode[identity]
+        if type(required) is not int or required < 1:
+            continue
+        samples = [attempt for attempt in attempts if attempt.mode_id == identity]
+        if len(samples) < required:
+            continue
+        directories = set()
+        complete = True
+        for attempt in samples:
+            if (attempt.mode_kind != kind or attempt.ok is not True or attempt.terminal is not True
+                    or attempt.warning or attempt.error or not attempt.artifact_dir):
+                complete = False
+                break
+            directory = Path(attempt.artifact_dir).resolve()
+            if not directory.is_relative_to(root) or directory in directories:
+                complete = False
+                break
+            try:
+                proof = json.loads((directory/'return-to-base.json').read_text(encoding='utf-8'))
+            except (OSError, ValueError):
+                complete = False
+                break
+            if (not isinstance(proof, dict) or proof.get('status') != 'CONFIRMED'
+                    or type(proof.get('required')) is not int or proof['required'] < 2
+                    or type(proof.get('consecutive_base')) is not int
+                    or proof['consecutive_base'] < proof['required']):
+                complete = False
+                break
+            directories.add(directory)
+        mode['validated'] = complete and len(directories) >= required
+
+
 class RubyPlayExecutionMixin:
     def test_game(
         self,
@@ -131,6 +176,7 @@ class RubyPlayExecutionMixin:
             )
             profile = runtime.client_profile
             _write_json(run_dir / "bootstrap" / "index-domain-evidence.json", profile.index_domain_evidence)
+            _write_json(run_dir / "bootstrap" / "paid-client-profile.json", profile.to_dict())
             game.symbol = runtime.launcher.gamename
             _persist_protocol_metadata(self, game, runtime)
 
@@ -155,8 +201,6 @@ class RubyPlayExecutionMixin:
                 isinstance(init_body, dict)
                 and init_body.get("buy_feature_available") is True
             )
-            if isinstance(init_body, dict) and init_body.get("buy_feature_available") is False:
-                feature_domains["purchase"] = {"complete": True, "source": "init.buy_feature_available/effective-client", "options": []}
             if buy_available:
                 executable = bool(
                     profile.buy_feature_type
@@ -201,6 +245,10 @@ class RubyPlayExecutionMixin:
                     )
                 else:
                     coverage_gaps.add("BUY_FEATURE_CONTRACT")
+
+            from tester_spin.feature_domains import initialization_domains
+            feature_domains = initialization_domains('rubyplay', runtime.init_data, discovered_modes,
+                                                      client_profile=profile.to_dict())
 
             progress(
                 f"[{game.name}] RubyPlay INIT OK: game={runtime.launcher.gamename}, "
@@ -456,6 +504,8 @@ class RubyPlayExecutionMixin:
             error = errors[0] if errors else "RubyPlay no completó ninguna iteración."
 
         total_expected = requested_total or repetitions
+        _mark_validated_modes(discovered_modes, attempts, run_dir,
+                              {mode['id']: len(mode['select_probe_plan']) for mode in mode_specs})
         return GameTestResult(
             provider=self.key,
             slug=game.slug,

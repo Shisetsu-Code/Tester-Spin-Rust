@@ -1,0 +1,65 @@
+{
+  "_fixture": {
+    "kind": "synthetic-unit-contract",
+    "network_capture": false,
+    "purpose": "numeric action identity, data dialect, separate debit and acknowledged credit"
+  },
+  "before": 100000,
+  "bet": 50,
+  "purchase": {
+    "actionId": 17,
+    "playId": "synthetic-play",
+    "hivePlayId": "synthetic-hive",
+    "actionName": "spin",
+    "totalBet": 50,
+    "walletData": {
+      "walletBalance": 99950
+    },
+    "actionComplete": false,
+    "endOfPlay": true,
+    "availableActions": [
+      "spin"
+    ],
+    "cumulativeWin": 25,
+    "data": [
+      {
+        "type": "game-response",
+        "endOfRound": true,
+        "gameMode": "base-game",
+        "nextActions": [
+          "spin"
+        ],
+        "win": 25,
+        "creditAmount": 25
+      }
+    ]
+  },
+  "settlement": {
+    "actionId": 17,
+    "playId": "synthetic-play",
+    "hivePlayId": "synthetic-hive",
+    "actionName": "spin",
+    "totalBet": 50,
+    "walletData": {
+      "walletBalance": 99975
+    },
+    "actionComplete": true,
+    "endOfPlay": true,
+    "availableActions": [
+      "spin"
+    ],
+    "cumulativeWin": 25,
+    "data": [
+      {
+        "type": "game-response",
+        "endOfRound": true,
+        "gameMode": "base-game",
+        "nextActions": [
+          "spin"
+        ],
+        "win": 25,
+        "creditAmount": 25
+      }
+    ]
+  }
+}

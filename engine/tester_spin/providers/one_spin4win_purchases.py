@@ -1,5 +1,8 @@
 """Purchase declarations from the matching game constructor and proven serializer."""
 import re
+import copy
+import hashlib
+import math
 
 
 def _code(source):
@@ -167,7 +170,182 @@ def apply_purchase_coverage(result, modes: list[dict]) -> None:
 
 def purchase_modes_for_init(modes: list[dict], payload: dict) -> list[dict]:
     # Official client disables its buy UI when the init response has bf="f".
-    return [] if payload.get("bf") == "f" else modes
+    if payload.get("bf") != "f":
+        return modes
+    return [mode for mode in modes if mode.get('kind') == 'ANTE_BET'
+            and mode.get('requires_buy_feature') is False]
+
+
+def discover_paid_contract(sources, game_name, *, assets_complete=True):
+    """Tri-state D1 domains tied to the matching constructor and serializer.
+
+    Empty parsers do not prove absence. Explicit/inherited disabled properties
+    do, provided the active constructor, base class and fetched assets agree.
+    The legacy side-bet toggle uses sideBet 1/2 -> wire selector 0/1, independent
+    of the buy-feature UI. Observed in Actions 40550335443, client revision 264.
+    """
+    source = 'D1.matching-constructor+BasicSlotView+SlotNetworkController.play'
+    domains = {key: {'complete': False, 'source': source, 'options': [],
+                     'reason': 'CLIENT_CONTRACT_UNRESOLVED'} for key in ('purchase', 'ante')}
+    result = {'schema': 'tester-spin/d1-paid-client/v1', 'feature_domains': domains,
+              'purchase_modes': discover_purchase_modes(sources, game_name),
+              'antebet_modes': discover_antebet_modes(sources, game_name), 'init_bound': False,
+              'source_sha256': [hashlib.sha256(s.encode()).hexdigest() for s in sources]}
+    if not assets_complete or not re.fullmatch(r'[A-Za-z0-9_]+', game_name):
+        return result
+    code = _code('\n'.join(sources))
+    constructors = {body for name, body in _methods(code, game_name + 'View') if name == 'constructor'}
+    base_constructors = {body for name, body in _methods(code, 'BasicSlotView') if name == 'constructor'}
+    if len(constructors) != 1 or len(base_constructors) != 1:
+        return result
+    raw, base_raw = next(iter(constructors)), next(iter(base_constructors))
+    body, base = _top_level(raw), _top_level(base_raw)
+    matched = [(body, inherited) for source_text in sources
+               for body, inherited in [_constructor(source_text, game_name)] if body is not None]
+    if len(matched) != 1 or not matched[0][1]:
+        return result
+    if not re.sub(r'\s+', '', raw).startswith(('BasicSlotView.call(this);', 'super();')):
+        return result
+    overrides = [b for name, b in _methods(code, game_name + 'View') if name != 'constructor']
+
+    def assigned(raw_body, top_body, name):
+        pattern = r'\bthis\.' + re.escape(name) + r'\s*='
+        if len(re.findall(pattern, raw_body)) != len(re.findall(pattern, top_body)):
+            return None
+        direct = sum(name in re.findall(r'this\.([A-Za-z_$][\w$]*)\s*=', m[1])
+                     for m in re.finditer(r'(?:^|[;,])\s*((?:this\.[A-Za-z_$][\w$]*\s*=\s*)+)([^;,}]*)', top_body))
+        if direct != len(re.findall(pattern, raw_body)):
+            return None
+        return _value(top_body, name)
+
+    def effective(name):
+        pattern = r'\bthis\.' + re.escape(name) + r'\s*='
+        if any(re.search(pattern, b) for b in overrides):
+            return None
+        if re.search(pattern, raw):
+            return assigned(raw, body, name)
+        return assigned(base_raw, base, name)
+
+    values = {k: effective(k) for k in ('useBuyFeature', 'sideBet', 'sideBetPercent',
+              'sideBetPlayIndex', 'sideBetToPlayActionIndex', 'halfLines', 'allWays', 'forBetLinesDivider')}
+    result['effective_properties'] = values
+    init_methods = ''.join(b for name, b in _methods(code, 'SlotNetworkController') if name == 'parseInitData')
+    # String literals are checked in the original source, property structure in code.
+    result['init_disables_buy'] = ('Game.game.useBuyFeature=!1' in re.sub(r'\s+', '', init_methods)
+                                   and bool(re.search(r'"f"\s*==\s*\w+\.bf', '\n'.join(sources))))
+    buy = values['useBuyFeature']
+    if buy in {'!1', 'false'}:
+        domains['purchase'].update(complete=True, options=[], reason='MATCHING_CLIENT_BUY_DISABLED')
+    elif buy in {'!0', 'true'} and result['purchase_modes']:
+        domains['purchase'].update(complete=all(m.get('executable') for m in result['purchase_modes']),
+                                   options=[m['id'] for m in result['purchase_modes']], reason='CLIENT_BUY_SELECTOR')
+    side, percent = values['sideBet'], values['sideBetPercent']
+    if side == '0':
+        domains['ante'].update(complete=True, options=[], reason='MATCHING_CLIENT_SIDE_BET_DISABLED')
+    elif buy in {'!1', 'false'} and side == '1':
+        plays = {re.sub(r'\s+', '', b) for n, b in _methods(code, 'SlotNetworkController') if n == 'play'}
+        methods = {n: re.sub(r'\s+', '', b) for n, b in _methods(code, 'BasicSlotView')}
+        play = next(iter(plays)) if len(plays) == 1 else ''
+        toggle = methods.get('betDisplayAction', '')
+        price = methods.get('getBetButtonValue', '')
+        known = (all(t in play for t in ('else0<Game.game.sideBet', '(Game.game.sideBet-1).toString()', 'this.sendData('))
+                 and all(t in toggle for t in ('1==this.sideBet?', 'this.sideBet=2', 'this.sideBet=1'))
+                 and bool(re.search(r'2==this.sideBet&&\((\w+)\+=Math.round\(\1\*this.sideBetPercent\)\)', price))
+                 and values['sideBetPlayIndex'] == '0' and values['sideBetToPlayActionIndex'] == '0'
+                 and isinstance(percent, str) and bool(re.fullmatch(r'(?:\d+(?:\.\d*)?|\.\d+)', percent)))
+        if known and math.isfinite(float(percent)) and float(percent) > 0:
+            mode = {'id': 'D1_ANTE_BET', 'kind': 'ANTE_BET', 'observed': True, 'coverage_required': True,
+                    'executable': True, 'validated': False, 'feature_selector': 1,
+                    'cost_multiplier': 1 + float(percent), 'side_bet_percent': float(percent),
+                    'cost_rule': 'base+Math.round(base*sideBetPercent)', 'requires_buy_feature': False,
+                    'contract_source': 'matching_game_legacy_side_bet_toggle_and_serializer',
+                    'required_options': ['D1_ANTE_BET'], 'covered_options': []}
+            result['antebet_modes'] = [mode]
+            domains['ante'].update(complete=True, options=['D1_ANTE_BET'], reason='CLIENT_LEGACY_SIDE_BET_SELECTOR')
+    elif result['antebet_modes']:
+        domains['ante'].update(complete=all(m.get('executable') for m in result['antebet_modes']),
+                               options=[m['id'] for m in result['antebet_modes']], reason='CLIENT_CONFIGURED_SIDE_BET_SELECTOR')
+    return result
+
+
+def bind_paid_contract_init(contract, payload):
+    bound = copy.deepcopy(contract)
+    bound['init_bound'] = type(payload.get('type')) is int and payload['type'] == 1
+    if not bound['init_bound']:
+        for domain in bound['feature_domains'].values():
+            domain.update(complete=False, reason='CURRENT_INIT_REQUIRED')
+        return bound
+    bound['init_flags'] = {k: payload[k] for k in ('type', 'bf') if k in payload}
+    if payload.get('bf') == 'f' and bound.get('init_disables_buy'):
+        bound['purchase_modes'] = []
+        bound['feature_domains']['purchase'].update(complete=True, options=[], reason='CURRENT_INIT_BUY_DISABLED')
+        if any(m.get('requires_buy_feature') is not False for m in bound['antebet_modes']):
+            # bf disables the buy UI, not the side-bet toggle. Its serializer
+            # switches branches; a configured ante cannot be declared absent.
+            for mode in bound['antebet_modes']:
+                if mode.get('requires_buy_feature') is not False:
+                    mode['executable'] = False
+            bound['feature_domains']['ante'].update(complete=False, reason='INIT_CHANGES_ANTE_SERIALIZER')
+    return bound
+
+
+def legacy_ante_cost(contract, initial):
+    """Current D1 integer quote: hex-length betSteps and explicit line scaling."""
+    from decimal import Decimal, ROUND_HALF_UP
+    def integer(value):
+        if type(value) is not int or value < 0:
+            raise ValueError('D1_ANTE_CURRENT_QUOTE_UNBOUND')
+        return value
+    encoded = initial.get('bs')
+    if not isinstance(encoded, str) or not re.fullmatch(r'[0-9a-fA-F]{2,8192}', encoded):
+        raise ValueError('D1_ANTE_CURRENT_QUOTE_UNBOUND')
+    offset = 0
+    def read():
+        nonlocal offset
+        if offset >= len(encoded):
+            raise ValueError('D1_BET_STEPS_TRUNCATED')
+        width = int(encoded[offset], 16); offset += 1
+        if not width or offset + width > len(encoded):
+            raise ValueError('D1_BET_STEPS_TRUNCATED')
+        value = int(encoded[offset:offset+width], 16); offset += width
+        return value
+    count = read()
+    if not 1 <= count <= 512:
+        raise ValueError('D1_BET_STEPS_UNBOUND')
+    bets = [read() for _ in range(count)]
+    if offset != len(encoded) or any(b <= 0 for b in bets):
+        raise ValueError('D1_BET_STEPS_UNBOUND')
+    index = integer(initial.get('b3')); lines = integer(initial.get('l'))
+    if index != 0 or not lines:
+        raise ValueError('D1_ANTE_INITIAL_BET_INDEX_UNBOUND')
+    values = contract.get('effective_properties', {})
+    base = Decimal(bets[index])
+    if values.get('allWays') in {'!0', 'true'}:
+        pass
+    elif values.get('allWays') in {'!1', 'false'}:
+        if values.get('halfLines') in {'!0', 'true'}:
+            base *= Decimal(lines) / 2
+        elif values.get('halfLines') in {'!1', 'false'} and values.get('forBetLinesDivider') == '1':
+            base *= lines
+        else:
+            raise ValueError('D1_ANTE_LINE_QUOTE_UNBOUND')
+    else:
+        raise ValueError('D1_ANTE_LINE_QUOTE_UNBOUND')
+    if base != integer(initial.get('b1')) or base > integer(initial.get('b2')):
+        raise ValueError('D1_ANTE_MINIMUM_QUOTE_MISMATCH')
+    modes = [m for m in contract.get('antebet_modes', []) if m.get('requires_buy_feature') is False]
+    if len(modes) != 1:
+        raise ValueError('D1_ANTE_SELECTOR_UNBOUND')
+    percent = Decimal(str(modes[0]['side_bet_percent']))
+    if not percent.is_finite() or percent <= 0:
+        raise ValueError('D1_ANTE_PRICE_UNBOUND')
+    return int(base + (base * percent).quantize(Decimal(1), rounding=ROUND_HALF_UP))
+
+
+def verify_ante_debit(initial, response, cost):
+    if (any(type(value) is not int or value < 0 for value in (initial.get('b'), response.get('b'), response.get('w'), cost))
+            or not cost or response['b'] != initial['b'] - cost + response['w']):
+        raise ValueError('D1_ANTE_DEBIT_OR_WIN_MISMATCH')
 
 def classify_spin_message(payload: dict, *, purchase_selectors=(), side_bet_selectors=()):
     """Shape identifies a variant; game-specific selector evidence supplies its meaning."""

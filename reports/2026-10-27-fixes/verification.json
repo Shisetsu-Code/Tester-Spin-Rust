@@ -1,0 +1,102 @@
+{
+  "primary_run_id": 40553999461,
+  "primary_commit": "f5d9db2a4734fa5bebf7039fc614ea4fb644da65",
+  "workflow_conclusion": "success",
+  "run_url": "https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40553999461",
+  "python_actions": {
+    "job_id": 122365019158,
+    "tests": 173,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "artifact_id": 12755473832
+  },
+  "rust_actions": {
+    "job_id": 122365019654,
+    "unit_tests": 3,
+    "integration_tests": 1,
+    "failed": 0,
+    "ignored": 0,
+    "verification_lines": [
+      "2026-10-27T17:50:39.8360906Z running 3 tests\r",
+      "2026-10-27T17:50:39.8367465Z test tests::filters_are_local_and_composable ... ok\r",
+      "2026-10-27T17:50:39.8370687Z test tests::launch_uses_offline_playtech_mode_and_encodes_identity ... ok\r",
+      "2026-10-27T17:50:39.8494628Z test tests::database_reads_do_not_mutate_data_and_keep_manual_status ... ok\r",
+      "2026-10-27T17:50:39.8496479Z test result: ok. 3 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s\r",
+      "2026-10-27T17:50:39.8632445Z running 1 test\r",
+      "2026-10-27T17:50:41.4194877Z test integration::native_client_starts_engine_and_checks_selection_without_playing ... ok\r",
+      "2026-10-27T17:50:41.4195679Z test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 1.56s\r",
+      "2026-10-27T17:50:42.3507526Z test result: ok. 0 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.01s\r"
+    ]
+  },
+  "build_tests": {
+    "python_tests": "success",
+    "rust_tests": "success",
+    "live_jobs": "success"
+  },
+  "same_engine_tree_for_primary_and_hacksaw_followup": "51a8144169bd8ac34ae1110af5b87497fe000418",
+  "hacksaw_followup": {
+    "run_id": 40554710711,
+    "commit": "0c1bf60b59c3ada8607cb37cd8285655d79d71e8",
+    "artifact_id": 12756861772,
+    "scope": "Fresh sessions, same engine code; separate observation, no retry of an uncertain prior wager."
+  },
+  "focused_followup": {
+    "run_id": 40557863852,
+    "commit": "5824816ae53b5b861d9d0098e6d1a90263898768",
+    "workflow_conclusion": "success",
+    "providers": [
+      "elk",
+      "rubyplay"
+    ],
+    "python_tests": [
+      {
+        "job_id": 122378648032,
+        "provider": "elk",
+        "tests": 190,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "job_id": 122378647148,
+        "provider": "rubyplay",
+        "tests": 190,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "prior_setup_failure": {
+      "run_id": 40557607150,
+      "before_gameplay": true,
+      "cause": "The focused workflow ran the full suite before creating the evidence temporary directory. Setup order corrected; no test skipped."
+    }
+  },
+  "yggdrasil_followup": {
+    "run_id": 40556151509,
+    "commit": "08dbf1b4b0d52f04a52a11b60b96e24c33eca953",
+    "statuses": {
+      "PARCIAL": 3
+    },
+    "artifact_id": 12757513462
+  },
+  "yggdrasil_fixed_followup": {
+    "run_id": 40561470969,
+    "commit": "20a5f9f80ee987d45b4893a6d40b08152ef99671",
+    "workflow_conclusion": "success",
+    "artifact_id": 12762445188,
+    "artifact_sha256": "7124e558c15304224013fbf964ad4c73e6a694ebb97da434c6c8de586b862a25",
+    "job_id": 122391328529,
+    "python_tests": 220,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "statuses": {
+      "PARCIAL": 3
+    },
+    "source_files_matched_to_local_tests": 463,
+    "prior_diagnostic_run_id": 40556151509,
+    "scope": "Fresh sessions with the same three selected games and two samples per path. New unknown outcomes remain PARCIAL."
+  }
+}

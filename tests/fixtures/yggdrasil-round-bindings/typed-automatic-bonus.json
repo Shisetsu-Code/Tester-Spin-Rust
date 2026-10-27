@@ -1,0 +1,1330 @@
+{
+  "provenance": {
+    "kind": "captured-response-subtrees",
+    "actions_run": 40550335443,
+    "source": "protocol/providers/yggdrasil/3-piggies-of-bank/tests/20261027-172638-b2f7f7/analysis/http.har.json",
+    "source_sha256": "5958c5db8ecd9de3bd522941648ad2b4d4e0c7bb2711a60b5f1253f768720005",
+    "note": "Only wager/financial/action subtrees retained; opaque wager identity replaced consistently. No semantic action fields synthesized."
+  },
+  "constraints": {
+    "collection_modes": [
+      "BASIC",
+      "BB_ALL",
+      "BB_BLUE",
+      "BB_GREEN",
+      "BB_RANDOM",
+      "BB_RED"
+    ],
+    "currency": "EUR",
+    "basic_amount": "0.1",
+    "basic_coin": "0.1",
+    "purchase_quotes": {
+      "BB_GREEN": {
+        "coin": "12",
+        "coins": "1",
+        "amount": "12",
+        "cmd": "BB_GREEN"
+      },
+      "BB_RANDOM": {
+        "coin": "15",
+        "coins": "1",
+        "amount": "15",
+        "cmd": "BB_RANDOM"
+      },
+      "BB_ALL": {
+        "coin": "25",
+        "coins": "1",
+        "amount": "25",
+        "cmd": "BB_ALL"
+      },
+      "BB_BLUE": {
+        "coin": "18",
+        "coins": "1",
+        "amount": "18",
+        "cmd": "BB_BLUE"
+      },
+      "BB_RED": {
+        "coin": "15",
+        "coins": "1",
+        "amount": "15",
+        "cmd": "BB_RED"
+      }
+    }
+  },
+  "template": {
+    "coin": "0.1",
+    "coins": "1",
+    "amount": "0.1"
+  },
+  "responses": [
+    {
+      "code": 0,
+      "data": {
+        "wager": {
+          "wagerid": "captured-round",
+          "status": "Pending",
+          "bets": [
+            {
+              "step": 1,
+              "betamount": "0.10",
+              "betcurrency": "EUR",
+              "wonamount": "0.00",
+              "status": "RESULTED",
+              "betdata": {
+                "coin": "0.10",
+                "cashBet": "0.10",
+                "initialBalance": "10999.60",
+                "cmd": "BASE_SPIN",
+                "accWa": "3.20",
+                "accC": 0,
+                "cmds": [
+                  "C"
+                ]
+              },
+              "eventdata": {
+                "accC": 0,
+                "accWa": "3.20",
+                "nextCmds": "C",
+                "response": {
+                  "coinWin": 0,
+                  "cashWin": "3.20",
+                  "clientData": {
+                    "actions": [
+                      {
+                        "$type": "ActionGame_PresentModeStart",
+                        "animationIdentifier": "Default",
+                        "modeName": "BaseGame",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_NewSpin",
+                        "board": {
+                          "cells": [
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Coin",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "H4",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Coin",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 1,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "H4",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 1,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Coin",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 1,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "L1",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 2,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "L1",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 2,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Coin",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 2,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Coin",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 3,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "L4",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 3,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "L1",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 3,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "L4",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 4,
+                                "y": 0
+                              },
+                              "counters": [
+                                {
+                                  "name": "bonusAwarded",
+                                  "value": 1
+                                }
+                              ],
+                              "symbol": {
+                                "symbolCode": "Green",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 4,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "H4",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 4,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Coin",
+                                "counters": []
+                              }
+                            }
+                          ],
+                          "counters": []
+                        },
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SpecialSymbolTrigger",
+                        "positions": [
+                          {
+                            "x": 4,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 0,
+                            "y": 2
+                          },
+                          {
+                            "x": 1,
+                            "y": 1
+                          },
+                          {
+                            "x": 2,
+                            "y": 1
+                          },
+                          {
+                            "x": 2,
+                            "y": 2
+                          },
+                          {
+                            "x": 4,
+                            "y": 2
+                          }
+                        ],
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "GreenBonusAwarded",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "server_enterBonus",
+                        "value": 2,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_PresentModeWin",
+                        "animationIdentifier": "Default",
+                        "modeWin": {
+                          "currency": "EUR",
+                          "amount": 0.0,
+                          "amountNormalizedToBet": 0
+                        },
+                        "accumulatedRoundWin": {
+                          "currency": "EUR",
+                          "amount": 0.0,
+                          "amountNormalizedToBet": 0
+                        },
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_PresentModeStart",
+                        "animationIdentifier": "Default",
+                        "modeName": "BonusGreen",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_NewSpin",
+                        "board": {
+                          "cells": [
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "None",
+                                "counters": []
+                              }
+                            }
+                          ],
+                          "counters": []
+                        },
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "bonusGreen",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "bonusGameIntro",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_NewSpin",
+                        "board": {
+                          "cells": [
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 0,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 1,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 1,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 1,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 2,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 2,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 2,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 3,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 3,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 3,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 4,
+                                "y": 0
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 4,
+                                "y": 1
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            },
+                            {
+                              "position": {
+                                "x": 4,
+                                "y": 2
+                              },
+                              "counters": [],
+                              "symbol": {
+                                "symbolCode": "Empty",
+                                "counters": []
+                              }
+                            }
+                          ],
+                          "counters": []
+                        },
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FillEmptyCells",
+                        "animationIdentifier": "Default",
+                        "cells": [
+                          {
+                            "position": {
+                              "x": 3,
+                              "y": 0
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 4,
+                              "y": 0
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 4,
+                              "y": 1
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 4,
+                              "y": 2
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 3,
+                              "y": 1
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 1,
+                              "y": 1
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 0,
+                              "y": 0
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 6
+                                }
+                              ]
+                            }
+                          },
+                          {
+                            "position": {
+                              "x": 2,
+                              "y": 1
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 1
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 3,
+                          "y": 0
+                        },
+                        "name": "timesBetWin",
+                        "value": 1,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 4,
+                          "y": 0
+                        },
+                        "name": "timesBetWin",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 4,
+                          "y": 1
+                        },
+                        "name": "timesBetWin",
+                        "value": 1,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 4,
+                          "y": 2
+                        },
+                        "name": "timesBetWin",
+                        "value": 2,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 3,
+                          "y": 1
+                        },
+                        "name": "timesBetWin",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 1,
+                          "y": 1
+                        },
+                        "name": "timesBetWin",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 0,
+                          "y": 0
+                        },
+                        "name": "timesBetWin",
+                        "value": 6,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 2,
+                          "y": 1
+                        },
+                        "name": "timesBetWin",
+                        "value": 1,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 5,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 4,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FillEmptyCells",
+                        "animationIdentifier": "Default",
+                        "cells": [
+                          {
+                            "position": {
+                              "x": 1,
+                              "y": 0
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 1,
+                          "y": 0
+                        },
+                        "name": "timesBetWin",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 5,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 4,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FillEmptyCells",
+                        "animationIdentifier": "Default",
+                        "cells": [
+                          {
+                            "position": {
+                              "x": 3,
+                              "y": 2
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 3
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 3,
+                          "y": 2
+                        },
+                        "name": "timesBetWin",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 5,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 4,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 2,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FillEmptyCells",
+                        "animationIdentifier": "Default",
+                        "cells": [
+                          {
+                            "position": {
+                              "x": 2,
+                              "y": 0
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 2
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 2,
+                          "y": 0
+                        },
+                        "name": "timesBetWin",
+                        "value": 2,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 5,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 4,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FillEmptyCells",
+                        "animationIdentifier": "Default",
+                        "cells": [
+                          {
+                            "position": {
+                              "x": 0,
+                              "y": 1
+                            },
+                            "counters": [],
+                            "symbol": {
+                              "symbolCode": "Coin",
+                              "counters": [
+                                {
+                                  "name": "timesBetWin",
+                                  "value": 4
+                                }
+                              ]
+                            }
+                          }
+                        ],
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterSymbol",
+                        "animationIdentifier": "Default",
+                        "position": {
+                          "x": 0,
+                          "y": 1
+                        },
+                        "name": "timesBetWin",
+                        "value": 4,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 5,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 4,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 3,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 2,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 1,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_SetCounterBoard",
+                        "animationIdentifier": "Default",
+                        "name": "spinsLeft",
+                        "value": 0,
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "spin",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_PresentWinCombination",
+                        "animationIdentifier": "coinWin",
+                        "win": {
+                          "currency": "EUR",
+                          "amount": 3.2,
+                          "amountNormalizedToBet": 32
+                        },
+                        "winningCells": [],
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_PresentIntermediateWin",
+                        "animationIdentifier": "Default",
+                        "win": {
+                          "currency": "EUR",
+                          "amount": 3.2,
+                          "amountNormalizedToBet": 32
+                        },
+                        "accumulatedRoundWin": {
+                          "currency": "EUR",
+                          "amount": 3.2,
+                          "amountNormalizedToBet": 32
+                        },
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_FeatureHappened",
+                        "featureIdentifier": "exitBonusGame",
+                        "animationIdentifier": "Default",
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      },
+                      {
+                        "$type": "ActionGame_PresentModeWin",
+                        "animationIdentifier": "Default",
+                        "modeWin": {
+                          "currency": "EUR",
+                          "amount": 3.2,
+                          "amountNormalizedToBet": 32
+                        },
+                        "accumulatedRoundWin": {
+                          "currency": "EUR",
+                          "amount": 3.2,
+                          "amountNormalizedToBet": 32
+                        },
+                        "actionSource": {
+                          "$type": "ActionSource_Empty"
+                        }
+                      }
+                    ],
+                    "isFinished": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "code": 0,
+      "data": {
+        "wager": {
+          "wagerid": "captured-round",
+          "status": "Finished",
+          "bets": [
+            {
+              "step": 2,
+              "betamount": "0.00",
+              "betcurrency": "EUR",
+              "wonamount": "3.20",
+              "status": "RESULTED",
+              "betdata": {
+                "coin": "0.10",
+                "cashBet": "0.10",
+                "cmd": "C",
+                "accWa": "3.20",
+                "accC": 0
+              },
+              "eventdata": {
+                "exactWon": "3.2000"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
