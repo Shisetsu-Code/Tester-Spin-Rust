@@ -20,7 +20,7 @@ jobs:
       fail-fast: false
       max-parallel: 5
       matrix:
-        provider: [hacksaw]
+        provider: [yggdrasil]
     env:
       PYTHONPATH: scripts/ci_capture_hooks:engine
       PYTHONUNBUFFERED: '1'
@@ -44,10 +44,30 @@ jobs:
           mkdir -p "$OUTPUT_DIR"
           git rev-parse HEAD > "$OUTPUT_DIR/commit.txt"
       - name: Collect the same bounded catalog sample
-        run: timeout --signal=TERM --kill-after=15s 240s python scripts/ci_catalog.py --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR/selected-games.json" --limit 3 --max-pages 100
-      - name: Capture isolated demo runs with original adapter
+        id: catalog
         continue-on-error: true
-        run: timeout --signal=TERM --kill-after=20s 900s python -m tester_spin.cli run "$PROVIDER" --data-root "$DATA_ROOT" --statuses ALL --limit 3 --spins 2 --timeout 30 --wall-timeout 240 --public-summary "$OUTPUT_DIR/summary.json"
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=15s 240s python scripts/ci_catalog.py --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR/selected-games.json" --limit 3 --max-pages 100
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit "$code"
+      - name: Capture isolated demo runs with original adapter
+        id: execution
+        if: steps.catalog.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=20s 900s python -m tester_spin.cli run "$PROVIDER" --data-root "$DATA_ROOT" --statuses ALL --limit 3 --spins 2 --timeout 30 --wall-timeout 240 --public-summary "$OUTPUT_DIR/summary.json"
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit "$code"
+      - name: Export canonical game statuses
+        if: always()
+        env:
+          CATALOG_EXIT: ${{ steps.catalog.outputs.exit_code || '125' }}
+          RUN_EXIT: ${{ steps.execution.outputs.exit_code || '125' }}
+        run: python scripts/ci_audit_report.py provider --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR" --limit 3 --spins 2 --catalog-exit "$CATALOG_EXIT" --run-exit "$RUN_EXIT"
       - name: Export bounded sanitized evidence
         if: always()
         run: python scripts/ci_capture_evidence.py --root "$DATA_ROOT" --output "$OUTPUT_DIR/protocol"
