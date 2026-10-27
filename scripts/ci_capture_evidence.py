@@ -10,11 +10,35 @@ import sys
 import xml.etree.ElementTree as ET
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'engine'))
-from tester_spin.run_diagnostics import sanitize
+from tester_spin.run_diagnostics import _AUTH_HEADER, _QUOTED_SECRET, _TEXT_SECRET
 
 SECRET = re.compile(r'(?i)(token|password|secret|cookie|authorization|session|state_lock|mgckey|^sid$|^sc$|^key$|api[_-]?key)')
+# A literal JavaScript property `cookie:` is not an HTTP header. Restrict the
+# whole-line rule to actual header field positions, including curl's >/< prefix.
+COOKIE_HEADER = re.compile(r'(?im)^([ \t]*(?:[<>][ \t]+)?(?:set-cookie|cookie)[ \t]*:[ \t]*)[^\r\n]+')
+SECRET_NAME = r'(?:[\w-]*(?:token|password|secret|cookie|authorization|session)[\w-]*|state_lock|mgckey|sid|sc|key|api[_-]?key)'
+# Unquoted JS keys may contain real string credentials too. Preserve surrounding
+# code while masking their quoted values, including escaped quote characters.
+JS_STRING_SECRET = re.compile(r'(?i)(?P<prefix>(?<![\w$])' + SECRET_NAME + r'\s*:\s*)(?P<quote>["\'])(?:\\.|(?!(?P=quote))[^\\\r\n])*(?P=quote)')
 MAX_FILE = 32 * 1024 * 1024
 MAX_TOTAL = 180 * 1024 * 1024
+
+
+def sanitize(value):
+    """Exporter-local redaction; production diagnostics remain unchanged."""
+    if isinstance(value, dict):
+        named_secret = isinstance(value.get('name'), str) and SECRET.search(value['name'])
+        return {str(key): '[REDACTED]' if SECRET.search(str(key)) or (named_secret and str(key).casefold() == 'value')
+                else sanitize(child) for key, child in value.items()}
+    if isinstance(value, (list, tuple)):
+        return [sanitize(child) for child in value]
+    if isinstance(value, str):
+        value = COOKIE_HEADER.sub(r'\1[REDACTED]', value)
+        value = _AUTH_HEADER.sub(r'\1[REDACTED]', value)
+        value = _QUOTED_SECRET.sub(r'\1"[REDACTED]"', value)
+        value = JS_STRING_SECRET.sub(lambda match: match['prefix'] + match['quote'] + '[REDACTED]' + match['quote'], value)
+        return _TEXT_SECRET.sub(r'\1[REDACTED]', value)
+    return value
 
 
 def clean(value):

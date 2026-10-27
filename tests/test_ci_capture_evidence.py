@@ -54,3 +54,29 @@ class CaptureExportTests(unittest.TestCase):
             self.assertNotIn('unexpected', contents)
             self.assertNotIn('"secret"', contents)
             self.assertIn('finished', contents)
+
+    def test_inline_cookie_identifier_does_not_consume_rest_of_javascript(self):
+        module = self.load()
+        source = 'const config={cookie:cookieAdapter,visible:42};function initializeGame(){return "preserved-tail";}'
+        value = module.clean({'text': source})['text']
+        self.assertIn('visible:42', value)
+        self.assertIn('function initializeGame(){return "preserved-tail";}', value)
+
+    def test_real_cookie_header_lines_still_redact_every_cookie_pair(self):
+        module = self.load()
+        source = ('HTTP/1.1 200 OK\r\nCookie: first=header-one; second=header-two\r\n'
+                  'Set-Cookie: third=header-three; Path=/; HttpOnly\r\nX-Public: retained\r\n')
+        value = module.clean(source)
+        for secret in ('header-one', 'header-two', 'header-three'):
+            self.assertNotIn(secret, value)
+        self.assertIn('X-Public: retained', value)
+
+    def test_inline_secret_string_values_are_redacted_without_losing_following_code(self):
+        module = self.load()
+        source = ('const config={cookie:"cookie-private",sessionKey:"session-private",'
+                  'token:"token-private",password:"password-private",secret:"secret-private"};'
+                  'function boot(){return "after-secrets";}')
+        value = module.clean({'text': source})['text']
+        for secret in ('cookie-private', 'session-private', 'token-private', 'password-private', 'secret-private'):
+            self.assertNotIn(secret, value)
+        self.assertIn('function boot(){return "after-secrets";}', value)
