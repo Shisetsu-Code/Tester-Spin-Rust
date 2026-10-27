@@ -1,0 +1,9 @@
+# Same dependency ranges as the vendored Tester-Spin engine.
+# Each audit artifact also records the exact pip freeze for its run.
+requests>=2.32,<3
+curl_cffi>=0.16,<1
+beautifulsoup4>=4.12,<5
+Pillow>=10.4,<12
+playwright>=1.55,<2
+websocket-client>=1.8,<2
+cryptography>=45,<47
