@@ -17,7 +17,7 @@ FIXTURES = ROOT / 'tests/fixtures/yggdrasil-round-bindings'
 
 class CapturedRuntime(DemoRuntime):
     def __init__(self, fixture):
-        super().__init__(None, 'captured', 5, threading.Event(), gate=None)
+        super().__init__(None, fixture.get('game_id','captured'), 5, threading.Event(), gate=None)
         self.config = {'ordinary_constraints': fixture['constraints']}
         self.responses = deepcopy(fixture['responses'])
         self.requests = []
