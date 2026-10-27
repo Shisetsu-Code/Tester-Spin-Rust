@@ -43,6 +43,17 @@ Catalog discovery has a 180-second limit. Each game has the existing worker's
 permission to replay an uncertain purchase. The workflow never automatically
 retries gameplay. The report identifies remaining work for a subsequent run.
 
+The sampler permits up to 100 catalog pages while selecting only the requested
+number of games. Some providers, including RubyPlay's REST catalog, validate
+all pages before emitting their first records. A one-page limit would prevent
+those providers from returning any sample. The targeted RubyPlay validation
+uses a 240-second catalog bound; the initial failed selection made no gameplay
+requests and is replaced by that validation in the published campaign report.
+
+The aggregate compares uploaded reports with the expected provider matrix and
+explicitly flags missing artifacts. Its completeness flag describes report
+availability; each game's status remains the engine's canonical final status.
+
 Only public demo entry points supplied by the existing adapters are used.
 Raw HARs, complete databases and session-bearing private captures are not
 uploaded; reports use the engine's sanitizer. Each artifact records the code
@@ -50,7 +61,8 @@ commit and exact resolved Python dependency versions.
 
 ## Run it
 
-Run **Game coverage audit** from Actions using `providers=all`, or a comma
+After the workflow is on the repository's default branch, run **Game coverage
+audit** from Actions using `providers=all`, or a comma
 separated list of registered provider keys. `games_per_provider` supports
 1, 3, 5 or 15. Pushes of audit code to `ci/game-audit-*` also trigger a
 three-game sample. Documentation-only report commits do not launch a new run.

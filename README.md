@@ -38,3 +38,19 @@ Las mediciones y capturas de comprobación están en evidence/.
 Publicación en GitHub: código fuente y pruebas. No incluye target/, data/, evidence/ ni artifacts/.
 Para usarlo en otra PC, ajustar las rutas de config.json y aportar los datos y dependencias Python locales.
 
+## Auditoría en GitHub Actions — 27/10/2026
+
+Se evaluaron 72 selecciones de 24 proveedores: **11 OK, 37 PARCIAL, 9 ERROR y
+15 SIN_EJECUTOR**. El motor produjo resultados para 57 juegos; los otros 15
+pertenecen a los cinco proveedores que sólo tienen catálogo.
+
+- [Informe completo y causas por familia](reports/2026-10-27-actions/README.md)
+- [Lista de juegos en CSV](reports/2026-10-27-actions/games.csv)
+- [Datos, modalidades y evidencia en JSON](reports/2026-10-27-actions/games.json)
+- [Cómo repetir la auditoría](docs/testing/github-actions.md)
+
+La auditoría usa el motor Python incluido y prueba la compilación Rust en
+Windows. Los fallos originales de fixtures, contratos locales y la base SQLite
+ausente se documentan en el informe; estos resultados no certifican todos los
+juegos del catálogo ni implican que la suite completa esté pasando.
+

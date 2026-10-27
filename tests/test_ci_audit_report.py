@@ -180,6 +180,13 @@ class AuditReportTests(unittest.TestCase):
         self.assertEqual(combined['games'], [])
         self.assertEqual(combined['selected'], 0)
 
+    def test_playtech_uuid_base_modes_keep_base_semantics(self):
+        modes = [{'mode_id': 'c7c99c68-5541-4b0b-bed6-08ebe806504e',
+                  'mode_kind': 'SPIN', 'ok_terminal': 3},
+                 {'mode_id': '64f768bb-de9c-407d-9045-76ccdf969d91',
+                  'mode_kind': 'ANTE_BET', 'ok_terminal': 2}]
+        self.assertEqual(self.audit.closed_base_rounds('playtech', modes), 3)
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -94,6 +94,9 @@ def closed_base_rounds(provider, modes):
         if identity == 'SPIN' and (kind == 'SPIN' or provider == 'ka_gaming'):
             # KA preserves the catalog slot variant as mode_kind.
             return True
+        if provider == 'playtech' and kind == 'SPIN':
+            # GPAS assigns runtime UUIDs to explicitly classified base modes.
+            return True
         return kind == 'SPIN' and ((provider == 'elk' and identity == 'DEF')
                                   or (provider == 'nolimit_city' and identity == 'RETURN_SPIN'))
     return sum(mode['ok_terminal'] for mode in modes if base(mode))
