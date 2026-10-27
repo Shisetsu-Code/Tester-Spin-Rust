@@ -103,7 +103,7 @@ jobs:
     env:
       PROVIDER: ${{ matrix.provider }}
       GAME_LIMIT: ${{ inputs.games_per_provider || '3' }}
-      DATA_ROOT: ${{ runner.temp }}/tester-spin-audit/${{ matrix.provider }}
+      DATA_ROOT: data/ci-${{ matrix.provider }}
       OUTPUT_DIR: artifacts/${{ matrix.provider }}
     steps:
       - uses: actions/checkout@v4
