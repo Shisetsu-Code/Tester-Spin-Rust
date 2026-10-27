@@ -1,0 +1,80 @@
+name: RubyPlay catalog and game validation
+
+on:
+  push:
+    branches: ['ci/catalog-validation-*']
+    paths:
+      - '.github/workflows/catalog-validation.yml'
+      - 'scripts/ci_*.py'
+      - 'tests/test_ci_*.py'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+env:
+  PYTHONPATH: engine
+  PYTHONUNBUFFERED: '1'
+  PYTHONUTF8: '1'
+  PROVIDER: rubyplay
+  DATA_ROOT: data/ci-rubyplay
+  OUTPUT_DIR: artifacts/rubyplay
+
+jobs:
+  rubyplay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install dependencies and verify harness
+        run: |
+          python -m pip install -r requirements-ci.txt
+          python -m unittest discover -s tests -p 'test_ci_*.py' -v
+          python -m playwright install --with-deps chromium
+          mkdir -p "$OUTPUT_DIR"
+          python -m pip freeze > "$OUTPUT_DIR/dependencies.txt"
+          git rev-parse HEAD > "$OUTPUT_DIR/commit.txt"
+      - name: Collect sample with complete-catalog pagination available
+        id: catalog
+        continue-on-error: true
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=15s 240s python scripts/ci_catalog.py --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR/selected-games.json" --limit 3 --max-pages 100 > "$OUTPUT_DIR/catalog.log" 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit "$code"
+      - name: Test selected demos with unchanged engine
+        id: execution
+        if: steps.catalog.outcome == 'success'
+        continue-on-error: true
+        run: |
+          set +e
+          timeout --signal=TERM --kill-after=20s 900s python -m tester_spin.cli run "$PROVIDER" --data-root "$DATA_ROOT" --statuses ALL --limit 3 --spins 2 --timeout 30 --wall-timeout 240 --public-summary "$OUTPUT_DIR/summary.json" > "$OUTPUT_DIR/execution.log" 2>&1
+          code=$?
+          echo "exit_code=$code" >> "$GITHUB_OUTPUT"
+          exit "$code"
+      - name: Export canonical results
+        if: always()
+        env:
+          CATALOG_EXIT: ${{ steps.catalog.outputs.exit_code || '125' }}
+          RUN_EXIT: ${{ steps.execution.outputs.exit_code || '125' }}
+        run: |
+          python scripts/ci_audit_report.py provider --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR" --limit 3 --spins 2 --catalog-exit "$CATALOG_EXIT" --run-exit "$RUN_EXIT"
+          cat "$OUTPUT_DIR/audit.md"
+          cat "$OUTPUT_DIR/audit.md" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: audit-rubyplay-pagination
+          path: |
+            artifacts/rubyplay/audit.*
+            artifacts/rubyplay/evidence/
+            artifacts/rubyplay/selected-games.json
+            artifacts/rubyplay/dependencies.txt
+            artifacts/rubyplay/commit.txt
+          retention-days: 30

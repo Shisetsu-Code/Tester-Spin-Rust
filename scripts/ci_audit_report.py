@@ -87,6 +87,18 @@ def summarize_attempts(attempts):
     return list(groups.values())
 
 
+def closed_base_rounds(provider, modes):
+    """Count recorded closed base attempts using confirmed adapter identities."""
+    def base(mode):
+        identity, kind = mode['mode_id'], mode['mode_kind']
+        if identity == 'SPIN' and (kind == 'SPIN' or provider == 'ka_gaming'):
+            # KA preserves the catalog slot variant as mode_kind.
+            return True
+        return kind == 'SPIN' and ((provider == 'elk' and identity == 'DEF')
+                                  or (provider == 'nolimit_city' and identity == 'RETURN_SPIN'))
+    return sum(mode['ok_terminal'] for mode in modes if base(mode))
+
+
 def totals(games):
     return dict(catalog_games=len(games), selected=sum(g['selected'] for g in games),
                 attempted=sum(g['attempted'] for g in games), result_recorded=sum(g['result_recorded'] for g in games),
@@ -114,7 +126,7 @@ def build_provider_report(provider, data_root, output, *, limit=3, catalog_exit=
         result = by_slug.get(game.slug) if chosen and supported else None
         attempts = result.get('attempts', []) if result else []
         modes = summarize_attempts(attempts)
-        closed = sum(m['ok_terminal'] for m in modes if m['mode_kind'] == 'SPIN' and m['mode_id'] == 'SPIN')
+        closed = closed_base_rounds(provider, modes)
         status = (result.get('status') or 'RESULTADO_SIN_ESTADO') if result else ('SIN_EJECUTOR' if chosen and not supported else 'NO_EJECUTADO')
         row = dict(provider=provider, slug=game.slug, name=game.name, url=game.url,
                    selected=chosen, attempted=bool(attempts), result_recorded=result is not None,
@@ -144,7 +156,7 @@ def build_provider_report(provider, data_root, output, *, limit=3, catalog_exit=
         if code:
             errors.append(f'{label} command exited {code}; inspect sanitized log excerpts and workflow logs')
     logs = {}
-    for name in ('catalog.log', 'execution.log', 'run.log'):
+    for name in ('catalog.log', 'selected-games.private.log', 'execution.log', 'run.log'):
         for directory in (output, data_root):
             path = directory / name
             if path.is_file():
@@ -152,6 +164,13 @@ def build_provider_report(provider, data_root, output, *, limit=3, catalog_exit=
                     stream.seek(max(0, path.stat().st_size - 16384))
                     logs[name] = stream.read(16384).decode('utf-8', errors='replace')
                 break
+    manifest = {}
+    manifest_path = output / 'selected-games.json'
+    if manifest_path.is_file():
+        try:
+            manifest = sanitize(read_json(manifest_path))
+        except (OSError, ValueError, UnicodeError) as exc:
+            errors.append(f'Catalog selection manifest unavailable: {exc}')
     report = dict(schema='tester-spin/ci-audit/v1', provider=provider, display_name=PROVIDERS[provider][2],
                   generated_at=datetime.now(timezone.utc).isoformat(), execution_supported=supported,
                   state='CATALOGO_FALLIDO' if not games else ('SIN_EJECUTOR' if not supported else 'RESULTADOS'),
@@ -160,7 +179,7 @@ def build_provider_report(provider, data_root, output, *, limit=3, catalog_exit=
                   selection_order='Storage.list_games: name COLLATE NOCASE ASC; first limit',
                   result_authority='Storage.latest_results; artifact JSON cannot upgrade final callback status',
                   attempted_meaning='Games with recorded SpinAttempt evidence, not catalog discovery or a result alone.',
-                  errors=errors, log_excerpts=logs, games=rows, **totals(rows))
+                  errors=errors, log_excerpts=logs, catalog_manifest=manifest, games=rows, **totals(rows))
     return sanitize(report)
 
 
@@ -184,6 +203,8 @@ def write_reports(report, output):
     lines = ['# Auditoría real de CI', '',
              f"Catálogo: {report['catalog_games']} · Seleccionados: {report['selected']} · Con intentos registrados: {report['attempted']} · Resultados: {report['result_recorded']} · Cierres base: {report['closed_base_rounds']}", '',
              'Estados finales automáticos conservados desde SQLite. El catálogo no prueba ejecución. Los cierres base no certifican cobertura completa. Dos spins solicitan muestras por ruta.', '']
+    for error in report.get('errors', []) if report.get('providers') is not None else []:
+        lines += [cell(error), '']
     providers = report.get('providers', [report])
     lines += ['| Proveedor | Estado | Catálogo | Seleccionados | Con intentos | Resultados | Cierres base | Estados finales |', '|---|---|---:|---:|---:|---:|---:|---|']
     for provider in providers:
@@ -199,8 +220,11 @@ def write_reports(report, output):
     (output / 'audit.md').write_text('\n'.join(lines) + '\n', encoding='utf-8')
 
 
-def aggregate_reports(source, output):
+def aggregate_reports(source, output, *, expected_providers=''):
     output = Path(output).resolve()
+    expected = list(dict.fromkeys(p.strip() for p in expected_providers.split(',') if p.strip()))
+    if any(provider not in PROVIDERS for provider in expected):
+        raise ValueError('Unknown expected provider')
     reports = []
     for path in sorted(Path(source).rglob('audit.json')):
         if path.parent.resolve() == output:
@@ -209,6 +233,13 @@ def aggregate_reports(source, output):
         if report.get('schema') != 'tester-spin/ci-audit/v1' or not report.get('provider'):
             continue
         for row in report['games']:
+            # Recompute derived metrics from old artifacts without altering any
+            # engine outcome or successful/failed/requested spin counter.
+            result = row.get('result')
+            if isinstance(result, dict):
+                row['attempts'] = summarize_attempts(result.get('attempts', []))
+                row['attempted'] = bool(result.get('attempts', []))
+            row['closed_base_rounds'] = closed_base_rounds(report['provider'], row.get('attempts', []))
             copied = []
             for name in row['evidence']:
                 try:
@@ -225,11 +256,18 @@ def aggregate_reports(source, output):
                 except (OSError, ValueError, UnicodeError) as exc:
                     row['coverage_issues'].append({'code': 'AGGREGATE_EVIDENCE_UNAVAILABLE', 'detail': str(exc)})
             row['evidence'] = copied
+        report.update(totals(report['games']))
         reports.append(report)
-    if not reports:
+    if not reports and not expected:
         raise ValueError('No provider audit.json reports found')
     games = [game for report in reports for game in report['games']]
-    combined = dict(schema='tester-spin/ci-audit-combined/v1', providers=reports, games=games, **totals(games))
+    available = {report['provider'] for report in reports}
+    missing = [provider for provider in expected if provider not in available]
+    combined = dict(schema='tester-spin/ci-audit-combined/v1', providers=reports, games=games,
+                    expected_providers=expected, missing_providers=missing,
+                    complete=not missing if expected else None,
+                    completeness_scope='Expected provider artifacts only; not catalog or gameplay coverage',
+                    errors=[f'Missing provider audit artifact: {provider}' for provider in missing], **totals(games))
     write_reports(combined, output)
     return combined
 
@@ -248,6 +286,7 @@ def main(argv=None):
     aggregate = commands.add_parser('aggregate')
     aggregate.add_argument('--input', type=Path, required=True)
     aggregate.add_argument('--output', type=Path, required=True)
+    aggregate.add_argument('--expected-providers', default='', help='Comma-separated expected provider keys')
     args = parser.parse_args(argv)
     try:
         if args.command == 'provider':
@@ -257,7 +296,7 @@ def main(argv=None):
                                            spins=args.spins, catalog_exit=args.catalog_exit, run_exit=args.run_exit)
             write_reports(report, args.output)
         else:
-            report = aggregate_reports(args.input, args.output)
+            report = aggregate_reports(args.input, args.output, expected_providers=args.expected_providers)
     except (OSError, ValueError, sqlite3.Error) as exc:
         print(f'Audit report failed: {sanitize(str(exc))}', file=sys.stderr)
         return 1

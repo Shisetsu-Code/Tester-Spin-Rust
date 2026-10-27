@@ -31,7 +31,7 @@ def write_manifest(path, report):
         Path(temporary).unlink(missing_ok=True)
 
 
-def collect_catalog(provider, data_root, output, *, limit=3):
+def collect_catalog(provider, data_root, output, *, limit=3, max_pages=100):
     if limit < 1:
         raise ValueError('The sample limit must be positive')
     output = Path(output)
@@ -42,7 +42,7 @@ def collect_catalog(provider, data_root, output, *, limit=3):
         'selected': 0,
         'games': [],
         'catalog_complete': False,
-        'note': 'Nonexhaustive catalog sample: first distinct records observed; max_pages=1. No gameplay executed.',
+        'note': f'Nonexhaustive catalog sample: first distinct records observed; max_pages={max_pages}. No gameplay executed.',
         'error': '',
     }
     write_manifest(output, report)
@@ -73,7 +73,7 @@ def collect_catalog(provider, data_root, output, *, limit=3):
     with log_path.open('w', encoding='utf-8') as log:
         try:
             parameters = inspect.signature(provider.crawl_catalog).parameters
-            options = {'max_pages': 1, 'stop_event': stop,
+            options = {'max_pages': max_pages, 'stop_event': stop,
                        'progress': lambda message: print(message, file=log, flush=True)}
             if 'on_game' in parameters or any(p.kind == inspect.Parameter.VAR_KEYWORD for p in parameters.values()):
                 options['on_game'] = select
@@ -108,10 +108,11 @@ def main(argv=None):
     parser.add_argument('--data-root', required=True, type=Path)
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--limit', type=positive, default=3)
+    parser.add_argument('--max-pages', type=positive, default=100)
     args = parser.parse_args(argv)
     try:
         provider = create_provider(args.provider, args.data_root)
-        report = collect_catalog(provider, args.data_root, args.output, limit=args.limit)
+        report = collect_catalog(provider, args.data_root, args.output, limit=args.limit, max_pages=args.max_pages)
     except Exception as exc:
         report = {'schema': 'tester-spin/ci-catalog-sample/v1', 'provider': args.provider,
                   'limit': args.limit, 'selected': 0, 'games': [], 'catalog_complete': False,

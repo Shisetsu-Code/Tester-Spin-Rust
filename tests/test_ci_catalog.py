@@ -55,6 +55,24 @@ class CatalogSelectionTests(unittest.TestCase):
             self.assertEqual(report['selected'], 3)
             self.assertEqual(len(Storage(root / 'data/tester-spin.sqlite3').list_games('fixture')), 3)
 
+    def test_atomic_paged_catalog_can_finish_before_emitting_selected_games(self):
+        helper = self.helper()
+        rows = [self.game(str(i)) for i in range(5)]
+        class Provider:
+            key = 'fixture'
+            def crawl_catalog(self, *, stop_event, progress, max_pages, on_game):
+                # RubyPlay's REST contract validates all pages before callbacks.
+                if max_pages < 2:
+                    raise ValueError('Pagination limited before any records can be emitted')
+                for row in rows:
+                    on_game(row)
+                return rows
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            report = helper.collect_catalog(Provider(), root / 'data', root / 'selected-games.json', limit=3)
+            self.assertEqual(report['selected'], 3)
+            self.assertEqual(report['error'], '')
+
     def test_interruption_retains_samples_and_unexpected_error_is_sanitized(self):
         helper = self.helper()
         with tempfile.TemporaryDirectory() as temp:

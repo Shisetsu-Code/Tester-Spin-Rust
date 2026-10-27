@@ -184,14 +184,17 @@ jobs:
         env:
           PYTHON_TESTS: ${{ needs.python-tests.result }}
           RUST_TESTS: ${{ needs.rust-tests.result }}
+          LIVE_JOBS: ${{ needs.live.result }}
+          EXPECTED_PROVIDERS: ${{ needs.matrix.outputs.providers }}
         run: |
-          python scripts/ci_audit_report.py aggregate --input artifacts/providers --output artifacts/combined
+          expected=$(python -c 'import json, os; print(",".join(json.loads(os.environ["EXPECTED_PROVIDERS"])))')
+          python scripts/ci_audit_report.py aggregate --input artifacts/providers --output artifacts/combined --expected-providers "$expected"
           cat artifacts/combined/audit.md
           cat artifacts/combined/audit.md >> "$GITHUB_STEP_SUMMARY"
           python - <<'PY'
           import json, os
           from pathlib import Path
-          result = {'python_tests': os.environ['PYTHON_TESTS'], 'rust_tests': os.environ['RUST_TESTS']}
+          result = {'python_tests': os.environ['PYTHON_TESTS'], 'rust_tests': os.environ['RUST_TESTS'], 'live_jobs': os.environ['LIVE_JOBS']}
           Path('artifacts/combined/build-tests.json').write_text(json.dumps(result, indent=2))
           with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as output:
               output.write('\n## Build and unit tests\n\n' + json.dumps(result) + '\n')

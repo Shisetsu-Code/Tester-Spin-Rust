@@ -123,6 +123,63 @@ class AuditReportTests(unittest.TestCase):
         self.assertEqual(report['result_recorded'], 1)
         self.assertEqual(report['attempted'], 0)
 
+    def test_provider_base_conventions_count_closed_rounds_without_paid_modes(self):
+        cases = [('elk', 'DEF', 'SPIN'), ('ka_gaming', 'SPIN', 'SLOTS'),
+                 ('nolimit_city', 'RETURN_SPIN', 'SPIN')]
+        for provider, identity, kind in cases:
+            with self.subTest(provider=provider):
+                self.catalog(provider)
+                self.result(provider)
+                with sqlite3.connect(self.root/'tester-spin.sqlite3') as con:
+                    payload = json.loads(con.execute('SELECT payload_json FROM test_results WHERE provider=?', (provider,)).fetchone()[0])
+                    payload['attempts'] = [dict(mode_id=identity, mode_kind=kind, ok=True, terminal=True),
+                                           dict(mode_id='BUY', mode_kind='PURCHASE', ok=True, terminal=True),
+                                           dict(mode_id=identity, mode_kind=kind, ok=True, terminal=True, warning='unverified')]
+                    con.execute('UPDATE test_results SET payload_json=? WHERE provider=?', (json.dumps(payload), provider))
+                report = self.report(provider)
+                self.assertEqual(report['closed_base_rounds'], 1)
+                self.assertEqual(report['games'][0]['status'], 'PARCIAL')
+
+    def test_aggregate_repairs_old_counts_and_identifies_missing_providers(self):
+        self.catalog('elk')
+        self.result('elk')
+        report = self.report('elk')
+        row = report['games'][0]
+        row['result']['attempts'][0]['mode_id'] = 'DEF'
+        row['attempts'][0]['mode_id'] = 'DEF'
+        row['closed_base_rounds'] = 0  # Previous reporter did not recognize DEF.
+        report['closed_base_rounds'] = 0
+        self.audit.write_reports(report, self.root/'providers'/'elk')
+        combined = self.audit.aggregate_reports(self.root/'providers', self.root/'combined',
+                                                expected_providers='elk,pragmatic')
+        self.assertEqual(combined['closed_base_rounds'], 1)
+        self.assertEqual(combined['providers'][0]['closed_base_rounds'], 1)
+        self.assertEqual(combined['missing_providers'], ['pragmatic'])
+        self.assertFalse(combined['complete'])
+        self.assertEqual(len(combined['games']), 4)
+        self.assertTrue(combined['errors'])
+        self.assertIn('pragmatic', (self.root/'combined'/'audit.md').read_text())
+
+    def test_catalog_diagnostic_excerpt_and_manifest_are_sanitized(self):
+        output = self.root/'output'
+        output.mkdir()
+        (output/'selected-games.private.log').write_text('catalog parser failed token=private')
+        (output/'selected-games.json').write_text(json.dumps({'provider': 'pragmatic', 'selected': 0,
+                                                             'error': 'CATALOG_FAILURE', 'sessionToken': 'private'}))
+        report = self.report()
+        self.assertIn('catalog parser failed', report['log_excerpts']['selected-games.private.log'])
+        self.assertEqual(report['catalog_manifest']['error'], 'CATALOG_FAILURE')
+        self.assertNotIn('private', report['log_excerpts']['selected-games.private.log'])
+        self.assertEqual(report['catalog_manifest']['sessionToken'], '[REDACTED]')
+
+    def test_all_expected_reports_missing_still_produces_incomplete_audit(self):
+        combined = self.audit.aggregate_reports(self.root/'missing', self.root/'combined',
+                                                expected_providers='elk,pragmatic')
+        self.assertEqual(combined['missing_providers'], ['elk', 'pragmatic'])
+        self.assertFalse(combined['complete'])
+        self.assertEqual(combined['games'], [])
+        self.assertEqual(combined['selected'], 0)
+
 
 if __name__ == '__main__':
     unittest.main()
