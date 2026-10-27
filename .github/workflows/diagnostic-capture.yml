@@ -1,0 +1,59 @@
+name: Diagnostic protocol evidence
+
+on:
+  push:
+    branches: ['ci/evidence-*']
+    paths:
+      - '.github/workflows/diagnostic-capture.yml'
+      - 'scripts/ci_capture*'
+      - 'scripts/ci_capture_hooks/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        provider: [pragmatic, rubyplay, yggdrasil, playtech, 1spin4win]
+    env:
+      PYTHONPATH: scripts/ci_capture_hooks:engine
+      PYTHONUNBUFFERED: '1'
+      PYTHONUTF8: '1'
+      DATA_ROOT: data/diagnostic-${{ matrix.provider }}
+      OUTPUT_DIR: artifacts/diagnostic-${{ matrix.provider }}
+      CI_PUBLIC_ASSETS: artifacts/diagnostic-${{ matrix.provider }}/public-assets
+      PROVIDER: ${{ matrix.provider }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install dependencies and validate export
+        run: |
+          python -m pip install -r requirements-ci.txt
+          python -m unittest tests.test_ci_capture_evidence -v
+          python -m playwright install --with-deps chromium
+          mkdir -p "$OUTPUT_DIR"
+          git rev-parse HEAD > "$OUTPUT_DIR/commit.txt"
+      - name: Collect the same bounded catalog sample
+        run: timeout --signal=TERM --kill-after=15s 240s python scripts/ci_catalog.py --provider "$PROVIDER" --data-root "$DATA_ROOT" --output "$OUTPUT_DIR/selected-games.json" --limit 3 --max-pages 100
+      - name: Capture isolated demo runs with original adapter
+        continue-on-error: true
+        run: timeout --signal=TERM --kill-after=20s 900s python -m tester_spin.cli run "$PROVIDER" --data-root "$DATA_ROOT" --statuses ALL --limit 3 --spins 2 --timeout 30 --wall-timeout 240 --public-summary "$OUTPUT_DIR/summary.json"
+      - name: Export bounded sanitized evidence
+        if: always()
+        run: python scripts/ci_capture_evidence.py --root "$DATA_ROOT" --output "$OUTPUT_DIR/protocol"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: diagnostic-${{ matrix.provider }}
+          path: artifacts/diagnostic-${{ matrix.provider }}
+          retention-days: 7
