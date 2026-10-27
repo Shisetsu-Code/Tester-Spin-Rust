@@ -19,7 +19,7 @@ def feature_bet(initial,name,base):
             'bonus':False,'featureId':identity,'gameCommand':'bet'}
 
 
-def verify_path(initial,pairs,*,gin):
+def _verify_path(initial,pairs,*,gin,require_terminal):
     if (not pairs or initial.get('currency')!='FUN' or initial.get('status')!='success'
             or initial.get('gameMetadata',{}).get('gin')!=gin
             or initial.get('states',{}).get('gameState',{}).get('complex',{}).get('currentState',{}).get('state')!='idle'):
@@ -64,10 +64,51 @@ def verify_path(initial,pairs,*,gin):
             if integer(res['balance'])!=expected:raise ValueError('PATH_LEDGER_MISMATCH')
         win=new_win;previous=state
     final=pairs[-1]['response']
-    if (previous!='idle' or 'balance' not in final
+    if (require_terminal or previous=='idle') and (previous!='idle' or 'balance' not in final
             or final.get('pendingWinResult',{}).get('totalRemainingOverflowAmount')!=0):
         raise ValueError('PATH_NOT_TERMINAL')
-    return {'schema':'tester-spin/amusnet-feature-settlement/v1','state':'CLOSED',
+    return {'schema':'tester-spin/amusnet-feature-settlement/v1','state':'CLOSED' if previous=='idle' else 'OPEN',
             'mode':names[0],'gin':gin,'round_id':round_id,'base_bet':int(base),'cost':cost,
-            'balance_before':before,'balance_after':final['balance'],'win':win,
+            'balance_before':before,'balance_after':final.get('balance'),'win':win,
             'wire_steps':len(pairs),'gamble_choices':choices,'paid_inventory_complete':False}
+
+
+def verify_path(initial,pairs,*,gin):
+    return _verify_path(initial,pairs,gin=gin,require_terminal=True)
+
+
+def execute_path(initial,name,base,*,gin,previous_round,exchange,save,max_steps=100,stop_event=None):
+    """Execute only the observed feature continuations; never retry a dispatch.
+
+    The injected transport owns correlation IDs and timeouts. Every response is
+    validated before another command. A freespin counter reaching zero is not
+    terminal: the server state, overflow and reconciled final balance must close.
+    Unknown choices stay blocked; an observed gamble state uses collect only.
+    """
+    first=feature_bet(initial,name,base)
+    if (initial.get('currency')!='FUN' or initial.get('status')!='success'
+            or initial.get('gameMetadata',{}).get('gin')!=gin
+            or initial.get('states',{}).get('gameState',{}).get('complex',{}).get('currentState',{}).get('state')!='idle'):
+        raise ValueError('FUN_IDLE_PATH_REQUIRED')
+    if type(max_steps) is not int or max_steps<1:raise ValueError('INVALID_PATH_STEP_LIMIT')
+    if not isinstance(previous_round,str) or (previous_round!='-1' and not previous_round.isdigit()):
+        raise ValueError('PATH_PREVIOUS_ROUND_UNBOUND')
+    if integer(initial.get('balance'))<first['bet']:raise ValueError('INSUFFICIENT_FUN_BALANCE')
+    fields={'bet':dict(first),'gameNumber':previous_round,'bonusData':None};pairs=[]
+    for index in range(max_steps):
+        if stop_event is not None and stop_event.is_set():raise ValueError('STOP_REQUESTED_UNSETTLED_PATH')
+        save(f'dispatch-{index+1:03d}.json',{'state':'DISPATCHED_UNCERTAIN_UNTIL_SETTLED','fields':fields})
+        request,response=exchange('bet',fields)
+        pair={'request':request,'response':response};pairs.append(pair)
+        save(f'wire-{index+1:03d}.json',pair)
+        if any(request.get(key)!=value for key,value in fields.items()):raise ValueError('PATH_DISPATCH_BINDING_MISMATCH')
+        receipt=_verify_path(initial,pairs,gin=gin,require_terminal=False)
+        if receipt['state']=='CLOSED':
+            save('settlement.json',receipt)
+            return pairs,receipt
+        if response['state']=='freespin':
+            fields={'bet':{**first,'bonus':True},'gameNumber':response['gameNumber'],'bonusData':None}
+        elif response['state']=='gamble':
+            fields={'bet':{'gameCommand':'collect'},'gameNumber':response['gameNumber']}
+        else:raise ValueError('UNKNOWN_PATH_STATE')
+    raise ValueError('PATH_STEP_LIMIT_UNCERTAIN')

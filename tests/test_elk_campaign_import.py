@@ -1,15 +1,14 @@
-import importlib.util,json,pathlib,shutil,sys,tempfile,unittest,xml.etree.ElementTree as ET
+import json,pathlib,shutil,sys,tempfile,unittest,xml.etree.ElementTree as ET
 from decimal import Decimal
 ROOT=pathlib.Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'engine'))
 from tester_spin.models import Game
-FIXTURE=ROOT/'tests/fixtures/elk-capi-night';MODULE=ROOT/'evidence/campaign-20261026/elk-store.py'
+FIXTURE=ROOT/'tests/fixtures/elk-capi-night'
 
 class ElkCampaignImportTests(unittest.TestCase):
     def convert(self,source,destination):
-        self.assertTrue(MODULE.exists(),'ELK campaign converter is not implemented')
-        spec=importlib.util.spec_from_file_location('elk_store',MODULE);module=importlib.util.module_from_spec(spec);spec.loader.exec_module(module)
+        from tester_spin.providers.elk_evidence import convert_case
         game=Game('elk','night-trax','Night Trax','https://www.elk-studios.com/games/night-trax/',symbol='10059')
-        return module.convert_case(game,source,destination)
+        return convert_case(game,source,destination)
 
     def test_real_capture_covers_all_six_declared_modes_and_return(self):
         with tempfile.TemporaryDirectory() as temp:

@@ -8,13 +8,15 @@ import hashlib
 def inspect_frame(data: bytes, *, opcode: int) -> dict:
     if not isinstance(data, bytes) or opcode != 2 or not 7 <= len(data) <= 256:
         raise ValueError('UNSUPPORTED_GAMEHUB_FRAME')
-    if data[0] != len(data) - 1:
-        raise ValueError('UNSUPPORTED_GAMEHUB_LENGTH')
-    label = next((name for name in (b'ProcessPacket', b'Commands') if data[6:].startswith(name)), None)
-    if label is None:
+    # Reuse the observed framing parser, including multibyte length prefixes.
+    # Parsing an invocation does not assign semantics to its numeric payload.
+    from tester_spin.providers.playngo import decode_invocation
+    decoded = decode_invocation(data)
+    label = decoded.get('target')
+    if label not in ('ProcessPacket', 'Commands'):
         raise ValueError('UNSUPPORTED_GAMEHUB_COMMAND')
     return {'primitive': 'playngo.gamehub.observed-framing/v1',
-            'command': label.decode('ascii'), 'size': len(data),
+            'command': label, 'size': len(data),
             'sha256': hashlib.sha256(data).hexdigest(),
             'action_semantics_verified': False, 'terminal': False,
             'paid_inventory_complete': False}

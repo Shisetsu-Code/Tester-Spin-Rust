@@ -1,8 +1,35 @@
 """Current-session mode evidence for Pragmatic initialization domains."""
 import json
 import math
+from decimal import Decimal, InvalidOperation
 from pathlib import Path
 from urllib.parse import parse_qs
+
+
+def _base_purchase_quote_matches(mode, request, response):
+    """Recognize base purchase receipts that echo c/l plus purtr/puri, not bl.
+
+    Observed in Actions 40544934511. This proves only the selected purchase;
+    missing bl/bls never proves that the complete ante domain is empty.
+    Explicit contradictory bl is handled by the caller and remains rejected.
+    """
+    if mode.get('kind') != 'PURCHASE' or mode.get('provider_bl') != 0:
+        return False
+    try:
+        values = []
+        for field in ('c', 'l'):
+            sent = request.get(field)
+            if not isinstance(sent, list) or len(sent) != 1:
+                return False
+            expected, echoed = Decimal(sent[0]), Decimal(response[field])
+            if not expected.is_finite() or expected <= 0 or echoed != expected:
+                return False
+            values.append(expected)
+        multiplier = Decimal(str(mode['price_x_base']))
+        cost = Decimal(str(mode['paid_cost']))
+        return multiplier.is_finite() and multiplier > 0 and values[0] * values[1] * multiplier == cost
+    except (KeyError, TypeError, ValueError, InvalidOperation):
+        return False
 
 
 def verified_mode_ids(result):
@@ -48,7 +75,10 @@ def verified_mode_ids(result):
             if (not response or server_error(response) or type(http.get('status')) is not int
                     or not 200<=http['status']<400 or proof.get('status')!='CONFIRMED'
                     or type(proof.get('consecutive_base')) is not int or proof['consecutive_base']<2):continue
-            if response.get('bl') != str(bl):continue
+            if 'bl' in response:
+                if response['bl'] != str(bl):continue
+            elif not _base_purchase_quote_matches(mode, request, response):
+                continue
             if mode['kind']=='PURCHASE' and (response.get('purtr')!='1' or response.get('puri')!=str(pur)):
                 continue
             paths.add(directory)

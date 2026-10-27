@@ -18,6 +18,10 @@ from .ledger import RoundLedger, balance, validate_declaration
 from .return_check import check_return
 from .runtime import API, checked_response, discover_modes, terminal, minimum_round_seconds, client_feature_types
 
+MAX_CHOICE_OPTIONS = 16
+MAX_DECISION_STEPS = 8
+MAX_EXTRA_CHOICE_ROUNDS = 32
+
 SPEC = ProviderFarmSpec(provider="hacksaw", protocol_family="hacksaw-casino-json",
     bootstrap_strategy="hacksaw-public-demo-authenticate", transport="http-json",
     terminal_contract={"type": "provider", "name": "hacksaw-completed-round", "round.status": "completed", "round.possibleActions": []},
@@ -125,7 +129,7 @@ class HacksawProvider(ProviderAdapter):
     def test_game(self, game, *, spins, timeout_s, stop_event, progress):
         root = self.game_dir(game)
         requested = max(1, int(spins))
-        result = GameTestResult(self.key, game.slug, game.name, game.url, requested, 0, requested, "PARCIAL", symbol=game.symbol)
+        result = GameTestResult(self.key, game.slug, game.name, game.url, requested, 0, requested, "PARCIAL", symbol=game.symbol, samples_per_path=requested)
         cached = self._metadata(game).get("discovered_modes")
         result.discovered_modes = cached if isinstance(cached, list) and cached else discover_modes({})
         if stop_event.is_set():
@@ -201,12 +205,13 @@ class HacksawProvider(ProviderAdapter):
                 if mode["id"] == "SPIN":
                     mode["required_options"] = ["spin"]
                 mode["sample_counts"] = {}
-            jobs = [result.discovered_modes[0]] * requested + [m for m in result.discovered_modes[1:] if m["executable"]]
+                mode["required_samples"] = requested
+            jobs = [mode for mode in result.discovered_modes if mode["executable"] for _ in range(requested)]
             seq = 1
             confirmation_mode = None
             choice_modes = {}
             extra_choice_rounds = {}
-            for mode in jobs:
+            for job_index, mode in enumerate(jobs):
                 if stop_event.is_set():
                     result.error = "Ejecución detenida"
                     break
@@ -242,14 +247,14 @@ class HacksawProvider(ProviderAdapter):
                 round_data = answer.get("round", {})
                 first_choice = None
                 choice_mode = None
-                for decision_step in range(8):
+                for decision_step in range(MAX_DECISION_STEPS):
                     actions = round_data.get("possibleActions")
                     if round_data.get("status") != "started" or not isinstance(actions, list) or not actions:
                         break
                     # possibleActions is the current server menu. The shared
                     # scalar continuation envelope is independent of option names.
                     # Do not interpret these selectors as paid bonus declarations.
-                    if (len(actions) > 16 or any(not isinstance(action, str)
+                    if (len(actions) > MAX_CHOICE_OPTIONS or any(not isinstance(action, str)
                             or not re.fullmatch(r"[A-Za-z0-9_-]{1,100}", action)
                             or action == "win_presentation_complete" for action in actions)
                             or len(set(actions)) != len(actions)
@@ -266,11 +271,11 @@ class HacksawProvider(ProviderAdapter):
                             choice_mode = {"id": "CHOICE_" + mode["id"], "kind": "CHOICE_CONTINUATION",
                                 "wire_command": "bet", "root_mode_id": mode["id"], "choice_field": "continueInstructions.action",
                                 "executable": True, "validated": False, "coverage_required": True,
-                                "required_options": [], "covered_options": [], "sample_counts": {},
+                                "required_options": [], "covered_options": [], "sample_counts": {}, "required_samples": requested,
                                 "request_shape": {"continueInstructions": {"action": "<selected:action>"}}}
                             choice_modes[mode["id"]] = choice_mode
                             result.discovered_modes.append(choice_mode)
-                        remaining_choices = [a for a in family if a in actions and a not in choice_mode["covered_options"]]
+                        remaining_choices = [a for a in family if choice_mode["sample_counts"].get(a, 0) < requested]
                         selected = remaining_choices[0] if remaining_choices else next(a for a in family if a in actions)
                         first_choice = selected
                     else:
@@ -294,7 +299,7 @@ class HacksawProvider(ProviderAdapter):
                     if confirmation_mode is None:
                         confirmation_mode = {"id": "CONFIRM_WIN", "kind": "CONTINUATION", "wire_command": "bet",
                             "executable": True, "validated": False, "coverage_required": True,
-                            "required_options": ["win_presentation_complete"], "covered_options": [], "sample_counts": {},
+                            "required_options": ["win_presentation_complete"], "covered_options": [], "sample_counts": {}, "required_samples": requested,
                             "request_shape": {"continueInstructions": {"action": "win_presentation_complete"}}}
                         result.discovered_modes.append(confirmation_mode)
                     minimum = minimum_round_seconds(data.get("minimumRoundDuration"))
@@ -312,6 +317,7 @@ class HacksawProvider(ProviderAdapter):
                         confirmation_mode["covered_options"] = ["win_presentation_complete"]
                         counts = confirmation_mode["sample_counts"]
                         counts["win_presentation_complete"] = counts.get("win_presentation_complete", 0) + 1
+                        confirmation_mode["validated"] = counts["win_presentation_complete"] >= requested
                 complete = terminal(answer) and ledger.closed
                 attempt.ok = attempt.terminal = complete
                 attempt.status_code = 200
@@ -324,19 +330,29 @@ class HacksawProvider(ProviderAdapter):
                             choice_mode["covered_options"].append(first_choice)
                         counts = choice_mode["sample_counts"]
                         counts[first_choice] = counts.get(first_choice, 0) + 1
-                        covered = set(choice_mode["required_options"]).issubset(choice_mode["covered_options"])
+                        covered = all(counts.get(option, 0) >= requested for option in choice_mode["required_options"])
                         choice_mode.update(observed=True, validated=covered, evidence_level="REMOTE_EXECUTION",
                             execution_state="PROVEN_TERMINAL" if covered else "CONTINUATION_PENDING")
                         if not covered:
+                            # Existing queued roots can fill deficits; account for
+                            # them before buying another independent round.
+                            deficit = sum(max(0, requested - counts.get(option, 0))
+                                          for option in choice_mode["required_options"])
+                            pending = sum(job["id"] == mode["id"] for job in jobs[job_index + 1:])
+                            needed = max(0, deficit - pending)
                             extra = extra_choice_rounds.get(mode["id"], 0)
-                            if extra < 2:
-                                extra_choice_rounds[mode["id"]] = extra + 1
-                                jobs.append(mode)
-                            else:
-                                result.error = "Hacksaw: elecciones pendientes tras agotar el límite de pruebas"
+                            added = min(needed, MAX_EXTRA_CHOICE_ROUNDS - extra)
+                            jobs.extend([mode] * added)
+                            extra_choice_rounds[mode["id"]] = extra + added
+                            if needed > added:
+                                result.error = "Hacksaw: muestras de elecciones pendientes tras agotar el límite de pruebas"
                     option = "spin" if mode["id"] == "SPIN" else str(mode["buyBonus"])
                     mode["covered_options"] = [option]
                     mode["sample_counts"][option] = mode["sample_counts"].get(option, 0) + 1
+                    mode["validated"] = all(mode["sample_counts"].get(value, 0) >= requested
+                                            for value in mode["required_options"])
+                    if not mode["validated"]:
+                        mode["execution_state"] = "SAMPLES_PENDING"
                     result.successful_spins = min(requested, result.successful_spins + int(mode["id"] == "SPIN"))
                 progress(f"Hacksaw {game.name}: {mode['id']} {'OK' if complete else 'PARCIAL'}.")
                 if not complete:

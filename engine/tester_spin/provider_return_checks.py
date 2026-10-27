@@ -240,12 +240,17 @@ def pragmatic_check(provider, bootstrap, last, base_fields, directory, timeout_s
     return verify_return_to_base(directory, play)
 
 
-def d1_check(provider, ws, frames, lines, bet_index, initial_state, directory, timeout_s, *, initial_terminal=False):
+def d1_check(provider, ws, frames, lines, bet_index, initial_state, directory, timeout_s, *, initial_terminal=False,
+             balance_before=None, base_cost=None):
     import time
     from tester_spin.return_to_base import audit_stop_event
+    strict_money = balance_before is not None or base_cost is not None
+    if strict_money and (type(balance_before) is not int or balance_before < 0
+                         or type(base_cost) is not int or base_cost <= 0):
+        raise ValueError('D1_RETURN_QUOTE_UNBOUND')
 
     def play(target):
-        nonlocal lines, bet_index
+        nonlocal lines, bet_index, balance_before
         captures = []
         had_event = False
         for step in range(1, 129):
@@ -268,6 +273,16 @@ def d1_check(provider, ws, frames, lines, bet_index, initial_state, directory, t
             captures.append(save_exchange(target, {'type': 1, 'lines': lines, 'bet_index': bet_index}, payload, step))
             if message_type == 2:
                 return dict(ok=False, base=False, known=False, captures=captures)
+            if strict_money:
+                # New legacy-ante support only certifies ordinary base receipts.
+                # An automatic feature needs its own continuation ledger before
+                # it may be counted towards a return-to-base proof.
+                if type(payload.get('st')) is not int or payload['st'] not in {0, 3}:
+                    return dict(ok=True, base=False, known=False, captures=captures,
+                                reason='D1_RETURN_FEATURE_LEDGER_UNBOUND')
+                from tester_spin.providers.one_spin4win_purchases import verify_ante_debit
+                verify_ante_debit({'b': balance_before}, payload, base_cost)
+                balance_before = payload['b']
             active = provider._d1_feature_active(payload)
             if active:
                 had_event = True

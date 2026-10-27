@@ -1,5 +1,6 @@
 """Bounded static script-loader expressions. No JavaScript is executed."""
 import ast
+import hashlib
 import re
 
 _TOKEN=re.compile(r"\s*(?:((?:\"(?:\\.|[^\"\\])*\"|'(?:\\.|[^'\\])*'))|([A-Za-z_$][\w$]*)|([+?:()]))")
@@ -126,3 +127,92 @@ def compiled_pick_binding(source):
                 for wrapper in wrappers:
                     if re.search(re.escape(wrapper)+r"\([A-Za-z_$][\w$.]*,"+re.escape(call[2])+r"\)",body):return True
     return False
+
+
+def compiled_default_cost_binding(source):
+    """Bind the compiled regular-spin selector to decoded CostCfg.name.
+
+    Recognize the observed default -> selected cost name -> task -> playMoney
+    chain with captured identifiers, without running client code. A caller must
+    still require a unique current cost row; this proof is not a mode catalog.
+    """
+    ident = r'[A-Za-z_$][\w$]*'
+    functions = _function_bodies(source)
+    defaults = set(re.findall(r'\b(' + ident + r')=["\']default["\']', source))
+    names = set(re.findall(r'\b(' + ident + r')=["\']name["\']', source))
+    if not defaults or not names:
+        return {}
+    name_properties = set()
+    decoder_pattern = (r'\.Qd=function\((' + ident + r')\)\{([^{}]{1,2000})\};var '
+                       + ident + r'=' + ident + r'\([^;]{0,200}["\']Serializer_TS/CostCfg_DI["\']')
+    for decoder in re.finditer(decoder_pattern, source):
+        argument, body = decoder.groups()
+        if not all('"' + key + '"' in body or "'" + key + "'" in body for key in ('cost', 'uuid')):
+            continue
+        for alias in names:
+            read = (r'(' + ident + r')=' + ident + r'\(' + re.escape(argument) + ',' + re.escape(alias)
+                    + r'\),(' + ident + r')\(' + ident + ',' + ident + r'\(\1\)\)')
+            for match in re.finditer(read, body):
+                setter = functions.get(match[2])
+                if setter is None or len(setter[0]) != 2:
+                    continue
+                owner, value = setter[0]
+                assignment = re.fullmatch(re.escape(owner) + r'\.(' + ident + ')=' + re.escape(value), setter[1])
+                if assignment:
+                    name_properties.add(assignment[1])
+    if not name_properties:
+        return {}
+    for sink, (args, body) in functions.items():
+        if len(args) != 5:
+            continue
+        command = re.search(r'var (' + ident + r')=\{ID:' + re.escape(args[1]) + r'\}', body)
+        if command is None or ('$wnd.GLU.game.playMoney(' + args[0] + ',' + command[1] + ',' + args[2] + ')') not in body:
+            continue
+        callback_pattern = (r'\(' + r'[^;{}]{0,100},(' + ident + r')\),_\.' + ident + r'=function\(\)\{'
+            + re.escape(sink) + r'\(this\.(' + ident + r')\.(' + ident + r'),this\.\2\.(' + ident
+            + r'),this\.(' + ident + r'),null,' + ident + r'\(this\.\2\)\)\}')
+        for callback in re.finditer(callback_pattern, source):
+            constructor, owner_property, _, entry_property, selector_property = callback.groups()
+            if not re.search(r'\.' + re.escape(entry_property) + r'=40021\b', source):
+                continue
+            constructor_data = functions.get(constructor)
+            if constructor_data is None or len(constructor_data[0]) != 2:
+                continue
+            owner, selector = constructor_data[0]
+            expected = 'this.' + owner_property + '=' + owner + ',this.' + selector_property + '=' + selector
+            if constructor_data[1] != expected:
+                continue
+            for dispatch, (dispatch_args, dispatch_body) in functions.items():
+                if len(dispatch_args) != 2:
+                    continue
+                adapter, mode = map(re.escape, dispatch_args)
+                transfer = re.fullmatch(r'var (' + ident + r');\1=(' + ident + r')\(' + adapter
+                    + r'\.' + ident + ',' + mode + r'\),' + ident + r'\(' + adapter + r'\.' + ident
+                    + ',new ' + re.escape(constructor) + r'\(' + adapter + r',\1\)\)', dispatch_body)
+                if transfer is None:
+                    continue
+                resolver = functions.get(transfer[2])
+                if resolver is None or len(resolver[0]) != 2:
+                    continue
+                context, selected = map(re.escape, resolver[0])
+                for default in defaults:
+                    resolved = re.fullmatch(r'var (' + ident + r');return ' + ident + r'\(' + re.escape(default)
+                        + ',' + selected + r'\)&&\(\1=(' + ident + r')\(' + context + r'\),\1\?'
+                        + selected + r'=\1\.(' + ident + r'):[\s\S]{1,1000}\),' + selected, resolver[1])
+                    if resolved is None or resolved[3] not in name_properties:
+                        continue
+                    lookup = functions.get(resolved[2])
+                    if lookup is None or lookup[1].count('.vd(') != 2:
+                        continue
+                    # The regular spin model initializes this field to default
+                    # and forwards it unchanged into the bound dispatcher.
+                    for _, (_, init_body) in functions.items():
+                        for initialized in re.finditer(r'this\.(' + ident + r')=' + re.escape(default) + r'(?=[,;]|$)', init_body):
+                            forwarded = any(len(a) >= 1 and re.search(re.escape(dispatch) + r'\('
+                                + re.escape(a[0]) + r'\.' + ident + ',' + re.escape(a[0]) + r'\.'
+                                + re.escape(initialized[1]) + r'\)', b) for a, b in functions.values())
+                            if forwarded:
+                                return {'profile': 'compiled-default-cost-name/v1',
+                                        'source_sha256': hashlib.sha256(source.encode('utf-8')).hexdigest(),
+                                        'cost_name_property': resolved[3]}
+    return {}

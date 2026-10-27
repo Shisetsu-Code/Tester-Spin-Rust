@@ -9,7 +9,7 @@ import re
 import zlib
 from copy import deepcopy
 from .protocol import money
-from .client_sources import compiled_pick_binding
+from .client_sources import compiled_pick_binding, compiled_default_cost_binding
 
 COMMAND = "com.pt.casino.platform.game.GameCommand"
 GAME_CLASS = "com.pt.gpas.platform.game.OgwCorosinGameCommand"
@@ -50,6 +50,7 @@ def client_contract(manifest, sources, adapter_config=None):
     else:
         raise ValueError("CLIENT_BET_API_UNKNOWN")
     return {"adapter_maps": deepcopy(adapter_config or {}) if all(key in text for key in ("game_adapter","bet_features","bet_feature_types","toFeatureTypes")) else {}, "dialect":dialect, "class":GAME_CLASS, "entry_id":40021, "continuation_id":48775,
+            "default_cost_binding": compiled_default_cost_binding(text) if dialect == 'modern' else {},
             "standard_start_bound": ('startingMode' in text and 'stakeCostName' in text and bool(re.search(r'!\s*[A-Za-z_$][\w$]*\([A-Za-z_$][\w$]*,["\']Standard["\']\)',text))),
             "base_selector": "default" if 'baseCostName:"default"' in text or "baseCostName:'default'" in text else None,
             "pick_bound": (bool(re.search(r'[\"\']pick[\"\']',text)) and "FGPickController" in text) or compiled_pick_binding(text)}
@@ -83,7 +84,9 @@ def discover_modes(configuration, contract, sources):
     if not isinstance(scopes,dict):raise ValueError("INVALID_NAMED_SCOPES")
     volatility_binding="currentVolatilitySuffix" in text or "VolatilityController" in text
     line_binding="winline" in text and "stakeCostUuid" in text and (contract['dialect']=="legacy" or ("stakeCostName" in text and "GLU.game.playMoney" in text))
-    line_domain=line_binding and len(costs)>1 and all(isinstance(r,dict) and isinstance(r.get('parameters'),dict)
+    # A fixed-line client can expose one line stake. The line/serializer binding
+    # and every declared row still have to match; cardinality is not a role.
+    line_domain=line_binding and bool(costs) and all(isinstance(r,dict) and isinstance(r.get('parameters'),dict)
         and str(r.get('name','')).isdigit() and r['parameters'].get('winline')==r['name']
         and r['parameters'].get('startingMode')=='Standard' for r in costs)
     modes=[]; issues=[]; names=set(); ids=set()
@@ -116,6 +119,12 @@ def discover_modes(configuration, contract, sources):
             kind="ANTE_BET"
         elif (normalized in {"bf","buyfeature"} or ((scoped or game.get("featureBetEnabled") is True) and (re.fullmatch(r"(?:bf[0-9]+|buyfeature(?:[0-9]+x|extra))",normalized) or (pot_domain and re.fullmatch(r"buyfeature[0-9]+pot",normalized))))) and purchase_binding:
             kind="PURCHASE"
+        elif (contract.get('default_cost_binding',{}).get('profile') == 'compiled-default-cost-name/v1'
+              and len(costs) == 1 and isinstance(parameters,dict)
+              and parameters.get('startingPlays') in ('1', 1) and type(parameters.get('startingPlays')) in (str,int)
+              and isinstance(parameters.get('startingMode'),str) and bool(parameters['startingMode'])
+              and set(parameters)<={'startingMode','startingPlays','winline','discountable','evalPayout','disableBCMValidation','maxBaseCostMultiplier'}):
+            kind="SPIN"
         elif standard or line_domain or (scoped and volatility_binding and re.fullmatch(r"default(?:low|mid|high)",normalized)) or normalized in {"default","base"}:
             kind="SPIN"
         else:

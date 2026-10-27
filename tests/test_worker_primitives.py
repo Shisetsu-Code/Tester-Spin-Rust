@@ -12,10 +12,10 @@ from tester_spin.providers.playngo_evidence import inspect_frame
 
 class WorkerPrimitiveTests(unittest.TestCase):
     def capture(self):
-        path = ROOT / 'evidence/primitives-discovery-20261027/elk/ryze-2/xiter-bonus-hunt-1-redacted.json'
+        path = ROOT / 'tests/fixtures/elk-capi-night/synthetic-purchase-observation.json'
         return json.loads(path.read_text(encoding='utf-8'))['events'][0]
 
-    def test_real_x01_acceptance_is_not_settlement_or_inventory(self):
+    def test_synthetic_x01_acceptance_is_not_settlement_or_inventory(self):
         event = self.capture()
         result = inspect_purchase_capture(event, game_id='10260', quotes={'X01': {'4': '2.50'}}, currency='EUR')
         self.assertTrue(result['accepted'])
@@ -35,13 +35,15 @@ class WorkerPrimitiveTests(unittest.TestCase):
             with self.subTest(old=old), self.assertRaises(ValueError):
                 inspect_purchase_capture(event, game_id='10260', quotes={'X01': {'4': '2.50'}}, currency='EUR')
 
-    def test_real_playngo_frames_remain_semantically_unknown(self):
-        path = ROOT / 'evidence/primitives-discovery-20261027/playngo/divina-commedia/offline/fixtures/spin-1.raw.json'
-        for frame in json.loads(path.read_text(encoding='utf-8'))['frames']:
+    def test_versioned_playngo_frames_remain_semantically_unknown(self):
+        path = ROOT / 'tests/fixtures/playngo-gamehub/redacted-frames.json'
+        for frame in json.loads(path.read_text(encoding='utf-8')):
             result = inspect_frame(base64.b64decode(frame['payload_b64']), opcode=2)
             self.assertIn(result['command'], {'Commands', 'ProcessPacket'})
             self.assertFalse(result['action_semantics_verified'])
             self.assertFalse(result['terminal'])
+            with self.assertRaises(ValueError):
+                inspect_frame(base64.b64decode(frame['payload_b64'])[:-1], opcode=2)
 
     def test_unknown_or_corrupt_frame_rejected(self):
         for data in [b'', b'\x00' * 30, b'\x0c' + b'\x00' * 5 + b'Unknown']:

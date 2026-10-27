@@ -1,0 +1,16 @@
+{
+  "_fixture": {
+    "kind": "synthetic-unit-contract",
+    "network_capture": false,
+    "purpose": "CAPI quote-bound purchase acceptance only; no checkwin/settlement evidence"
+  },
+  "events": [
+    {
+      "url": "https://synthetic-stage.contentmedia.eu/capi/10260/play/purchase",
+      "method": "POST",
+      "status": 200,
+      "request_body_xml": "<request gamesession=\"REDACTED\" bmode=\"X01\" betlevel=\"4\" amount=\"2.50\" cur=\"EUR\" />",
+      "response_body_xml": "<response><method>purchase</method><errorcode>0</errorcode><roundid>round-xiter-1</roundid><roundinfo><roundid>round-xiter-1</roundid><bmode>X01</bmode><betlevel>4</betlevel><currency>EUR</currency><betamount>2.50</betamount><winamount>0.00</winamount><balanceafterwin>4997.50</balanceafterwin></roundinfo><player><balance>4997.50</balance><currency>EUR</currency></player><game><pubdata>&lt;PURCHASES&gt;&lt;PURCHASE bmode=\"X01\" betlevel=\"4\" currency=\"EUR\" betamount=\"2.50000\" winamount=\"0.00\" /&gt;&lt;/PURCHASES&gt;</pubdata></game></response>"
+    }
+  ]
+}

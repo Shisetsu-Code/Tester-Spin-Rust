@@ -131,6 +131,7 @@ class RubyPlayExecutionMixin:
             )
             profile = runtime.client_profile
             _write_json(run_dir / "bootstrap" / "index-domain-evidence.json", profile.index_domain_evidence)
+            _write_json(run_dir / "bootstrap" / "paid-client-profile.json", profile.to_dict())
             game.symbol = runtime.launcher.gamename
             _persist_protocol_metadata(self, game, runtime)
 
@@ -155,8 +156,6 @@ class RubyPlayExecutionMixin:
                 isinstance(init_body, dict)
                 and init_body.get("buy_feature_available") is True
             )
-            if isinstance(init_body, dict) and init_body.get("buy_feature_available") is False:
-                feature_domains["purchase"] = {"complete": True, "source": "init.buy_feature_available/effective-client", "options": []}
             if buy_available:
                 executable = bool(
                     profile.buy_feature_type
@@ -201,6 +200,10 @@ class RubyPlayExecutionMixin:
                     )
                 else:
                     coverage_gaps.add("BUY_FEATURE_CONTRACT")
+
+            from tester_spin.feature_domains import initialization_domains
+            feature_domains = initialization_domains('rubyplay', runtime.init_data, discovered_modes,
+                                                      client_profile=profile.to_dict())
 
             progress(
                 f"[{game.name}] RubyPlay INIT OK: game={runtime.launcher.gamename}, "

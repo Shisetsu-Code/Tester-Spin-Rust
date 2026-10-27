@@ -1,0 +1,214 @@
+{
+  "provenance": {
+    "kind": "captured-public-source-excerpts",
+    "actions_run": 40550335443,
+    "url": "https://gpas-games.playtechone.com/gpasdistributed/igv/gpas_1reeler_pop/1.0.271/packs/24359bdf48c59bf2fb182c7c459cf18f1e7dc826.js",
+    "source_sha256": "8fc4b690583bccc60b57d93df5aa3152c09f7186f9e59389df8eebd4bae0dfff",
+    "note": "Exact snippets selected from source; not a complete JS program or live round proof."
+  },
+  "manifest": {
+    "gameCode": "gpas_1reeler_pop",
+    "gameTitle": "1-Of-A-Kind™",
+    "gameTitleKey": "title",
+    "env": {
+      "glu": "^5.0.0",
+      "glu6": true,
+      "game": "1.0.271",
+      "cli": "5.3.77"
+    },
+    "icon": "resources/icon-mdpi.png",
+    "javascript": [
+      "../packs/24359bdf48c59bf2fb182c7c459cf18f1e7dc826.js"
+    ],
+    "css": [
+      "../packs/24359bdf48c59bf2fb182c7c459cf18f1e7dc826.css"
+    ],
+    "partials": {
+      "gdk:game": "<div id=\"automation\"></div>\n<div id=\"ngm-uicore2-root\"></div>"
+    },
+    "setup": {
+      "platformMenu-paytable": {
+        "desktop": false,
+        "mobile": true,
+        "tablet": true
+      },
+      "smart-sound": false,
+      "allowFsbAutoActivate": true,
+      "supportsFs2Bonus": true,
+      "useExtendedBetApi": true,
+      "usesLegacyBetApi": false,
+      "allowReloadAPI": true,
+      "usePowerPlayJackpot": false,
+      "gameSuite": "",
+      "usesLegacyBoot": true,
+      "usesDeferredBootState": true,
+      "usesVibration": false,
+      "handlesGameCycleEnd": true,
+      "usesPeekNextBetValue": true,
+      "usesScopedConfiguration": true,
+      "useFloatingMenu": false,
+      "supportsPhoneLayoutOnDesktop": false,
+      "supportsStandby": true,
+      "hasPaytable": true,
+      "supportsFSBActivationWithPaytable": true
+    },
+    "supportedContexts": [
+      "freespin"
+    ],
+    "supportedLocales": [
+      "en",
+      "bg",
+      "cs",
+      "da",
+      "de",
+      "el",
+      "es",
+      "es-MX",
+      "et",
+      "fi",
+      "fr",
+      "fr-CA",
+      "hu",
+      "hr",
+      "it",
+      "ja",
+      "ko",
+      "ms",
+      "nl",
+      "no",
+      "pl",
+      "pt",
+      "pt-BR",
+      "ro",
+      "ru",
+      "sk",
+      "sv",
+      "th",
+      "tr",
+      "zh-Hans",
+      "zh-Hant"
+    ],
+    "helpAssetsHash": "5731fffa634d54bfdc1f2f5ed81a499dc4f12d96163d9e8ee4badd0b1f516945"
+  },
+  "configuration": {
+    "game": {
+      "baseCostMultipliers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        4000
+      ],
+      "coinSizes": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        15,
+        20,
+        25,
+        30,
+        40,
+        50,
+        80,
+        100,
+        150,
+        200,
+        500,
+        1000,
+        1500,
+        2000,
+        3000,
+        4000
+      ],
+      "costConfiguration": [
+        {
+          "cost": 5,
+          "name": "5",
+          "parameters": {
+            "discountable": "false",
+            "evalPayout": "LEFT_TO_RIGHT",
+            "startingMode": "6424f163-2d3f-473d-ac0d-24c4799371e2",
+            "startingPlays": "1"
+          },
+          "uuid": "97c9f78b-6eca-4149-ba35-bf2f7782a16d"
+        }
+      ],
+      "defaultBaseCostMultiplier": 100,
+      "defaultCoinSize": "100",
+      "engine": {
+        "version": "1.0.46"
+      },
+      "features": {
+        "jackpotExcluded": false,
+        "maxWinProbability1inX": 9433962,
+        "maxWinSimSize": 1000000000,
+        "maxWinTotalBetMultiplier": 10000,
+        "rtpMaxPct": 95.56,
+        "rtpMinPct": 95.56
+      },
+      "helpFileMaxBet": 20000,
+      "helpFileMinBet": 5,
+      "maxBet": 20000,
+      "maxWin": 200000000,
+      "minBet": 5,
+      "playtechTheme": "default"
+    },
+    "limits": {
+      "maxBet": 20000,
+      "maxWin": 200000000,
+      "minBet": 5
+    },
+    "regulation": {
+      "autoplay": {
+        "confirmation": false,
+        "enabled": true,
+        "lossLimitEnabled": false,
+        "minimumSpinsByDefault": false,
+        "options": [
+          5,
+          10,
+          20,
+          50,
+          100
+        ],
+        "stopOnJackpotWin": false,
+        "untilFeatureEnabled": true,
+        "winLimitEnabled": false
+      },
+      "jurisdiction": "none",
+      "jurisdictions": [],
+      "minSpinDuration": 0,
+      "realityCheckEnabled": false,
+      "sessionTimerEnabled": "[REDACTED]",
+      "skipWinLineTogglingEnabled": true,
+      "spaceBarEnabled": true,
+      "spinStopButtonEnabled": true,
+      "turboModeEnabled": true
+    }
+  },
+  "source": "vFg=\"name\"\noOg=\"default\"\n_.S=40021\nfunction Ivc(n,e,t,i,f){var c={ID:e};i&&(c.stakeOptions=JSON.parse(i)),f&&(c.parameters=JSON.parse(f)),$wnd._grga_log_func(\"GLU.game.playMoney\",n,c,t),$wnd.GLU.game.playMoney(n,c,t)}\nfunction HNc(n,e){var t;return n6f(oOg,e)&&(t=NNc(n),t?e=t.b:!n6f(l2c((ZGb(),ZGb(),VGb),null,!1).t,XHg)&&RLd(GGb,or).v.a==(w$c(),v$c)&&!RLd(GGb,or).C&&(e=\"lines-\"+lbc(X2c.b.d.i).a)),e}\nfunction NNc(n){var e,t;return e=(ZGb(),ZGb(),X2c).b.c.i,(!n6f(PPg,e)||n.e)&&n.b&&(t=n.b.vd(e))?t.vd(B5f(RLd(GGb,or).v.a==(w$c(),v$c)?lbc(X2c.b.d.i).a:1)):null}\nfunction Ruc(n,e){var t;t=HNc(n.nb,e),KMc(n.hb,new cMc(n,t))}\nfunction cMc(n,e){this.a=n,this.b=e}\nfunction Xzc(){this.o=mTf(hD),this.p=(ZGb(),ZGb(),X2c),this.n=VGb,this.k=new chg,qYe(Nq,new eTc(this)),this.i=AHb,Vrb(Ym),Vrb(Um),Vrb(Wm),this.Jm(),this.Km(),qYe(Is,new sTc(this)),this.b=oOg,this.a=oOg,this.d=NGb,qYe(os,new bAc(this)),qYe(VC,new gAc(this)),RLd(GGb,or),qYe(Is,new nAc(this))}\nfunction Ozc(n,e){var t,i,f;t=n2c((ZGb(),ZGb(),VGb)),Cbg(),Cbg(),i=Abg,Qk(t,132)&&!n6f(l2c(VGb,null,!1).t,XHg)?(n.c=e,RLd(GGb,Sy),Suc(n.d,i)):(n.c=e,f=n6f(l2c(VGb,null,!1).t,XHg),f&&Mzc(n,null),RLd(GGb,Sy),Ovc(R5f(n2c(n.n)._m().g?0:xUc(n.p.b))),f?Quc(n.d,n.a):Ruc(n.d,n.b))}\nfunction yGc(n,e){n.b=e}\nVob(2558,1,_Hg,cMc),_.Ue=function(){Ivc(this.a.Q,this.a.S,this.b,null,Puc(this.a))}\nVob(2608,_Eg,aFg,itb),_.Qd=function(n){var e,t;return t=new BGc,e=null,e=Si(n,\"cost\"),xGc(t,bsb(e)),e=Si(n,vFg),yGc(t,csb(e)),e=Si(n,wFg),zGc(t,osb(e,(f4f(nz),nz.o))),e=Si(n,\"uuid\"),AGc(t,csb(e)),t};var Kn=l4f(YEg,\"Serializer_TS/CostCfg_DI\",2608,vo)\naQg=\"com.pt.gpas.platform.game.OgwCorosinGameCommand\"\n_.T=48775"
+}

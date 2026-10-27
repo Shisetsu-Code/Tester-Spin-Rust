@@ -411,6 +411,8 @@ def validate_start(state, template, currency="EUR", *, classic_line_quantity=Fal
 def ordinary_round(state,constraints=None):
     if len(state["bets"]) != 1:
         return False
+    from .classic_wild_replacement import ordinary as ordinary_wild_replacement
+    if ordinary_wild_replacement(state['bets'][0],constraints):return True
     from .random_multiplier_base import ordinary as ordinary_random_multiplier
     if ordinary_random_multiplier(state['bets'][0],constraints):return True
     from .growing_ways import ordinary as ordinary_growing_ways
@@ -599,14 +601,17 @@ class DemoRuntime:
             from .side_ledgers import ordinary as ordinary_side_ledgers
             explicit_base=(ordinary_side_ledgers(bet,constraints) or ordinary_growing_ways(bet,constraints) or typed_base or bbg_base or ordinary_variable_heights(cd) or ordinary_sequence(cd) or ordinary_collection_actions(bet,constraints) or ordinary_gati(cd) or ordinary_closed_flags(cd) or ordinary_board_metadata(cd) or ordinary_flat_multiplier(cd) or ordinary_multiplier_board(cd) or ordinary_enum_round(cd) or ordinary_base_game(cd) or ordinary_balanced_features(cd) or ordinary_numeric_bonus_flags(cd) or ordinary_multiplier_base(cd) or ordinary_board_win(cd) or ordinary_no_award(cd) or ordinary_numeric_grid(cd) or ordinary_flat_event(cd,constraints) or ordinary_jackpot_collections(cd)) if isinstance(cd,dict) else False
             named=(ordinary_collection_actions(bet,constraints) if collection_envelope(bet.get("eventdata")) else ordinary_named_actions(cd)) if isinstance(cd,dict) else False
-            if isinstance(cd.get("actions"), list) and not named and not explicit_base:
+            from .typed_automatic_bonus import recognized as recognized_automatic_bonus
+            known_bonus=recognized_automatic_bonus(bet,constraints)
+            if isinstance(cd.get("actions"), list) and not named and not explicit_base and not known_bonus:
                 cd = dict(cd)
                 cd["actions"] = [{k:a[k] for k in ("$type","modeName","featureIdentifier","name") if k in a} for a in cd["actions"] if isinstance(a,dict)]
             from .classic_wire import ordinary_flat_event,ordinary_jackpot_collections
             flat=bet.get("eventdata")
             if ordinary_flat_event(flat,constraints) or ordinary_jackpot_collections(flat) or ordinary_flat_multiplier(flat):
                 safe.setdefault("ordinary_flat_outcomes",[]).append({"step":bet["step"],"schema":"classic-flat/v1" if ordinary_flat_event(flat,constraints) else "flat-multiplier/v1" if ordinary_flat_multiplier(flat) else "classic-jackpot/v1","data":flat})
-            keep_cd=explicit_base or known_awarded_sequence(cd)
+            from .classic_wild_replacement import ordinary as ordinary_wild_replacement
+            keep_cd=explicit_base or known_awarded_sequence(cd) or ordinary_wild_replacement(bet,constraints) or known_bonus
             safe["bets"].append({"step":bet["step"],"status":bet.get("status"),"command":bd.get("cmd"),"clientData":{k:v for k,v in cd.items() if k not in {"wagerId","wagerid","ResultId","ResultTime"}} if keep_cd else {k:cd[k] for k in ("featuresUsed","freeSpinTypePlayed","freeSpins","isFinished","actions")+( ("finalBoard",) if named else ()) if k in cd}})
         clean = {k:v for k,v in request.items() if k in {"cmd","amount","coin","coins","lines","step","betid","type","clientParams"}}
         (directory / f"step-{index:03d}-request.json").write_text(json.dumps(clean),encoding="utf-8")
@@ -626,6 +631,8 @@ class DemoRuntime:
         from .parameter_choices import current_info
         root_cd=((state['bets'][0].get('eventdata') or {}).get('response') or {}).get('clientData')
         known_feature=bool(template.get('cmd')) or known_awarded_sequence(root_cd) or current_info(state,getattr(self,'config',{}).get('ordinary_constraints')) is not None
+        from .typed_automatic_bonus import recognized as recognized_automatic_bonus
+        known_feature=known_feature or recognized_automatic_bonus(state['bets'][0],getattr(self,'config',{}).get('ordinary_constraints'))
         self.save(directory,1,body,state)
         steps = 1
         continuation_commands=[]

@@ -33,6 +33,7 @@ def ordinary_named_actions(cd):
     if not all(_number(cd[k]) for k in ('wonCoins','wonMoney') if k in cd):return False
     if 'finalBoard' in cd and not _board(cd['finalBoard']):return False
     actions=cd['actions'];seen_board=False
+    created_multipliers={}
     if not isinstance(actions,list) or not 1<=len(actions)<=256:return False
     for a in actions:
         if not isinstance(a,dict):return False
@@ -43,6 +44,7 @@ def ordinary_named_actions(cd):
             a={'name':'setWinCounters','counters':a['winCounters']};name='setWinCounters'
 
         if name in {'spinReels','dropOutReels'}:
+            if name=='dropOutReels':created_multipliers.clear()
             if set(a)=={'name','boardName'}:
                 if a['boardName']!='':return False
             elif set(a)=={'name','syncedReels'}:
@@ -50,6 +52,7 @@ def ordinary_named_actions(cd):
                 if not isinstance(reels,list) or not 1<=len(reels)<=20 or not all(type(r) is int and 0<=r<20 for r in reels) or len(set(reels))!=len(reels):return False
             elif set(a)!={'name'}:return False
         elif name in {'stopReels','dropInReels'}:
+            if name=='stopReels':created_multipliers.clear()
             if set(a)=={'name','symbols'}:
                 symbols=a['symbols']
                 if not isinstance(symbols,list) or not 1<=len(symbols)<=1280:return False
@@ -61,6 +64,7 @@ def ordinary_named_actions(cd):
                     w=symbol.get('width',1);h=symbol.get('height',1)
                     if type(w) is not int or type(h) is not int or not 1<=w<=20 or not 1<=h<=64:return False
                     x=symbol['position']['column'];y=symbol['position']['row']
+                    created_multipliers.pop((x,y),None)
                     if x+w>20 or y+h>64:return False
                     positions.extend((x+dx,y+dy) for dx in range(w) for dy in range(h))
                 width=max(x for x,y in positions)+1;height=max(y for x,y in positions)+1
@@ -134,7 +138,14 @@ def ordinary_named_actions(cd):
             if not isinstance(symbols,list) or not 1<=len(symbols)<=1280:return False
             for item in symbols:
                 if not isinstance(item,dict) or set(item) not in ({'position','name'},{'position','name','subsymbol'},{'position','name','subsymbol','multiplier'},{'position','name','height','width'}) or not _position(item['position']) or not isinstance(item['name'],str) or not item['name'] or item.get('subsymbol',False) is not False:return False
-                if 'multiplier' in item and (a['operation']!='create' or not _number(item['multiplier'],positive=True)):return False
+                coordinate=(item['position']['column'],item['position']['row'])
+                if a['operation']=='create':created_multipliers.pop(coordinate,None)
+                if 'multiplier' in item:
+                    if not _number(item['multiplier'],positive=True):return False
+                    identity=(item['name'],Decimal(str(item['multiplier'])))
+                    if a['operation']=='create':created_multipliers[coordinate]=identity
+                    elif a['operation']!='remove' or created_multipliers.get(coordinate)!=identity:return False
+                if a['operation']=='remove':created_multipliers.pop(coordinate,None)
                 if a['operation']=='splitGigablox' and set(item)!={'position','name','height','width'}:return False
                 if 'width' in item and (type(item['width']) is not int or type(item['height']) is not int or not 1<=item['width']<=20 or not 1<=item['height']<=64 or item['position']['column']+item['width']>20 or item['position']['row']+item['height']>64):return False
         elif name=='destroySymbols':
@@ -145,6 +156,17 @@ def ordinary_named_actions(cd):
         elif name=='shiftSymbols':
             def shift(x):return isinstance(x,dict) and set(x)=={'origin','target'} and all(_position(p) for p in x.values())
             if set(a)!={'name','positionShifts'} or not _list(a['positionShifts'],shift):return False
+            moved={};origins=set();targets=set()
+            for item in a['positionShifts']:
+                origin=(item['origin']['column'],item['origin']['row'])
+                target=(item['target']['column'],item['target']['row'])
+                if origin in origins or target in targets:return False
+                origins.add(origin);targets.add(target)
+                if origin in created_multipliers:
+                    if target in moved:return False
+                    moved[target]=created_multipliers[origin]
+            for position in origins|targets:created_multipliers.pop(position,None)
+            created_multipliers.update(moved)
         elif name=='setGlobalMultiplier':
             if set(a)!={'name','multiplier'} or not _number(a['multiplier'],positive=True):return False
         else:return False

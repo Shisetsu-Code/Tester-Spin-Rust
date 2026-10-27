@@ -14,7 +14,7 @@ class RelaxExecutorTests(unittest.TestCase):
         p=self.fixture('play')['response'];a=self.fixture('gamefinished')['response'];a['b']+=1
         with self.assertRaises(ValueError):verify_round(p,a,before=500000,bet=250)
     def test_contract_rejects_real_login_or_mismatched_game(self):
-        c=json.loads((ROOT/'data/providers/relax/diamondsdd/analysis/observed-rest-contract.json').read_text())
+        c=json.loads((ROOT/'tests/fixtures/relax-rest/synthetic-bootstrap-contract.json').read_text())
         self.assertTrue(validate_contract(c,'diamondsdd'))
         with self.assertRaises(ValueError):validate_contract(c,'moneytrain2')
         c['endpoint']=c['endpoint'].replace('stag-casino-client.api.relaxg.net','evil.example')
