@@ -1,0 +1,1432 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "elk",
+  "source": "https://www.elk-studios.com/games/",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Propaganda 2",
+      "slug": "propaganda-2",
+      "url": "https://www.elk-studios.com/games/propaganda-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wonder Train",
+      "slug": "wonder-train",
+      "url": "https://www.elk-studios.com/games/wonder-train/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bamboo Pandits",
+      "slug": "bamboo-pandits",
+      "url": "https://www.elk-studios.com/games/bamboo-pandits/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Concrete Cowboys",
+      "slug": "concrete-cowboys",
+      "url": "https://www.elk-studios.com/games/concrete-cowboys/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grizzly Stampede",
+      "slug": "grizzly-stampede",
+      "url": "https://www.elk-studios.com/games/grizzly-stampede/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Langley Street 23",
+      "slug": "langley-street-23",
+      "url": "https://www.elk-studios.com/games/langley-street-23/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Quackers",
+      "slug": "quackers",
+      "url": "https://www.elk-studios.com/games/quackers/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots 5",
+      "slug": "pirots-5",
+      "url": "https://www.elk-studios.com/games/pirots-5/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Heist Guys 2",
+      "slug": "heist-guys-2",
+      "url": "https://www.elk-studios.com/games/heist-guys-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boomberries",
+      "slug": "boomberries",
+      "url": "https://www.elk-studios.com/games/boomberries/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spark Of Creation",
+      "slug": "spark-of-creation",
+      "url": "https://www.elk-studios.com/games/spark-of-creation/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Toro 3",
+      "slug": "wild-toro-3",
+      "url": "https://www.elk-studios.com/games/wild-toro-3/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deadcode",
+      "slug": "deadcode",
+      "url": "https://www.elk-studios.com/games/deadcode/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Huff N Puff Collectr",
+      "slug": "huff-n-puff-collectr",
+      "url": "https://www.elk-studios.com/games/huff-n-puff-collectr/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Oxygen 3",
+      "slug": "oxygen-3",
+      "url": "https://www.elk-studios.com/games/oxygen-3/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bushido Gold",
+      "slug": "bushido-gold",
+      "url": "https://www.elk-studios.com/games/bushido-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ryze 2",
+      "slug": "ryze-2",
+      "url": "https://www.elk-studios.com/games/ryze-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bonzos Bananza",
+      "slug": "bonzos-bananza",
+      "url": "https://www.elk-studios.com/games/bonzos-bananza/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Arcanum",
+      "slug": "arcanum",
+      "url": "https://www.elk-studios.com/games/arcanum/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tropicool 5",
+      "slug": "tropicool-5",
+      "url": "https://www.elk-studios.com/games/tropicool-5/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ice Wolf 2",
+      "slug": "ice-wolf-2",
+      "url": "https://www.elk-studios.com/games/ice-wolf-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cygnus 6",
+      "slug": "cygnus-6",
+      "url": "https://www.elk-studios.com/games/cygnus-6/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "World Eaters",
+      "slug": "world-eaters",
+      "url": "https://www.elk-studios.com/games/world-eaters/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Toro911",
+      "slug": "toro911",
+      "url": "https://www.elk-studios.com/games/toro911/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Skibblings",
+      "slug": "skibblings",
+      "url": "https://www.elk-studios.com/games/skibblings/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Giraffalot",
+      "slug": "giraffalot",
+      "url": "https://www.elk-studios.com/games/giraffalot/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cathedral 9",
+      "slug": "cathedral-9",
+      "url": "https://www.elk-studios.com/games/cathedral-9/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crescendo",
+      "slug": "crescendo",
+      "url": "https://www.elk-studios.com/games/crescendo/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots 4 Inferno",
+      "slug": "pirots-4-inferno",
+      "url": "https://www.elk-studios.com/games/pirots-4-inferno/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deadeye",
+      "slug": "deadeye",
+      "url": "https://www.elk-studios.com/games/deadeye/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Avalon X",
+      "slug": "avalon-x",
+      "url": "https://www.elk-studios.com/games/avalon-x/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots 4 Frozen Fury",
+      "slug": "pirots-4-frozen-fury",
+      "url": "https://www.elk-studios.com/games/pirots-4-frozen-fury/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fish And Bird",
+      "slug": "fish-and-bird",
+      "url": "https://www.elk-studios.com/games/fish-and-bird/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Phoenix Graveyard Ii",
+      "slug": "phoenix-graveyard-ii",
+      "url": "https://www.elk-studios.com/games/phoenix-graveyard-ii/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots 4",
+      "slug": "pirots-4",
+      "url": "https://www.elk-studios.com/games/pirots-4/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rex Stampede",
+      "slug": "rex-stampede",
+      "url": "https://www.elk-studios.com/games/rex-stampede/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Heist Guys",
+      "slug": "heist-guys",
+      "url": "https://www.elk-studios.com/games/heist-guys/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nightmaker",
+      "slug": "nightmaker",
+      "url": "https://www.elk-studios.com/games/nightmaker/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mine Defender",
+      "slug": "mine-defender",
+      "url": "https://www.elk-studios.com/games/mine-defender/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Zaplab",
+      "slug": "zaplab",
+      "url": "https://www.elk-studios.com/games/zaplab/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Knight Fight",
+      "slug": "knight-fight",
+      "url": "https://www.elk-studios.com/games/knight-fight/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "In The Zone",
+      "slug": "in-the-zone",
+      "url": "https://www.elk-studios.com/games/in-the-zone/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Orbitfall",
+      "slug": "orbitfall",
+      "url": "https://www.elk-studios.com/games/orbitfall/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Oxygen 2",
+      "slug": "oxygen-2",
+      "url": "https://www.elk-studios.com/games/oxygen-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nitropolis Tv",
+      "slug": "nitropolis-tv",
+      "url": "https://www.elk-studios.com/games/nitropolis-tv/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tropicool 4",
+      "slug": "tropicool-4",
+      "url": "https://www.elk-studios.com/games/tropicool-4/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tinkerbot",
+      "slug": "tinkerbot",
+      "url": "https://www.elk-studios.com/games/tinkerbot/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cygnus 5",
+      "slug": "cygnus-5",
+      "url": "https://www.elk-studios.com/games/cygnus-5/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shadow Shifter",
+      "slug": "shadow-shifter",
+      "url": "https://www.elk-studios.com/games/shadow-shifter/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reindeer Royale",
+      "slug": "reindeer-royale",
+      "url": "https://www.elk-studios.com/games/reindeer-royale/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Catemple",
+      "slug": "catemple",
+      "url": "https://www.elk-studios.com/games/catemple/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ryze",
+      "slug": "ryze",
+      "url": "https://www.elk-studios.com/games/ryze/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots X",
+      "slug": "pirots-x",
+      "url": "https://www.elk-studios.com/games/pirots-x/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cluster Kingdom",
+      "slug": "cluster-kingdom",
+      "url": "https://www.elk-studios.com/games/cluster-kingdom/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thoro",
+      "slug": "thoro",
+      "url": "https://www.elk-studios.com/games/thoro/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Slurpy",
+      "slug": "slurpy",
+      "url": "https://www.elk-studios.com/games/slurpy/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Squeeze",
+      "slug": "squeeze",
+      "url": "https://www.elk-studios.com/games/squeeze/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nitropolis 5",
+      "slug": "nitropolis-5",
+      "url": "https://www.elk-studios.com/games/nitropolis-5/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Man Vs Gator",
+      "slug": "man-vs-gator",
+      "url": "https://www.elk-studios.com/games/man-vs-gator/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots3",
+      "slug": "pirots3",
+      "url": "https://www.elk-studios.com/games/pirots3/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ashoka Eternal",
+      "slug": "ashoka-eternal",
+      "url": "https://www.elk-studios.com/games/ashoka-eternal/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pug Thugs Of Nitropolis",
+      "slug": "pug-thugs-of-nitropolis",
+      "url": "https://www.elk-studios.com/games/pug-thugs-of-nitropolis/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tropicool 3",
+      "slug": "tropicool-3",
+      "url": "https://www.elk-studios.com/games/tropicool-3/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dirty Dawgs Of Nitropolis",
+      "slug": "dirty-dawgs-of-nitropolis",
+      "url": "https://www.elk-studios.com/games/dirty-dawgs-of-nitropolis/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Frogblox",
+      "slug": "frogblox",
+      "url": "https://www.elk-studios.com/games/frogblox/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rogue Rats",
+      "slug": "rogue-rats",
+      "url": "https://www.elk-studios.com/games/rogue-rats/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Buggin",
+      "slug": "buggin",
+      "url": "https://www.elk-studios.com/games/buggin/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gritty Kitty",
+      "slug": "gritty-kitty",
+      "url": "https://www.elk-studios.com/games/gritty-kitty/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cygnus 4",
+      "slug": "cygnus-4",
+      "url": "https://www.elk-studios.com/games/cygnus-4/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Oxygen",
+      "slug": "oxygen",
+      "url": "https://www.elk-studios.com/games/oxygen/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dam Beavers",
+      "slug": "dam-beavers",
+      "url": "https://www.elk-studios.com/games/dam-beavers/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gladiatoro",
+      "slug": "gladiatoro",
+      "url": "https://www.elk-studios.com/games/gladiatoro/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots 2",
+      "slug": "pirots-2",
+      "url": "https://www.elk-studios.com/games/pirots-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jeff Scully",
+      "slug": "jeff-scully",
+      "url": "https://www.elk-studios.com/games/jeff-scully/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "J Pop",
+      "slug": "j-pop",
+      "url": "https://www.elk-studios.com/games/j-pop/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Valhall Gold",
+      "slug": "valhall-gold",
+      "url": "https://www.elk-studios.com/games/valhall-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hula Balua",
+      "slug": "hula-balua",
+      "url": "https://www.elk-studios.com/games/hula-balua/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coba Reborn",
+      "slug": "coba-reborn",
+      "url": "https://www.elk-studios.com/games/coba-reborn/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cygnus 3",
+      "slug": "cygnus-3",
+      "url": "https://www.elk-studios.com/games/cygnus-3/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Toro Shogun",
+      "slug": "toro-shogun",
+      "url": "https://www.elk-studios.com/games/toro-shogun/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dead Mans Gold",
+      "slug": "dead-mans-gold",
+      "url": "https://www.elk-studios.com/games/dead-mans-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ashoka",
+      "slug": "ashoka",
+      "url": "https://www.elk-studios.com/games/ashoka/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rabbit Royale",
+      "slug": "rabbit-royale",
+      "url": "https://www.elk-studios.com/games/rabbit-royale/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Katmandu X",
+      "slug": "katmandu-x",
+      "url": "https://www.elk-studios.com/games/katmandu-x/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pirots",
+      "slug": "pirots",
+      "url": "https://www.elk-studios.com/games/pirots/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nitropolis 4",
+      "slug": "nitropolis-4",
+      "url": "https://www.elk-studios.com/games/nitropolis-4/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tropicool 2",
+      "slug": "tropicool-2",
+      "url": "https://www.elk-studios.com/games/tropicool-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book Of Sam",
+      "slug": "book-of-sam",
+      "url": "https://www.elk-studios.com/games/book-of-sam/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sumo Sumo",
+      "slug": "sumo-sumo",
+      "url": "https://www.elk-studios.com/games/sumo-sumo/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Avalon Gold",
+      "slug": "avalon-gold",
+      "url": "https://www.elk-studios.com/games/avalon-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Freeway 7",
+      "slug": "freeway-7",
+      "url": "https://www.elk-studios.com/games/freeway-7/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Propaganda",
+      "slug": "propaganda",
+      "url": "https://www.elk-studios.com/games/propaganda/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dropz",
+      "slug": "dropz",
+      "url": "https://www.elk-studios.com/games/dropz/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Buffalo Toro",
+      "slug": "buffalo-toro",
+      "url": "https://www.elk-studios.com/games/buffalo-toro/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cygnus 2",
+      "slug": "cygnus-2",
+      "url": "https://www.elk-studios.com/games/cygnus-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coba",
+      "slug": "coba",
+      "url": "https://www.elk-studios.com/games/coba/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Taco Brothers Deralied",
+      "slug": "taco-brothers-deralied",
+      "url": "https://www.elk-studios.com/games/taco-brothers-deralied/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Phoenix Graveyard",
+      "slug": "phoenix-graveyard",
+      "url": "https://www.elk-studios.com/games/phoenix-graveyard/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nitropolis 3",
+      "slug": "nitropolis-3",
+      "url": "https://www.elk-studios.com/games/nitropolis-3/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pacific Gold",
+      "slug": "pacific-gold",
+      "url": "https://www.elk-studios.com/games/pacific-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Illogicool",
+      "slug": "illogicool",
+      "url": "https://www.elk-studios.com/games/illogicool/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystic Orbs",
+      "slug": "mystic-orbs",
+      "url": "https://www.elk-studios.com/games/mystic-orbs/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stars Of Orion",
+      "slug": "stars-of-orion",
+      "url": "https://www.elk-studios.com/games/stars-of-orion/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Toro 7S",
+      "slug": "toro-7s",
+      "url": "https://www.elk-studios.com/games/toro-7s/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book Of Toro",
+      "slug": "book-of-toro",
+      "url": "https://www.elk-studios.com/games/book-of-toro/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Toro 2",
+      "slug": "wild-toro-2",
+      "url": "https://www.elk-studios.com/games/wild-toro-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Zulu Gold",
+      "slug": "zulu-gold",
+      "url": "https://www.elk-studios.com/games/zulu-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fate Of Fortune",
+      "slug": "fate-of-fortune",
+      "url": "https://www.elk-studios.com/games/fate-of-fortune/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Night Trax",
+      "slug": "night-trax",
+      "url": "https://www.elk-studios.com/games/night-trax/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dream Diver",
+      "slug": "dream-diver",
+      "url": "https://www.elk-studios.com/games/dream-diver/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tropicool",
+      "slug": "tropicool",
+      "url": "https://www.elk-studios.com/games/tropicool/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nitropolis 2",
+      "slug": "nitropolis-2",
+      "url": "https://www.elk-studios.com/games/nitropolis-2/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cluster Slide",
+      "slug": "cluster-slide",
+      "url": "https://www.elk-studios.com/games/cluster-slide/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bompers",
+      "slug": "bompers",
+      "url": "https://www.elk-studios.com/games/bompers/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Miss Wildfire",
+      "slug": "miss-wildfire",
+      "url": "https://www.elk-studios.com/games/miss-wildfire/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Knockout Diamonds",
+      "slug": "knockout-diamonds",
+      "url": "https://www.elk-studios.com/games/knockout-diamonds/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Katmandu Gold",
+      "slug": "katmandu-gold",
+      "url": "https://www.elk-studios.com/games/katmandu-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nitropolis",
+      "slug": "nitropolis",
+      "url": "https://www.elk-studios.com/games/nitropolis/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Visitors",
+      "slug": "visitors",
+      "url": "https://www.elk-studios.com/games/visitors/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Grand Galore",
+      "slug": "the-grand-galore",
+      "url": "https://www.elk-studios.com/games/the-grand-galore/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diablo Reels",
+      "slug": "diablo-reels",
+      "url": "https://www.elk-studios.com/games/diablo-reels/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dreamzone",
+      "slug": "dreamzone",
+      "url": "https://www.elk-studios.com/games/dreamzone/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Io",
+      "slug": "io",
+      "url": "https://www.elk-studios.com/games/io/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black River Gold",
+      "slug": "black-river-gold",
+      "url": "https://www.elk-studios.com/games/black-river-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blood Lust",
+      "slug": "blood-lust",
+      "url": "https://www.elk-studios.com/games/blood-lust/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crusader",
+      "slug": "crusader",
+      "url": "https://www.elk-studios.com/games/crusader/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Micro Knights",
+      "slug": "micro-knights",
+      "url": "https://www.elk-studios.com/games/micro-knights/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hit It Hard",
+      "slug": "hit-it-hard",
+      "url": "https://www.elk-studios.com/games/hit-it-hard/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cygnus",
+      "slug": "cygnus",
+      "url": "https://www.elk-studios.com/games/cygnus/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ice Wolf",
+      "slug": "ice-wolf",
+      "url": "https://www.elk-studios.com/games/ice-wolf/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Voodoo Gold",
+      "slug": "voodoo-gold",
+      "url": "https://www.elk-studios.com/games/voodoo-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Win Win",
+      "slug": "win-win",
+      "url": "https://www.elk-studios.com/games/win-win/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Respin Circus",
+      "slug": "respin-circus",
+      "url": "https://www.elk-studios.com/games/respin-circus/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tahiti Gold",
+      "slug": "tahiti-gold",
+      "url": "https://www.elk-studios.com/games/tahiti-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chi",
+      "slug": "chi",
+      "url": "https://www.elk-studios.com/games/chi/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hit It Big",
+      "slug": "hit-it-big",
+      "url": "https://www.elk-studios.com/games/hit-it-big/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ecuador Gold",
+      "slug": "ecuador-gold",
+      "url": "https://www.elk-studios.com/games/ecuador-gold/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Wiz",
+      "slug": "the-wiz",
+      "url": "https://www.elk-studios.com/games/the-wiz/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Valkyrie",
+      "slug": "valkyrie",
+      "url": "https://www.elk-studios.com/games/valkyrie/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vegas Diamonds",
+      "slug": "vegas-diamonds",
+      "url": "https://www.elk-studios.com/games/vegas-diamonds/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Gems",
+      "slug": "joker-gems",
+      "url": "https://www.elk-studios.com/games/joker-gems/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Platooners",
+      "slug": "platooners",
+      "url": "https://www.elk-studios.com/games/platooners/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Birthday",
+      "slug": "birthday",
+      "url": "https://www.elk-studios.com/games/birthday/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lakes Five",
+      "slug": "lakes-five",
+      "url": "https://www.elk-studios.com/games/lakes-five/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kaiju",
+      "slug": "kaiju",
+      "url": "https://www.elk-studios.com/games/kaiju/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ho Ho Tower",
+      "slug": "ho-ho-tower",
+      "url": "https://www.elk-studios.com/games/ho-ho-tower/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Route 777",
+      "slug": "route-777",
+      "url": "https://www.elk-studios.com/games/route-777/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hidden",
+      "slug": "hidden",
+      "url": "https://www.elk-studios.com/games/hidden/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ivanhoe",
+      "slug": "ivanhoe",
+      "url": "https://www.elk-studios.com/games/ivanhoe/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hong Kong Tower",
+      "slug": "hong-kong-tower",
+      "url": "https://www.elk-studios.com/games/hong-kong-tower/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sam On The Beach",
+      "slug": "sam-on-the-beach",
+      "url": "https://www.elk-studios.com/games/sam-on-the-beach/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Taco Brothers Saving Christmas",
+      "slug": "taco-brothers-saving-christmas",
+      "url": "https://www.elk-studios.com/games/taco-brothers-saving-christmas/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Toro",
+      "slug": "wild-toro",
+      "url": "https://www.elk-studios.com/games/wild-toro/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Poltava",
+      "slug": "poltava",
+      "url": "https://www.elk-studios.com/games/poltava/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bloopers",
+      "slug": "bloopers",
+      "url": "https://www.elk-studios.com/games/bloopers/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dj Wild",
+      "slug": "dj-wild",
+      "url": "https://www.elk-studios.com/games/dj-wild/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Taco Brothers",
+      "slug": "taco-brothers",
+      "url": "https://www.elk-studios.com/games/taco-brothers/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Electric Sam",
+      "slug": "electric-sam",
+      "url": "https://www.elk-studios.com/games/electric-sam/",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    }
+  ]
+}

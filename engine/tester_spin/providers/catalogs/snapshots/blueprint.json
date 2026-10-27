@@ -1,0 +1,2417 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "blueprint",
+  "source": "https://blueprintgaming.com/games",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "The Goonies Quest for Treasure 3 Jackpot Royale",
+      "slug": "the-goonies-quest-for-treasure-3-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-3-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/06276e42-27f3-4f71-aa73-e49f04e45277/530x530/270726093754_uaYBSQMp6kAKDADjyeJZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Quest for Treasure 3 Jackpot King",
+      "slug": "the-goonies-quest-for-treasure-3-jackpot-king",
+      "url": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-3-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e6ac149c-0b4c-4170-b7b0-88adc3135475/530x530/270726093635_v6b2zYQjN90El48rNv8I.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Genie Jackpots Three Wishes Combo Frenzy (ONT & AB Release)",
+      "slug": "genie-jackpots-three-wishes-combo-frenzy-ont--ab-release",
+      "url": "https://blueprintgaming.com/games/genie-jackpots-three-wishes-combo-frenzy-ont--ab-release",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/dbf1a53e-fdd2-4dd8-8f84-dc146994a2d2/530x530/090726102124_wJ0l3kMFdSI8030rzOxi.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "House of The Dragon",
+      "slug": "house-of-the-dragon",
+      "url": "https://blueprintgaming.com/games/house-of-the-dragon",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4bf3e46d-a57f-4ff5-85de-fa780bf2e3f0/530x530/150726135057_CeExJZhJwGg8CLIuzKHf.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Mustang Express White Bison Jackpot Royale Express",
+      "slug": "almighty-mustang-express-white-bison-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/almighty-mustang-express-white-bison-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1c216ffb-e1db-4100-8bda-122da37694bb/530x530/220726102440_g1UxeKMx63Ik0JvepyD2.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Mustang Express White Bison Rapid Fire",
+      "slug": "almighty-mustang-express-white-bison-rapid-fire",
+      "url": "https://blueprintgaming.com/games/almighty-mustang-express-white-bison-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/25365010-5725-4d48-9230-319ef3709b2c/530x530/080726132239_VzBkBGPx32vi0Nijknxp.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Mustang Express White Bison",
+      "slug": "almighty-mustang-express-white-bison",
+      "url": "https://blueprintgaming.com/games/almighty-mustang-express-white-bison",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2b83c9ff-faf0-4d7e-8dfd-ce074fc07069/530x530/080726131952_7O3LrFecvCMCDWVZIVqg.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Power Cash Strike",
+      "slug": "triple-power-cash-strike",
+      "url": "https://blueprintgaming.com/games/triple-power-cash-strike",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1d12d217-dc3d-498b-b008-61a36279d3f1/530x530/010726121439_NJswU99JbWCjOsNl3ohX.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Action Cash Strike Jackpot Royale Express",
+      "slug": "triple-action-cash-strike-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/triple-action-cash-strike-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/79e325ff-3229-463d-a9d5-ffa7a7e22f3e/530x530/280726140224_fUnz5ReCbBgi9xtNwiXf.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Gold Spins Megaways",
+      "slug": "eye-of-horus-gold-spins-megaways",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-gold-spins-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/50cf65c9-5713-46a2-a5a7-dea83d3c7bb3/530x530/180626120124_SCRQng8x57NSbYS6YqKk.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Reely Big Catch Jackpot King (UK Only Release)",
+      "slug": "fishin-frenzy-reely-big-catch-jackpot-king",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-reely-big-catch-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7d52ed3d-50db-472f-a41c-b3e42153fdcb/530x530/090726075402_MT8Kf5MR9S1cvnw2OENQ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Action Cash Strike Rapid Fire",
+      "slug": "triple-action-cash-strike-rapid-fire",
+      "url": "https://blueprintgaming.com/games/triple-action-cash-strike-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e7824a4b-19ee-49f4-84b6-65c10073df04/530x530/030726073435_Wx7QpSgpYeQmI2w6CZsB.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Splash Power Play",
+      "slug": "king-kong-splash-power-play",
+      "url": "https://blueprintgaming.com/games/king-kong-splash-power-play",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/566070e6-e25e-452c-b591-2683f6d7196c/530x530/130826090817_w2tlWshIvOfVaIIDdzfl.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Fire Lock",
+      "slug": "cash-strike-fire-lock",
+      "url": "https://blueprintgaming.com/games/cash-strike-fire-lock",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/51e76c94-68b7-4b64-99d2-90e560533fa5/530x530/040626094104_WThmbt5unVq5BYP8gCMe.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Cash Inferno",
+      "slug": "the-goonies-cash-inferno",
+      "url": "https://blueprintgaming.com/games/the-goonies-cash-inferno",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/522f827b-8725-4367-b6f2-dbef9404f958/530x530/010626144801_pWQr5h44P4uKQuD09BYZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Meerkat Mayhem Jackpot Royale Express",
+      "slug": "meerkat-mayhem-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/meerkat-mayhem-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c28e33b2-4723-42b2-a4f4-dfc9bfa0d3a4/530x530/140726120922_sH5cT5UngT1CCgDZ6COj.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Meerkat Mayhem Rapid Fire",
+      "slug": "meerkat-mayhem-rapid-fire",
+      "url": "https://blueprintgaming.com/games/meerkat-mayhem-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/faa32c5d-4292-437b-8019-e1ca96e39db7/530x530/300426143043_xt39INSaymwVQuHxwGTx.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wolf Fury Fire Blitz",
+      "slug": "wolf-fury-fire-blitz",
+      "url": "https://blueprintgaming.com/games/wolf-fury-fire-blitz",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d33ad481-dded-4540-bdee-f39e7c3dd5f6/530x530/080626082259_GplSWY5Ni8Wr5kIZn9uN.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Maradona Golden Goal",
+      "slug": "maradona-golden-goal",
+      "url": "https://blueprintgaming.com/games/maradona-golden-goal",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6340fe07-7d9d-48a1-9f8b-3293c3393899/530x530/070526140049_80PzCL1cixVBIZgFhFwz.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Game of Thrones Jackpot Royale",
+      "slug": "game-of-thrones-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/game-of-thrones-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/13fbc8d0-11cc-475e-8158-a563ea9930d5/530x530/070526134750_6gcZoimhr4SJ3BrDLi6l.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Game of Thrones Jackpot King",
+      "slug": "game-of-thrones-jackpot-king",
+      "url": "https://blueprintgaming.com/games/game-of-thrones-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/9fcb68e2-1a52-4996-9b14-2eb4039cc1c1/530x530/070526134629_YyCIF1Xhv2NUVCPJKdPX.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot Catch",
+      "slug": "red-hot-catch",
+      "url": "https://blueprintgaming.com/games/red-hot-catch",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5c9f4963-46fc-408e-8c94-0f08edbedb0d/530x530/270426140027_ZpQyzbVf3eS6PQdnEj9V.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kong Even Bigger Balls",
+      "slug": "kong-even-bigger-balls",
+      "url": "https://blueprintgaming.com/games/kong-even-bigger-balls",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6fbf7a12-9f43-4ab6-9e7f-8e1bfff019ca/530x530/150126144119_gz2LHtwReSTMTuJKB9nE.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Power Force 5 Megaways Rapid Fire",
+      "slug": "cash-strike-power-force-5-megaways-rapid-fire",
+      "url": "https://blueprintgaming.com/games/cash-strike-power-force-5-megaways-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0734a580-59eb-474c-a6a8-2bf193bababd/530x530/230326124139_6RDgDcYcorc36mxIHJf0.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Power Force 5 Megaways",
+      "slug": "cash-strike-power-force-5-megaways",
+      "url": "https://blueprintgaming.com/games/cash-strike-power-force-5-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/bf661087-330c-42db-ace9-dd84901c757b/530x530/080526101351_nd0reBHizdbS4Cplr8XO.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Match (UK Only Release)",
+      "slug": "fishin-frenzy-the-big-match",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-match",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/91496421-2b4b-4ded-bf13-d29cc2195bf4/530x530/180326112655_NC9zFOygErrFXmOtUa1W.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Quest for Treasure 3",
+      "slug": "the-goonies-quest-for-treasure-3",
+      "url": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-3",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/73a9bb2b-18f6-4d5e-8c5a-d1c2109a77ff/530x530/210426083727_4yBoMY6JpnDEkFDzKr5K.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Splash Jackpot Royale",
+      "slug": "king-kong-splash-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/king-kong-splash-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/cc05bcee-bd00-4413-adbc-76a52511c8c9/530x530/130226095315_ogBcPEUO540saRtiELQI.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Splash Jackpot King",
+      "slug": "king-kong-splash-jackpot-king",
+      "url": "https://blueprintgaming.com/games/king-kong-splash-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a5c77a1b-b7f3-493b-b93b-8c3816192a5a/530x530/130226095337_DnOb9nUg2WSYQiie7nee.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Graphics Upside Down",
+      "slug": "super-graphics-upside-down",
+      "url": "https://blueprintgaming.com/games/super-graphics-upside-down",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/92ead30b-d4f9-4604-93af-6e3a1b102d20/530x530/120326143520_9inr0C1WkTIOCCG5CnXJ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Pig Wizard Cash Lock",
+      "slug": "the-pig-wizard-cash-lock",
+      "url": "https://blueprintgaming.com/games/the-pig-wizard-cash-lock",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e2065cfc-af17-44f5-bf7d-0d90f5a48231/530x530/090126141901_9JC4XmAjQq12BqSXDQfT.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jewel Stepper",
+      "slug": "jewel-stepper",
+      "url": "https://blueprintgaming.com/games/jewel-stepper",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b606b818-c72a-45e7-9f46-5cea4a16b6a4/530x530/190225101247_fRbhTmYra1pX0moSFapR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Any Witch Way",
+      "slug": "any-witch-way",
+      "url": "https://blueprintgaming.com/games/any-witch-way",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3d0d4879-035f-412b-8990-8def4d19d87e/530x530/160725142932_HhoBY2Tx7GRerhIvOevK.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Top Cat Dining For Dollars Jackpot Royale",
+      "slug": "top-cat-dining-for-dollars-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/top-cat-dining-for-dollars-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4ec2d7db-4349-46c9-9b34-b261017ec49b/530x530/150426082237_Xw1LzRk5kdt1TGevbZVV.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Top Cat Dining For Dollars Jackpot King",
+      "slug": "top-cat-dining-for-dollars-jackpot-king",
+      "url": "https://blueprintgaming.com/games/top-cat-dining-for-dollars-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6c24a14b-db1c-48ea-bcee-380dbde19c3f/530x530/150426082213_pQuFGBVgBr5aZXbQ3hzN.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Lure 'Em In (UK Only Release)",
+      "slug": "fishin-frenzy-lure-em-in-uk-only-release-",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-lure-em-in-uk-only-release-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/007c46b0-1421-478f-a9a3-1fbdb2b62f2e/530x530/180326105626_VWrSC4TehIa1JtoEAeZE.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Rock Around The Pots Jackpot Royale Express",
+      "slug": "the-flintstones-rock-around-the-pots-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/the-flintstones-rock-around-the-pots-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/45e2f6c0-4b51-48a4-a2b7-3ead425526d9/530x530/100326144502_sLoUTbjCu1NQ7isUl2dH.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Rock Around The Pots Rapid Fire",
+      "slug": "the-flintstones-rock-around-the-pots-rapid-fire",
+      "url": "https://blueprintgaming.com/games/the-flintstones-rock-around-the-pots-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6e506aa1-4cd2-44cc-a002-c74690d927c5/530x530/100326144444_O4yqrfWQtmoLaVmXM06w.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Action Cash Strike",
+      "slug": "triple-action-cash-strike",
+      "url": "https://blueprintgaming.com/games/triple-action-cash-strike",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d785290b-1bed-4289-9eec-8e34b422bb51/530x530/130226104148_A1HvmkgFb3VcqrqHY7tE.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diego Wild Search for the Hidden Tiger",
+      "slug": "diego-wild-search-for-the-hidden-tiger",
+      "url": "https://blueprintgaming.com/games/diego-wild-search-for-the-hidden-tiger",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7a9b354c-d9cd-4876-a90d-543361470047/530x530/190625132158_0AxmhfyCCX18akuIgD2q.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel King® Hot to Pot Jackpot Royale",
+      "slug": "reel-king-hot-to-pot-jackpot-Royale",
+      "url": "https://blueprintgaming.com/games/reel-king-hot-to-pot-jackpot-Royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/26e3de1f-4743-4a86-ad5a-ecc3bbe5781e/530x530/260326132728_78SKGjYZh59EQEBYdr1o.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel King® Hot to Pot Jackpot King",
+      "slug": "reel-king-hot-to-pot-jackpot-king",
+      "url": "https://blueprintgaming.com/games/reel-king-hot-to-pot-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/826c0e14-4972-464c-86bc-a0d26d4faa59/530x530/160326094617_J432h5F83X1bdcBvAsjG.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Game of Thrones",
+      "slug": "game-of-thrones",
+      "url": "https://blueprintgaming.com/games/game-of-thrones",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3c54e630-e4e1-44d9-9115-b3ad51fcd5e3/530x530/260326084620_iKuoj65puYD0bdq18ROx.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Golden Tablet Gold Spins (UK & Spain Release)",
+      "slug": "eye-of-horus-golden-tablet-gold-spins",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-golden-tablet-gold-spins",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/12d3ded3-266a-4b25-9ff5-1f498c682a21/530x530/151225142237_wNuv0hqGwaHRHBPaioqq.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot Chilli",
+      "slug": "red-hot-chilli-",
+      "url": "https://blueprintgaming.com/games/red-hot-chilli-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2d36784b-1cd3-48b8-84ea-06b114f31805/530x530/201125095524_vdQAVZZxkZ4pfqYHiblb.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Rocky Riches Jackpot Royale",
+      "slug": "the-flintstones-rocky-riches-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/the-flintstones-rocky-riches-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/cae66747-5f39-4756-af10-0cae4bdf3676/530x530/080426135220_BIHlJaz3tBKHw7wnHKlQ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Rocky Riches Jackpot King",
+      "slug": "the-flintstones-rocky-riches-jackpot-king-",
+      "url": "https://blueprintgaming.com/games/the-flintstones-rocky-riches-jackpot-king-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/42642438-a63c-4142-921c-8d88d4d9a7e6/530x530/080426135233_gG4JrrmxxKlSVWXZqUc6.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Rocky Riches",
+      "slug": "the-flintstones-rocky-riches",
+      "url": "https://blueprintgaming.com/games/the-flintstones-rocky-riches",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7c233019-c736-47eb-8cd3-8b03ee3a1f44/530x530/110326093002_nUxCSpw2fszjpmMSLTKQ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Genie Jackpots Combo Frenzy",
+      "slug": "genie-jackpots-combo-frenzy",
+      "url": "https://blueprintgaming.com/games/genie-jackpots-combo-frenzy",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2f8a2edc-370b-4762-a610-ffb19e277aa7/530x530/271025104553_NY2ssyBSHh0O2WocEDG1.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Splash",
+      "slug": "king-kong-splash",
+      "url": "https://blueprintgaming.com/games/king-kong-splash",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/da0c1a29-d81b-4a36-86eb-bbaf2d049f91/530x530/121225103251_xhU0m1ixP5jPN31HpFtt.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Frankenstein's Fortune",
+      "slug": "frankensteins-fortune",
+      "url": "https://blueprintgaming.com/games/frankensteins-fortune",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d1763a47-ba08-4a63-9519-71060a4f5b41/530x530/081025135231_B1Wlg9zWCjkOw9mVIjYN.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Trailblazer Jackpot Royale Express",
+      "slug": "trailblazer-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/trailblazer-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4ab434ec-a2f5-47cd-b199-eaab0f1e365a/530x530/100226092923_38q5PuS9yZ6NwPPZ6QxM.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Trailblazer Rapid Fire",
+      "slug": "trailblazer-rapid-fire-",
+      "url": "https://blueprintgaming.com/games/trailblazer-rapid-fire-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/edcfbe83-4c6c-47dc-8959-5919ba90ce40/530x530/100226085306_DMmRpCyfKDp2FCIavGBy.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Quest For Treasure 2 Jackpot Royale Express",
+      "slug": "the-goonies-quest-for-treasure-2-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-2-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/517b5063-e5c7-4da9-ada4-0f0a2ea49f08/530x530/120226100700_wty19sGOwBffL1s4Xx8F.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Quest For Treasure 2 Rapid Fire",
+      "slug": "the-goonies-quest-for-treasure-2-rapid-fire",
+      "url": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-2-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e4313853-2ff9-4f14-b00a-74e5a6b7516f/530x530/120226100611_AoSrFEUT1NisbR26wqnZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Samba Reels",
+      "slug": "samba-reels",
+      "url": "https://blueprintgaming.com/games/samba-reels",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/8aa1cfbb-c365-4a62-b17f-80ed518b3ac6/530x530/280725093437_uqSXpkaXDTDpIp6tc9xN.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Genie Jackpots Combo Frenzy Jackpot King",
+      "slug": "genie-jackpots-combo-frenzy-jackpot-king",
+      "url": "https://blueprintgaming.com/games/genie-jackpots-combo-frenzy-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/460bf761-3be4-4410-b425-f4ac97305db2/530x530/040925145311_JoGAcbfMJ2ckNpwxyfRw.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot Eruption",
+      "slug": "red-hot-eruption",
+      "url": "https://blueprintgaming.com/games/red-hot-eruption",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/727ad0de-deb5-4256-b15a-28faa336f97e/530x530/191125085525_CdDTav3cayS9s48o6jQy.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Strike Express",
+      "slug": "gold-strike-express-",
+      "url": "https://blueprintgaming.com/games/gold-strike-express-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3cc0c1b3-8347-4030-8b8f-72c05ba4ab91/530x530/271125110524_OE25CrDODRidgrPJt68O.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch Gold Spins (UK Only Release)",
+      "slug": "fishin-frenzy-the-big-catch-gold-spins",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-gold-spins",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5ddacbe3-2921-4667-adf6-dff56a4f95b1/530x530/261125150930_4fj54K7nwBVdAsUsb93n.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper 2 Jackpot Royale Express",
+      "slug": "cash-strike-hotstepper-2-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/cash-strike-hotstepper-2-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e0f6bf9c-8291-4470-abb9-57dd5a113d24/530x530/030226113145_PrGnnFJPbwkRBTwHIRsN.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper 2 Rapid Fire",
+      "slug": "cash-strike-hotstepper-2-rapid-fire",
+      "url": "https://blueprintgaming.com/games/cash-strike-hotstepper-2-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/db98dc98-f8df-4908-ad3d-0294a832ac5d/530x530/260625092218_iS7irYJPHe978ReBxLfr.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Slots O' Gold Triple Fire Jackpot King",
+      "slug": "slots-o-gold-triple-fire-jackpot-king",
+      "url": "https://blueprintgaming.com/games/slots-o-gold-triple-fire-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/28111039-bc09-4e11-bc26-8757ed041c30/530x530/190825142112_zswbyvZIdJSvyC6ihjYT.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike X-Cash",
+      "slug": "cash-strike-x-cash",
+      "url": "https://blueprintgaming.com/games/cash-strike-x-cash",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/99151389-ae2c-4726-99c9-3ac5632efaf2/530x530/201125114335_L8Bhr3mL4veRtS4KcP0c.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cop The Lot Even More Swag Megaways",
+      "slug": "cop-the-lot-even-more-swag-megaways-",
+      "url": "https://blueprintgaming.com/games/cop-the-lot-even-more-swag-megaways-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/35fa2fe2-51ac-4220-84d8-46977eea7027/530x530/260925114652_0fWzL07BQwJSuNkVJlD3.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Money Frenzy Cash Gains",
+      "slug": "big-money-frenzy-cash-gains",
+      "url": "https://blueprintgaming.com/games/big-money-frenzy-cash-gains",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b0438eae-6735-4e94-9340-7caac8c1cde1/530x530/091025093742_BOwjtgmtmxn2lnF5TFyx.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scarab Rising Megaways Jackpot King",
+      "slug": "scarab-rising-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/scarab-rising-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/96f1f5ab-c01b-4894-a6d1-d4c2d44f75d7/530x530/301025083145_Aaubr9Q5A1ODLASE1vep.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scarab Rising Megaways",
+      "slug": "scarab-rising-megaways",
+      "url": "https://blueprintgaming.com/games/scarab-rising-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/9b0b09c0-edaa-44f9-ab03-91a7fa6ddc7f/530x530/301025083208_Xlb4v7hdPmTmpTEsQE2n.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Spins O' Gold",
+      "slug": "luck-o-the-irish-spins-o-gold",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-spins-o-gold",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/806721c8-69dd-4a55-bdf9-899a56c99f71/530x530/230625100656_0Swb9CwCiLMNORKKuXyW.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Searing 7s",
+      "slug": "searing-7s",
+      "url": "https://blueprintgaming.com/games/searing-7s",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/249dbe5f-d6a5-4230-9249-1fd9906ff86e/530x530/050625143451_9PMeJVmFkFKfBabodKqR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Fire Blitz Win Boost",
+      "slug": "lucky-fire-blitz-win-boost",
+      "url": "https://blueprintgaming.com/games/lucky-fire-blitz-win-boost",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1c7ddee0-92b3-4df2-8bca-8f2ffd23182a/530x530/290725132112_IhlFpLQkVG8MmP3LCn0U.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kong Even Bigger Christmas",
+      "slug": "kong-even-bigger-christmas",
+      "url": "https://blueprintgaming.com/games/kong-even-bigger-christmas",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/29451e47-31c5-4c53-b19d-67f5d1107a7b/530x530/020925083241_RUemZSmN5JddkWjxSATs.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Christmas Catch Jackpot King",
+      "slug": "fishin-frenzy-the-big-christmas-catch-jackpot-king",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-christmas-catch-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1e79dcd2-c0ab-4cd5-8f9b-d26579ebef06/530x530/190925072346_YJKXmH3XN6w9iEIIjkSF.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Quest For Treasure 2",
+      "slug": "the-goonies-quest-for-treasure-2",
+      "url": "https://blueprintgaming.com/games/the-goonies-quest-for-treasure-2",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/abecf160-ea9d-4270-a0b7-0e421145f789/530x530/230725093102_QY8nZYl4DjCqbh3LasaN.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Saint Nicked 3 Present Tense",
+      "slug": "saint-nicked-3-present-tense",
+      "url": "https://blueprintgaming.com/games/saint-nicked-3-present-tense",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1d29b055-0056-457b-97ab-2fd77261ace8/530x530/240725125230_Fk46OJrZTsdOHOVFrnSf.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lava Lock Jackpot King",
+      "slug": "lava-lock-jackpot-king",
+      "url": "https://blueprintgaming.com/games/lava-lock-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/fdca5f07-89f9-4580-926d-85902fad8ced/530x530/131125085703_yynm4XnPjEE7N6auCjSB.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lava Lock",
+      "slug": "lava-lock",
+      "url": "https://blueprintgaming.com/games/lava-lock",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f23cad89-1a5c-418b-9eca-aa8bc72a7f70/530x530/131125085648_4KUpRGkFvfpBkGnnyqhs.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Pots O' Riches Megaways Jackpot Royale Express",
+      "slug": "3-pots-o-riches-megaways-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/3-pots-o-riches-megaways-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/025c8402-be06-42ff-bf67-ae83007fdf60/530x530/010925144602_Zr9GUcoHqiJZyre0r4MD.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Pots O' Riches Megaways Rapid Fire",
+      "slug": "3-pots-o-riches-megaways-rapid-fire",
+      "url": "https://blueprintgaming.com/games/3-pots-o-riches-megaways-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ae9736f1-f56f-47ed-a953-e3bb2c3e55fa/530x530/010925085242_lwltfEzZO2HgqzW6AorQ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Charged Cash",
+      "slug": "mega-charged-cash",
+      "url": "https://blueprintgaming.com/games/mega-charged-cash",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/44040487-c8cb-4811-a59f-26ba6cab5450/530x530/170925135214_u9nGFG9WhXWLrPoGrVba.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Yogi Bear Jackpot Royale",
+      "slug": "yogi-bear-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/yogi-bear-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/406558f9-05a7-430f-bbd9-a704b87cdd2a/530x530/080825094811_W7KlibLEcLocXaZt9UeE.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Yogi Bear Jackpot King",
+      "slug": "yogi-bear-jackpot-king",
+      "url": "https://blueprintgaming.com/games/yogi-bear-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5ab4476f-feae-4369-84de-9a61146faf6c/530x530/080825095149_hfnjVQTgRW3QaOYhJDKv.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Yogi Bear",
+      "slug": "yogi-bear",
+      "url": "https://blueprintgaming.com/games/yogi-bear",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/17bf8eaa-00a2-44d5-99a3-cee0fe421ce0/530x530/070825144632_BLlDroS73MjJFpccEevN.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Fire Blitz Megaways",
+      "slug": "lucky-fire-blitz-megaways",
+      "url": "https://blueprintgaming.com/games/lucky-fire-blitz-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4d893a93-0e1c-408e-85ee-8a174356f79f/530x530/090625103627_H6Rz0s9wlVSmzUtSmoZ3.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Legacy of Gold Jackpot King",
+      "slug": "eye-of-horus-legacy-of-gold-jackpot-king",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-legacy-of-gold-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e40f244b-ffea-4509-a58b-d38faa26b46b/530x530/030725123318_70TCLfkNnpSoGS4J6vqu.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Power Force 5",
+      "slug": "cash-strike-power-force-5",
+      "url": "https://blueprintgaming.com/games/cash-strike-power-force-5",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/252c0f5f-a4e8-4e7a-815f-93ccd47685a6/530x530/080925144629_g6be2WIBTLQvL3D2RH3T.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Mustang Express",
+      "slug": "almighty-mustang-express",
+      "url": "https://blueprintgaming.com/games/almighty-mustang-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7b539c70-dcc5-4634-9adc-6b1378668733/530x530/220725084939_wMsHKkT6gIvLZRWhuEcK.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wolf Legend Gold Megaways",
+      "slug": "wolf-legend-gold-megaways",
+      "url": "https://blueprintgaming.com/games/wolf-legend-gold-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b25d5d16-86a9-483e-8abe-d95e98798f04/530x530/280825150201_GQeOuHfHzjal7vHpKa5f.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Even Bigger Bass 3",
+      "slug": "Big-Catch-Even-Bigger-Bass-3",
+      "url": "https://blueprintgaming.com/games/Big-Catch-Even-Bigger-Bass-3",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5252cd76-a218-4d75-bcf2-de7118c1af19/530x530/140725081850_YHwK5Yx7k71HN8VVcl0O.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Even Bigger Fish 3 Megaways Rapid Fire",
+      "slug": "fishin-frenzy-even-bigger-fish-3-megaways-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish-3-megaways-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/fe12ad8b-a9f5-4eac-a915-86b93c809d48/530x530/240725083857_kqX2fYUELo21Sc2kRpGD.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Atlantis Legacy",
+      "slug": "rise-of-atlantis-legacy",
+      "url": "https://blueprintgaming.com/games/rise-of-atlantis-legacy",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4899d800-dcaa-4a33-9560-27fdd5ded4f3/530x530/090725134511_gtGTc5bKmVPfOZG6Wxt2.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper 2 Jackpot King",
+      "slug": "Cash-Strike-Hotstepper-2-Jackpot-King",
+      "url": "https://blueprintgaming.com/games/Cash-Strike-Hotstepper-2-Jackpot-King",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a9891983-9461-49f7-a48a-62e686e7da3a/530x530/260625092401_5LTuF4uBSSMiJUBM4sPd.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper 2",
+      "slug": "Cash-Strike-Hotstepper-2",
+      "url": "https://blueprintgaming.com/games/Cash-Strike-Hotstepper-2",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c81829f2-9816-4ae0-b5ff-46786c552586/530x530/260625092637_KWsTZ0Je47PIYvMoe1XK.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Tablets of Destiny Megaways",
+      "slug": "eye-of-horus-tablets-of-destiny-megaways",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-tablets-of-destiny-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/02a595e6-6e24-4c5a-aa12-5ee33d6d2c64/530x530/260625091942_JkKBcldTVFryyu5nmB3D.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Jetsons Jackpot Royale",
+      "slug": "the-jetsons-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/the-jetsons-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/9cde7c28-b9d8-4cdd-a98a-9fd88e016f57/530x530/200325092153_cBSJwm9uvWt8iH7aT9TR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Jetsons Jackpot King",
+      "slug": "the-jetsons-jackpot-king-",
+      "url": "https://blueprintgaming.com/games/the-jetsons-jackpot-king-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/eed5f1a0-028b-432a-a59a-4d925df87c91/530x530/150425123037_KVFXXk3BvgXuIyHr824a.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel King® Riches Jackpot King",
+      "slug": "reel-king-riches-jackpot-king",
+      "url": "https://blueprintgaming.com/games/reel-king-riches-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ef44999a-c271-4232-85ef-37058478058b/530x530/260625092040_Ksij0Tg7dSgkKJ2MvAlL.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Power 5",
+      "slug": "majestic-fury-power-5",
+      "url": "https://blueprintgaming.com/games/majestic-fury-power-5",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c7fd11b1-0743-4f48-8d85-42aa0c3c0e77/530x530/050625124117_WEYDijNYX0Djj7q8cvmR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Cat Gold",
+      "slug": "big-cat-gold",
+      "url": "https://blueprintgaming.com/games/big-cat-gold",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/49d22c2b-0d09-42b7-9e0b-be95fddea563/530x530/270525081556_nJ3HTQDKeTKRqvaeYp5w.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Skulls of Voodoo",
+      "slug": "3-skulls-of-voodoo",
+      "url": "https://blueprintgaming.com/games/3-skulls-of-voodoo",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/655533b6-c097-41e6-b163-e72ac5ca9382/530x530/080425084339_SVINHAEdxcWgOUcODE0i.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch 3 Rapid Fire",
+      "slug": "fishin-frenzy-the-big-catch-3-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-3-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a6550925-1121-4b20-a965-699ef646aadb/530x530/050625080031_TJ9BZCkCZQ74LYZMXbe5.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch 3",
+      "slug": "fishin-frenzy-the-big-catch-3",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-3",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e0da3ebf-2a63-4ac0-87c4-3f42e9aeb153/530x530/050625075725_1i47sxUR0M5i0w0pWRn7.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Triple Fire",
+      "slug": "cash-strike-triple-fire",
+      "url": "https://blueprintgaming.com/games/cash-strike-triple-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5ff17aca-f30e-4094-86c5-64613af74013/530x530/060525081323_uhJtjlEy2XCjPhIrVbZ6.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Bedrock Riches Jackpot Royale",
+      "slug": "the-flintstones-bedrock-riches-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/the-flintstones-bedrock-riches-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b4acc346-b394-4dfa-ad0b-5897a22ecfad/530x530/300625081657_qf6IxEaZjvCfw9OriRvk.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Bedrock Riches Jackpot King",
+      "slug": "the-flintstones-bedrock-riches-jackpot-king",
+      "url": "https://blueprintgaming.com/games/the-flintstones-bedrock-riches-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/80fd7a33-77d4-4777-8c79-cdb26dac82c2/530x530/150425134544_GZfDK1T0gGVWs3e8SCGg.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Bedrock Riches",
+      "slug": "the-flintstones-bedrock-riches",
+      "url": "https://blueprintgaming.com/games/the-flintstones-bedrock-riches",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a8c34370-c24f-4c7e-8394-4e2b2a946222/530x530/150425134349_7ymiviBsrGmeJgbspdx9.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Bass Fishing Win Stepper",
+      "slug": "big-catch-bass-fishing-win-stepper-",
+      "url": "https://blueprintgaming.com/games/big-catch-bass-fishing-win-stepper-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/111e6af6-6f00-41a0-88b4-ae5478e90515/530x530/090425150948_kmV0uhpc9mdCXeg2spkA.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas 4",
+      "slug": "king-kong-cash-even-bigger-bananas-4",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-4",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/993f804b-08c3-4eec-b7b6-7f8420f6399b/530x530/310325135756_hvMRoNhnHlPeYf8fHRFX.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Megaways Unleashed",
+      "slug": "majestic-fury-megaways-unleashed",
+      "url": "https://blueprintgaming.com/games/majestic-fury-megaways-unleashed",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f9c0ed77-3522-43d1-9f60-3144124c5395/530x530/050625123536_Fb9aCvhUDYH0e6lxOyNF.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Win Stepper Rapid Fire",
+      "slug": "fishin-frenzy-win-stepper-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-win-stepper-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/04e5b4f9-b6a2-484a-b74f-a237a9e3f422/530x530/030325092615_TTxLOOFggpZ8kDOMgiR2.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super 7 Winner",
+      "slug": "super-7-winner",
+      "url": "https://blueprintgaming.com/games/super-7-winner",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ece70c65-3e55-409e-810f-26473a9a72f6/530x530/200325141115_TAgGrxII4mle33pUajd3.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch 2 Rapid Fire",
+      "slug": "fishin-frenzy-the-big-catch-2-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-2-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2dd5b439-2df6-4a3a-9969-cdaf211c6082/530x530/110325140132_tkvC5hBkbAvNKstBdqAG.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kong 3 Even Bigger Bonus Jackpot Royale Express",
+      "slug": "kong-3-even-bigger-bonus-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/kong-3-even-bigger-bonus-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5ea5bfa7-b073-4cf0-803c-4d71e4d991da/530x530/060226105403_RzVZ6WAbaslW2OEUkWlV.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kong 3 Even Bigger Bonus Rapid Fire",
+      "slug": "kong-3-even-bigger-bonus-rapid-fire",
+      "url": "https://blueprintgaming.com/games/kong-3-even-bigger-bonus-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e8857bb6-d585-44ac-bba6-ebf9a5475575/530x530/120225151528_U1SorJkx09dHnTDdMAti.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Fire Blitz Hotstepper",
+      "slug": "lucky-fire-blitz-hotstepper",
+      "url": "https://blueprintgaming.com/games/lucky-fire-blitz-hotstepper",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/acd26b28-f11c-45fd-9af5-c3970e6bea39/530x530/220125132506_RylXVpdzbeZ2DnXqOcak.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways Quest for Treasure Jackpot Royale",
+      "slug": "the-goonies-megaways-quest-for-treasure-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways-quest-for-treasure-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/54daea18-3321-4136-a9ea-9282d13719ed/530x530/080525094409_nA6dn6L8iAZjPKUziDNn.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways Quest for Treasure Jackpot King",
+      "slug": "the-goonies-megaways-quest-for-treasure-jackpot-king",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways-quest-for-treasure-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/bd79e944-bd37-4620-9aa6-f1223edad506/530x530/080525094325_g4H9Luj9EV8xcpASPcBG.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Fortune Play 2 (UK Only Release)",
+      "slug": "luck-o-the-irish-fortune-play-2-uk-only-release",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-play-2-uk-only-release",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0fc594d5-0091-45cd-af1c-1d521eb054ec/530x530/100125135246_RR5VwIS4fhcf9NVFgvft.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dumb and Dumber Route to Riches",
+      "slug": "dumb-and-dumber-route-to-riches",
+      "url": "https://blueprintgaming.com/games/dumb-and-dumber-route-to-riches",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e4470bfc-c3c1-4f86-beea-cba9800b357f/530x530/040225150400_TLynO3MnQdOxdSOH68I2.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Power Up",
+      "slug": "Cash-Strike-Power-Up",
+      "url": "https://blueprintgaming.com/games/Cash-Strike-Power-Up",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/21669715-1222-43c1-8671-7e8c94be4219/530x530/280225102549_cwLCNH94J0ZXsvGMzUI1.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Legacy of Gold",
+      "slug": "eye-of-horus-legacy-of-gold",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-legacy-of-gold",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5829c6b9-10fb-4def-bf53-8a166f0ecc25/530x530/270225160139_cMLHUbWYVjecy3500KVR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Even Bigger Bass 2",
+      "slug": "big-catch-even-bigger-bass-2",
+      "url": "https://blueprintgaming.com/games/big-catch-even-bigger-bass-2",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2dec2ebf-9d34-48d1-8564-6b9b9e4a2e67/530x530/050225084720_HeFJonIF9MTOfStH44F6.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Even Bigger Fish 2 Rapid Fire",
+      "slug": "fishin-frenzy-even-bigger-fish-2-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish-2-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e2b45aaa-7443-4b14-b089-0306937de685/530x530/030325104145_1EmYieLC3tuIXv1X9psv.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Even Bigger Fish Rapid Fire",
+      "slug": "fishin-frenzy-even-bigger-fish-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4cb386c3-2e2f-4547-ad00-ae5ae4664615/530x530/160125135750_Gxn7Upg91onwlw4QY3hi.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Win Stepper Jackpot Royale Express",
+      "slug": "majestic-fury-win-stepper-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/majestic-fury-win-stepper-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a0218b5a-6d48-4380-a7b7-22c578b9e9fc/530x530/230126111205_P5O5ajrrBxBd6DouiowX.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Win Stepper Rapid Fire",
+      "slug": "majestic-fury-win-stepper-rapid-fire",
+      "url": "https://blueprintgaming.com/games/majestic-fury-win-stepper-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c15ceb10-14c3-4ccd-9d3c-9f122b7926a4/530x530/300625110020_0JOZyFMz7pnyAjUBWYQJ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Win Stepper",
+      "slug": "majestic-fury-win-stepper",
+      "url": "https://blueprintgaming.com/games/majestic-fury-win-stepper",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/16504a7d-120b-474d-856d-0acae5e956e1/530x530/220125155303_3uSJIbq3LblfRONmObB7.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bullion Blitz",
+      "slug": "bullion-blitz",
+      "url": "https://blueprintgaming.com/games/bullion-blitz",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e06b7332-9c33-41f2-87bf-9fd76b174d38/530x530/120225153633_UozdWQ3Xrtl2hJIQIkcq.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blazing Cash",
+      "slug": "blazing-cash",
+      "url": "https://blueprintgaming.com/games/blazing-cash",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0a023c8a-232d-4dd8-8717-9f74683fbd89/530x530/220125085245_sY52LmCkc8r2dyNCDvHD.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kong 3 Even Bigger Bonus",
+      "slug": "Kong-3-Even-Bigger-Bonus",
+      "url": "https://blueprintgaming.com/games/Kong-3-Even-Bigger-Bonus",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b4a662bc-7c6c-4a38-8683-aea448cc2cf3/530x530/100125142256_jjx6fh87R5KxD1qSAOCG.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal Megaways Jackpot Royale Express",
+      "slug": "deal-or-no-deal-megaways-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a14a9cae-6ed6-4317-b8fa-d8e1df47b3be/530x530/270125111613_qGdu6gpwVo41YS3oqp7i.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal Megaways Rapid Fire",
+      "slug": "deal-or-no-deal-megaways-rapid-fire",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0b537371-d6c7-4c6a-b972-eb8598576619/530x530/281124105837_rX4oOHMoAEcOw1KiFFI0.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Win Boost",
+      "slug": "cash-strike-win-boost",
+      "url": "https://blueprintgaming.com/games/cash-strike-win-boost",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/09d48c11-ed3b-4d47-9164-07949f7e2dbf/530x530/170125103619_nxQtEiNCxQbESOCfxtO5.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cop The Lot Megaways Power Play",
+      "slug": "cop-the-lot-megaways-power-play",
+      "url": "https://blueprintgaming.com/games/cop-the-lot-megaways-power-play",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f4005333-39eb-436e-b9bc-ea06c4354497/530x530/121224152247_7SkL9GitJF4y984vCaOC.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch 2",
+      "slug": "fishin-frenzy-the-big-catch-2",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-2",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/cdd0b4d7-7d2c-4fea-b0db-f5e36984ed2a/530x530/181224101410_GVk2tzjUlotrmRoH1Vcf.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways Jackpot Royale",
+      "slug": "the-goonies-megaways-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0b08ffa9-ff51-4707-83f4-6e9669432ac5/530x530/270125104956_Jiqyfg7v40nHGXO42SaS.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways Jackpot King",
+      "slug": "the-goonies-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/9c37c08e-91b0-4564-a236-f7dd021c341c/530x530/270125103107_AvVzDkztwCs8HOFWRNCi.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Even Bigger Bass Jackpot Royale Express",
+      "slug": "big-catch-even-bigger-bass-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/big-catch-even-bigger-bass-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3ae85477-69a5-434e-beb8-3cad74e5040b/530x530/040226150850_8cWEsaIrV9z5l4GEzMfh.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Even Bigger Bass Rapid Fire",
+      "slug": "big-catch-even-bigger-bass-rapid-fire",
+      "url": "https://blueprintgaming.com/games/big-catch-even-bigger-bass-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6eab9cd9-e2a3-4da0-b767-153cffa74ea4/530x530/031224111106_rYi9cOds3bg4d3E2ryl5.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Even Bigger Bass",
+      "slug": "big-catch-even-bigger-bass",
+      "url": "https://blueprintgaming.com/games/big-catch-even-bigger-bass",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/cbc70546-1436-498e-bc6f-73b7c50fa576/530x530/291124105641_Y6BsxezHOfy1VVMQKsl4.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Tablets of Destiny",
+      "slug": "eye-of-horus-tablets-of-destiny",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-tablets-of-destiny",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a3b4b8c6-c1cf-44f0-ae83-c0a2b479ff11/530x530/281124111957_RBdNQAQ8dbVApvLa3xBJ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways Jackpot Royale Express",
+      "slug": "the-goonies-megaways-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/68d5a92f-2f2f-4caf-9cc1-7a89bd633a58/530x530/270125104649_yhcHOJ38NSUoQtqPdA0j.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways Rapid Fire",
+      "slug": "the-goonies-megaways-rapid-fire",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/37347f96-cdfe-4307-a170-b1f2f0a4ea6d/530x530/281124110104_28D7eRTvlYmQFD4UR5le.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper Megaways",
+      "slug": "cash-strike-hotstepper-megaways",
+      "url": "https://blueprintgaming.com/games/cash-strike-hotstepper-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/38edb86e-d7ac-41ad-b118-0660a266e3b2/530x530/271124131802_bajJNonnLuvd8BT432qm.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wolf Legend Spin Boost",
+      "slug": "wolf-legend-spin-boost",
+      "url": "https://blueprintgaming.com/games/wolf-legend-spin-boost",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c0f39551-aad6-4fde-b842-39b16b989e22/530x530/271124162002_3JezItjsVGK6nTUn3XH8.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas 2 Jackpot Royale Express",
+      "slug": "king-kong-cash-even-bigger-bananas-2-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-2-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c5cc5bf1-bfa2-47a1-ad1f-7068fb56b55c/530x530/230126104310_DZ8nMIGZLbG1bIcHQBV2.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas 2 Rapid Fire",
+      "slug": "king-kong-cash-even-bigger-bananas-2-rapid-fire-",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-2-rapid-fire-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/32d3c613-62ec-490e-864a-b914cf6d2cea/530x530/281124110937_rL4uPEmIFexkUXOFN3Az.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper Jackpot Royale Express",
+      "slug": "cash-strike-hotstepper-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/cash-strike-hotstepper-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/9740a6b1-d28b-4821-beaa-d35b00d65d56/530x530/230126102310_6NUXsna2rTFQX0ARbwLZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper Rapid Fire",
+      "slug": "cash-strike-hotstepper-rapid-fire",
+      "url": "https://blueprintgaming.com/games/cash-strike-hotstepper-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ed0525a9-a143-49e4-b527-678d91557b41/530x530/281124100616_OdRpn0c2Iqe58cMgSuAO.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch Rapid Fire",
+      "slug": "fishin-frenzy-the-big-catch-rapid-fire",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5e4a37f5-5114-4f1d-9117-7af8bf8268cb/530x530/281124102913_1gZJqLrCqV4eua17Bfzu.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Bass Fishing Christmas Rapid Fire",
+      "slug": "big-catch-bass-fishing-christmas-rapid-fire",
+      "url": "https://blueprintgaming.com/games/big-catch-bass-fishing-christmas-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3f62abd1-8b4d-4bb7-93d4-966fd2daefec/530x530/281124100102_0EUYN7tS5dPggLNeG3mZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Bass Fishing Christmas",
+      "slug": "big-catch-bass-fishing-christmas",
+      "url": "https://blueprintgaming.com/games/big-catch-bass-fishing-christmas",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0ae04ea5-5e3e-4621-9eb8-3191a802a739/530x530/281124093228_nLoulwQSrMXPad84SpuE.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas Christmas",
+      "slug": "king-kong-cash-even-bigger-bananas-christmas",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-christmas",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/93c10c78-d97e-41c0-b05d-9393ea02c3ed/530x530/281124130237_5KZhvZX2dRJ0Vjq9ZgDR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spirit Wolf Wins",
+      "slug": "spirit-wolf-wins",
+      "url": "https://blueprintgaming.com/games/spirit-wolf-wins",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0126297b-057d-4ff6-9b1c-a8dcbda47fa1/530x530/261124091134_RmjQImDtE5YtkbwR73Tq.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O’ The Irish Strike Rapid Fire",
+      "slug": "luck-o-the-irish-strike-rapid-fire",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-strike-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ed1ba9ba-8e1a-4497-8c44-45d11fdc13c6/530x530/181124140042_K0wpjHNq5cqjZKu54Qwg.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Strike 2 Jackpot Royale Express",
+      "slug": "gold-strike-2-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/gold-strike-2-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0db70c0e-d293-49d8-803b-d8a180ef5547/530x530/030226130547_M5iByRTqUth95sLiYT2f.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Strike 2 Rapid Fire",
+      "slug": "gold-strike-2-rapid-fire",
+      "url": "https://blueprintgaming.com/games/gold-strike-2-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a1bddd77-19ac-477b-beaa-ea338299d99d/530x530/160525120120_YzRbijRk4NrnENyzP3f4.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Even Bigger Fish",
+      "slug": "fishin-frenzy-even-bigger-fish",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-fish",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0f8cd01d-90c0-4adb-abde-e51bed349a32/530x530/100125114901_4UDbTpfUGMFlzCpg3wGS.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal Bankers Boost Jackpot King",
+      "slug": "deal-or-no-deal-bankers-boost-jackpot-king",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-bankers-boost-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0b0971ac-dcf7-4c00-83b4-b5b7c8ccdc4e/530x530/140125143627_n3ItRb43Cl1b33LOZTbQ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Power 5",
+      "slug": "cash-strike-power-5",
+      "url": "https://blueprintgaming.com/games/cash-strike-power-5",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/82c1c523-78a4-45fb-843b-7968ade31bb2/530x530/130125141524_MNuNkztBw8iOhx0QGtTx.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas 2",
+      "slug": "king-kong-cash-even-bigger-bananas-2",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-2",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/58c29b60-05e2-48a1-a1c6-7e9b123e4e38/530x530/100125114646_MshBii30LxZCDLeaz3V5.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eagle Storm Jackpot Royale Express",
+      "slug": "eagle-storm-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/eagle-storm-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3781fa11-9e23-4abf-b74c-1db77f095076/530x530/040226141741_cnXJE2LqARf5eRF3rK46.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eagle Storm Rapid Fire",
+      "slug": "eagle-storm-rapid-fire",
+      "url": "https://blueprintgaming.com/games/eagle-storm-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/35131ee1-f373-42f5-88c5-d453cfedc477/530x530/040226141244_4m2ZEYiC9aq44lPGMjvt.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eagle Storm",
+      "slug": "eagle-storm",
+      "url": "https://blueprintgaming.com/games/eagle-storm",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b5f6ebd6-1354-4b13-8a6e-be6155e93a0e/530x530/040226140323_3YauCQYolsBQL4tiutdZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bigger Catch Bass Fishing Jackpot Royale Express",
+      "slug": "bigger-catch-bass-fishing-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/bigger-catch-bass-fishing-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ec29e819-cfd5-4f63-a8fe-07c99f0ac115/530x530/050226101324_BuNFKqziNXeHnf6DphyU.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bigger Catch Bass Fishing Rapid Fire",
+      "slug": "bigger-catch-bass-fishing-rapid-fire-",
+      "url": "https://blueprintgaming.com/games/bigger-catch-bass-fishing-rapid-fire-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d74481b3-24a0-4087-9efe-d61792a71af8/530x530/040226154413_Qg5WiAcF1WQkcbl4FSla.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bigger Catch Bass Fishing",
+      "slug": "bigger-catch-bass-fishing",
+      "url": "https://blueprintgaming.com/games/bigger-catch-bass-fishing",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1d0f3b6b-a017-41f6-be88-10afdef4edcd/530x530/040226153529_ZB1DTw6FE8RyhOLrrwx1.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Jackpot Royale Express",
+      "slug": "eye-of-horus-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/666be76e-f23d-4088-bf35-1afa939dc261/530x530/090226151157_3TUECrFVPWFWIaEyi2Re.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Rapid Fire",
+      "slug": "eye-of-horus-rapid-fire",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/043a6c97-7467-4f16-8936-3a62f93444ce/530x530/040226143752_LR9h34RaHoTzs8KvfEO0.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Megaways Jackpot Royale Express",
+      "slug": "majestic-fury-megaways-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/majestic-fury-megaways-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/716b3aec-d5d1-451a-92bb-e1cfe0573bdc/530x530/030226134207_u2rLlK7s1igMy7nEXJef.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Megaways Rapid Fire",
+      "slug": "majestic-fury-megaways-rapid-fire",
+      "url": "https://blueprintgaming.com/games/majestic-fury-megaways-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d806c9c3-0be0-4c96-9a25-fcee5ec4c1be/530x530/130125150553_r0J6s1mOdOIe0tUV7LR8.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Fury Megaways",
+      "slug": "majestic-fury-megaways",
+      "url": "https://blueprintgaming.com/games/majestic-fury-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a47d5c7e-2f74-4779-822c-5c8cb67b00e8/530x530/130125145317_yKAsg9p4MU4dBr0ui0f2.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Lost Boys Jackpot Royale Express",
+      "slug": "the-lost-boys-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/the-lost-boys-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/636a3105-9f36-4702-820d-782c81717089/530x530/090226092209_xKDMvvQ8LPWzVeNFNBid.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Lost Boys Rapid Fire",
+      "slug": "the-lost-boys-rapid-fire-",
+      "url": "https://blueprintgaming.com/games/the-lost-boys-rapid-fire-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/157e5f5f-218b-4b25-9366-cd10dc034eb6/530x530/090226091824_20tMH2sP1wUqkHYAoXUV.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Lost Boys",
+      "slug": "the-lost-boys",
+      "url": "https://blueprintgaming.com/games/the-lost-boys",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ba2df875-ffcb-4fca-adfd-fcb45afaf683/530x530/060226132844_giTP0mwjBZmlc8wmnK8L.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rick And Morty Strike Back Jackpot Royale Express",
+      "slug": "rick-and-morty-strike-back-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/rick-and-morty-strike-back-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/44705e4d-4ceb-42f4-ba88-fa132d1ff7fc/530x530/030226132002_H3HPZ8ggGa1z8hyx23J1.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rick And Morty Strike Back Rapid Fire",
+      "slug": "rick-and-morty-strike-back-rapid-fire",
+      "url": "https://blueprintgaming.com/games/rick-and-morty-strike-back-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/02dec0d5-0c24-426a-a76c-8144a6dfd66d/530x530/130125151942_SKvpOBhZYLFgn5Zoc9uk.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rick And Morty Strike Back",
+      "slug": "rick-and-morty-strike-back",
+      "url": "https://blueprintgaming.com/games/rick-and-morty-strike-back",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/05c0d9b7-6ad2-4e39-b6b6-de43d55c5923/530x530/140125084904_p0rcnLb90u2rpDa2R8eo.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Deluxe Jackpot Royale Express",
+      "slug": "the-goonies-deluxe-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/the-goonies-deluxe-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/683370e9-60df-4970-ad26-cd813d9a0902/530x530/030226133632_uhJ2tKuUKw8RTIf8A3wL.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Deluxe Rapid Fire",
+      "slug": "the-goonies-deluxe-rapid-fire",
+      "url": "https://blueprintgaming.com/games/the-goonies-deluxe-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/00585032-43db-4376-bdd0-0af98a888195/530x530/140125140736_AnRZG1wjDPLrpikHnSoj.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Cash Strike Jackpot Royale Express",
+      "slug": "luck-o-the-irish-cash-strike-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-cash-strike-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/98ed1897-df84-47fd-8cfc-b89763da51d4/530x530/030226142640_myrO5O6YoMWluwsm6kE1.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Cash Strike Rapid Fire",
+      "slug": "luck-o-the-irish-cash-strike-rapid-fire",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-cash-strike-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b9cfb66a-cddf-4839-8491-1c3a59f8d1aa/530x530/140125160439_xLOHou35gNW77U59xLGn.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Trailblazer",
+      "slug": "trailblazer",
+      "url": "https://blueprintgaming.com/games/trailblazer",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/500caca6-0b49-4a9a-b297-266b83770679/530x530/090226155749_YVHmryAKtoQ10JVJ4wUO.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash DJ Prime8 Jackpot Royale Express",
+      "slug": "king-kong-cash-dj-prime8-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-dj-prime8-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5731940a-9c28-4961-aea4-5d55ea71474f/530x530/030226140004_B5Lacee1sARW39JseDFS.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash DJ Prime8 Rapid Fire",
+      "slug": "king-kong-cash-dj-prime8-rapid-fire",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-dj-prime8-rapid-fire",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1c766bd6-bf95-4852-86f3-20ceb09f1bca/530x530/100125141607_HQJjiBQY0fUO0nLG4kch.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash DJ Prime8",
+      "slug": "king-kong-cash-dj-prime8",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-dj-prime8",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/bb05cece-5b79-498c-bbc4-0ba4bedfe5b4/530x530/100125141618_wCTXnxRAYxHbuXQPsGlM.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ted Afterparty",
+      "slug": "ted-afterparty-",
+      "url": "https://blueprintgaming.com/games/ted-afterparty-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c7e2aeca-e98c-49c9-9bd9-1e6a17e45af8/530x530/140125143436_XzgLhsGBzA8SKruvkivW.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Hotstepper",
+      "slug": "cash-strike-hotstepper",
+      "url": "https://blueprintgaming.com/games/cash-strike-hotstepper",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/928f39ab-8776-43b5-ab2d-7f44516d9313/530x530/100125113817_oIBgKiMzWK1frZhpo8bP.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Jackpot Royale Express",
+      "slug": "the-flintstones-jackpot-royale-express",
+      "url": "https://blueprintgaming.com/games/the-flintstones-jackpot-royale-express",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1dd12af6-dd31-4b0f-8cb2-399364d10df8/530x530/060226110606_59lJfb11rJiu2Sag5N02.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones Rapid Fire",
+      "slug": "the-flintstones-rapid-fire-",
+      "url": "https://blueprintgaming.com/games/the-flintstones-rapid-fire-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a7a97b5a-409e-4240-9e44-b90a9c599289/530x530/040226134446_V2ojLJIz0BIOQvj2G9n6.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Flintstones",
+      "slug": "the-flintstones",
+      "url": "https://blueprintgaming.com/games/the-flintstones",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/fbb2188d-7511-40a0-85aa-12b92e627e6e/530x530/130125093148_Vbp8bZ1bveZVlRoaUq9k.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plenty O’ Fish",
+      "slug": "plenty-o-fish",
+      "url": "https://blueprintgaming.com/games/plenty-o-fish",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b6a09302-6be1-461c-a81d-7941c5ca9b0c/530x530/281124125024_J3EwIK0odlUTNeUouulR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midas King of Gold",
+      "slug": "Midas%20King%20of%20Gold",
+      "url": "https://blueprintgaming.com/games/Midas%20King%20of%20Gold",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ea5e7ae9-6a66-43df-aceb-b7ff3308fa4c/530x530/301025132551_Dc3Tm0y8ClzmgepAQQf7.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Megaways",
+      "slug": "the-goonies-megaways",
+      "url": "https://blueprintgaming.com/games/the-goonies-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e9d8dd2d-5d36-4a04-9f7e-8294695cab98/530x530/100125115109_Jak0jU1YCLxqRtQZWW5l.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "777 Deluxe Jackpot King",
+      "slug": "777-deluxe-jackpot-king",
+      "url": "https://blueprintgaming.com/games/777-deluxe-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/002536f6-33d9-42ff-aec5-4ad20e9233ef/530x530/140125135421_WnBEfmXydnYs5PRLH38Y.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "777 Deluxe",
+      "slug": "777-deluxe",
+      "url": "https://blueprintgaming.com/games/777-deluxe",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/763613bd-31e4-4247-80aa-11452c337e78/530x530/140125135409_cQQ0SdhwE2r1aFxVQZ9K.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike Jackpot King",
+      "slug": "cash-strike-jackpot-king",
+      "url": "https://blueprintgaming.com/games/cash-strike-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/132c66d8-3041-444e-93d7-ed9842538f42/530x530/140125132532_zLcB1Cx2glXAc4G7Lqzx.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Strike",
+      "slug": "cash-strike",
+      "url": "https://blueprintgaming.com/games/cash-strike",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b9379c25-ece7-461d-aaf7-5aea3c37ecbd/530x530/140125114440_ZR4GARP4YTtwH1O5JgZR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Strike Jackpot King",
+      "slug": "gold-strike-jackpot-king",
+      "url": "https://blueprintgaming.com/games/gold-strike-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f55461b1-5d6c-4df9-bab6-48adf4bbdaa3/530x530/060225152327_n1kILGENS0TvjERO91vr.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Strike",
+      "slug": "gold-strike",
+      "url": "https://blueprintgaming.com/games/gold-strike",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b5a8ad1c-4d4d-45ae-9c07-2c60e6c2fac1/530x530/170125103835_viMOk3yOwALVuVt8GuQv.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Fortune Play 3",
+      "slug": "luck-o-the-irish-fortune-spins-3",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-spins-3",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2480bcf7-8efc-4ce7-8145-483b149f1a5f/530x530/140125093008_CiwwbVrQ8rnH4bOlMY4O.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Napoleon Deluxe",
+      "slug": "napoleon-deluxe",
+      "url": "https://blueprintgaming.com/games/napoleon-deluxe",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/157a4f18-62a0-4a37-afdc-c909a41c0d6d/530x530/301025132616_XUUtKwhtIZHLXeeoG0Jf.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Christmas",
+      "slug": "fishin-frenzy-christmas",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-christmas",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2069eb1b-2309-4fd2-8826-464ca7b4c49c/530x530/140125154254_jxS0DEAjwNZDOtTTquhH.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal The Big Hit Megaways Jackpot King",
+      "slug": "deal-or-no-deal-the-big-hit-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-the-big-hit-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/03d75b3a-9d2f-4cba-94f7-6362e04d6143/530x530/060225152026_0Ghq4NQ1yi2rqBshRtnM.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas Jackpot Royale",
+      "slug": "king-kong-cash-even-bigger-bananas-jackpot-royale",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-jackpot-royale",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/8b3ba861-c13f-48bb-bfb3-7811a8119581/530x530/230126134056_ROZPUwwANSQzrCwpv6AL.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas Jackpot King",
+      "slug": "king-kong-cash-even-bigger-bananas-jackpot-king",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/624d18b9-09d0-4b1b-b8d3-5053136e3f6b/530x530/100125113510_aYb4bXu5POPq6CPBeVmc.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Even Bigger Bananas",
+      "slug": "king-kong-cash-even-bigger-bananas",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-even-bigger-bananas",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/3263a375-7b2b-4aeb-a64d-1d2dd2df932c/530x530/100125140915_P1ZAfi6aj7wrYwDqoVHb.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Rise of Egypt",
+      "slug": "eye-of-horus-rise-of-egypt",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-rise-of-egypt",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e099c8b5-ea37-4d1b-862d-4517599893f0/530x530/140125141103_od2QTQDbPgPrX6lC6uyB.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Hey You Guys",
+      "slug": "the-goonies-hey-you-guys",
+      "url": "https://blueprintgaming.com/games/the-goonies-hey-you-guys",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6ffa3a5a-7b42-4517-bbe5-876cd16cf8f9/530x530/140125143159_Zq7Rq2bRoYjFx3ZVwapi.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Even Bigger Catch Jackpot King",
+      "slug": "fishin-frenzy-even-bigger-catch-jackpot-king",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-catch-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d9f99e6e-8a1c-4d4e-a72f-4d2118f41814/530x530/060225151816_FZcYCRHzdraNu9iHvR0w.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Catch Bass Fishing",
+      "slug": "big-catch-bass-fishing",
+      "url": "https://blueprintgaming.com/games/big-catch-bass-fishing",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/726e80b8-58fb-45f3-83a6-bd3c0fa9f0db/530x530/301025132519_1LcJdo4t27A3ZqZsfQEq.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus The Golden Tablet Megaways",
+      "slug": "eye-of-horus-the-golden-tablet-megaways",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-the-golden-tablet-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b4fcb704-56c6-47e4-bacd-4331de974676/530x530/140125115803_RwZAimhZ5er1arDukR6l.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Go Bananas Jackpot King",
+      "slug": "king-kong-cash-go-bananas-jackpot-king",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-go-bananas-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6a02478a-4038-4e51-8951-31e5b87c0d0d/530x530/060225152311_eIJ6fRoZcM0bPLqVDrHR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Splash",
+      "slug": "fishin-frenzy-the-big-splash",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-splash",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a2728180-d7e7-48dc-bbd4-c246e09b87ee/530x530/100125134541_pgpWfOd10gTcVpaBqB8U.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Even Bigger Catch",
+      "slug": "fishin-frenzy-even-bigger-catch",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-even-bigger-catch",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7846b675-976e-4fbe-9635-1454e6773e5b/530x530/100125114427_VEqyxJ2EpmqwEjmxVGkn.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7's Deluxe Fire Wheel Jackpot King",
+      "slug": "7s-deluxe-fire-wheel-jackpot-king",
+      "url": "https://blueprintgaming.com/games/7s-deluxe-fire-wheel-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1058f27e-3edc-4096-a481-a4d19d71e010/530x530/060225152414_89m9DdY4MLmzM59mgGqk.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Atlantis",
+      "slug": "rise-of-atlantis",
+      "url": "https://blueprintgaming.com/games/rise-of-atlantis",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/bb981947-6b87-4e3a-a766-a9e8d10e7dad/530x530/301025132448_pPsL9EtkwjgafD0GZRvD.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus The Golden Tablet Jackpot King",
+      "slug": "eye-of-horus-the-golden-tablet-jackpot-king",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-the-golden-tablet-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7a873088-98a8-44d2-ab33-b4b746844065/530x530/060225152057_Mfl1S765aVBOBtpg4xlP.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7's Deluxe Wild Fortune Play",
+      "slug": "7s-deluxe-wild-fortune-play",
+      "url": "https://blueprintgaming.com/games/7s-deluxe-wild-fortune-play",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/170702ef-3c39-4d96-84d3-82dd05a810c5/530x530/140125141806_3ZbLVqd3CAybYchKZfNe.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty 7's Wild Fortune Play",
+      "slug": "almighty-7s-wild-fortune-play",
+      "url": "https://blueprintgaming.com/games/almighty-7s-wild-fortune-play",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/97e0f174-447a-49c2-823c-84a843da6a64/530x530/170125102236_eh6agQFcFilvYtMyXPla.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Gold Spins Fortune Play Jackpot King",
+      "slug": "luck-o-the-irish-gold-spins-fortune-play-jackpot-king",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-gold-spins-fortune-play-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2bae4fb5-39c6-4755-9f4b-76edeb4d8a15/530x530/060225152139_ZvqGTyjkXf8h0MRCpFqN.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Return Jackpot King",
+      "slug": "the-goonies-return-jackpot-king",
+      "url": "https://blueprintgaming.com/games/the-goonies-return-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c53b212c-ec2e-4cb0-8232-1e68c1e0dfdd/530x530/140125151707_dga8B58CNTSAzV4XdpfD.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch Megaways",
+      "slug": "fishin-frenzy-the-big-catch-megaways",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2eeaa5c9-1da2-4b4f-84db-66427bd259e0/530x530/130125084749_0adJEQBYXlzkkFNUyQQV.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Fortune Play",
+      "slug": "fishin-frenzy-fortune-play",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-fortune-play",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/2ebf096e-89b3-445c-a073-0031e37cb1f4/530x530/150125101918_EI4KbV2ww7xU0rVoJhDV.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch Jackpot King",
+      "slug": "fishin-frenzy-the-big-catch-jackpot-king",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d896d86f-14a7-4245-8ee2-7a2f7d70aaa0/530x530/100125135819_OuHHSnfheBYSgv6ebP06.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Gold Spins",
+      "slug": "luck-o-the-irish-gold-spins",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-gold-spins",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4879ecbd-d378-4b4d-bdfb-512ca03bf5de/530x530/140125084613_zzL0fBI6VJDS3Pyyh5oC.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus The Golden Tablet",
+      "slug": "eye-of-horus-the-golden-tablet",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-the-golden-tablet",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/e457d892-44a4-4a33-b641-1a70ac80f1a0/530x530/100125140528_INWArYSS3uMJVQsuYXjP.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Return",
+      "slug": "the-goonies-return",
+      "url": "https://blueprintgaming.com/games/the-goonies-return",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6f4418f8-ffd7-435f-b705-d1da79b2828d/530x530/140125151405_v0e8X14k6LxX9vQIyajP.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cashpots Jackpot King",
+      "slug": "king-kong-cashpots-jackpot-king",
+      "url": "https://blueprintgaming.com/games/king-kong-cashpots-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5345239e-1954-47a1-b43d-ddde86371d1a/530x530/060225152433_whwFnNDPzn7n1GXaV4lA.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy The Big Catch",
+      "slug": "fishin-frenzy-the-big-catch",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-the-big-catch",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5444f742-fd7a-486d-8a80-61beacd42b5f/530x530/100125112834_CuWpullQMM4y8BTRxDIU.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Fortune Play 2",
+      "slug": "luck-o-the-irish-fortune-play-2",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-play-2",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d0a7beb1-94b0-4757-9b8d-551c9bfc7a12/530x530/100125135246_RR5VwIS4fhcf9NVFgvft.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mine Megaways™ Jackpot King",
+      "slug": "diamond-mine-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/diamond-mine-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/8d031cd4-a2fe-41b3-9e45-db6f0fac4354/530x530/140125140207_rcgoANTrp3afnJqC5zUU.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Megaways Jackpot King",
+      "slug": "eye-of-horus-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/1b985d65-9ff3-4745-adf4-c3e5990fdaed/530x530/060225152453_DChpMbNnvZyOSkwmvw0l.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Prize Lines",
+      "slug": "fishin-frenzy-prize-lines",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-prize-lines",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0403b36a-dc52-4f25-b7bc-32feea2f8bd8/530x530/140125152354_SzFGSrQndxmc57Kz7QeP.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rick And Morty Wubba Lubba Dub Dub",
+      "slug": "rick-and-morty-wubba-lubba-dub-dub",
+      "url": "https://blueprintgaming.com/games/rick-and-morty-wubba-lubba-dub-dub",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d0338063-ac3e-483c-bca6-4ab636dac07e/530x530/140125152817_LGMLGt1L48FfdOBxsie7.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal Megaways: The Golden Box",
+      "slug": "deal-or-no-deal-megaways-the-golden-box",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-the-golden-box",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/55a549ba-6197-47d3-99a6-62548c4047a6/530x530/140125145745_bgYLUyI5bpv1VRlR2iXm.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal Megaways: The Golden Case",
+      "slug": "deal-or-no-deal-megaways-the-golden-case",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-the-golden-case",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/b3bc44cb-4794-494f-a6fd-efbaccdcd213/530x530/140125145937_Ij7s2fzSdB4qJl0N6scA.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bison Rising MEGAWAYS™ Jackpot King",
+      "slug": "bison-rising-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/bison-rising-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/34708544-d3ad-4b02-8c08-7319032933a9/530x530/140125131748_h1CFenMLtyQlwAHfQBvQ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cashpots",
+      "slug": "king-kong-cashpots",
+      "url": "https://blueprintgaming.com/games/king-kong-cashpots",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/7a3b35d0-5515-45b9-9dfc-509d54bea1bc/530x530/140125135924_UwTlUJLCKROMBgAqtapX.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7's Deluxe Jackpot King",
+      "slug": "7s-deluxe-jackpot-king",
+      "url": "https://blueprintgaming.com/games/7s-deluxe-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/5823ade3-c151-4682-bca4-27c83904451b/530x530/100125142017_FGL8bKMiggp5EuEQRr3H.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Sevens Jackpot Royale",
+      "slug": "almighty-sevens-jackpot-royale-",
+      "url": "https://blueprintgaming.com/games/almighty-sevens-jackpot-royale-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/34e537df-63a2-4be3-82ab-ae8906109731/530x530/170125102604_Pg0uYo87dEIF3iqniA72.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Jackpot King",
+      "slug": "eye-of-horus-jackpot-king",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c0ca91df-4dc4-47c9-8828-89250da12e28/530x530/060225151749_oJhIw0V65Arei9GpVUTR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash Jackpot King",
+      "slug": "king-kong-cash-jackpot-king",
+      "url": "https://blueprintgaming.com/games/king-kong-cash-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/050bb367-6abd-4020-930c-8d14539188c4/530x530/140125115456_bEkNL5Ez2dsLLW7rN1nG.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Jackpot King",
+      "slug": "fishin-frenzy-jpk",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-jpk",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d7159a0b-a23c-4940-8d00-369f02cfb8a5/530x530/060225151712_JZh0e6lXRQ5CDSg6TkzO.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crown Gems",
+      "slug": "crown-gems",
+      "url": "https://blueprintgaming.com/games/crown-gems",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/a9b0626a-09e5-478e-a6ba-2c4c4615510a/530x530/140125155438_7wk3P0mdX6WT6zsglQTe.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7's Deluxe",
+      "slug": "7s-deluxe",
+      "url": "https://blueprintgaming.com/games/7s-deluxe",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/99694d34-a375-4149-ae78-b4ee0bcec363/530x530/140125142622_aqCBSrHvsPkIJPzvgRpo.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Sevens",
+      "slug": "almighty-sevens-",
+      "url": "https://blueprintgaming.com/games/almighty-sevens-",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6ff2aa3a-67b0-4c3e-b545-a91acd0fe379/530x530/140125142812_m4dG7DHoYWaXPbNK16yj.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vikings Unleashed MEGAWAYS™",
+      "slug": "vikings-unleashed-megaways",
+      "url": "https://blueprintgaming.com/games/vikings-unleashed-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f4247cdc-427b-44c5-8f48-183c1eea2971/530x530/140125153610_QeAzac8ZcjdDP4mBiPxD.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vikings Unchained MEGAWAYS™",
+      "slug": "vikings-unchained-megaways",
+      "url": "https://blueprintgaming.com/games/vikings-unchained-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/6aaebf25-45b1-407c-a81a-735d4c19e98d/530x530/140125153941_Y66KWclrIoMrtUc1U4uC.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus Megaways",
+      "slug": "eye-of-horus-megaways",
+      "url": "https://blueprintgaming.com/games/eye-of-horus-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/89f1d062-e51e-4905-b424-aa54fddba0e7/530x530/100125134845_1UoGqe82b5tXrvrC6bjm.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies Jackpot King",
+      "slug": "the-goonies-jackpot-king",
+      "url": "https://blueprintgaming.com/games/the-goonies-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/0e4c1bf1-9901-4b64-902d-2277454ea0e1/530x530/060225151920_wk0ejGwFzyJlmW9iPpJg.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bison Rising MEGAWAYS™",
+      "slug": "bison-rising-megaways",
+      "url": "https://blueprintgaming.com/games/bison-rising-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/ef4e62cf-4019-46cb-8ac5-fa38d84ad06f/530x530/130125093021_25WHw3qHBfVobgyYn2Fm.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deal or No Deal Megaways Jackpot King",
+      "slug": "deal-or-no-deal-megaways-jackpot-king",
+      "url": "https://blueprintgaming.com/games/deal-or-no-deal-megaways-jackpot-king",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/96b5e008-7732-4f42-b38d-a6f38c665751/530x530/140125114931_UzR5flLzbABWWzx1VRiZ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy Megaways",
+      "slug": "fishin-frenzy-megaways",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/c952b9e0-3086-4ba7-ba18-e4b51c8cbb3a/530x530/130125092215_YzBFY9y15Cj6qfaNOG3G.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wolf Legend Megaways",
+      "slug": "wolf-legend-megaways",
+      "url": "https://blueprintgaming.com/games/wolf-legend-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/408caba8-027b-4192-a08c-e639b8d7ba09/530x530/130125131816_xiVlnPa5PJmSYd8x4IZR.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Return of Kong Megaways",
+      "slug": "return-of-kong-megaways",
+      "url": "https://blueprintgaming.com/games/return-of-kong-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4a97f91d-4d3a-49a7-8548-4fccc91666c6/530x530/060225152510_tmQU0hcFtvwxySqDGvuj.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck O' The Irish Fortune Play",
+      "slug": "luck-o-the-irish-fortune-play",
+      "url": "https://blueprintgaming.com/games/luck-o-the-irish-fortune-play",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f390d3f3-cdfc-426a-bbd3-da74bd8e5036/530x530/150125094220_zOkojTYc7zVvKjTYbD74.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Goonies",
+      "slug": "the-goonies",
+      "url": "https://blueprintgaming.com/games/the-goonies",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/58bc62eb-ca98-447d-83ae-6cc9b49ae5cf/530x530/130125141934_Ruc7MimkU0CFvoBBXXZd.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mine MEGAWAYS™",
+      "slug": "diamond-mine-megaways",
+      "url": "https://blueprintgaming.com/games/diamond-mine-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d0f61372-f8d5-4995-86ed-6b1f6e8e63c6/530x530/060225152528_fmW7Q6OKf3H6QtcJn5uF.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prospector MEGAWAYS™",
+      "slug": "prospector-megaways",
+      "url": "https://blueprintgaming.com/games/prospector-megaways",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/630d829a-0685-4fc4-a7e8-3facab712e0d/530x530/140125085651_KvrPowNvxuzBTZgiwPa4.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Napoleon",
+      "slug": "napoleon",
+      "url": "https://blueprintgaming.com/games/napoleon",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/f2152630-bef9-4535-8f25-f36339a36cc2/530x530/150125111645_jS6KX0V5WcIZaCGn01vJ.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Horus",
+      "slug": "eye-of-horus",
+      "url": "https://blueprintgaming.com/games/eye-of-horus",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/d8302265-5988-48e1-85d4-4115931605f9/530x530/100125112451_Iu9pKMs4yl3QVDgDFKJr.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishin' Frenzy",
+      "slug": "fishin-frenzy",
+      "url": "https://blueprintgaming.com/games/fishin-frenzy",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/263a8475-6e59-4f45-b9ba-1132400b5722/530x530/100125114027_Hyjwly8c0aRMWg7BrPlI.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ted",
+      "slug": "ted",
+      "url": "https://blueprintgaming.com/games/ted",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/4830b50a-5f63-4f0e-bf1d-61c406335824/530x530/140125153308_3zXzqZAoQqVDgxSsKbm1.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Kong Cash",
+      "slug": "king-kong-cash",
+      "url": "https://blueprintgaming.com/games/king-kong-cash",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/8f22bd32-14d3-4561-8f75-361b5a42844f/530x530/140125115324_8bPLvn9ekuI2BP23kXz9.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ted Stuffed & Loaded",
+      "slug": "ted-stuffed-and-loaded",
+      "url": "https://blueprintgaming.com/games/ted-stuffed-and-loaded",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/06d10df7-3c1f-4ce8-ac03-c07474a00364/530x530/141026120136_05fcoFKnaPgLj1FT5kXl.jpg",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Triple Power Cash Strike (ONT & AB Release)",
+      "slug": "triple-power-cash-strike-ont--ab-release",
+      "url": "https://blueprintgaming.com/games/triple-power-cash-strike-ont--ab-release",
+      "symbol": "",
+      "thumbnail_url": "https://bpgwebsite.s3.eu-west-2.amazonaws.com/public/games/213913ea-2def-4eda-963c-ec1a03a7bfe4/530x530/010726121439_NJswU99JbWCjOsNl3ohX.jpg",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    }
+  ]
+}

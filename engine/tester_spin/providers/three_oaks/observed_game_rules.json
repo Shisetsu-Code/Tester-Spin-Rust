@@ -1,0 +1,216 @@
+{
+  "schema": "three-oaks/observed-spin-inputs/v1",
+  "games": {
+    "3_coins": {
+      "family": "goreel",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "evidence": "Official DEMO HAR 3oaks.com-2026-10-03T07-57-54-785Z: two HTTP 200/status OK spins, params bet_per_line=20,lines=5 without bet_factor; round_finished=true/current=spins/actions=[spin]. Purchases, antebet and bonus continuations not demonstrated."
+    },
+    "3_egypt_chests": {
+      "evidence": "Official DEMO HAR 2026-10-03: accepted terminal spins without bet_factor, preserved in three_oaks_observed_rounds.json",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "family": "goreel"
+    },
+    "3_superpower_diamonds": {
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "family": "enjoy",
+      "purchase_modes": [
+        1,
+        2
+      ],
+      "evidence": "Official DEMO HAR 3oaks.com-2026-10-03T08-13-23-637Z: 5 spin without bet_factor; buy_spin modes1/2 with bet_factor10; bonus_init/respin/bonus_spins_stop empty params; both purchases reach completed base state.",
+      "continuations": {
+        "bonus_spins_stop": {
+          "current": "bonus"
+        },
+        "respin": {
+          "current": "bonus"
+        },
+        "bonus_init": {
+          "current": "spins"
+        }
+      }
+    },
+    "3_china_pots": {
+      "evidence": "Official DEMO HAR 2026-10-03: accepted terminal spins without bet_factor, preserved in three_oaks_observed_rounds.json",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "family": "goreel"
+    },
+    "3_african_drums": {
+      "evidence": "Official DEMO HAR 2026-10-03: accepted terminal spins without bet_factor, preserved in three_oaks_observed_rounds.json",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "family": "hraymo"
+    },
+    "3_hot_teapots": {
+      "evidence": "Official DEMO HAR 2026-10-03: accepted terminal spins without bet_factor, preserved in three_oaks_observed_rounds.json",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "family": "hraymo"
+    },
+    "3_aztec_temples": {
+      "family": "goreel",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1,
+        2
+      ],
+      "purchase_params": {
+        "1": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ],
+        "2": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        }
+      },
+      "evidence": "Official DEMO HAR batch 2026-10-03 09:09-09:14; exact observed payloads in three_oaks_batch_observed.json. Only captured purchase modes enabled; all must prove terminal plus two base spins in fresh automatic execution.",
+      "selector_source_evidence": {
+        "sha256": "13aeba898f0d469733aa943d852b458030cac175ab0a837e9808454a20771116",
+        "contract": "Variable selector from visible official menu, same client buy serializer across the server-announced options; UI option captured, remote terminal proof required."
+      }
+    },
+    "3_clover_pots_extra": {
+      "family": "ratpack",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1
+      ],
+      "purchase_params": {
+        "1": [
+          "bet_per_line",
+          "lines"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        }
+      },
+      "evidence": "Official DEMO HAR 3oaks.com-2026-10-03T09-09-33-887Z: accepted spin; buy_spin without bet_factor or selected_mode; bonus_init empty params. UI purchase80x. Respin and terminal not captured; remain pending."
+    },
+    "3_coin_volcanoes": {
+      "family": "kendoo",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1,
+        2,
+        3
+      ],
+      "purchase_params": {
+        "1": [
+          "bet_per_line",
+          "lines",
+          "selected_mode"
+        ],
+        "2": [
+          "bet_per_line",
+          "lines",
+          "selected_mode"
+        ],
+        "3": [
+          "bet_per_line",
+          "lines",
+          "selected_mode"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        },
+        "respin": {
+          "current": "bonus"
+        },
+        "bonus_spins_stop": {
+          "current": "bonus"
+        }
+      },
+      "evidence": "Official DEMO HAR batch 2026-10-03 09:09-09:14; exact observed payloads in three_oaks_batch_observed.json. Only captured purchase modes enabled; all must prove terminal plus two base spins in fresh automatic execution.",
+      "purchase_selector_type": "string",
+      "selector_source_evidence": {
+        "sha256": "a9d85a6f0878e2975deaed9874211d73a47d2bdd47fca2f5aee71b77ab6e83af",
+        "contract": "Variable selector from visible official menu, same client buy serializer across the server-announced options; UI option captured, remote terminal proof required."
+      }
+    },
+    "super_hot_teapots": {
+      "family": "hraymo",
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1,
+        2,
+        3
+      ],
+      "purchase_params": {
+        "1": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ],
+        "2": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ],
+        "3": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        },
+        "respin": {
+          "current": "bonus"
+        },
+        "bonus_spins_stop": {
+          "current": "bonus"
+        }
+      },
+      "evidence": "Official DEMO HAR batch 2026-10-03 09:09-09:14; exact observed payloads in three_oaks_batch_observed.json. Only captured purchase modes enabled; all must prove terminal plus two base spins in fresh automatic execution.",
+      "purchase_selector_type": "string"
+    }
+  }
+}

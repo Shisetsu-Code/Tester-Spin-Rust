@@ -1,0 +1,144 @@
+{
+  "schema": "three-oaks/observed-client-contracts/v1",
+  "clients": {
+    "f9492c4f6bf9b86c5a98c6fb45abe5f3412a924838c799b5a81ec93cf89a74d6": {
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [],
+      "purchase_params": {},
+      "continuations": {},
+      "evidence": "Official client HAR 2026-10-07: accepted wire requests and response states; version-bound contract"
+    },
+    "14f5c3d1d3108556b61e339819a238c9e160120fdb2a391d075e38daf8f53f4a": {
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1,
+        2
+      ],
+      "purchase_params": {
+        "2": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ],
+        "1": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        },
+        "respin": {
+          "current": "bonus"
+        },
+        "bonus_spins_stop": {
+          "current": "bonus",
+          "back_to": "spins"
+        }
+      },
+      "evidence": "Official client HAR 2026-10-07: accepted wire requests and response states; version-bound contract",
+      "purchase_selector_type": "string",
+      "handler_sha256": "d462cb15f240dc14a384fc7199f3f6c9dcacacf8200419009097ef7f57005ba7"
+    },
+    "44c59256c12f969462cd3f14bbc5cd9fdb6556af194f9268234a790b92d0ff8a": {
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1,
+        2
+      ],
+      "purchase_params": {
+        "2": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ],
+        "1": [
+          "bet_per_line",
+          "lines",
+          "selected_mode",
+          "bet_factor"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        },
+        "respin": {
+          "current": "bonus"
+        },
+        "bonus_spins_stop": {
+          "current": "bonus",
+          "back_to": "spins"
+        }
+      },
+      "evidence": "Official client HAR 2026-10-07: accepted wire requests and response states; version-bound contract",
+      "purchase_selector_type": "string",
+      "handler_sha256": "d462cb15f240dc14a384fc7199f3f6c9dcacacf8200419009097ef7f57005ba7"
+    },
+    "421244b8ccb539d235ed44f541d46b5160a064db3457a90d02e05e7c85085648": {
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [
+        1,
+        2,
+        3
+      ],
+      "purchase_params": {
+        "3": [
+          "bet_per_line",
+          "lines",
+          "selected_mode"
+        ],
+        "2": [
+          "bet_per_line",
+          "lines",
+          "selected_mode"
+        ],
+        "1": [
+          "bet_per_line",
+          "lines",
+          "selected_mode"
+        ]
+      },
+      "continuations": {
+        "bonus_init": {
+          "current": "spins"
+        },
+        "respin": {
+          "current": "bonus"
+        },
+        "bonus_spins_stop": {
+          "current": "bonus"
+        }
+      },
+      "evidence": "Official client HAR 2026-10-07: accepted wire requests and response states; version-bound contract",
+      "purchase_selector_type": "string"
+    },
+    "37ecb4c1a032ed4b15af64b51717c039823630460cd78e3c658d2842cfe26047": {
+      "spin_params": [
+        "bet_per_line",
+        "lines"
+      ],
+      "purchase_modes": [],
+      "purchase_params": {},
+      "continuations": {},
+      "evidence": "Official client HAR 2026-10-07: accepted wire requests and response states; version-bound contract"
+    }
+  }
+}

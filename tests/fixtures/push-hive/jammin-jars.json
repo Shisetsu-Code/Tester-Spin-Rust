@@ -1,0 +1,1088 @@
+{
+  "purchase": {
+    "timestamp": "2026-10-27T12:22:40.080523Z",
+    "walletData": {
+      "walletBalance": 99980,
+      "walletFunds": [
+        {
+          "balance": 99980,
+          "type": "CASH"
+        }
+      ]
+    },
+    "availableActions": [
+      "spin"
+    ],
+    "totalBet": 20,
+    "actionId": "id-6737f2b42c7c5db6",
+    "playId": "id-6737f2b42c7c5db6",
+    "hivePlayId": "id-dbb8332f938106f3",
+    "actionComplete": false,
+    "prevActionId": 0,
+    "actionName": "spin",
+    "cumulativeWin": 0,
+    "autoCompleted": false,
+    "endOfPlay": true,
+    "nextAllowedPlayTime": "2026-10-27T12:22:42.080636Z",
+    "jurisdiction": "NA",
+    "state": {
+      "totalWin": 0
+    },
+    "steps": [
+      {
+        "stepNumber": 0,
+        "win": 0,
+        "cumulativeWin": 0,
+        "gameMode": "base-game",
+        "gridBefore": [
+          [
+            "H1",
+            "L1",
+            "M1",
+            "L1",
+            "L3",
+            "L1",
+            "M1",
+            "M1"
+          ],
+          [
+            "H1",
+            "M1",
+            "L3",
+            "L3",
+            "L2",
+            "L1",
+            "M1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "WILD",
+            "H1",
+            "L3",
+            "L3",
+            "H1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "L3",
+            "L2",
+            "M2",
+            "L2",
+            "L3",
+            "M2"
+          ],
+          [
+            "L2",
+            "L2",
+            "H1",
+            "L3",
+            "L1",
+            "M1",
+            "L1",
+            "L2"
+          ],
+          [
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L1"
+          ],
+          [
+            "L3",
+            "L1",
+            "M2",
+            "L3",
+            "L3",
+            "M1",
+            "L3",
+            "L2"
+          ],
+          [
+            "L1",
+            "M2",
+            "H1",
+            "M1",
+            "H1",
+            "M1",
+            "L2",
+            "M1"
+          ]
+        ],
+        "gridAfter": [
+          [
+            "H1",
+            "L1",
+            "M1",
+            "L1",
+            "L3",
+            "L1",
+            "M1",
+            "M1"
+          ],
+          [
+            "H1",
+            "M1",
+            "L3",
+            "L3",
+            "L2",
+            "L1",
+            "M1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "WILD",
+            "H1",
+            "L3",
+            "L3",
+            "H1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "L3",
+            "L2",
+            "M2",
+            "L2",
+            "L3",
+            "M2"
+          ],
+          [
+            "L2",
+            "L2",
+            "H1",
+            "L3",
+            "L1",
+            "M1",
+            "L1",
+            "L2"
+          ],
+          [
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L1"
+          ],
+          [
+            "L3",
+            "L1",
+            "M2",
+            "L3",
+            "L3",
+            "M1",
+            "L3",
+            "L2"
+          ],
+          [
+            "L1",
+            "M2",
+            "H1",
+            "M1",
+            "H1",
+            "M1",
+            "L2",
+            "M1"
+          ]
+        ],
+        "droppedSymbols": [],
+        "spawnedSymbols": [
+          {
+            "x": 0,
+            "y": 0,
+            "symbol": "H1"
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "symbol": "L1"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "symbol": "M1"
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "symbol": "L1"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 0,
+            "y": 5,
+            "symbol": "L1"
+          },
+          {
+            "x": 0,
+            "y": 6,
+            "symbol": "M1"
+          },
+          {
+            "x": 0,
+            "y": 7,
+            "symbol": "M1"
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "symbol": "H1"
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "symbol": "M1"
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "symbol": "L3"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "symbol": "L3"
+          },
+          {
+            "x": 1,
+            "y": 4,
+            "symbol": "L2"
+          },
+          {
+            "x": 1,
+            "y": 5,
+            "symbol": "L1"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "symbol": "M1"
+          },
+          {
+            "x": 1,
+            "y": 7,
+            "symbol": "L3"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "symbol": "L1"
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "symbol": "M1"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "symbol": "WILD"
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "symbol": "H1"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 2,
+            "y": 5,
+            "symbol": "L3"
+          },
+          {
+            "x": 2,
+            "y": 6,
+            "symbol": "H1"
+          },
+          {
+            "x": 2,
+            "y": 7,
+            "symbol": "L3"
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "symbol": "L1"
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "symbol": "M1"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "symbol": "L3"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "symbol": "L2"
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "symbol": "M2"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "symbol": "L2"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "symbol": "L3"
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "symbol": "M2"
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "symbol": "L2"
+          },
+          {
+            "x": 4,
+            "y": 1,
+            "symbol": "L2"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "symbol": "H1"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "symbol": "L3"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "symbol": "L1"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "symbol": "M1"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "symbol": "L1"
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "symbol": "L2"
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "symbol": "H1"
+          },
+          {
+            "x": 5,
+            "y": 1,
+            "symbol": "L3"
+          },
+          {
+            "x": 5,
+            "y": 2,
+            "symbol": "L2"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "symbol": "H1"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "symbol": "L2"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "symbol": "H1"
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "symbol": "L1"
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "symbol": "L1"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "symbol": "M2"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "symbol": "M1"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "symbol": "L2"
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "symbol": "L1"
+          },
+          {
+            "x": 7,
+            "y": 1,
+            "symbol": "M2"
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "symbol": "H1"
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "symbol": "M1"
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "symbol": "H1"
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "symbol": "M1"
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "symbol": "L2"
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "symbol": "M1"
+          }
+        ],
+        "wildSymbols": [
+          {
+            "positionAfter": {
+              "x": 2,
+              "y": 2
+            },
+            "multiplierBefore": 1,
+            "multiplierAfter": 1,
+            "new": true
+          }
+        ],
+        "winningClusters": [],
+        "freeSpinsBefore": 0,
+        "freeSpinsAfter": 0,
+        "completedFreeSpins": 0,
+        "spinIndex": 0
+      }
+    ],
+    "seed": 3958039
+  },
+  "settlement": {
+    "timestamp": "2026-10-27T12:22:40.604887Z",
+    "walletData": {
+      "walletBalance": 99980,
+      "walletFunds": [
+        {
+          "balance": 99980,
+          "type": "CASH"
+        }
+      ]
+    },
+    "availableActions": [
+      "spin"
+    ],
+    "totalBet": 20,
+    "actionId": "id-6737f2b42c7c5db6",
+    "playId": "id-6737f2b42c7c5db6",
+    "hivePlayId": "id-dbb8332f938106f3",
+    "actionComplete": true,
+    "prevActionId": 0,
+    "actionName": "spin",
+    "cumulativeWin": 0,
+    "autoCompleted": false,
+    "endOfPlay": true,
+    "nextAllowedPlayTime": "2026-10-27T12:22:42.080Z",
+    "jurisdiction": "NA",
+    "state": {
+      "totalWin": 0
+    },
+    "steps": [
+      {
+        "stepNumber": 0,
+        "win": 0,
+        "cumulativeWin": 0,
+        "gameMode": "base-game",
+        "gridBefore": [
+          [
+            "H1",
+            "L1",
+            "M1",
+            "L1",
+            "L3",
+            "L1",
+            "M1",
+            "M1"
+          ],
+          [
+            "H1",
+            "M1",
+            "L3",
+            "L3",
+            "L2",
+            "L1",
+            "M1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "WILD",
+            "H1",
+            "L3",
+            "L3",
+            "H1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "L3",
+            "L2",
+            "M2",
+            "L2",
+            "L3",
+            "M2"
+          ],
+          [
+            "L2",
+            "L2",
+            "H1",
+            "L3",
+            "L1",
+            "M1",
+            "L1",
+            "L2"
+          ],
+          [
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L1"
+          ],
+          [
+            "L3",
+            "L1",
+            "M2",
+            "L3",
+            "L3",
+            "M1",
+            "L3",
+            "L2"
+          ],
+          [
+            "L1",
+            "M2",
+            "H1",
+            "M1",
+            "H1",
+            "M1",
+            "L2",
+            "M1"
+          ]
+        ],
+        "gridAfter": [
+          [
+            "H1",
+            "L1",
+            "M1",
+            "L1",
+            "L3",
+            "L1",
+            "M1",
+            "M1"
+          ],
+          [
+            "H1",
+            "M1",
+            "L3",
+            "L3",
+            "L2",
+            "L1",
+            "M1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "WILD",
+            "H1",
+            "L3",
+            "L3",
+            "H1",
+            "L3"
+          ],
+          [
+            "L1",
+            "M1",
+            "L3",
+            "L2",
+            "M2",
+            "L2",
+            "L3",
+            "M2"
+          ],
+          [
+            "L2",
+            "L2",
+            "H1",
+            "L3",
+            "L1",
+            "M1",
+            "L1",
+            "L2"
+          ],
+          [
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L3",
+            "L2",
+            "H1",
+            "L1"
+          ],
+          [
+            "L3",
+            "L1",
+            "M2",
+            "L3",
+            "L3",
+            "M1",
+            "L3",
+            "L2"
+          ],
+          [
+            "L1",
+            "M2",
+            "H1",
+            "M1",
+            "H1",
+            "M1",
+            "L2",
+            "M1"
+          ]
+        ],
+        "droppedSymbols": [],
+        "spawnedSymbols": [
+          {
+            "x": 0,
+            "y": 0,
+            "symbol": "H1"
+          },
+          {
+            "x": 0,
+            "y": 1,
+            "symbol": "L1"
+          },
+          {
+            "x": 0,
+            "y": 2,
+            "symbol": "M1"
+          },
+          {
+            "x": 0,
+            "y": 3,
+            "symbol": "L1"
+          },
+          {
+            "x": 0,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 0,
+            "y": 5,
+            "symbol": "L1"
+          },
+          {
+            "x": 0,
+            "y": 6,
+            "symbol": "M1"
+          },
+          {
+            "x": 0,
+            "y": 7,
+            "symbol": "M1"
+          },
+          {
+            "x": 1,
+            "y": 0,
+            "symbol": "H1"
+          },
+          {
+            "x": 1,
+            "y": 1,
+            "symbol": "M1"
+          },
+          {
+            "x": 1,
+            "y": 2,
+            "symbol": "L3"
+          },
+          {
+            "x": 1,
+            "y": 3,
+            "symbol": "L3"
+          },
+          {
+            "x": 1,
+            "y": 4,
+            "symbol": "L2"
+          },
+          {
+            "x": 1,
+            "y": 5,
+            "symbol": "L1"
+          },
+          {
+            "x": 1,
+            "y": 6,
+            "symbol": "M1"
+          },
+          {
+            "x": 1,
+            "y": 7,
+            "symbol": "L3"
+          },
+          {
+            "x": 2,
+            "y": 0,
+            "symbol": "L1"
+          },
+          {
+            "x": 2,
+            "y": 1,
+            "symbol": "M1"
+          },
+          {
+            "x": 2,
+            "y": 2,
+            "symbol": "WILD"
+          },
+          {
+            "x": 2,
+            "y": 3,
+            "symbol": "H1"
+          },
+          {
+            "x": 2,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 2,
+            "y": 5,
+            "symbol": "L3"
+          },
+          {
+            "x": 2,
+            "y": 6,
+            "symbol": "H1"
+          },
+          {
+            "x": 2,
+            "y": 7,
+            "symbol": "L3"
+          },
+          {
+            "x": 3,
+            "y": 0,
+            "symbol": "L1"
+          },
+          {
+            "x": 3,
+            "y": 1,
+            "symbol": "M1"
+          },
+          {
+            "x": 3,
+            "y": 2,
+            "symbol": "L3"
+          },
+          {
+            "x": 3,
+            "y": 3,
+            "symbol": "L2"
+          },
+          {
+            "x": 3,
+            "y": 4,
+            "symbol": "M2"
+          },
+          {
+            "x": 3,
+            "y": 5,
+            "symbol": "L2"
+          },
+          {
+            "x": 3,
+            "y": 6,
+            "symbol": "L3"
+          },
+          {
+            "x": 3,
+            "y": 7,
+            "symbol": "M2"
+          },
+          {
+            "x": 4,
+            "y": 0,
+            "symbol": "L2"
+          },
+          {
+            "x": 4,
+            "y": 1,
+            "symbol": "L2"
+          },
+          {
+            "x": 4,
+            "y": 2,
+            "symbol": "H1"
+          },
+          {
+            "x": 4,
+            "y": 3,
+            "symbol": "L3"
+          },
+          {
+            "x": 4,
+            "y": 4,
+            "symbol": "L1"
+          },
+          {
+            "x": 4,
+            "y": 5,
+            "symbol": "M1"
+          },
+          {
+            "x": 4,
+            "y": 6,
+            "symbol": "L1"
+          },
+          {
+            "x": 4,
+            "y": 7,
+            "symbol": "L2"
+          },
+          {
+            "x": 5,
+            "y": 0,
+            "symbol": "H1"
+          },
+          {
+            "x": 5,
+            "y": 1,
+            "symbol": "L3"
+          },
+          {
+            "x": 5,
+            "y": 2,
+            "symbol": "L2"
+          },
+          {
+            "x": 5,
+            "y": 3,
+            "symbol": "H1"
+          },
+          {
+            "x": 5,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 5,
+            "y": 5,
+            "symbol": "L2"
+          },
+          {
+            "x": 5,
+            "y": 6,
+            "symbol": "H1"
+          },
+          {
+            "x": 5,
+            "y": 7,
+            "symbol": "L1"
+          },
+          {
+            "x": 6,
+            "y": 0,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 1,
+            "symbol": "L1"
+          },
+          {
+            "x": 6,
+            "y": 2,
+            "symbol": "M2"
+          },
+          {
+            "x": 6,
+            "y": 3,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 4,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 5,
+            "symbol": "M1"
+          },
+          {
+            "x": 6,
+            "y": 6,
+            "symbol": "L3"
+          },
+          {
+            "x": 6,
+            "y": 7,
+            "symbol": "L2"
+          },
+          {
+            "x": 7,
+            "y": 0,
+            "symbol": "L1"
+          },
+          {
+            "x": 7,
+            "y": 1,
+            "symbol": "M2"
+          },
+          {
+            "x": 7,
+            "y": 2,
+            "symbol": "H1"
+          },
+          {
+            "x": 7,
+            "y": 3,
+            "symbol": "M1"
+          },
+          {
+            "x": 7,
+            "y": 4,
+            "symbol": "H1"
+          },
+          {
+            "x": 7,
+            "y": 5,
+            "symbol": "M1"
+          },
+          {
+            "x": 7,
+            "y": 6,
+            "symbol": "L2"
+          },
+          {
+            "x": 7,
+            "y": 7,
+            "symbol": "M1"
+          }
+        ],
+        "wildSymbols": [
+          {
+            "positionAfter": {
+              "x": 2,
+              "y": 2
+            },
+            "multiplierBefore": 1,
+            "multiplierAfter": 1,
+            "new": true
+          }
+        ],
+        "winningClusters": [],
+        "freeSpinsBefore": 0,
+        "freeSpinsAfter": 0,
+        "completedFreeSpins": 0,
+        "spinIndex": 0
+      }
+    ],
+    "seed": 3958039
+  },
+  "before": 100000,
+  "bet": 20
+}

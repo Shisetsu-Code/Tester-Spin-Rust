@@ -1,0 +1,841 @@
+{
+  "states": {
+    "gameState": {
+      "complex": {
+        "currentState": {
+          "gamblesUsed": 0,
+          "freespinsUsed": 0,
+          "previousGambles": [],
+          "bet": 10,
+          "numberOfLines": 10,
+          "denomination": 1,
+          "state": "idle",
+          "winAmount": 0,
+          "reels": [
+            0,
+            0,
+            0,
+            0,
+            0,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2,
+            2,
+            2,
+            2,
+            2,
+            3,
+            3,
+            3,
+            3,
+            3,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          "lines": [],
+          "scatters": [],
+          "expand": [],
+          "specialExpand": [],
+          "gambles": 0,
+          "freespins": 0,
+          "freespinScatters": [],
+          "jackpot": false
+        }
+      },
+      "gameIdentificationNumber": 619,
+      "gin": 619,
+      "gameNumber": "-1",
+      "sessionKey": "[REDACTED]",
+      "msg": "success",
+      "messageId": "r-r_1793113363260_1",
+      "command": "init_game",
+      "eventTimestamp": 1793113365364
+    },
+    "jackpotState": {
+      "gameNumber": "-1",
+      "jackpotState": {
+        "jackpotCards": {
+          "levelI": 3982038.0,
+          "levelII": 3687611.0,
+          "levelIII": 35873352.0,
+          "levelIV": 1484651215.0,
+          "winsLevelI": 41958.0,
+          "largestWinLevelI": 11519320.0,
+          "largestWinDateLevelI": "2024-11-25T19:30:41.085Z",
+          "largestWinUserLevelI": "sl_playerDemo Player - 1384677064707",
+          "lastWinLevelI": 2113078.0,
+          "lastWinDateLevelI": "2026-10-27T14:17:02.841Z",
+          "lastWinUserLevelI": "Demo Player - 916f9cb9-d241-4744-9608-95adb7bc9e85",
+          "winsLevelII": 13878.0,
+          "largestWinLevelII": 43668967.0,
+          "largestWinDateLevelII": "2024-11-16T12:57:21.648Z",
+          "largestWinUserLevelII": "player",
+          "lastWinLevelII": 4515575.0,
+          "lastWinDateLevelII": "2026-10-27T14:37:35.327Z",
+          "lastWinUserLevelII": "Demo Player - 3bb005c5-1ebe-47be-94cc-0760143eeae9",
+          "winsLevelIII": 390.0,
+          "largestWinLevelIII": 1316734144.0,
+          "largestWinDateLevelIII": "2025-01-13T19:44:49.571Z",
+          "largestWinUserLevelIII": "player",
+          "lastWinLevelIII": 107405117.0,
+          "lastWinDateLevelIII": "2026-10-27T14:54:42.375Z",
+          "lastWinUserLevelIII": "Demo Player - 40a64815-c64b-44c7-92f9-ed40380d95e4",
+          "winsLevelIV": 30.0,
+          "largestWinLevelIV": 7119677079.0,
+          "largestWinDateLevelIV": "2024-11-17T01:47:32.764Z",
+          "largestWinUserLevelIV": "player",
+          "lastWinLevelIV": 2828284093.0,
+          "lastWinDateLevelIV": "2026-10-20T21:45:31.457Z",
+          "lastWinUserLevelIV": "Demo Player - cefd782c-f12f-4e43-a5b1-688cd5a87c60",
+          "screenName": "Demo Player - 40a64815-c64b-44c7-92f9-ed40380d95e4",
+          "winAmount": 107405117.0,
+          "winLevel": 2.0,
+          "lastWinners": [
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "Demo Player - 40a64815-c64b-44c7-92f9-ed40380d95e4",
+              "winAmount": 107405117.0,
+              "winDate": "2026-10-27T14:54:42.375Z",
+              "gin": "5080",
+              "winLevel": "2"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "Demo Player - 3bb005c5-1ebe-47be-94cc-0760143eeae9",
+              "winAmount": 4515575.0,
+              "winDate": "2026-10-27T14:37:35.327Z",
+              "gin": "530",
+              "winLevel": "1"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "Demo Player - 916f9cb9-d241-4744-9608-95adb7bc9e85",
+              "winAmount": 2113078.0,
+              "winDate": "2026-10-27T14:17:02.841Z",
+              "gin": "5178",
+              "winLevel": "0"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "Demo Player - 1fea9f4d-7a31-4bb0-aa42-f5597609e5fe",
+              "winAmount": 3237039.0,
+              "winDate": "2026-10-27T14:02:27.653Z",
+              "gin": "5181",
+              "winLevel": "0"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "Demo Player - 6b1ec0ae-6371-442e-a1ae-0a727621f179",
+              "winAmount": 4060171.0,
+              "winDate": "2026-10-27T13:40:07.42Z",
+              "gin": "5178",
+              "winLevel": "1"
+            }
+          ],
+          "topWinners": [
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "Demo Player - 1583846723588",
+              "winAmount": 6768094423.0,
+              "winDate": "2026-06-11T14:12:02.66Z",
+              "gin": "548",
+              "winLevel": "3"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "sl_playerDemo Player - 1550870937601",
+              "winAmount": 4442989077.0,
+              "winDate": "2026-03-10T09:47:46.257Z",
+              "gin": "5090",
+              "winLevel": "3"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "sl_playerDemo Player - 1497615802369",
+              "winAmount": 4216557758.0,
+              "winDate": "2025-10-10T22:15:04.127Z",
+              "gin": "528",
+              "winLevel": "3"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "sl_playerDemo Player - 1513252245505",
+              "winAmount": 3879936344.0,
+              "winDate": "2025-11-24T02:36:25.428Z",
+              "gin": "5180",
+              "winLevel": "3"
+            },
+            {
+              "playerId": "[REDACTED]",
+              "winUser": "sl_playerDemo Player - 1445911347203",
+              "winAmount": 3740684980.0,
+              "winDate": "2025-05-17T23:51:50.2Z",
+              "gin": "19",
+              "winLevel": "3"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "settings": {
+    "gameSettings": {
+      "complex": {
+        "scatterIndices": [
+          9,
+          10
+        ],
+        "maxGambleBetCoefficient": 70,
+        "paytableCoef": {
+          "0": {
+            "coef": [
+              10,
+              30,
+              100
+            ],
+            "multiplier": 1
+          },
+          "1": {
+            "coef": [
+              10,
+              30,
+              100
+            ],
+            "multiplier": 1
+          },
+          "2": {
+            "coef": [
+              10,
+              30,
+              100
+            ],
+            "multiplier": 1
+          },
+          "3": {
+            "coef": [
+              10,
+              30,
+              100
+            ],
+            "multiplier": 1
+          },
+          "4": {
+            "coef": [
+              20,
+              50,
+              200
+            ],
+            "multiplier": 1
+          },
+          "5": {
+            "coef": [
+              40,
+              100,
+              500
+            ],
+            "multiplier": 1
+          },
+          "6": {
+            "coef": [
+              40,
+              100,
+              500
+            ],
+            "multiplier": 1
+          },
+          "7": {
+            "coef": [
+              10,
+              50,
+              200,
+              3000
+            ],
+            "multiplier": 1
+          },
+          "8": {
+            "coef": [],
+            "multiplier": 1
+          },
+          "9": {
+            "coef": [
+              20
+            ],
+            "multiplier": 1
+          },
+          "10": {
+            "coef": [
+              3,
+              20,
+              100
+            ],
+            "multiplier": 1
+          }
+        },
+        "maxGambleAmount": 150000,
+        "bets": [
+          10,
+          20,
+          30,
+          40,
+          50,
+          60,
+          80,
+          90,
+          100,
+          120,
+          140,
+          160,
+          180,
+          200,
+          250,
+          300,
+          350,
+          400,
+          450,
+          500,
+          600,
+          700,
+          800,
+          900,
+          1000,
+          1200,
+          1400,
+          1600,
+          1800,
+          2000,
+          2500,
+          3000,
+          3500,
+          4000,
+          5000,
+          6000,
+          7000,
+          8000,
+          9000,
+          10000
+        ],
+        "mainFakeReels": [
+          [
+            6,
+            2,
+            2,
+            2,
+            0,
+            0,
+            0,
+            5,
+            4,
+            1,
+            5,
+            10,
+            1,
+            1,
+            3,
+            4,
+            7,
+            4,
+            9,
+            4
+          ],
+          [
+            7,
+            2,
+            2,
+            2,
+            5,
+            3,
+            0,
+            0,
+            10,
+            6,
+            3,
+            3,
+            1,
+            1,
+            4,
+            1,
+            4,
+            8,
+            4,
+            2
+          ],
+          [
+            6,
+            1,
+            1,
+            8,
+            7,
+            1,
+            5,
+            3,
+            3,
+            9,
+            1,
+            4,
+            0,
+            4,
+            2,
+            2,
+            2,
+            10,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            7,
+            1,
+            3,
+            3,
+            8,
+            6,
+            4,
+            3,
+            4,
+            2,
+            2,
+            10,
+            2,
+            0,
+            0,
+            5,
+            1
+          ],
+          [
+            7,
+            3,
+            3,
+            2,
+            2,
+            1,
+            6,
+            10,
+            1,
+            1,
+            3,
+            3,
+            3,
+            2,
+            7,
+            0,
+            0,
+            4,
+            9,
+            4
+          ]
+        ],
+        "rtp": "96.17"
+      },
+      "gameIdentificationNumber": -1,
+      "gin": 0,
+      "gameNumber": "-1",
+      "sessionKey": "[REDACTED]",
+      "msg": "success",
+      "messageId": "r-r_1793113363260_1",
+      "command": "init_game",
+      "eventTimestamp": 1793113365364
+    },
+    "jackpotSettings": {
+      "jackpot": true,
+      "jackpotCards": {
+        "jackpotMaxBet": 5000000.0,
+        "jackpotMinBet": 500.0,
+        "jackpotMinBetLevelI": 0.0,
+        "jackpotMinBetLevelII": 0.0,
+        "jackpotMinBetLevelIII": 0.0,
+        "jackpotMinBetLevelIV": 0.0,
+        "contribution": "1"
+      }
+    }
+  },
+  "playerName": "[REDACTED]",
+  "playerIdToken": "[REDACTED]",
+  "balance": 5000000,
+  "netGain": 0,
+  "currency": "FUN",
+  "languages": [
+    "en",
+    "bg",
+    "it",
+    "es",
+    "ru",
+    "fr",
+    "nl",
+    "mk",
+    "ro",
+    "pt",
+    "hr",
+    "da",
+    "hu",
+    "sv",
+    "de",
+    "cs",
+    "el",
+    "uk"
+  ],
+  "sendTotalsInfo": false,
+  "pendingWinResult": {
+    "totalRemainingOverflowAmount": 0
+  },
+  "maxCap": {},
+  "gameMetadata": {
+    "gin": 619,
+    "type": "VIDEO_SLOT",
+    "released": true,
+    "deprecated": false,
+    "gameVersion": "1.0.0.r",
+    "remoteGame": false,
+    "jackpot": "MLM",
+    "metadata": {
+      "maxCap": false,
+      "defaultRtp": "96.17",
+      "isBuyBonus": false,
+      "vipGame": false,
+      "customFeatures": {},
+      "betConfigLines": 10,
+      "maxProbabilityAndRtp": false,
+      "gameDefaultRtp": {
+        "id": "226",
+        "rtp": "96.17",
+        "jurisdictions": []
+      },
+      "maxBetEur": "100.00",
+      "desktop": true,
+      "bespokeGame": false,
+      "reels": 5,
+      "utcClock": false,
+      "type": "VIDEO_SLOT",
+      "maxCoefficientBaseGameDecimal": "108500.00",
+      "multiplayerGame": "[REDACTED]",
+      "gameVersion": "1.0.0.r",
+      "releaseDate": "2024-10-01",
+      "jackpots": [
+        "MLM"
+      ],
+      "minBetEur": "0.20",
+      "themes": [
+        "FRUITS"
+      ],
+      "upscale": true,
+      "casinoDivision": "CASINO",
+      "hitRate": "15.00",
+      "module": "EBFJSlot",
+      "volatility": "2.0",
+      "certifiedName": "10 Bulky Fruits",
+      "buyBonus": "NO",
+      "linesWaysMatches": "FIXED_LINES",
+      "costCentre": "CASINO",
+      "translations": [
+        {
+          "countryCode": "BG",
+          "translated": true
+        },
+        {
+          "countryCode": "CS",
+          "translated": true
+        },
+        {
+          "countryCode": "DA",
+          "translated": true
+        },
+        {
+          "countryCode": "DE",
+          "translated": true
+        },
+        {
+          "countryCode": "EL",
+          "translated": true
+        },
+        {
+          "countryCode": "EN",
+          "translated": true
+        },
+        {
+          "countryCode": "ES",
+          "translated": true
+        },
+        {
+          "countryCode": "FR",
+          "translated": true
+        },
+        {
+          "countryCode": "HR",
+          "translated": true
+        },
+        {
+          "countryCode": "HU",
+          "translated": true
+        },
+        {
+          "countryCode": "IT",
+          "translated": true
+        },
+        {
+          "countryCode": "KA",
+          "translated": true
+        },
+        {
+          "countryCode": "MK",
+          "translated": true
+        },
+        {
+          "countryCode": "NL",
+          "translated": true
+        },
+        {
+          "countryCode": "PT",
+          "translated": true
+        },
+        {
+          "countryCode": "PT_BR",
+          "translated": true
+        },
+        {
+          "countryCode": "RO",
+          "translated": true
+        },
+        {
+          "countryCode": "RU",
+          "translated": true
+        },
+        {
+          "countryCode": "SV",
+          "translated": true
+        },
+        {
+          "countryCode": "UK",
+          "translated": true
+        },
+        {
+          "countryCode": "AR",
+          "translated": true
+        },
+        {
+          "countryCode": "ZH",
+          "translated": true
+        }
+      ],
+      "jackpotRtp": false,
+      "mobile": "YES",
+      "gameLaunchUrl": "https://www.amusnet.com/games/online-casino/10-bulky-fruits",
+      "rngGame": true,
+      "doubleChance": false,
+      "gameJurisdictions": [
+        {
+          "code": "BY",
+          "status": "YES"
+        },
+        {
+          "code": "BE",
+          "status": "YES"
+        },
+        {
+          "code": "BA",
+          "status": "YES"
+        },
+        {
+          "code": "BR",
+          "status": "YES"
+        },
+        {
+          "code": "BG",
+          "status": "YES"
+        },
+        {
+          "code": "CO",
+          "status": "YES"
+        },
+        {
+          "code": "HR",
+          "status": "YES"
+        },
+        {
+          "code": "CW",
+          "status": "YES"
+        },
+        {
+          "code": "CZ",
+          "status": "PENDING"
+        },
+        {
+          "code": "DK",
+          "status": "YES"
+        },
+        {
+          "code": "EE",
+          "status": "YES"
+        },
+        {
+          "code": "GE",
+          "status": "YES"
+        },
+        {
+          "code": "GR",
+          "status": "YES"
+        },
+        {
+          "code": "HU",
+          "status": "YES"
+        },
+        {
+          "code": "IT",
+          "status": "YES"
+        },
+        {
+          "code": "LV",
+          "status": "YES"
+        },
+        {
+          "code": "LT",
+          "status": "YES"
+        },
+        {
+          "code": "MT",
+          "status": "YES"
+        },
+        {
+          "code": "MX",
+          "status": "YES"
+        },
+        {
+          "code": "NL",
+          "status": "YES"
+        },
+        {
+          "code": "PA",
+          "status": "YES"
+        },
+        {
+          "code": "PE",
+          "status": "YES"
+        },
+        {
+          "code": "PT",
+          "status": "YES"
+        },
+        {
+          "code": "RO",
+          "status": "YES"
+        },
+        {
+          "code": "ZA",
+          "status": "YES"
+        },
+        {
+          "code": "ES",
+          "status": "YES"
+        },
+        {
+          "code": "SE",
+          "status": "YES"
+        },
+        {
+          "code": "CH",
+          "status": "YES"
+        },
+        {
+          "code": "UA",
+          "status": "YES"
+        },
+        {
+          "code": "AR-B",
+          "status": "YES"
+        },
+        {
+          "code": "AR-C",
+          "status": "YES"
+        },
+        {
+          "code": "SI",
+          "status": "YES"
+        },
+        {
+          "code": "AT",
+          "status": "YES"
+        },
+        {
+          "code": "CA-ON",
+          "status": "YES"
+        },
+        {
+          "code": "CA-AB",
+          "status": "YES"
+        },
+        {
+          "code": "FI",
+          "status": "YES"
+        }
+      ],
+      "jurisdictions": [
+        "BY",
+        "BE",
+        "BA",
+        "BR",
+        "BG",
+        "CO",
+        "HR",
+        "CW",
+        "CZ",
+        "DK",
+        "EE",
+        "GE",
+        "GR",
+        "HU",
+        "IT",
+        "LV",
+        "LT",
+        "MT",
+        "MX",
+        "NL",
+        "PA",
+        "PE",
+        "PT",
+        "RO",
+        "ZA",
+        "ES",
+        "SE",
+        "CH",
+        "UA",
+        "AR-B",
+        "AR-C",
+        "SI",
+        "AT",
+        "CA-ON",
+        "CA-AB",
+        "FI"
+      ],
+      "engine": "SingleBaseSlot",
+      "lineOptions": "LINES_10",
+      "buyBonusProperties": [],
+      "bonusFeatures": [
+        "LUCKY_SPIN",
+        "FREE_SPIN",
+        "COUNTDOWN_FREE_SPIN"
+      ],
+      "rows": 3,
+      "remoteGame": false,
+      "gin": 619,
+      "deprecated": false,
+      "released": true,
+      "gameFactory": "CASINO_DIVISION",
+      "features": [
+        "EXPANDING_WILD",
+        "GAMBLE"
+      ],
+      "jackpot": "MLM"
+    }
+  },
+  "messageId": "r-r_1793113363260_1",
+  "sessionKey": "[REDACTED]",
+  "status": "success",
+  "command": "init_game",
+  "eventTimestamp": 1793113365368
+}

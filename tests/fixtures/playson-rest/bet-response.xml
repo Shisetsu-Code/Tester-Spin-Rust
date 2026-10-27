@@ -1,0 +1,21 @@
+<server command="bet" status="ok" session="REDACTED" rnd="1793106147123">
+  <state current_state="idle" />
+  <window>
+    <shift server="0,0,0,0,0,0" reel_set="1" reel1="5,8,8,9,9" reel2="4,6,5,5,5" reel3="6,8,8,4,9" reel4="8,2,2,7,7" reel5="4,4,4,7,7" reel6="6,6,11,1,9" />
+  </window>
+  <game line-bet="5" cash-bet="100" cash-bet-game="100" cash-win="0" usercash="0" bonus_games="0" original_bonus_games="0" dispertion="0" v_wild="0" scatters="0" prize_games="0" miniprize_games="0" reel_set="1" tripple_scatters="1">
+    <context>
+      <next_window>
+        <shift reel1="5,8,8,9,9" reel2="4,6,5,5,5" reel3="6,8,8,4,9" reel4="8,2,2,7,7" reel5="4,4,4,7,7" reel6="6,6,11,1,9" />
+      </next_window>
+      <pot_state>
+        <green collected="1" level="1" />
+        <red collected="0" level="0" />
+        <purple collected="0" level="0" />
+      </pot_state>
+    </context>
+  </game>
+  <game_version>310826</game_version>
+  <roundnum value="7685607919370393501" />
+  <user_new cash="1099900" />
+</server>

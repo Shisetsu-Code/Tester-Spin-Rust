@@ -1,0 +1,498 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "playson",
+  "source": "https://m.playson.com/games",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "3 Roaring Bells Hold And Win",
+      "slug": "3-roaring-bells-hold-and-win",
+      "url": "https://playson.com/game/3-roaring-bells-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Find out more",
+      "slug": "lucky-pots-x1000",
+      "url": "https://playson.com/game/lucky-pots-x1000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Find out more",
+      "slug": "3-gems-of-vegas-super-wheel",
+      "url": "https://playson.com/game/3-gems-of-vegas-super-wheel",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beez Turn Wild",
+      "slug": "beez-turn-wild",
+      "url": "https://playson.com/game/beez-turn-wild",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Coin Xxl Boostercells",
+      "slug": "thunder-coin-xxl-boostercells",
+      "url": "https://playson.com/game/thunder-coin-xxl-boostercells",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Penny X1000 Super Wheel",
+      "slug": "golden-penny-x1000-super-wheel",
+      "url": "https://playson.com/game/golden-penny-x1000-super-wheel",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Strike Xxl Multicoin",
+      "slug": "coin-strike-xxl-multicoin",
+      "url": "https://playson.com/game/coin-strike-xxl-multicoin",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Supercharged Clovers Super Wheel",
+      "slug": "4-supercharged-clovers-super-wheel",
+      "url": "https://playson.com/game/4-supercharged-clovers-super-wheel",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Supershiny Diamonds Hold And Win",
+      "slug": "4-supershiny-diamonds-hold-and-win",
+      "url": "https://playson.com/game/4-supershiny-diamonds-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clover Smash",
+      "slug": "clover-smash",
+      "url": "https://playson.com/game/clover-smash",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Chili Pots Hold And Win",
+      "slug": "4-chili-pots-hold-and-win",
+      "url": "https://playson.com/game/4-chili-pots-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Thunder Coins Hold And Win",
+      "slug": "3-thunder-coins-hold-and-win",
+      "url": "https://playson.com/game/3-thunder-coins-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Pots Riches Super Wheel",
+      "slug": "4-pots-riches-super-wheel",
+      "url": "https://playson.com/game/4-pots-riches-super-wheel",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pink Clovers Xxxl Hold And Win",
+      "slug": "pink-clovers-xxxl-hold-and-win",
+      "url": "https://playson.com/game/pink-clovers-xxxl-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sugar Piggy Hold And Win",
+      "slug": "sugar-piggy-hold-and-win",
+      "url": "https://playson.com/game/sugar-piggy-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Supercharged Diamonds Hold And Win",
+      "slug": "3-supercharged-diamonds-hold-and-win",
+      "url": "https://playson.com/game/3-supercharged-diamonds-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Chili Amigos Hold And Win",
+      "slug": "4-chili-amigos-hold-and-win",
+      "url": "https://playson.com/game/4-chili-amigos-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rhino Coins Hit The Bonus",
+      "slug": "rhino-coins-hit-the-bonus",
+      "url": "https://playson.com/game/rhino-coins-hit-the-bonus",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Scarab Coins Hold And Win",
+      "slug": "4-scarab-coins-hold-and-win",
+      "url": "https://playson.com/game/4-scarab-coins-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Coins Xxl Multicoin",
+      "slug": "thunder-coins-xxl-multicoin",
+      "url": "https://playson.com/game/thunder-coins-xxl-multicoin",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Timeless Diamonds Hold And Win",
+      "slug": "timeless-diamonds-hold-and-win",
+      "url": "https://playson.com/game/timeless-diamonds-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clover Strike Hold And Win",
+      "slug": "clover-strike-hold-and-win",
+      "url": "https://playson.com/game/clover-strike-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sugar Teddy X1000",
+      "slug": "sugar-teddy-x1000",
+      "url": "https://playson.com/game/sugar-teddy-x1000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Supercharged Clovers Hold And Win",
+      "slug": "4-supercharged-clovers-hold-and-win",
+      "url": "https://playson.com/game/4-supercharged-clovers-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Strike Xxl Hold And Win",
+      "slug": "coin-strike-xxl-hold-and-win",
+      "url": "https://playson.com/game/coin-strike-xxl-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vegas Glitz",
+      "slug": "vegas-glitz",
+      "url": "https://playson.com/game/vegas-glitz",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "X1000 Golden Penny 2",
+      "slug": "x1000-golden-penny-2",
+      "url": "https://playson.com/game/x1000-golden-penny-2",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tornado Power Hold And Win",
+      "slug": "tornado-power-hold-and-win",
+      "url": "https://playson.com/game/tornado-power-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamonds Power Xxl Hold And Win",
+      "slug": "diamonds-power-xxl-hold-and-win",
+      "url": "https://playson.com/game/diamonds-power-xxl-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "More Energy Coins Hold And Win",
+      "slug": "more-energy-coins-hold-and-win",
+      "url": "https://playson.com/game/more-energy-coins-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Paddy Star Smash And Win",
+      "slug": "paddy-star-smash-and-win",
+      "url": "https://playson.com/game/paddy-star-smash-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flaming Bells",
+      "slug": "flaming-bells",
+      "url": "https://playson.com/game/flaming-bells",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crown Strike Hold And Win",
+      "slug": "crown-strike-hold-and-win",
+      "url": "https://playson.com/game/crown-strike-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Penny X1000",
+      "slug": "golden-penny-x1000",
+      "url": "https://playson.com/game/golden-penny-x1000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Royal Coins Hold And Win",
+      "slug": "3-royal-coins-hold-and-win",
+      "url": "https://playson.com/game/3-royal-coins-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rockin Joker Hold And Win",
+      "slug": "rockin-joker-hold-and-win",
+      "url": "https://playson.com/game/rockin-joker-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Pots Riches Hold And Win",
+      "slug": "4-pots-riches-hold-and-win",
+      "url": "https://playson.com/game/4-pots-riches-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Strike 2 Hold And Win",
+      "slug": "coin-strike-2-hold-and-win",
+      "url": "https://playson.com/game/coin-strike-2-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Pink Joker Hold And Win",
+      "slug": "super-pink-joker-hold-and-win",
+      "url": "https://playson.com/game/super-pink-joker-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lion Gems 3 Pots Hold And Win",
+      "slug": "lion-gems-3-pots-hold-and-win",
+      "url": "https://playson.com/game/lion-gems-3-pots-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Coins Xxl Hold And Win",
+      "slug": "thunder-coins-xxl-hold-and-win",
+      "url": "https://playson.com/game/thunder-coins-xxl-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3X Catch",
+      "slug": "3x-catch",
+      "url": "https://playson.com/game/3x-catch",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King Of The Sky Hit The Bonus",
+      "slug": "king-of-the-sky-hit-the-bonus",
+      "url": "https://playson.com/game/king-of-the-sky-hit-the-bonus",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Express Hold And Win",
+      "slug": "royal-express-hold-and-win",
+      "url": "https://playson.com/game/royal-express-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charge The Clovers Hit The Bonus",
+      "slug": "charge-the-clovers-hit-the-bonus",
+      "url": "https://playson.com/game/charge-the-clovers-hit-the-bonus",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Chillies And Joker Hold And Win",
+      "slug": "3-chillies-and-joker-hold-and-win",
+      "url": "https://playson.com/game/3-chillies-and-joker-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Luxor Pots Hold And Win",
+      "slug": "3-luxor-pots-hold-and-win",
+      "url": "https://playson.com/game/3-luxor-pots-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Cookies Hit The Bonus",
+      "slug": "25-cookies-hit-the-bonus",
+      "url": "https://playson.com/game/25-cookies-hit-the-bonus",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jingle Coins Hold And Win",
+      "slug": "jingle-coins-hold-and-win",
+      "url": "https://playson.com/game/jingle-coins-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Merry Giftmas Hold And Win",
+      "slug": "merry-giftmas-hold-and-win",
+      "url": "https://playson.com/game/merry-giftmas-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lightning Clovers Hit The Bonus",
+      "slug": "lightning-clovers-hit-the-bonus",
+      "url": "https://playson.com/game/lightning-clovers-hit-the-bonus",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pink Joker Hold And Win",
+      "slug": "pink-joker-hold-and-win",
+      "url": "https://playson.com/game/pink-joker-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Pirate Barrels Hold And Win",
+      "slug": "3-pirate-barrels-hold-and-win",
+      "url": "https://playson.com/game/3-pirate-barrels-hold-and-win",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Find out more",
+      "slug": "multidiamond-xxl-spins",
+      "url": "https://playson.com/game/multidiamond-xxl-spins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    }
+  ]
+}

@@ -1,0 +1,4296 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "playngo",
+  "source": "https://www.playngo.com/games",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Redtail Robber Cash Vault Heist",
+      "slug": "redtail-robber-cash-vault-heist",
+      "url": "https://www.playngo.com/games/redtail-robber-cash-vault-heist",
+      "symbol": "1084",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1084/thumbnail/0-a07affe7dbba3137",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ghost Booster! GO Guaranteed",
+      "slug": "ghost-booster-go-guaranteed",
+      "url": "https://www.playngo.com/games/ghost-booster-go-guaranteed",
+      "symbol": "975",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/975/thumbnail/0-7604ba11d439f9c3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Three Pots of the Genie",
+      "slug": "three-pots-of-the-genie",
+      "url": "https://www.playngo.com/games/three-pots-of-the-genie",
+      "symbol": "1113",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1113/thumbnail/0-bb8fe48dcdeaed86",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chunky Carlo's Money Mania",
+      "slug": "chunky-carlo's-money-mania",
+      "url": "https://www.playngo.com/games/chunky-carlo's-money-mania",
+      "symbol": "1083",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1083/thumbnail/0-8bfb872f1439cfe3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lawn n' Complete Disorder",
+      "slug": "lawn-n'-complete-disorder",
+      "url": "https://www.playngo.com/games/lawn-n'-complete-disorder",
+      "symbol": "1000",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1000/thumbnail/0-9321d2512b0c8116",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Beasts of Fortune",
+      "slug": "triple-beasts-of-fortune",
+      "url": "https://www.playngo.com/games/triple-beasts-of-fortune",
+      "symbol": "1095",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1095/thumbnail/0-452d8372dddb1d38",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Infernal Trinity GO Guaranteed",
+      "slug": "infernal-trinity-go-guaranteed",
+      "url": "https://www.playngo.com/games/infernal-trinity-go-guaranteed",
+      "symbol": "1096",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1096/thumbnail/0-4bd9168ef7442d97",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Unigoat",
+      "slug": "unigoat",
+      "url": "https://www.playngo.com/games/unigoat",
+      "symbol": "1073",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1073/thumbnail/0-6907bd76f1b36c11",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viking Runecraft 1000",
+      "slug": "viking-runecraft-1000",
+      "url": "https://www.playngo.com/games/viking-runecraft-1000",
+      "symbol": "1109",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1109/thumbnail/0-0bbd857a8f273c3c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cursed Moon Power Collection",
+      "slug": "cursed-moon-power-collection",
+      "url": "https://www.playngo.com/games/cursed-moon-power-collection",
+      "symbol": "1082",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1082/thumbnail/0-9eb7c6ba573b50c6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Holy Moo! Extreme Power",
+      "slug": "holy-moo-extreme-power",
+      "url": "https://www.playngo.com/games/holy-moo-extreme-power",
+      "symbol": "1074",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1074/thumbnail/0-217426531a2040c0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stompin’ Gold",
+      "slug": "stompin-gold",
+      "url": "https://www.playngo.com/games/stompin-gold",
+      "symbol": "1075",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1075/thumbnail/0-074321821ccfc297",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess Extreme",
+      "slug": "moon-princess-extreme",
+      "url": "https://www.playngo.com/games/moon-princess-extreme",
+      "symbol": "1101",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1101/thumbnail/0-3253ad7f975a8d7e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Temple of Three",
+      "slug": "temple-of-three",
+      "url": "https://www.playngo.com/games/temple-of-three",
+      "symbol": "1077",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1077/thumbnail/0-370962f1ce025e9c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reactoonz Blitzways",
+      "slug": "reactoonz-blitzways",
+      "url": "https://www.playngo.com/games/reactoonz-blitzways",
+      "symbol": "1062",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1062/thumbnail/0-73c6a4a02d8ffbd3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fate's Fortune",
+      "slug": "fate's-fortune",
+      "url": "https://www.playngo.com/games/fate's-fortune",
+      "symbol": "1072",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1072/thumbnail/0-577c787e0ae84af6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legion Gold and the Throne of Dead",
+      "slug": "legion-gold-and-the-throne-of-dead",
+      "url": "https://www.playngo.com/games/legion-gold-and-the-throne-of-dead",
+      "symbol": "1085",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1085/thumbnail/0-67925fd9c2c2ec07",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crabby's Gold II",
+      "slug": "crabby's-gold-ii",
+      "url": "https://www.playngo.com/games/crabby's-gold-ii",
+      "symbol": "998",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/998/thumbnail/0-66a78d62f812a361",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Launch Fortune Wild",
+      "slug": "triple-launch-fortune-wild",
+      "url": "https://www.playngo.com/games/triple-launch-fortune-wild",
+      "symbol": "1100",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1100/thumbnail/0-859da4bad2ef4a84",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gnaw'n Gold",
+      "slug": "gnaw'n-gold",
+      "url": "https://www.playngo.com/games/gnaw'n-gold",
+      "symbol": "1002",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1002/thumbnail/0-058ace4cc623b2e1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shark Feast",
+      "slug": "shark-feast",
+      "url": "https://www.playngo.com/games/shark-feast",
+      "symbol": "1069",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1069/thumbnail/0-2cde67e161f678f3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Buildin' Even More Bucks",
+      "slug": "buildin'-even-more-bucks",
+      "url": "https://www.playngo.com/games/buildin'-even-more-bucks",
+      "symbol": "992",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/992/thumbnail/0-f4e8bfe9c8d89a24",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Primal Rampage",
+      "slug": "primal-rampage",
+      "url": "https://www.playngo.com/games/primal-rampage",
+      "symbol": "1065",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1065/thumbnail/0-5620279358428856",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Track n' Gold",
+      "slug": "track-n'-gold",
+      "url": "https://www.playngo.com/games/track-n'-gold",
+      "symbol": "1003",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1003/thumbnail/0-e87e8f10d83bed68",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Granny's Wild",
+      "slug": "granny's-wild",
+      "url": "https://www.playngo.com/games/granny's-wild",
+      "symbol": "1068",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1068/thumbnail/0-22b6c80e247a392f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Treats of Terror II",
+      "slug": "treats-of-terror-ii",
+      "url": "https://www.playngo.com/games/treats-of-terror-ii",
+      "symbol": "1071",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1071/thumbnail/0-29ca2a3afb2921b7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Manta Mayhem",
+      "slug": "manta-mayhem",
+      "url": "https://www.playngo.com/games/manta-mayhem",
+      "symbol": "1070",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1070/thumbnail/0-b370138fec3368c2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Colt Lightning Inferno",
+      "slug": "colt-lightning-inferno",
+      "url": "https://www.playngo.com/games/colt-lightning-inferno",
+      "symbol": "1061",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1061/thumbnail/0-c22d0751b68e6196",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wrappin' Gold",
+      "slug": "wrappin'-gold",
+      "url": "https://www.playngo.com/games/wrappin'-gold",
+      "symbol": "991",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/991/thumbnail/0-51269b7d0abb5d96",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spice Spice Baby!",
+      "slug": "spice-spice-baby",
+      "url": "https://www.playngo.com/games/spice-spice-baby",
+      "symbol": "1066",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1066/thumbnail/0-e9148adf5e07a5c1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legion Gold Reckoning",
+      "slug": "legion-gold-reckoning",
+      "url": "https://www.playngo.com/games/legion-gold-reckoning",
+      "symbol": "1005",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1005/thumbnail/0-67ad881318960cf8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nugget n’ Nonsense",
+      "slug": "nugget-n-nonsense",
+      "url": "https://www.playngo.com/games/nugget-n-nonsense",
+      "symbol": "1078",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1078/thumbnail/0-de893198783c21a0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ValhalLuck",
+      "slug": "valhalluck",
+      "url": "https://www.playngo.com/games/valhalluck",
+      "symbol": "1022",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1022/thumbnail/0-ab04c4a45c1103dc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Honey Rush Black and Yellow",
+      "slug": "honey-rush-black-and-yellow",
+      "url": "https://www.playngo.com/games/honey-rush-black-and-yellow",
+      "symbol": "922",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/922/thumbnail/0-5a0050f1156b8703",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tomb of Gold Reimagined",
+      "slug": "tomb-of-gold-reimagined",
+      "url": "https://www.playngo.com/games/tomb-of-gold-reimagined",
+      "symbol": "993",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/993/thumbnail/0-09469d023bb9b850",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hope Unleashed Fortune Rises",
+      "slug": "hope-unleashed-fortune-rises",
+      "url": "https://www.playngo.com/games/hope-unleashed-fortune-rises",
+      "symbol": "1059",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1059/thumbnail/0-8594151e224a9b93",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wheel of Mictlan",
+      "slug": "wheel-of-mictlan",
+      "url": "https://www.playngo.com/games/wheel-of-mictlan",
+      "symbol": "1051",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1051/thumbnail/0-ad297a2dfe811f57",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild North Radiant Skies GO Collect",
+      "slug": "wild-north-radiant-skies-go-collect",
+      "url": "https://www.playngo.com/games/wild-north-radiant-skies-go-collect",
+      "symbol": "1054",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1054/thumbnail/0-c99fe1af5c41119b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Don Triple Threat",
+      "slug": "mega-don-triple-threat",
+      "url": "https://www.playngo.com/games/mega-don-triple-threat",
+      "symbol": "1049",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1049/thumbnail/0-b5736e7ddb98f150",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Dead GO Collect",
+      "slug": "book-of-dead-go-collect",
+      "url": "https://www.playngo.com/games/book-of-dead-go-collect",
+      "symbol": "1021",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1021/thumbnail/0-138b92a6a0149c14",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sails of Riches",
+      "slug": "sails-of-riches",
+      "url": "https://www.playngo.com/games/sails-of-riches",
+      "symbol": "1063",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1063/thumbnail/0-b9f63005708f9c05",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Blades & Blessings",
+      "slug": "3-blades-blessings",
+      "url": "https://www.playngo.com/games/3-blades-blessings",
+      "symbol": "1058",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1058/thumbnail/0-8be851088f79ceb7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Olympus 1000",
+      "slug": "rise-of-olympus-1000",
+      "url": "https://www.playngo.com/games/rise-of-olympus-1000",
+      "symbol": "1044",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1044/thumbnail/0-fd3fe9795ce97ce9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Blitz Casino Gold",
+      "slug": "piggy-blitz-casino-gold",
+      "url": "https://www.playngo.com/games/piggy-blitz-casino-gold",
+      "symbol": "994",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/994/thumbnail/0-b6969d917649e6a3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Barn Busters",
+      "slug": "barn-busters",
+      "url": "https://www.playngo.com/games/barn-busters",
+      "symbol": "1067",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1067/thumbnail/0-1ffea4b16adadcad",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legacy of Undead Dragon ABYSSWAYS",
+      "slug": "legacy-of-undead-dragon-abyssways",
+      "url": "https://www.playngo.com/games/legacy-of-undead-dragon-abyssways",
+      "symbol": "1036",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1036/thumbnail/0-bd174f584df947cc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Play'n GO Mole Digger",
+      "slug": "play'n-go-mole-digger",
+      "url": "https://www.playngo.com/games/play'n-go-mole-digger",
+      "symbol": "1029",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1029/thumbnail/0-f9c01bf9df1d0425",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Heist",
+      "slug": "piggy-heist",
+      "url": "https://www.playngo.com/games/piggy-heist",
+      "symbol": "1060",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1060/thumbnail/0-6aa2f9faddaaa2fa",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Buildin' More Bucks",
+      "slug": "buildin'-more-bucks",
+      "url": "https://www.playngo.com/games/buildin'-more-bucks",
+      "symbol": "918",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/918/thumbnail/0-402f118d55a031a6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ra's Reckoning",
+      "slug": "ra's-reckoning",
+      "url": "https://www.playngo.com/games/ra's-reckoning",
+      "symbol": "1041",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1041/thumbnail/0-748a99ebd3957ff9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fangs & Fire",
+      "slug": "fangs-fire",
+      "url": "https://www.playngo.com/games/fangs-fire",
+      "symbol": "1047",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1047/thumbnail/0-4f9b0cee4a2d1624",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Banana Rush",
+      "slug": "banana-rush",
+      "url": "https://www.playngo.com/games/banana-rush",
+      "symbol": "1057",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1057/thumbnail/0-581b1476e4d1a48e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tome of the Lost",
+      "slug": "tome-of-the-lost",
+      "url": "https://www.playngo.com/games/tome-of-the-lost",
+      "symbol": "1015",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1015/thumbnail/0-ad4ec16a7e93810c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stadium of Riches",
+      "slug": "stadium-of-riches",
+      "url": "https://www.playngo.com/games/stadium-of-riches",
+      "symbol": "1052",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1052/thumbnail/0-a7775da15f0473d4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rings of Prosperity",
+      "slug": "rings-of-prosperity",
+      "url": "https://www.playngo.com/games/rings-of-prosperity",
+      "symbol": "1039",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1039/thumbnail/0-25606fe7f626fa3c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lawn n' Disorder",
+      "slug": "lawn-n'-disorder",
+      "url": "https://www.playngo.com/games/lawn-n'-disorder",
+      "symbol": "995",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/995/thumbnail/0-921e49b87f9387be",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Static Nightmare ABYSSWAYS",
+      "slug": "static-nightmare-abyssways",
+      "url": "https://www.playngo.com/games/static-nightmare-abyssways",
+      "symbol": "1035",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1035/thumbnail/0-888e0c2b9589be32",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Divina Commedia I Nove Cerchi",
+      "slug": "divina-commedia-i-nove-cerchi",
+      "url": "https://www.playngo.com/games/divina-commedia-i-nove-cerchi",
+      "symbol": "910",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/910/thumbnail/0-59529f5a89ea9a25",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reactoonz 100",
+      "slug": "reactoonz-100",
+      "url": "https://www.playngo.com/games/reactoonz-100",
+      "symbol": "873",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/873/thumbnail/0-3975ccadb9b5627b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bubblin' Riches",
+      "slug": "bubblin'-riches",
+      "url": "https://www.playngo.com/games/bubblin'-riches",
+      "symbol": "1055",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1055/thumbnail/0-f95021f26400ba70",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bao Shi",
+      "slug": "bao-shi",
+      "url": "https://www.playngo.com/games/bao-shi",
+      "symbol": "1048",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1048/thumbnail/0-b1cfd535265aa76c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fate of Dead Blitzways",
+      "slug": "fate-of-dead-blitzways",
+      "url": "https://www.playngo.com/games/fate-of-dead-blitzways",
+      "symbol": "1042",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1042/thumbnail/0-d10c64dcc5245dae",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bullion Xpress",
+      "slug": "bullion-xpress",
+      "url": "https://www.playngo.com/games/bullion-xpress",
+      "symbol": "926",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/926/thumbnail/0-33e45865ffb8d117",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lab of Madness It's A-Wild!",
+      "slug": "lab-of-madness-it's-a-wild",
+      "url": "https://www.playngo.com/games/lab-of-madness-it's-a-wild",
+      "symbol": "1037",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1037/thumbnail/0-c5111c20892e52ca",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rosy Orbit Treasure Turn",
+      "slug": "rosy-orbit-treasure-turn",
+      "url": "https://www.playngo.com/games/rosy-orbit-treasure-turn",
+      "symbol": "1033",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1033/thumbnail/0-9020c6b660502de8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Olympus Extreme",
+      "slug": "rise-of-olympus-extreme",
+      "url": "https://www.playngo.com/games/rise-of-olympus-extreme",
+      "symbol": "1016",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1016/thumbnail/0-c7f4bd4bde2b52cc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Toad 2",
+      "slug": "fire-toad-2",
+      "url": "https://www.playngo.com/games/fire-toad-2",
+      "symbol": "1017",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1017/thumbnail/0-dac625bc96dcf266",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Joker Blitz",
+      "slug": "fire-joker-blitz",
+      "url": "https://www.playngo.com/games/fire-joker-blitz",
+      "symbol": "1026",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1026/thumbnail/0-64c84b650a717076",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Leprechaun's Diamond Dig",
+      "slug": "leprechaun's-diamond-dig",
+      "url": "https://www.playngo.com/games/leprechaun's-diamond-dig",
+      "symbol": "1038",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1038/thumbnail/0-04b4ee6a645b227a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spinnin' Records: Raving Reels",
+      "slug": "spinnin-records-raving-reels",
+      "url": "https://www.playngo.com/games/spinnin-records-raving-reels",
+      "symbol": "1014",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1014/thumbnail/0-ff3d512a94492620",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "13th Trial Hercules Abyssways",
+      "slug": "13th-trial-hercules-abyssways",
+      "url": "https://www.playngo.com/games/13th-trial-hercules-abyssways",
+      "symbol": "1025",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1025/thumbnail/0-0bfed2702ee5809a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lady of Fortune Destiny Spins",
+      "slug": "lady-of-fortune-destiny-spins",
+      "url": "https://www.playngo.com/games/lady-of-fortune-destiny-spins",
+      "symbol": "1024",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1024/thumbnail/0-6773d8e85432c46e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Play'n GO Buffalo of Wealth",
+      "slug": "play'n-go-buffalo-of-wealth",
+      "url": "https://www.playngo.com/games/play'n-go-buffalo-of-wealth",
+      "symbol": "996",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/996/thumbnail/0-c99cf72991005edb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Flip Deluxe",
+      "slug": "super-flip-deluxe",
+      "url": "https://www.playngo.com/games/super-flip-deluxe",
+      "symbol": "1032",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1032/thumbnail/0-41570f00fe98a426",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Green Knight Oath of Thorns",
+      "slug": "the-green-knight-oath-of-thorns",
+      "url": "https://www.playngo.com/games/the-green-knight-oath-of-thorns",
+      "symbol": "964",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/964/thumbnail/0-a084515894a8c553",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cashin' Joker",
+      "slug": "cashin'-joker",
+      "url": "https://www.playngo.com/games/cashin'-joker",
+      "symbol": "1023",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1023/thumbnail/0-0ea275eb81f5e213",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Orpheus",
+      "slug": "rise-of-orpheus",
+      "url": "https://www.playngo.com/games/rise-of-orpheus",
+      "symbol": "702",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/702/thumbnail/0-7e69fd12ec63b7f8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess Stargazing",
+      "slug": "moon-princess-stargazing",
+      "url": "https://www.playngo.com/games/moon-princess-stargazing",
+      "symbol": "623",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/623/thumbnail/0-193ef9287cad562e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tomb of Gold II",
+      "slug": "tomb-of-gold-ii",
+      "url": "https://www.playngo.com/games/tomb-of-gold-ii",
+      "symbol": "914",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/914/thumbnail/0-d5252e340ca3fefb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Win Cat Pawsperity",
+      "slug": "big-win-cat-pawsperity",
+      "url": "https://www.playngo.com/games/big-win-cat-pawsperity",
+      "symbol": "1028",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1028/thumbnail/0-b0c9b52968577457",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viper City Heist",
+      "slug": "viper-city-heist",
+      "url": "https://www.playngo.com/games/viper-city-heist",
+      "symbol": "741",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/741/thumbnail/0-08afd1b772f916db",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King of Sweets",
+      "slug": "king-of-sweets",
+      "url": "https://www.playngo.com/games/king-of-sweets",
+      "symbol": "1020",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1020/thumbnail/0-098424ee72893e03",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "City of Sound",
+      "slug": "city-of-sound",
+      "url": "https://www.playngo.com/games/city-of-sound",
+      "symbol": "1031",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1031/thumbnail/0-6f8c33e971250437",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Joker 100",
+      "slug": "fire-joker-100",
+      "url": "https://www.playngo.com/games/fire-joker-100",
+      "symbol": "1007",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1007/thumbnail/0-c765dd0b468e89aa",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragonfate's Favor",
+      "slug": "dragonfate's-favor",
+      "url": "https://www.playngo.com/games/dragonfate's-favor",
+      "symbol": "1018",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1018/thumbnail/0-a3e72ae1a6acb2b7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Treats of Terror",
+      "slug": "treats-of-terror",
+      "url": "https://www.playngo.com/games/treats-of-terror",
+      "symbol": "1019",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1019/thumbnail/0-5c58f22b3821b306",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crabby's Gold",
+      "slug": "crabby's-gold",
+      "url": "https://www.playngo.com/games/crabby's-gold",
+      "symbol": "920",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/920/thumbnail/0-c280a7ba20858c62",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boat Bonanza CrocoNile!",
+      "slug": "boat-bonanza-croconile",
+      "url": "https://www.playngo.com/games/boat-bonanza-croconile",
+      "symbol": "908",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/908/thumbnail/0-bd09d2f2700a505c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rich Wilde and the Tome of Dead",
+      "slug": "rich-wilde-and-the-tome-of-dead",
+      "url": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-dead",
+      "symbol": "1013",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1013/thumbnail/0-d7b4bb43e5280acd",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess Origins",
+      "slug": "moon-princess-origins",
+      "url": "https://www.playngo.com/games/moon-princess-origins",
+      "symbol": "1008",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1008/thumbnail/0-aa6e45a7a3e19941",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "1001 Mystery Genie Fortunes",
+      "slug": "1001-mystery-genie-fortunes",
+      "url": "https://www.playngo.com/games/1001-mystery-genie-fortunes",
+      "symbol": "985",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/985/thumbnail/0-1aa971ef9c957c59",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Loot & Labyrinths",
+      "slug": "loot-labyrinths",
+      "url": "https://www.playngo.com/games/loot-labyrinths",
+      "symbol": "698",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/698/thumbnail/0-a806d257f0b81353",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spinnin' Records Into the Beat",
+      "slug": "spinnin'-records-into-the-beat",
+      "url": "https://www.playngo.com/games/spinnin'-records-into-the-beat",
+      "symbol": "986",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/986/thumbnail/0-633e4e2f7ef11cee",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Egg Surprise",
+      "slug": "mystery-egg-surprise",
+      "url": "https://www.playngo.com/games/mystery-egg-surprise",
+      "symbol": "1006",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1006/thumbnail/0-f26a07b70194dddc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "GO CRAPS",
+      "slug": "go-craps",
+      "url": "https://www.playngo.com/games/go-craps",
+      "symbol": "716",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/716/thumbnail/0-f44edda0afe8d207",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Trinity Impact",
+      "slug": "trinity-impact",
+      "url": "https://www.playngo.com/games/trinity-impact",
+      "symbol": "742",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/742/thumbnail/0-6d50bc761ee0f2c0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Medusa's Madness",
+      "slug": "medusa's-madness",
+      "url": "https://www.playngo.com/games/medusa's-madness",
+      "symbol": "989",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/989/thumbnail/0-64689cdd7be4e8bf",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legion Gold Victory!",
+      "slug": "legion-gold-victory",
+      "url": "https://www.playngo.com/games/legion-gold-victory",
+      "symbol": "965",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/965/thumbnail/0-56b8192abce96cae",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Myth of Dead",
+      "slug": "myth-of-dead",
+      "url": "https://www.playngo.com/games/myth-of-dead",
+      "symbol": "987",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/987/thumbnail/0-269fab89dff35ddb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crystal Hall",
+      "slug": "crystal-hall",
+      "url": "https://www.playngo.com/games/crystal-hall",
+      "symbol": "973",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/973/thumbnail/0-25dfd8e581a80356",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Invading Vegas Revenge on Mars",
+      "slug": "invading-vegas-revenge-on-mars",
+      "url": "https://www.playngo.com/games/invading-vegas-revenge-on-mars",
+      "symbol": "984",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/984/thumbnail/0-2f0c44f7fc74647b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Potion of Madness",
+      "slug": "potion-of-madness",
+      "url": "https://www.playngo.com/games/potion-of-madness",
+      "symbol": "977",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/977/thumbnail/0-d3cc67c4ed109079",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legacy of Gems Blitzways",
+      "slug": "legacy-of-gems-blitzways",
+      "url": "https://www.playngo.com/games/legacy-of-gems-blitzways",
+      "symbol": "732",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/732/thumbnail/0-53209692af87680d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tower Quest Legacy",
+      "slug": "tower-quest-legacy",
+      "url": "https://www.playngo.com/games/tower-quest-legacy",
+      "symbol": "738",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/738/thumbnail/0-2edaa45f0a80f324",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Treasures of Kongar",
+      "slug": "treasures-of-kongar",
+      "url": "https://www.playngo.com/games/treasures-of-kongar",
+      "symbol": "743",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/743/thumbnail/0-729fe257e2dd51e1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midnight Gold",
+      "slug": "midnight-gold",
+      "url": "https://www.playngo.com/games/midnight-gold",
+      "symbol": "983",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/983/thumbnail/0-ba6c5866e1e840bc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jolly Roger Wild Kraken",
+      "slug": "jolly-roger-wild-kraken",
+      "url": "https://www.playngo.com/games/jolly-roger-wild-kraken",
+      "symbol": "694",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/694/thumbnail/0-fc8fd7e033d55f06",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Dog Heist",
+      "slug": "hot-dog-heist",
+      "url": "https://www.playngo.com/games/hot-dog-heist",
+      "symbol": "938",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/938/thumbnail/0-0303016c407c8677",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lion Saga Odyssey",
+      "slug": "lion-saga-odyssey",
+      "url": "https://www.playngo.com/games/lion-saga-odyssey",
+      "symbol": "906",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/906/thumbnail/0-405d71afbe84f551",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sobek's Godly Spins",
+      "slug": "sobek's-godly-spins",
+      "url": "https://www.playngo.com/games/sobek's-godly-spins",
+      "symbol": "904",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/904/thumbnail/0-fa269fe7fddaa456",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wildest Gambit",
+      "slug": "wildest-gambit",
+      "url": "https://www.playngo.com/games/wildest-gambit",
+      "symbol": "871",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/871/thumbnail/0-07de1d59cfb9661e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boat Bonanza Christmas",
+      "slug": "boat-bonanza-christmas",
+      "url": "https://www.playngo.com/games/boat-bonanza-christmas",
+      "symbol": "981",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/981/thumbnail/0-bd981dc05c526c92",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rich Wilde and the Pearls of Vishnu",
+      "slug": "rich-wilde-and-the-pearls-of-vishnu",
+      "url": "https://www.playngo.com/games/rich-wilde-and-the-pearls-of-vishnu",
+      "symbol": "912",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/912/thumbnail/0-f434c4959ebe68cd",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Blitz Disco Gold",
+      "slug": "piggy-blitz-disco-gold",
+      "url": "https://www.playngo.com/games/piggy-blitz-disco-gold",
+      "symbol": "924",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/924/thumbnail/0-037883a981a4ecf9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legion Gold and the Sphinx of Dead",
+      "slug": "legion-gold-and-the-sphinx-of-dead",
+      "url": "https://www.playngo.com/games/legion-gold-and-the-sphinx-of-dead",
+      "symbol": "970",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/970/thumbnail/0-2801a9b4af3c8cc0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beasts of Fire Maximum",
+      "slug": "beasts-of-fire-maximum",
+      "url": "https://www.playngo.com/games/beasts-of-fire-maximum",
+      "symbol": "930",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/930/thumbnail/0-9b0e794773f56ad4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Baron: Lord of Saturday",
+      "slug": "baron-lord-of-saturday",
+      "url": "https://www.playngo.com/games/baron-lord-of-saturday",
+      "symbol": "699",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/699/thumbnail/0-25c84573e0f51e8c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stepping Diamonds",
+      "slug": "stepping-diamonds",
+      "url": "https://www.playngo.com/games/stepping-diamonds",
+      "symbol": "753",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/753/thumbnail/0-8300ab61bf52b64d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lady of Fortune Remastered",
+      "slug": "lady-of-fortune-remastered",
+      "url": "https://www.playngo.com/games/lady-of-fortune-remastered",
+      "symbol": "976",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/976/thumbnail/0-fd2daa2cfe67c1db",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kingdom Below",
+      "slug": "kingdom-below",
+      "url": "https://www.playngo.com/games/kingdom-below",
+      "symbol": "972",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/972/thumbnail/0-1a70a2baf865afd3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Buildin' Bucks",
+      "slug": "buildin'-bucks",
+      "url": "https://www.playngo.com/games/buildin'-bucks",
+      "symbol": "673",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/673/thumbnail/0-ee3209b682c61585",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mirror Joker",
+      "slug": "mirror-joker",
+      "url": "https://www.playngo.com/games/mirror-joker",
+      "symbol": "928",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/928/thumbnail/0-d60bcab1c1c2b3a3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gemix 100",
+      "slug": "gemix-100",
+      "url": "https://www.playngo.com/games/gemix-100",
+      "symbol": "734",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/734/thumbnail/0-6a584afdd89389c7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ankh of Anubis Awakening",
+      "slug": "ankh-of-anubis-awakening",
+      "url": "https://www.playngo.com/games/ankh-of-anubis-awakening",
+      "symbol": "692",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/692/thumbnail/0-f3710a7b8b2cd90e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scourge of Rome",
+      "slug": "scourge-of-rome",
+      "url": "https://www.playngo.com/games/scourge-of-rome",
+      "symbol": "730",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/730/thumbnail/0-d75e643ed28ca356",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Flip",
+      "slug": "joker-flip",
+      "url": "https://www.playngo.com/games/joker-flip",
+      "symbol": "974",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/974/thumbnail/0-f21f9173a3c99b72",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mafia Gold",
+      "slug": "mafia-gold",
+      "url": "https://www.playngo.com/games/mafia-gold",
+      "symbol": "815",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/815/thumbnail/0-389f761f551fddea",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Olympus Origins",
+      "slug": "rise-of-olympus-origins",
+      "url": "https://www.playngo.com/games/rise-of-olympus-origins",
+      "symbol": "707",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/707/thumbnail/0-16f99ba42a0e1352",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King's Mask Eclipse of Gods",
+      "slug": "king's-mask-eclipse-of-gods",
+      "url": "https://www.playngo.com/games/king's-mask-eclipse-of-gods",
+      "symbol": "851",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/851/thumbnail/0-5ccdb90e8c204e52",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Whispering Winds",
+      "slug": "whispering-winds",
+      "url": "https://www.playngo.com/games/whispering-winds",
+      "symbol": "962",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/962/thumbnail/0-8333fc1afa224d2b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dansband På Turné",
+      "slug": "dansband-pa-turna",
+      "url": "https://www.playngo.com/games/dansband-pa-turna",
+      "symbol": "966",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/966/thumbnail/0-2fe337da52212522",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Oasis of Dead",
+      "slug": "oasis-of-dead",
+      "url": "https://www.playngo.com/games/oasis-of-dead",
+      "symbol": "932",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/932/thumbnail/0-f85994feadb8d9f0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Journey to Paris",
+      "slug": "journey-to-paris",
+      "url": "https://www.playngo.com/games/journey-to-paris",
+      "symbol": "936",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/936/thumbnail/0-1b9ccd38c854b54b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Temple of Tollan",
+      "slug": "temple-of-tollan",
+      "url": "https://www.playngo.com/games/temple-of-tollan",
+      "symbol": "733",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/733/thumbnail/0-aad0d25229c9974e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Merlin Realm of Charm",
+      "slug": "merlin-realm-of-charm",
+      "url": "https://www.playngo.com/games/merlin-realm-of-charm",
+      "symbol": "902",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/902/thumbnail/0-820e762d9a4e08f6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold of Fortune God",
+      "slug": "gold-of-fortune-god",
+      "url": "https://www.playngo.com/games/gold-of-fortune-god",
+      "symbol": "736",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/736/thumbnail/0-ba14870c636fd889",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rich Wilde and the Tome of Insanity",
+      "slug": "rich-wilde-and-the-tome-of-insanity",
+      "url": "https://www.playngo.com/games/rich-wilde-and-the-tome-of-insanity",
+      "symbol": "745",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/745/thumbnail/0-69c60ac007b8405e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Colt Lightning Firestorm",
+      "slug": "colt-lightning-firestorm",
+      "url": "https://www.playngo.com/games/colt-lightning-firestorm",
+      "symbol": "739",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/739/thumbnail/0-22b3ff726abf3fa5",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spark of Genius",
+      "slug": "spark-of-genius",
+      "url": "https://www.playngo.com/games/spark-of-genius",
+      "symbol": "688",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/688/thumbnail/0-847a08d4368ad598",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Survivor",
+      "slug": "wild-survivor",
+      "url": "https://www.playngo.com/games/wild-survivor",
+      "symbol": "724",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/724/thumbnail/0-6cb1de3a5d08603d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fulong 88",
+      "slug": "fulong-88",
+      "url": "https://www.playngo.com/games/fulong-88",
+      "symbol": "852",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/852/thumbnail/0-32789e060bfef883",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Sword and the Grail Excalibur",
+      "slug": "the-sword-and-the-grail-excalibur",
+      "url": "https://www.playngo.com/games/the-sword-and-the-grail-excalibur",
+      "symbol": "677",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/677/thumbnail/0-2430663f3bad6ab5",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boat Bonanza Down Under",
+      "slug": "boat-bonanza-down-under",
+      "url": "https://www.playngo.com/games/boat-bonanza-down-under",
+      "symbol": "676",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/676/thumbnail/0-a9a9385c6bd63694",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tomb of Gold",
+      "slug": "tomb-of-gold",
+      "url": "https://www.playngo.com/games/tomb-of-gold",
+      "symbol": "594",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/594/thumbnail/0-3d8f10ea0fc7f8f0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Genie  Fortunes of the Lamp",
+      "slug": "mystery-genie-fortunes-of-the-lamp",
+      "url": "https://www.playngo.com/games/mystery-genie-fortunes-of-the-lamp",
+      "symbol": "704",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/704/thumbnail/0-e2df382a9c51edef",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Easter Eggspedition",
+      "slug": "easter-eggspedition",
+      "url": "https://www.playngo.com/games/easter-eggspedition",
+      "symbol": "934",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/934/thumbnail/0-082e0a0addea8206",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piranha Pays",
+      "slug": "piranha-pays",
+      "url": "https://www.playngo.com/games/piranha-pays",
+      "symbol": "850",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/850/thumbnail/0-c16ee03ceec60e3b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chambers of Ancients",
+      "slug": "chambers-of-ancients",
+      "url": "https://www.playngo.com/games/chambers-of-ancients",
+      "symbol": "722",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/722/thumbnail/0-686f2f51c2491fc0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Banquet of Dead",
+      "slug": "banquet-of-dead",
+      "url": "https://www.playngo.com/games/banquet-of-dead",
+      "symbol": "728",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/728/thumbnail/0-d118f5e2e0c238a3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legion Gold Unleashed",
+      "slug": "legion-gold-unleashed",
+      "url": "https://www.playngo.com/games/legion-gold-unleashed",
+      "symbol": "678",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/678/thumbnail/0-c4e35215d9e14a36",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Undefeated Xerxes",
+      "slug": "undefeated-xerxes",
+      "url": "https://www.playngo.com/games/undefeated-xerxes",
+      "symbol": "705",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/705/thumbnail/0-db23e1f1459667b0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cat Wilde and the Incan Quest",
+      "slug": "cat-wilde-and-the-incan-quest",
+      "url": "https://www.playngo.com/games/cat-wilde-and-the-incan-quest",
+      "symbol": "744",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/744/thumbnail/0-d8aa39ce167dae7c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Love is in the Fair",
+      "slug": "love-is-in-the-fair",
+      "url": "https://www.playngo.com/games/love-is-in-the-fair",
+      "symbol": "869",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/869/thumbnail/0-a2838b0df8b64813",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess Power of Love",
+      "slug": "moon-princess-power-of-love",
+      "url": "https://www.playngo.com/games/moon-princess-power-of-love",
+      "symbol": "731",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/731/thumbnail/0-db3d19820609aa2e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Clown Monty II",
+      "slug": "3-clown-monty-ii",
+      "url": "https://www.playngo.com/games/3-clown-monty-ii",
+      "symbol": "691",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/691/thumbnail/0-a4ffb271d49f39bc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pandastic Adventure",
+      "slug": "pandastic-adventure",
+      "url": "https://www.playngo.com/games/pandastic-adventure",
+      "symbol": "697",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/697/thumbnail/0-72406e1ccded69e4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Mithrune Syn's Fortune",
+      "slug": "tales-of-mithrune-syn's-fortune",
+      "url": "https://www.playngo.com/games/tales-of-mithrune-syn's-fortune",
+      "symbol": "682",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/682/thumbnail/0-6ada935ae4f24bb7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viking Runecraft 100",
+      "slug": "viking-runecraft-100",
+      "url": "https://www.playngo.com/games/viking-runecraft-100",
+      "symbol": "695",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/695/thumbnail/0-7dee6ce090f99d3d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Don: Feeding Frenzy",
+      "slug": "mega-don-feeding-frenzy",
+      "url": "https://www.playngo.com/games/mega-don-feeding-frenzy",
+      "symbol": "740",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/740/thumbnail/0-374a88aa05d8a0b7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gargantoonz",
+      "slug": "gargantoonz",
+      "url": "https://www.playngo.com/games/gargantoonz",
+      "symbol": "721",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/721/thumbnail/0-590e534c73efdd13",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Detroit Red Wings Winged Reelers",
+      "slug": "detroit-red-wings-winged-reelers",
+      "url": "https://www.playngo.com/games/detroit-red-wings-winged-reelers",
+      "symbol": "901",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/901/thumbnail/0-bccc121df3208a9b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Invading Vegas: Las Christmas",
+      "slug": "invading-vegas-las-christmas",
+      "url": "https://www.playngo.com/games/invading-vegas-las-christmas",
+      "symbol": "701",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/701/thumbnail/0-14c021617c4a834b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legacy of Dynasties",
+      "slug": "legacy-of-dynasties",
+      "url": "https://www.playngo.com/games/legacy-of-dynasties",
+      "symbol": "593",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/593/thumbnail/0-48dae4877b5268b0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sherwood Gold",
+      "slug": "sherwood-gold",
+      "url": "https://www.playngo.com/games/sherwood-gold",
+      "symbol": "681",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/681/thumbnail/0-65bc77449334df0d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Monkey: Battle for the Scrolls",
+      "slug": "monkey-battle-for-the-scrolls",
+      "url": "https://www.playngo.com/games/monkey-battle-for-the-scrolls",
+      "symbol": "672",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/672/thumbnail/0-1eff8e9baf343432",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ruff Heist",
+      "slug": "ruff-heist",
+      "url": "https://www.playngo.com/games/ruff-heist",
+      "symbol": "816",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/816/thumbnail/0-a2b9b42d4a174966",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Raging Rex 3",
+      "slug": "raging-rex-3",
+      "url": "https://www.playngo.com/games/raging-rex-3",
+      "symbol": "729",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/729/thumbnail/0-caa25bc2bbad31f4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Return of The Green Knight",
+      "slug": "return-of-the-green-knight",
+      "url": "https://www.playngo.com/games/return-of-the-green-knight",
+      "symbol": "680",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/680/thumbnail/0-a461b026f127396a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Blitz",
+      "slug": "piggy-blitz",
+      "url": "https://www.playngo.com/games/piggy-blitz",
+      "symbol": "853",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/853/thumbnail/0-5cdc9aadaa0a0694",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Temple of Prosperity",
+      "slug": "temple-of-prosperity",
+      "url": "https://www.playngo.com/games/temple-of-prosperity",
+      "symbol": "700",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/700/thumbnail/0-16641b9a479debeb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scales of Dead",
+      "slug": "scales-of-dead",
+      "url": "https://www.playngo.com/games/scales-of-dead",
+      "symbol": "643",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/643/thumbnail/0-da4dbd6225163968",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boat Bonanza Colossal Catch",
+      "slug": "boat-bonanza-colossal-catch",
+      "url": "https://www.playngo.com/games/boat-bonanza-colossal-catch",
+      "symbol": "675",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/675/thumbnail/0-9963a6b49bae2e4b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Honey Rush 100",
+      "slug": "honey-rush-100",
+      "url": "https://www.playngo.com/games/honey-rush-100",
+      "symbol": "714",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/714/thumbnail/0-074fbf014016734d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hugo Legacy",
+      "slug": "hugo-legacy",
+      "url": "https://www.playngo.com/games/hugo-legacy",
+      "symbol": "727",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/727/thumbnail/0-f31e66a1fd49dc8b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sweet Alchemy 100",
+      "slug": "sweet-alchemy-100",
+      "url": "https://www.playngo.com/games/sweet-alchemy-100",
+      "symbol": "713",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/713/thumbnail/0-74f0d62b9660a8c6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scroll of Seth",
+      "slug": "scroll-of-seth",
+      "url": "https://www.playngo.com/games/scroll-of-seth",
+      "symbol": "807",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/807/thumbnail/0-29be6743cff0711d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Merlin: Journey of Flame",
+      "slug": "merlin-journey-of-flame",
+      "url": "https://www.playngo.com/games/merlin-journey-of-flame",
+      "symbol": "696",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/696/thumbnail/0-19b5f776226fb659",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fox Mayhem",
+      "slug": "fox-mayhem",
+      "url": "https://www.playngo.com/games/fox-mayhem",
+      "symbol": "649",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/649/thumbnail/0-df830bb085b4a0b1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sparky&Shortz Hidden Joules",
+      "slug": "sparky-shortz-hidden-joules",
+      "url": "https://www.playngo.com/games/sparky-shortz-hidden-joules",
+      "symbol": "671",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/671/thumbnail/0-78a5d7a67a53efea",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rascal Riches",
+      "slug": "rascal-riches",
+      "url": "https://www.playngo.com/games/rascal-riches",
+      "symbol": "674",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/674/thumbnail/0-d424dc9d10543991",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sweet Alchemy 2",
+      "slug": "sweet-alchemy-2",
+      "url": "https://www.playngo.com/games/sweet-alchemy-2",
+      "symbol": "710",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/710/thumbnail/0-805d0646dac9cdc2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ternion",
+      "slug": "ternion",
+      "url": "https://www.playngo.com/games/ternion",
+      "symbol": "726",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/726/thumbnail/0-17173b12350fadd8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viking Runecraft: Apocalypse",
+      "slug": "viking-runecraft-apocalypse",
+      "url": "https://www.playngo.com/games/viking-runecraft-apocalypse",
+      "symbol": "648",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/648/thumbnail/0-ebf40f19a2187dfa",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Free Reelin' Joker 1000",
+      "slug": "free-reelin'-joker-1000",
+      "url": "https://www.playngo.com/games/free-reelin'-joker-1000",
+      "symbol": "737",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/737/thumbnail/0-8da848ef43c7067b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Highway Legends",
+      "slug": "highway-legends",
+      "url": "https://www.playngo.com/games/highway-legends",
+      "symbol": "808",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/808/thumbnail/0-86c151bbed1c743c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luchamigos",
+      "slug": "luchamigos",
+      "url": "https://www.playngo.com/games/luchamigos",
+      "symbol": "735",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/735/thumbnail/0-9d49facd02ee694e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Captain Glum: Pirate Hunter",
+      "slug": "captain-glum-pirate-hunter",
+      "url": "https://www.playngo.com/games/captain-glum-pirate-hunter",
+      "symbol": "640",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/640/thumbnail/0-e60766599334cfc6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gerard's Gambit",
+      "slug": "gerard's-gambit",
+      "url": "https://www.playngo.com/games/gerard's-gambit",
+      "symbol": "642",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/642/thumbnail/0-a187c1991a5bd31f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ronin's Honour",
+      "slug": "ronin's-honour",
+      "url": "https://www.playngo.com/games/ronin's-honour",
+      "symbol": "595",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/595/thumbnail/0-aba850db07a5e2e6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Slashimi",
+      "slug": "slashimi",
+      "url": "https://www.playngo.com/games/slashimi",
+      "symbol": "709",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/709/thumbnail/0-03054c60552bf8fb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Bandolier",
+      "slug": "wild-bandolier",
+      "url": "https://www.playngo.com/games/wild-bandolier",
+      "symbol": "661",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/661/thumbnail/0-cb78832dd372ae98",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess Trinity",
+      "slug": "moon-princess-trinity",
+      "url": "https://www.playngo.com/games/moon-princess-trinity",
+      "symbol": "712",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/712/thumbnail/0-4e5d2919c7d5d9fc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pandora's Box of Evil",
+      "slug": "pandora's-box-of-evil",
+      "url": "https://www.playngo.com/games/pandora's-box-of-evil",
+      "symbol": "690",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/690/thumbnail/0-df2087cac683f995",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Colt Lightning",
+      "slug": "colt-lightning",
+      "url": "https://www.playngo.com/games/colt-lightning",
+      "symbol": "787",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/787/thumbnail/0-0e32a8938307e1e0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legion Gold",
+      "slug": "legion-gold",
+      "url": "https://www.playngo.com/games/legion-gold",
+      "symbol": "660",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/660/thumbnail/0-351f31bffa947648",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legacy of Inca",
+      "slug": "legacy-of-inca",
+      "url": "https://www.playngo.com/games/legacy-of-inca",
+      "symbol": "755",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/755/thumbnail/0-d4ccbc5631cede6e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Game of Gladiators: Uprising",
+      "slug": "game-of-gladiators-uprising",
+      "url": "https://www.playngo.com/games/game-of-gladiators-uprising",
+      "symbol": "693",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/693/thumbnail/0-c9ca7cded6810439",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pilgrim of Dead",
+      "slug": "pilgrim-of-dead",
+      "url": "https://www.playngo.com/games/pilgrim-of-dead",
+      "symbol": "684",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/684/thumbnail/0-7600e024b980d1e8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Invading Vegas",
+      "slug": "invading-vegas",
+      "url": "https://www.playngo.com/games/invading-vegas",
+      "symbol": "689",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/689/thumbnail/0-1b32edff6591b2d8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash-a-Cabana",
+      "slug": "cash-a-cabana",
+      "url": "https://www.playngo.com/games/cash-a-cabana",
+      "symbol": "686",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/686/thumbnail/0-fbb118049f7386d6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shamrock Miner",
+      "slug": "shamrock-miner",
+      "url": "https://www.playngo.com/games/shamrock-miner",
+      "symbol": "662",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/662/thumbnail/0-10d1b0d508e66047",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mötley Crüe",
+      "slug": "ma-a-tley-cra-a1-4e",
+      "url": "https://www.playngo.com/games/ma-a-tley-cra-a1-4e",
+      "symbol": "644",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/644/thumbnail/0-fa35ef7dbd69c3f7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Falls 2",
+      "slug": "wild-falls-2",
+      "url": "https://www.playngo.com/games/wild-falls-2",
+      "symbol": "647",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/647/thumbnail/0-2289b88e39d6faeb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Naughty Nick's Book",
+      "slug": "naughty-nick's-book",
+      "url": "https://www.playngo.com/games/naughty-nick's-book",
+      "symbol": "754",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/754/thumbnail/0-e142cb882753ab76",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Athena Ascending",
+      "slug": "athena-ascending",
+      "url": "https://www.playngo.com/games/athena-ascending",
+      "symbol": "708",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/708/thumbnail/0-cd0a1504a4d2bcd5",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clash of Camelot",
+      "slug": "clash-of-camelot",
+      "url": "https://www.playngo.com/games/clash-of-camelot",
+      "symbol": "591",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/591/thumbnail/0-ce28ea66d0a90527",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "USA Flip",
+      "slug": "usa-flip",
+      "url": "https://www.playngo.com/games/usa-flip",
+      "symbol": "659",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/659/thumbnail/0-61cc1f5aa8d3d95c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Olympus 100",
+      "slug": "rise-of-olympus-100",
+      "url": "https://www.playngo.com/games/rise-of-olympus-100",
+      "symbol": "670",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/670/thumbnail/0-fad0c07307aff34a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Canine Carnage",
+      "slug": "canine-carnage",
+      "url": "https://www.playngo.com/games/canine-carnage",
+      "symbol": "590",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/590/thumbnail/0-66343644111e95f0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Count Jokula",
+      "slug": "count-jokula",
+      "url": "https://www.playngo.com/games/count-jokula",
+      "symbol": "685",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/685/thumbnail/0-bf672344ee1e65f5",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boat Bonanza",
+      "slug": "boat-bonanza",
+      "url": "https://www.playngo.com/games/boat-bonanza",
+      "symbol": "664",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/664/thumbnail/0-e8f5a45c0ffec943",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dio Killing the Dragon",
+      "slug": "dio-killing-the-dragon",
+      "url": "https://www.playngo.com/games/dio-killing-the-dragon",
+      "symbol": "653",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/653/thumbnail/0-ac70f09fd2736df8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ImmorTails of Egypt",
+      "slug": "immortails-of-egypt",
+      "url": "https://www.playngo.com/games/immortails-of-egypt",
+      "symbol": "641",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/641/thumbnail/0-83519f28d863b0ae",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gates of Troy",
+      "slug": "gates-of-troy",
+      "url": "https://www.playngo.com/games/gates-of-troy",
+      "symbol": "618",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/618/thumbnail/0-6a62a52397873e2a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mount M",
+      "slug": "mount-m",
+      "url": "https://www.playngo.com/games/mount-m",
+      "symbol": "645",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/645/thumbnail/0-3d0424b046836338",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Champions of Mithrune",
+      "slug": "champions-of-mithrune",
+      "url": "https://www.playngo.com/games/champions-of-mithrune",
+      "symbol": "588",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/588/thumbnail/0-5b5d23b6add370bf",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bull in a Rodeo",
+      "slug": "bull-in-a-rodeo",
+      "url": "https://www.playngo.com/games/bull-in-a-rodeo",
+      "symbol": "646",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/646/thumbnail/0-10a2dfe2f3d7abe3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Forge of Fortunes",
+      "slug": "forge-of-fortunes",
+      "url": "https://www.playngo.com/games/forge-of-fortunes",
+      "symbol": "622",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/622/thumbnail/0-500b443d8cd25953",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Leprechaun's Vault",
+      "slug": "leprechaun's-vault",
+      "url": "https://www.playngo.com/games/leprechaun's-vault",
+      "symbol": "656",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/656/thumbnail/0-cb860783fc0aadab",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Don",
+      "slug": "mega-don",
+      "url": "https://www.playngo.com/games/mega-don",
+      "symbol": "625",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/625/thumbnail/0-11e9e3a40485ab7c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash of Command",
+      "slug": "cash-of-command",
+      "url": "https://www.playngo.com/games/cash-of-command",
+      "symbol": "587",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/587/thumbnail/0-ca607c2b5ec9a92a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rotiki",
+      "slug": "rotiki",
+      "url": "https://www.playngo.com/games/rotiki",
+      "symbol": "624",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/624/thumbnail/0-3bf0e2bbd279263f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Merlin's Grimoire",
+      "slug": "merlin's-grimoire",
+      "url": "https://www.playngo.com/games/merlin's-grimoire",
+      "symbol": "620",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/620/thumbnail/0-dd6899470e2ba14d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "*NSYNC Pop",
+      "slug": "nsync-pop",
+      "url": "https://www.playngo.com/games/nsync-pop",
+      "symbol": "629",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/629/thumbnail/0-328d5fd3193a24f7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cat Wilde and the Pyramids of Dead",
+      "slug": "cat-wilde-and-the-pyramids-of-dead",
+      "url": "https://www.playngo.com/games/cat-wilde-and-the-pyramids-of-dead",
+      "symbol": "613",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/613/thumbnail/0-ae45d19673cbcac1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rocco Gallo",
+      "slug": "rocco-gallo",
+      "url": "https://www.playngo.com/games/rocco-gallo",
+      "symbol": "586",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/586/thumbnail/0-a942cfdd9ef5984c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Derby Wheel",
+      "slug": "derby-wheel",
+      "url": "https://www.playngo.com/games/derby-wheel",
+      "symbol": "476",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/476/thumbnail/0-189e8659cd8cebd9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Trigger",
+      "slug": "wild-trigger",
+      "url": "https://www.playngo.com/games/wild-trigger",
+      "symbol": "616",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/616/thumbnail/0-f3aeaa24d21af558",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King's Mask",
+      "slug": "king's-mask",
+      "url": "https://www.playngo.com/games/king's-mask",
+      "symbol": "639",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/639/thumbnail/0-26d8d72880abc5a0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Animal Madness",
+      "slug": "animal-madness",
+      "url": "https://www.playngo.com/games/animal-madness",
+      "symbol": "617",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/617/thumbnail/0-50d43a52bafce339",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Idol of Fortune",
+      "slug": "idol-of-fortune",
+      "url": "https://www.playngo.com/games/idol-of-fortune",
+      "symbol": "633",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/633/thumbnail/0-cfc3dbf5540c78af",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Gods: Reckoning",
+      "slug": "rise-of-gods-reckoning",
+      "url": "https://www.playngo.com/games/rise-of-gods-reckoning",
+      "symbol": "584",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/584/thumbnail/0-06880f6b3741dc27",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lordi Reel Monsters",
+      "slug": "lordi-reel-monsters",
+      "url": "https://www.playngo.com/games/lordi-reel-monsters",
+      "symbol": "608",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/608/thumbnail/0-277d0436aa66b2eb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Puebla Parade",
+      "slug": "puebla-parade",
+      "url": "https://www.playngo.com/games/puebla-parade",
+      "symbol": "619",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/619/thumbnail/0-8c7c220f7f6c5713",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Forge of Gems",
+      "slug": "forge-of-gems",
+      "url": "https://www.playngo.com/games/forge-of-gems",
+      "symbol": "609",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/609/thumbnail/0-91536e2906134e11",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess 100",
+      "slug": "moon-princess-100",
+      "url": "https://www.playngo.com/games/moon-princess-100",
+      "symbol": "603",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/603/thumbnail/0-3d8d15920edce8fc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Def Leppard: Hysteria",
+      "slug": "def-leppard-hysteria",
+      "url": "https://www.playngo.com/games/def-leppard-hysteria",
+      "symbol": "612",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/612/thumbnail/0-27bb10ca5765bea4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of Atum",
+      "slug": "eye-of-atum",
+      "url": "https://www.playngo.com/games/eye-of-atum",
+      "symbol": "638",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/638/thumbnail/0-7d65e44f4e6756ce",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Raging Rex 2",
+      "slug": "raging-rex-2",
+      "url": "https://www.playngo.com/games/raging-rex-2",
+      "symbol": "607",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/607/thumbnail/0-0fe1f5170d56fc30",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fat Frankies",
+      "slug": "fat-frankies",
+      "url": "https://www.playngo.com/games/fat-frankies",
+      "symbol": "614",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/614/thumbnail/0-a685bf2c066765e4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Safari of Wealth",
+      "slug": "safari-of-wealth",
+      "url": "https://www.playngo.com/games/safari-of-wealth",
+      "symbol": "632",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/632/thumbnail/0-691fdcc79eb3a475",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Secret of Dead",
+      "slug": "secret-of-dead",
+      "url": "https://www.playngo.com/games/secret-of-dead",
+      "symbol": "606",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/606/thumbnail/0-f2c9242a65f0bd58",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Asgard: Freya's Wedding",
+      "slug": "tales-of-asgard-freya's-wedding",
+      "url": "https://www.playngo.com/games/tales-of-asgard-freya's-wedding",
+      "symbol": "596",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/596/thumbnail/0-0ff510c9473b9744",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cat Wilde and the Lost Chapter",
+      "slug": "cat-wilde-and-the-lost-chapter",
+      "url": "https://www.playngo.com/games/cat-wilde-and-the-lost-chapter",
+      "symbol": "456",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/456/thumbnail/0-7688a5c2f08d932e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gigantoonz",
+      "slug": "gigantoonz",
+      "url": "https://www.playngo.com/games/gigantoonz",
+      "symbol": "574",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/574/thumbnail/0-faeb9de10793fb66",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Love Joker",
+      "slug": "love-joker",
+      "url": "https://www.playngo.com/games/love-joker",
+      "symbol": "610",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/610/thumbnail/0-c51fd3eb2a96d43e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "15 Crystal Roses: A Tale of Love",
+      "slug": "15-crystal-roses-a-tale-of-love",
+      "url": "https://www.playngo.com/games/15-crystal-roses-a-tale-of-love",
+      "symbol": "567",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/567/thumbnail/0-117497d0ba08f6e8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tale of Kyubiko",
+      "slug": "tale-of-kyubiko",
+      "url": "https://www.playngo.com/games/tale-of-kyubiko",
+      "symbol": "570",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/570/thumbnail/0-4dbfc306060ba62e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Captain Xeno's Earth Adventure",
+      "slug": "captain-xeno's-earth-adventure",
+      "url": "https://www.playngo.com/games/captain-xeno's-earth-adventure",
+      "symbol": "585",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/585/thumbnail/0-282a8a909fc5c99a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beasts of Fire",
+      "slug": "beasts-of-fire",
+      "url": "https://www.playngo.com/games/beasts-of-fire",
+      "symbol": "579",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/579/thumbnail/0-b4d7f2e2f09fcb2d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hooligan Hustle",
+      "slug": "hooligan-hustle",
+      "url": "https://www.playngo.com/games/hooligan-hustle",
+      "symbol": "568",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/568/thumbnail/0-debaf01bceee94d8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kiss Reels of Rock",
+      "slug": "kiss-reels-of-rock",
+      "url": "https://www.playngo.com/games/kiss-reels-of-rock",
+      "symbol": "553",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/553/thumbnail/0-f81e2d260844c3ab",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess: Christmas Kingdom",
+      "slug": "moon-princess-christmas-kingdom",
+      "url": "https://www.playngo.com/games/moon-princess-christmas-kingdom",
+      "symbol": "600",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/600/thumbnail/0-ef8eb4d0204139b8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Merlin and the Ice Queen Morgana",
+      "slug": "merlin-and-the-ice-queen-morgana",
+      "url": "https://www.playngo.com/games/merlin-and-the-ice-queen-morgana",
+      "symbol": "581",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/581/thumbnail/0-9a97a9a9a5c5f754",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rich Wilde and the Wandering City",
+      "slug": "rich-wilde-and-the-wandering-city",
+      "url": "https://www.playngo.com/games/rich-wilde-and-the-wandering-city",
+      "symbol": "563",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/563/thumbnail/0-b70bcb48178b9c06",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Last Sundown",
+      "slug": "the-last-sundown",
+      "url": "https://www.playngo.com/games/the-last-sundown",
+      "symbol": "583",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/583/thumbnail/0-38059b4ce8f8dc7d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legend of the Ice Dragon",
+      "slug": "legend-of-the-ice-dragon",
+      "url": "https://www.playngo.com/games/legend-of-the-ice-dragon",
+      "symbol": "564",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/564/thumbnail/0-1d91af4120d7e3ca",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Asgard: Loki's Fortune",
+      "slug": "tales-of-asgard-loki's-fortune",
+      "url": "https://www.playngo.com/games/tales-of-asgard-loki's-fortune",
+      "symbol": "565",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/565/thumbnail/0-d886d5760560fef7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sparky & Shortz",
+      "slug": "sparky-shortz",
+      "url": "https://www.playngo.com/games/sparky-shortz",
+      "symbol": "566",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/566/thumbnail/0-6198ce72c88b7342",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Muerto en MictlÃƒÆ’Ã‚Â¡n",
+      "slug": "muerto-en-mictla-a-a-n",
+      "url": "https://www.playngo.com/games/muerto-en-mictla-a-a-n",
+      "symbol": "545",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/545/thumbnail/0-c29b131a69e35790",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Alice Cooper and the Tome of Madness",
+      "slug": "alice-cooper-and-the-tome-of-madness",
+      "url": "https://www.playngo.com/games/alice-cooper-and-the-tome-of-madness",
+      "symbol": "531",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/531/thumbnail/0-53191d8f01b368df",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charlie Chance and the Curse of Cleopatra",
+      "slug": "charlie-chance-and-the-curse-of-cleopatra",
+      "url": "https://www.playngo.com/games/charlie-chance-and-the-curse-of-cleopatra",
+      "symbol": "539",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/539/thumbnail/0-0498ad9bed887769",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Wild Class",
+      "slug": "the-wild-class",
+      "url": "https://www.playngo.com/games/the-wild-class",
+      "symbol": "554",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/554/thumbnail/0-72ec649a9b6e4cfc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ghost of Dead",
+      "slug": "ghost-of-dead",
+      "url": "https://www.playngo.com/games/ghost-of-dead",
+      "symbol": "549",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/549/thumbnail/0-dc144c254d424450",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dr. Toonz",
+      "slug": "dr-toonz",
+      "url": "https://www.playngo.com/games/dr-toonz",
+      "symbol": "538",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/538/thumbnail/0-b433fc8f663c0d7d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sisters of the Sun",
+      "slug": "sisters-of-the-sun",
+      "url": "https://www.playngo.com/games/sisters-of-the-sun",
+      "symbol": "547",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/547/thumbnail/0-ad25357b87d5cb02",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hugo Carts",
+      "slug": "hugo-carts",
+      "url": "https://www.playngo.com/games/hugo-carts",
+      "symbol": "548",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/548/thumbnail/0-6f30200b6c160eae",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Agent of Hearts",
+      "slug": "agent-of-hearts",
+      "url": "https://www.playngo.com/games/agent-of-hearts",
+      "symbol": "542",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/542/thumbnail/0-b204f768ee786a22",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamonds of the Realm",
+      "slug": "diamonds-of-the-realm",
+      "url": "https://www.playngo.com/games/diamonds-of-the-realm",
+      "symbol": "535",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/535/thumbnail/0-3c47f13651c7eb81",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Odin Protector of Realms",
+      "slug": "odin-protector-of-realms",
+      "url": "https://www.playngo.com/games/odin-protector-of-realms",
+      "symbol": "537",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/537/thumbnail/0-f9dfd2d5a81fe652",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hotel Yeti-Way",
+      "slug": "hotel-yeti-way",
+      "url": "https://www.playngo.com/games/hotel-yeti-way",
+      "symbol": "479",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/479/thumbnail/0-2124f901919f968d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gemix 2",
+      "slug": "gemix-2",
+      "url": "https://www.playngo.com/games/gemix-2",
+      "symbol": "468",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/468/thumbnail/0-a7cd2211617adb7e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blazin' Bullfrog",
+      "slug": "blazin'-bullfrog",
+      "url": "https://www.playngo.com/games/blazin'-bullfrog",
+      "symbol": "533",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/533/thumbnail/0-f21f160fcaa25164",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pack & Cash",
+      "slug": "pack-cash",
+      "url": "https://www.playngo.com/games/pack-cash",
+      "symbol": "478",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/478/thumbnail/0-d8e933ee00cde52e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Free Reelin' Joker",
+      "slug": "free-reelin'-joker",
+      "url": "https://www.playngo.com/games/free-reelin'-joker",
+      "symbol": "540",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/540/thumbnail/0-0e2ec78485b5a002",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charlie Chance",
+      "slug": "charlie-chance",
+      "url": "https://www.playngo.com/games/charlie-chance",
+      "symbol": "534",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/534/thumbnail/0-93ebae47601c7542",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Island Princess",
+      "slug": "candy-island-princess",
+      "url": "https://www.playngo.com/games/candy-island-princess",
+      "symbol": "536",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/536/thumbnail/0-a0ebc5eab0f5e031",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prism of Gems",
+      "slug": "prism-of-gems",
+      "url": "https://www.playngo.com/games/prism-of-gems",
+      "symbol": "532",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/532/thumbnail/0-3d12708cd2ccc5cb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scroll of Dead",
+      "slug": "scroll-of-dead",
+      "url": "https://www.playngo.com/games/scroll-of-dead",
+      "symbol": "530",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/530/thumbnail/0-ec53e086d16657bf",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Clown Monty",
+      "slug": "3-clown-monty",
+      "url": "https://www.playngo.com/games/3-clown-monty",
+      "symbol": "474",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/474/thumbnail/0-1e7665d3b50eaacc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "HammerFall",
+      "slug": "hammerfall",
+      "url": "https://www.playngo.com/games/hammerfall",
+      "symbol": "469",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/469/thumbnail/0-491092a0aa78e261",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rabbit Hole Riches - Court of Hearts",
+      "slug": "rabbit-hole-riches-court-of-hearts",
+      "url": "https://www.playngo.com/games/rabbit-hole-riches-court-of-hearts",
+      "symbol": "477",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/477/thumbnail/0-f49a78958089de3a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Joker Freeze",
+      "slug": "fire-joker-freeze",
+      "url": "https://www.playngo.com/games/fire-joker-freeze",
+      "symbol": "473",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/473/thumbnail/0-8c6be03dbf760ba9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Toad",
+      "slug": "fire-toad",
+      "url": "https://www.playngo.com/games/fire-toad",
+      "symbol": "466",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/466/thumbnail/0-a8e98f33246cb855",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rich Wilde and the Amulet of Dead",
+      "slug": "rich-wilde-and-the-amulet-of-dead",
+      "url": "https://www.playngo.com/games/rich-wilde-and-the-amulet-of-dead",
+      "symbol": "475",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/475/thumbnail/0-6565eeed35d40fa0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Shimmering Woods",
+      "slug": "the-shimmering-woods",
+      "url": "https://www.playngo.com/games/the-shimmering-woods",
+      "symbol": "472",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/472/thumbnail/0-3951d90dc3f0a622",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "House of Doom 2: The Crypt",
+      "slug": "house-of-doom-2-the-crypt",
+      "url": "https://www.playngo.com/games/house-of-doom-2-the-crypt",
+      "symbol": "467",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/467/thumbnail/0-e2260eb48b06e581",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Green Knight",
+      "slug": "the-green-knight",
+      "url": "https://www.playngo.com/games/the-green-knight",
+      "symbol": "471",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/471/thumbnail/0-b018a1e946ece9dd",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Faces of Freya",
+      "slug": "the-faces-of-freya",
+      "url": "https://www.playngo.com/games/the-faces-of-freya",
+      "symbol": "462",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/462/thumbnail/0-669838cc331d891a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Paying Piano Club",
+      "slug": "the-paying-piano-club",
+      "url": "https://www.playngo.com/games/the-paying-piano-club",
+      "symbol": "465",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/465/thumbnail/0-8651c1978879970e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Screech",
+      "slug": "thunder-screech",
+      "url": "https://www.playngo.com/games/thunder-screech",
+      "symbol": "463",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/463/thumbnail/0-be698a0490c37464",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cat Wilde in the Eclipse of the Sun God",
+      "slug": "cat-wilde-in-the-eclipse-of-the-sun-god",
+      "url": "https://www.playngo.com/games/cat-wilde-in-the-eclipse-of-the-sun-god",
+      "symbol": "460",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/460/thumbnail/0-7bdd79b8f26b4339",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord Merlin and The Lady of The Lake",
+      "slug": "lord-merlin-and-the-lady-of-the-lake",
+      "url": "https://www.playngo.com/games/lord-merlin-and-the-lady-of-the-lake",
+      "symbol": "470",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/470/thumbnail/0-2d4f3bfd4a856e00",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bull in a China Shop",
+      "slug": "bull-in-a-china-shop",
+      "url": "https://www.playngo.com/games/bull-in-a-china-shop",
+      "symbol": "459",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/459/thumbnail/0-d5fac47a3a847eb7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Miner Donkey Trouble",
+      "slug": "miner-donkey-trouble",
+      "url": "https://www.playngo.com/games/miner-donkey-trouble",
+      "symbol": "461",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/461/thumbnail/0-167ba167bf4960a4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coils of Cash",
+      "slug": "coils-of-cash",
+      "url": "https://www.playngo.com/games/coils-of-cash",
+      "symbol": "452",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/452/thumbnail/0-fcc01ec17159636d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Bank Farm",
+      "slug": "piggy-bank-farm",
+      "url": "https://www.playngo.com/games/piggy-bank-farm",
+      "symbol": "458",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/458/thumbnail/0-c91e875d97be3662",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Osiris",
+      "slug": "golden-osiris",
+      "url": "https://www.playngo.com/games/golden-osiris",
+      "symbol": "447",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/447/thumbnail/0-37e533ffefe1bf9d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Frozen Gems",
+      "slug": "frozen-gems",
+      "url": "https://www.playngo.com/games/frozen-gems",
+      "symbol": "453",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/453/thumbnail/0-3a09c1400fb963cb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ice Joker",
+      "slug": "ice-joker",
+      "url": "https://www.playngo.com/games/ice-joker",
+      "symbol": "454",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/454/thumbnail/0-c63f870ccd787130",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "New Year Riches",
+      "slug": "new-year-riches",
+      "url": "https://www.playngo.com/games/new-year-riches",
+      "symbol": "457",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/457/thumbnail/0-5e1fc6cd039485b2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "24k Dragon",
+      "slug": "24k-dragon",
+      "url": "https://www.playngo.com/games/24k-dragon",
+      "symbol": "450",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/450/thumbnail/0-bd0f7783707d97d1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Athena",
+      "slug": "rise-of-athena",
+      "url": "https://www.playngo.com/games/rise-of-athena",
+      "symbol": "451",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/451/thumbnail/0-9be695981bf1eec8",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Holiday Spirits",
+      "slug": "holiday-spirits",
+      "url": "https://www.playngo.com/games/holiday-spirits",
+      "symbol": "464",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/464/thumbnail/0-130c0e8f3690cff5",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Disco Diamonds",
+      "slug": "disco-diamonds",
+      "url": "https://www.playngo.com/games/disco-diamonds",
+      "symbol": "449",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/449/thumbnail/0-132fe2c5cd3c5dd2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Madame Ink",
+      "slug": "madame-ink",
+      "url": "https://www.playngo.com/games/madame-ink",
+      "symbol": "435",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/435/thumbnail/0-03b69774cf9a96c2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Helloween",
+      "slug": "helloween",
+      "url": "https://www.playngo.com/games/helloween",
+      "symbol": "423",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/423/thumbnail/0-148f966011a3d257",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rabbit Hole Riches",
+      "slug": "rabbit-hole-riches",
+      "url": "https://www.playngo.com/games/rabbit-hole-riches",
+      "symbol": "445",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/445/thumbnail/0-06ef81af9eec3f74",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reactoonz 2",
+      "slug": "reactoonz-2",
+      "url": "https://www.playngo.com/games/reactoonz-2",
+      "symbol": "429",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/429/thumbnail/0-f7ce86520d2eaaca",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Feline Fury",
+      "slug": "feline-fury",
+      "url": "https://www.playngo.com/games/feline-fury",
+      "symbol": "415",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/415/thumbnail/0-57302866b646ee3c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Octopus Treasure",
+      "slug": "octopus-treasure",
+      "url": "https://www.playngo.com/games/octopus-treasure",
+      "symbol": "441",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/441/thumbnail/0-cc3c2bfd086a0445",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Ticket 2",
+      "slug": "golden-ticket-2",
+      "url": "https://www.playngo.com/games/golden-ticket-2",
+      "symbol": "436",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/436/thumbnail/0-03fbcc77c5cac510",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jolly Roger 2",
+      "slug": "jolly-roger-2",
+      "url": "https://www.playngo.com/games/jolly-roger-2",
+      "symbol": "442",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/442/thumbnail/0-c01b26495267a674",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Vortex",
+      "slug": "diamond-vortex",
+      "url": "https://www.playngo.com/games/diamond-vortex",
+      "symbol": "428",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/428/thumbnail/0-0269f8fb5e61715f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Saxon",
+      "slug": "saxon",
+      "url": "https://www.playngo.com/games/saxon",
+      "symbol": "422",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/422/thumbnail/0-af3db8cad822d21b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blinged",
+      "slug": "blinged",
+      "url": "https://www.playngo.com/games/blinged",
+      "symbol": "446",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/446/thumbnail/0-7c6616f7999c7770",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Riddle Reels: A Case of Riches",
+      "slug": "riddle-reels-a-case-of-riches",
+      "url": "https://www.playngo.com/games/riddle-reels-a-case-of-riches",
+      "symbol": "430",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/430/thumbnail/0-d21f889f13152265",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Win-A-Beest",
+      "slug": "win-a-beest",
+      "url": "https://www.playngo.com/games/win-a-beest",
+      "symbol": "426",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/426/thumbnail/0-397f65591d93310b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Volcano",
+      "slug": "gold-volcano",
+      "url": "https://www.playngo.com/games/gold-volcano",
+      "symbol": "424",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/424/thumbnail/0-e943967553a3bb2a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cat Wilde and the Doom of Dead",
+      "slug": "cat-wilde-and-the-doom-of-dead",
+      "url": "https://www.playngo.com/games/cat-wilde-and-the-doom-of-dead",
+      "symbol": "427",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/427/thumbnail/0-d183a1db912253ae",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Troll Hunters 2",
+      "slug": "troll-hunters-2",
+      "url": "https://www.playngo.com/games/troll-hunters-2",
+      "symbol": "396",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/396/thumbnail/0-52caed022b3ab791",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rally 4 Riches",
+      "slug": "rally-4-riches",
+      "url": "https://www.playngo.com/games/rally-4-riches",
+      "symbol": "420",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/420/thumbnail/0-2d09a0b5f6656e26",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twisted Sister",
+      "slug": "twisted-sister",
+      "url": "https://www.playngo.com/games/twisted-sister",
+      "symbol": "421",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/421/thumbnail/0-0ae5518671d15f79",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charlie Chance in Hell to Pay",
+      "slug": "charlie-chance-in-hell-to-pay",
+      "url": "https://www.playngo.com/games/charlie-chance-in-hell-to-pay",
+      "symbol": "425",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/425/thumbnail/0-724352722c34e890",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Agent Destiny",
+      "slug": "agent-destiny",
+      "url": "https://www.playngo.com/games/agent-destiny",
+      "symbol": "405",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/405/thumbnail/0-97e7cad63d194ec9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rich Wilde and the Shield of Athena",
+      "slug": "rich-wilde-and-the-shield-of-athena",
+      "url": "https://www.playngo.com/games/rich-wilde-and-the-shield-of-athena",
+      "symbol": "413",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/413/thumbnail/0-45d071ef2cffa218",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Annihilator",
+      "slug": "annihilator",
+      "url": "https://www.playngo.com/games/annihilator",
+      "symbol": "418",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/418/thumbnail/0-ad8bf53be512c85a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ring of Odin",
+      "slug": "ring-of-odin",
+      "url": "https://www.playngo.com/games/ring-of-odin",
+      "symbol": "411",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/411/thumbnail/0-6b807f810b25ee39",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "That's Rich",
+      "slug": "that's-rich",
+      "url": "https://www.playngo.com/games/that's-rich",
+      "symbol": "414",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/414/thumbnail/0-0f0de6baf50ec5d9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Riches of Robin",
+      "slug": "riches-of-robin",
+      "url": "https://www.playngo.com/games/riches-of-robin",
+      "symbol": "384",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/384/thumbnail/0-970a016df2299f1e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sticky Joker",
+      "slug": "sticky-joker",
+      "url": "https://www.playngo.com/games/sticky-joker",
+      "symbol": "412",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/412/thumbnail/0-263f99cb2c25d4d9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Testament",
+      "slug": "testament",
+      "url": "https://www.playngo.com/games/testament",
+      "symbol": "406",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/406/thumbnail/0-df9ee861d936b055",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortunes of Ali Baba",
+      "slug": "fortunes-of-ali-baba",
+      "url": "https://www.playngo.com/games/fortunes-of-ali-baba",
+      "symbol": "410",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/410/thumbnail/0-e5fc57b8c8ab7be3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dawn of Egypt",
+      "slug": "dawn-of-egypt",
+      "url": "https://www.playngo.com/games/dawn-of-egypt",
+      "symbol": "407",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/407/thumbnail/0-2f3a5d1610889f2d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Leprechaun Goes Wild",
+      "slug": "leprechaun-goes-wild",
+      "url": "https://www.playngo.com/games/leprechaun-goes-wild",
+      "symbol": "408",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/408/thumbnail/0-fdceffd1295dad8d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coywolf Cash",
+      "slug": "coywolf-cash",
+      "url": "https://www.playngo.com/games/coywolf-cash",
+      "symbol": "395",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/395/thumbnail/0-c9de59b72370a936",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wildhound Derby",
+      "slug": "wildhound-derby",
+      "url": "https://www.playngo.com/games/wildhound-derby",
+      "symbol": "393",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/393/thumbnail/0-1bfaa09c8b760719",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Blood 2",
+      "slug": "wild-blood-2",
+      "url": "https://www.playngo.com/games/wild-blood-2",
+      "symbol": "404",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/404/thumbnail/0-ab3c3c02962456fb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legacy of Dead",
+      "slug": "legacy-of-dead",
+      "url": "https://www.playngo.com/games/legacy-of-dead",
+      "symbol": "416",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/416/thumbnail/0-71f8dd02de8c1399",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Frames",
+      "slug": "wild-frames",
+      "url": "https://www.playngo.com/games/wild-frames",
+      "symbol": "398",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/398/thumbnail/0-fde1c4373bd6e3f0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Divine Showdown",
+      "slug": "divine-showdown",
+      "url": "https://www.playngo.com/games/divine-showdown",
+      "symbol": "360",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/360/thumbnail/0-4162f59f64fe5743",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chronos Joker",
+      "slug": "chronos-joker",
+      "url": "https://www.playngo.com/games/chronos-joker",
+      "symbol": "389",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/389/thumbnail/0-f4779c120478929b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xmas Magic",
+      "slug": "xmas-magic",
+      "url": "https://www.playngo.com/games/xmas-magic",
+      "symbol": "390",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/390/thumbnail/0-013df24d653c28e4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black Mamba",
+      "slug": "black-mamba",
+      "url": "https://www.playngo.com/games/black-mamba",
+      "symbol": "386",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/386/thumbnail/0-8b996fbd9f06b42a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Doom of Egypt",
+      "slug": "doom-of-egypt",
+      "url": "https://www.playngo.com/games/doom-of-egypt",
+      "symbol": "417",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/417/thumbnail/0-93259f9ae5a2904c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Honey Rush",
+      "slug": "honey-rush",
+      "url": "https://www.playngo.com/games/honey-rush",
+      "symbol": "375",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/375/thumbnail/0-d26d1648b2b22956",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Win 777",
+      "slug": "big-win-777",
+      "url": "https://www.playngo.com/games/big-win-777",
+      "symbol": "374",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/374/thumbnail/0-7298f30ca647f2e1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Pump",
+      "slug": "cash-pump",
+      "url": "https://www.playngo.com/games/cash-pump",
+      "symbol": "397",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/397/thumbnail/0-ecab82a765369f89",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rainforest Magic",
+      "slug": "rainforest-magic",
+      "url": "https://www.playngo.com/games/rainforest-magic",
+      "symbol": "388",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/388/thumbnail/0-75d212ed44c72f59",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Demon",
+      "slug": "demon",
+      "url": "https://www.playngo.com/games/demon",
+      "symbol": "394",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/394/thumbnail/0-3b770d0997a0cc48",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mission Cash",
+      "slug": "mission-cash",
+      "url": "https://www.playngo.com/games/mission-cash",
+      "symbol": "379",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/379/thumbnail/0-f011d9f118d76bd7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3-Hand Casino Hold'em",
+      "slug": "3-hand-casino-hold'em",
+      "url": "https://www.playngo.com/games/3-hand-casino-hold'em",
+      "symbol": "409",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/409/thumbnail/0-84c2420b76c8d965",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Inferno Joker",
+      "slug": "inferno-joker",
+      "url": "https://www.playngo.com/games/inferno-joker",
+      "symbol": "399",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/399/thumbnail/0-303b9fab372cd591",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hugo's Adventure",
+      "slug": "hugo's-adventure",
+      "url": "https://www.playngo.com/games/hugo's-adventure",
+      "symbol": "392",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/392/thumbnail/0-cb02905db779dd4b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Dead",
+      "slug": "rise-of-dead",
+      "url": "https://www.playngo.com/games/rise-of-dead",
+      "symbol": "367",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/367/thumbnail/0-6c56ded7c75b8cbf",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Sword and The Grail",
+      "slug": "the-sword-and-the-grail",
+      "url": "https://www.playngo.com/games/the-sword-and-the-grail",
+      "symbol": "376",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/376/thumbnail/0-a60184bede30e952",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firefly Frenzy",
+      "slug": "firefly-frenzy",
+      "url": "https://www.playngo.com/games/firefly-frenzy",
+      "symbol": "364",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/364/thumbnail/0-656b24533e7cf383",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Rails",
+      "slug": "wild-rails",
+      "url": "https://www.playngo.com/games/wild-rails",
+      "symbol": "385",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/385/thumbnail/0-1f8e7d868f072eb3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tome of Madness",
+      "slug": "tome-of-madness",
+      "url": "https://www.playngo.com/games/tome-of-madness",
+      "symbol": "365",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/365/thumbnail/0-50b026a8e4ac2b75",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Merlin",
+      "slug": "rise-of-merlin",
+      "url": "https://www.playngo.com/games/rise-of-merlin",
+      "symbol": "377",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/377/thumbnail/0-f1a094d17de97502",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Game of Gladiators",
+      "slug": "game-of-gladiators",
+      "url": "https://www.playngo.com/games/game-of-gladiators",
+      "symbol": "369",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/369/thumbnail/0-b1419e4575428619",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Perfect Gems",
+      "slug": "perfect-gems",
+      "url": "https://www.playngo.com/games/perfect-gems",
+      "symbol": "373",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/373/thumbnail/0-a079b637830e09dd",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Inferno Star",
+      "slug": "inferno-star",
+      "url": "https://www.playngo.com/games/inferno-star",
+      "symbol": "366",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/366/thumbnail/0-79715666a2fcb8dd",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ankh of Anubis",
+      "slug": "ankh-of-anubis",
+      "url": "https://www.playngo.com/games/ankh-of-anubis",
+      "symbol": "387",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/387/thumbnail/0-e881161b3a8096d3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sabaton",
+      "slug": "sabaton",
+      "url": "https://www.playngo.com/games/sabaton",
+      "symbol": "378",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/378/thumbnail/0-b4c6fe4188d07f80",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mahjong 88",
+      "slug": "mahjong-88",
+      "url": "https://www.playngo.com/games/mahjong-88",
+      "symbol": "362",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/362/thumbnail/0-ee01c5ddffb1613b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crystal Sun",
+      "slug": "crystal-sun",
+      "url": "https://www.playngo.com/games/crystal-sun",
+      "symbol": "372",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/372/thumbnail/0-4d293a93a18bab53",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Phoenix Reborn",
+      "slug": "phoenix-reborn",
+      "url": "https://www.playngo.com/games/phoenix-reborn",
+      "symbol": "371",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/371/thumbnail/0-129595ebadaa2f80",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Contact",
+      "slug": "contact",
+      "url": "https://www.playngo.com/games/contact",
+      "symbol": "359",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/359/thumbnail/0-f336664b3d4f3ffb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Vandal",
+      "slug": "cash-vandal",
+      "url": "https://www.playngo.com/games/cash-vandal",
+      "symbol": "370",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/370/thumbnail/0-1e0b3e9dc16cf912",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Colts",
+      "slug": "golden-colts",
+      "url": "https://www.playngo.com/games/golden-colts",
+      "symbol": "344",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/344/thumbnail/0-8fe4464c835bdc0a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Queen's Day Tilt",
+      "slug": "queen's-day-tilt",
+      "url": "https://www.playngo.com/games/queen's-day-tilt",
+      "symbol": "363",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/363/thumbnail/0-577808be359f5071",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Falls",
+      "slug": "wild-falls",
+      "url": "https://www.playngo.com/games/wild-falls",
+      "symbol": "350",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/350/thumbnail/0-16ec2e86937286c2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Raging Rex",
+      "slug": "raging-rex",
+      "url": "https://www.playngo.com/games/raging-rex",
+      "symbol": "361",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/361/thumbnail/0-3a0d822b3194c1c6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Joker",
+      "slug": "star-joker",
+      "url": "https://www.playngo.com/games/star-joker",
+      "symbol": "340",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/340/thumbnail/0-d82aac8db1798c35",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Battle Royal",
+      "slug": "battle-royal",
+      "url": "https://www.playngo.com/games/battle-royal",
+      "symbol": "356",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/356/thumbnail/0-e6783934f521b007",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Banana Rock",
+      "slug": "banana-rock",
+      "url": "https://www.playngo.com/games/banana-rock",
+      "symbol": "347",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/347/thumbnail/0-dc188a30c7a319de",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Maiden",
+      "slug": "dragon-maiden",
+      "url": "https://www.playngo.com/games/dragon-maiden",
+      "symbol": "355",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/355/thumbnail/0-548f9f76f03049f1",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Iron Girl",
+      "slug": "iron-girl",
+      "url": "https://www.playngo.com/games/iron-girl",
+      "symbol": "306",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/306/thumbnail/0-727e4e03efb43ddb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Street Magic",
+      "slug": "street-magic",
+      "url": "https://www.playngo.com/games/street-magic",
+      "symbol": "351",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/351/thumbnail/0-b4ffcbc7a4fdfc81",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Olympus",
+      "slug": "rise-of-olympus",
+      "url": "https://www.playngo.com/games/rise-of-olympus",
+      "symbol": "352",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/352/thumbnail/0-b9fcc3b6b6bd1794",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Spins",
+      "slug": "sizzling-spins",
+      "url": "https://www.playngo.com/games/sizzling-spins",
+      "symbol": "357",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/357/thumbnail/0-aeece843e1a20e24",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cats and Cash",
+      "slug": "cats-and-cash",
+      "url": "https://www.playngo.com/games/cats-and-cash",
+      "symbol": "193",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/193/thumbnail/0-b5a8b4dd4a33d8e3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "European Roulette Pro",
+      "slug": "european-roulette-pro",
+      "url": "https://www.playngo.com/games/european-roulette-pro",
+      "symbol": "31",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/31/thumbnail/0-5fc7f490504c235d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hugo Goal",
+      "slug": "hugo-goal",
+      "url": "https://www.playngo.com/games/hugo-goal",
+      "symbol": "354",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/354/thumbnail/0-e02f851acafd2051",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cops 'n' Robbers",
+      "slug": "cops-'n'-robbers",
+      "url": "https://www.playngo.com/games/cops-'n'-robbers",
+      "symbol": "194",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/194/thumbnail/0-922c2df3e259f91c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legacy of Egypt",
+      "slug": "legacy-of-egypt",
+      "url": "https://www.playngo.com/games/legacy-of-egypt",
+      "symbol": "339",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/339/thumbnail/0-8d8c004415c400d6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Baker's Treat",
+      "slug": "baker's-treat",
+      "url": "https://www.playngo.com/games/baker's-treat",
+      "symbol": "349",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/349/thumbnail/0-6388a3749830f430",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sweet Alchemy",
+      "slug": "sweet-alchemy",
+      "url": "https://www.playngo.com/games/sweet-alchemy",
+      "symbol": "336",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/336/thumbnail/0-76f8e38f1d2a5998",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "House of Doom",
+      "slug": "house-of-doom",
+      "url": "https://www.playngo.com/games/house-of-doom",
+      "symbol": "666",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/666/thumbnail/0-cff6deeb5b7b172c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Imperial Opera",
+      "slug": "imperial-opera",
+      "url": "https://www.playngo.com/games/imperial-opera",
+      "symbol": "348",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/348/thumbnail/0-1409baa18361b715",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold King",
+      "slug": "gold-king",
+      "url": "https://www.playngo.com/games/gold-king",
+      "symbol": "341",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/341/thumbnail/0-4a224b7dbac37e13",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Planet Fortune",
+      "slug": "planet-fortune",
+      "url": "https://www.playngo.com/games/planet-fortune",
+      "symbol": "345",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/345/thumbnail/0-88e4f516b7b5c0e6",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Joker 6000",
+      "slug": "mystery-joker-6000",
+      "url": "https://www.playngo.com/games/mystery-joker-6000",
+      "symbol": "338",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/338/thumbnail/0-57a57d3813bf2cb9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sea Hunter",
+      "slug": "sea-hunter",
+      "url": "https://www.playngo.com/games/sea-hunter",
+      "symbol": "331",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/331/thumbnail/0-745056647ac63616",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hugo 2",
+      "slug": "hugo-2",
+      "url": "https://www.playngo.com/games/hugo-2",
+      "symbol": "346",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/346/thumbnail/0-73a4d9d89eada5c3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Win Cat",
+      "slug": "big-win-cat",
+      "url": "https://www.playngo.com/games/big-win-cat",
+      "symbol": "342",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/342/thumbnail/0-e25048abb7eb1059",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "FU ER DAI",
+      "slug": "fu-er-dai",
+      "url": "https://www.playngo.com/games/fu-er-dai",
+      "symbol": "337",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/337/thumbnail/0-981ad7bc7bc463b5",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reactoonz",
+      "slug": "reactoonz",
+      "url": "https://www.playngo.com/games/reactoonz",
+      "symbol": "333",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/333/thumbnail/0-7185ad4cf022b397",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prosperity Palace",
+      "slug": "prosperity-palace",
+      "url": "https://www.playngo.com/games/prosperity-palace",
+      "symbol": "328",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/328/thumbnail/0-a14a60c2bd7e00f3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mermaid's Diamond",
+      "slug": "mermaid's-diamond",
+      "url": "https://www.playngo.com/games/mermaid's-diamond",
+      "symbol": "329",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/329/thumbnail/0-5521801dcc6f9d77",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Princess",
+      "slug": "moon-princess",
+      "url": "https://www.playngo.com/games/moon-princess",
+      "symbol": "334",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/334/thumbnail/0-33740556b3fee342",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sweet 27",
+      "slug": "sweet-27",
+      "url": "https://www.playngo.com/games/sweet-27",
+      "symbol": "335",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/335/thumbnail/0-4690661775481797",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multifruit 81",
+      "slug": "multifruit-81",
+      "url": "https://www.playngo.com/games/multifruit-81",
+      "symbol": "330",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/330/thumbnail/0-80ee8ef417ee4c79",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aztec Warrior Princess",
+      "slug": "aztec-warrior-princess",
+      "url": "https://www.playngo.com/games/aztec-warrior-princess",
+      "symbol": "332",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/332/thumbnail/0-802b84cdee49bd71",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viking Runecraft",
+      "slug": "viking-runecraft",
+      "url": "https://www.playngo.com/games/viking-runecraft",
+      "symbol": "319",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/319/thumbnail/0-038c42f0702ed3c4",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Matsuri",
+      "slug": "matsuri",
+      "url": "https://www.playngo.com/games/matsuri",
+      "symbol": "320",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/320/thumbnail/0-5a6c4c9768f3b45b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prissy Princess",
+      "slug": "prissy-princess",
+      "url": "https://www.playngo.com/games/prissy-princess",
+      "symbol": "325",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/325/thumbnail/0-39cecf4b7ea4294f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jade Magician",
+      "slug": "jade-magician",
+      "url": "https://www.playngo.com/games/jade-magician",
+      "symbol": "326",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/326/thumbnail/0-80b5298cdb690426",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7 Sins",
+      "slug": "7-sins",
+      "url": "https://www.playngo.com/games/7-sins",
+      "symbol": "321",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/321/thumbnail/0-57c141e6435f284c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Holiday Season",
+      "slug": "holiday-season",
+      "url": "https://www.playngo.com/games/holiday-season",
+      "symbol": "327",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/327/thumbnail/0-486a2a3a6bacd174",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Wheel",
+      "slug": "super-wheel",
+      "url": "https://www.playngo.com/games/super-wheel",
+      "symbol": "324",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/324/thumbnail/0-836bdbdb249af882",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hugo",
+      "slug": "hugo",
+      "url": "https://www.playngo.com/games/hugo",
+      "symbol": "322",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/322/thumbnail/0-73a4d9d89eada5c3",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grim Muerto",
+      "slug": "grim-muerto",
+      "url": "https://www.playngo.com/games/grim-muerto",
+      "symbol": "303",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/303/thumbnail/0-6266dd573d03676a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Joker",
+      "slug": "fire-joker",
+      "url": "https://www.playngo.com/games/fire-joker",
+      "symbol": "307",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/307/thumbnail/0-a91895dd587cc8f7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Wheel",
+      "slug": "money-wheel",
+      "url": "https://www.playngo.com/games/money-wheel",
+      "symbol": "318",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/318/thumbnail/0-7642d1133a7f4da9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Caravan",
+      "slug": "golden-caravan",
+      "url": "https://www.playngo.com/games/golden-caravan",
+      "symbol": "312",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/312/thumbnail/0-588c119cd60e46d9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sails of Gold",
+      "slug": "sails-of-gold",
+      "url": "https://www.playngo.com/games/sails-of-gold",
+      "symbol": "311",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/311/thumbnail/0-d3224ba3b383a2f2",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cloud Quest",
+      "slug": "cloud-quest",
+      "url": "https://www.playngo.com/games/cloud-quest",
+      "symbol": "300",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/300/thumbnail/0-8c0fffaf5e4987d7",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Samba Carnival",
+      "slug": "samba-carnival",
+      "url": "https://www.playngo.com/games/samba-carnival",
+      "symbol": "304",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/304/thumbnail/0-47f8bd45172fc303",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Dead",
+      "slug": "book-of-dead",
+      "url": "https://www.playngo.com/games/book-of-dead",
+      "symbol": "310",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/310/thumbnail/0-569f750b482cbe5b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wizard of Gems",
+      "slug": "wizard-of-gems",
+      "url": "https://www.playngo.com/games/wizard-of-gems",
+      "symbol": "302",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/302/thumbnail/0-76db5e799f357f35",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xmas Joker",
+      "slug": "xmas-joker",
+      "url": "https://www.playngo.com/games/xmas-joker",
+      "symbol": "309",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/309/thumbnail/0-cbdcddf1d2a8861d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Happy Halloween",
+      "slug": "happy-halloween",
+      "url": "https://www.playngo.com/games/happy-halloween",
+      "symbol": "305",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/305/thumbnail/0-551e275d64900e98",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of the Kraken",
+      "slug": "eye-of-the-kraken",
+      "url": "https://www.playngo.com/games/eye-of-the-kraken",
+      "symbol": "297",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/297/thumbnail/0-6e58315b4938a2c9",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild North",
+      "slug": "wild-north",
+      "url": "https://www.playngo.com/games/wild-north",
+      "symbol": "294",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/294/thumbnail/0-98caacf6d68feb5b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spin Party",
+      "slug": "spin-party",
+      "url": "https://www.playngo.com/games/spin-party",
+      "symbol": "292",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/292/thumbnail/0-f409a676fb77b5a0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Masquerade",
+      "slug": "royal-masquerade",
+      "url": "https://www.playngo.com/games/royal-masquerade",
+      "symbol": "298",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/298/thumbnail/0-7581451824ebefea",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Flip",
+      "slug": "super-flip",
+      "url": "https://www.playngo.com/games/super-flip",
+      "symbol": "295",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/295/thumbnail/0-961ff9c251081324",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Legend",
+      "slug": "golden-legend",
+      "url": "https://www.playngo.com/games/golden-legend",
+      "symbol": "290",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/290/thumbnail/0-dbbe04e710488648",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tower Quest",
+      "slug": "tower-quest",
+      "url": "https://www.playngo.com/games/tower-quest",
+      "symbol": "287",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/287/thumbnail/0-ea6f7926bb0b1e60",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Easter Eggs",
+      "slug": "easter-eggs",
+      "url": "https://www.playngo.com/games/easter-eggs",
+      "symbol": "293",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/293/thumbnail/0-b6fd78d16ea0abbb",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Double Exposure BlackJack MH",
+      "slug": "double-exposure-blackjack-mh",
+      "url": "https://www.playngo.com/games/double-exposure-blackjack-mh",
+      "symbol": "54",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/54/thumbnail/0-7fd42fea60642cbf",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pimped",
+      "slug": "pimped",
+      "url": "https://www.playngo.com/games/pimped",
+      "symbol": "291",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/291/thumbnail/0-be57e75a013eb019",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gemix",
+      "slug": "gemix",
+      "url": "https://www.playngo.com/games/gemix",
+      "symbol": "286",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/286/thumbnail/0-d45cc975358ffd25",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Merry Xmas",
+      "slug": "merry-xmas",
+      "url": "https://www.playngo.com/games/merry-xmas",
+      "symbol": "288",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/288/thumbnail/0-84022e5b67bcd97d",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crazy Cows",
+      "slug": "crazy-cows",
+      "url": "https://www.playngo.com/games/crazy-cows",
+      "symbol": "284",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/284/thumbnail/0-ed668f2bdce524ca",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Ticket",
+      "slug": "golden-ticket",
+      "url": "https://www.playngo.com/games/golden-ticket",
+      "symbol": "285",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/285/thumbnail/0-036500e7f2c6363b",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pearls of India",
+      "slug": "pearls-of-india",
+      "url": "https://www.playngo.com/games/pearls-of-india",
+      "symbol": "282",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/282/thumbnail/0-41160fe910c1b405",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Joker",
+      "slug": "mystery-joker",
+      "url": "https://www.playngo.com/games/mystery-joker",
+      "symbol": "283",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/283/thumbnail/0-6648f3b961a82966",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Enchanted Crystals",
+      "slug": "enchanted-crystals",
+      "url": "https://www.playngo.com/games/enchanted-crystals",
+      "symbol": "259",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/259/thumbnail/0-5f96eb4a3a6eadac",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chinese New Year",
+      "slug": "chinese-new-year",
+      "url": "https://www.playngo.com/games/chinese-new-year",
+      "symbol": "277",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/277/thumbnail/0-753f140a0d3b8653",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lady of Fortune",
+      "slug": "lady-of-fortune",
+      "url": "https://www.playngo.com/games/lady-of-fortune",
+      "symbol": "278",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/278/thumbnail/0-203a39e9a7bed18a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Poker MH",
+      "slug": "joker-poker-mh",
+      "url": "https://www.playngo.com/games/joker-poker-mh",
+      "symbol": "271",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/271/thumbnail/0-3aea18fa101436ca",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deuces Wild MH",
+      "slug": "deuces-wild-mh",
+      "url": "https://www.playngo.com/games/deuces-wild-mh",
+      "symbol": "270",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/270/thumbnail/0-75f9351ce462b89f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jacks or Better MH",
+      "slug": "jacks-or-better-mh",
+      "url": "https://www.playngo.com/games/jacks-or-better-mh",
+      "symbol": "269",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/269/thumbnail/0-fd6e2ff922149bef",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Trophy 2",
+      "slug": "gold-trophy-2",
+      "url": "https://www.playngo.com/games/gold-trophy-2",
+      "symbol": "246",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/246/thumbnail/0-0225d8ab4dee829a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Casino Hold'em",
+      "slug": "casino-hold'em",
+      "url": "https://www.playngo.com/games/casino-hold'em",
+      "symbol": "57",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/57/thumbnail/0-945bbeb512f11347",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Single Deck BlackJack MH",
+      "slug": "single-deck-blackjack-mh",
+      "url": "https://www.playngo.com/games/single-deck-blackjack-mh",
+      "symbol": "55",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/55/thumbnail/0-1a630333f3226003",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Energoonz",
+      "slug": "energoonz",
+      "url": "https://www.playngo.com/games/energoonz",
+      "symbol": "262",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/262/thumbnail/0-e8cbe8a3b8ba8a93",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rage to Riches",
+      "slug": "rage-to-riches",
+      "url": "https://www.playngo.com/games/rage-to-riches",
+      "symbol": "257",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/257/thumbnail/0-14e15397e78b539a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Riches of RA",
+      "slug": "riches-of-ra",
+      "url": "https://www.playngo.com/games/riches-of-ra",
+      "symbol": "237",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/237/thumbnail/0-cdee9c6522af0b82",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Troll Hunters",
+      "slug": "troll-hunters",
+      "url": "https://www.playngo.com/games/troll-hunters",
+      "symbol": "254",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/254/thumbnail/0-a7c0ed6ad1c0d8c0",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ninja Fruits",
+      "slug": "ninja-fruits",
+      "url": "https://www.playngo.com/games/ninja-fruits",
+      "symbol": "253",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/253/thumbnail/0-26fd316623175e56",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Leprechaun goes Egypt",
+      "slug": "leprechaun-goes-egypt",
+      "url": "https://www.playngo.com/games/leprechaun-goes-egypt",
+      "symbol": "251",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/251/thumbnail/0-b0348defbe9748da",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Blood",
+      "slug": "wild-blood",
+      "url": "https://www.playngo.com/games/wild-blood",
+      "symbol": "250",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/250/thumbnail/0-8604814537618f19",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Irish Gold",
+      "slug": "irish-gold",
+      "url": "https://www.playngo.com/games/irish-gold",
+      "symbol": "200",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/200/thumbnail/0-3049c8999cbdc6cd",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5x Magic",
+      "slug": "5x-magic",
+      "url": "https://www.playngo.com/games/5x-magic",
+      "symbol": "199",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/199/thumbnail/0-3d4bc3868a906c6a",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mini Baccarat",
+      "slug": "mini-baccarat",
+      "url": "https://www.playngo.com/games/mini-baccarat",
+      "symbol": "11",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/11/thumbnail/0-a14768dab7ef3116",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ace of Spades",
+      "slug": "ace-of-spades",
+      "url": "https://www.playngo.com/games/ace-of-spades",
+      "symbol": "99",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/99/thumbnail/0-346b06abb39f95ca",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Diamonds",
+      "slug": "lucky-diamonds",
+      "url": "https://www.playngo.com/games/lucky-diamonds",
+      "symbol": "5",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/5/thumbnail/0-8bceac3f3b699d24",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Melon",
+      "slug": "wild-melon",
+      "url": "https://www.playngo.com/games/wild-melon",
+      "symbol": "4",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/4/thumbnail/0-67a0f014aece7932",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Myth",
+      "slug": "myth",
+      "url": "https://www.playngo.com/games/myth",
+      "symbol": "245",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/245/thumbnail/0-bec60c409a47c964",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jewel Box",
+      "slug": "jewel-box",
+      "url": "https://www.playngo.com/games/jewel-box",
+      "symbol": "242",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/242/thumbnail/0-16cc7340717e9211",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Space Race",
+      "slug": "space-race",
+      "url": "https://www.playngo.com/games/space-race",
+      "symbol": "198",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/198/thumbnail/0-1dbffaec2f054bcc",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Photo Safari",
+      "slug": "photo-safari",
+      "url": "https://www.playngo.com/games/photo-safari",
+      "symbol": "197",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/197/thumbnail/0-ac3973fe916aec9f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Teller",
+      "slug": "fortune-teller",
+      "url": "https://www.playngo.com/games/fortune-teller",
+      "symbol": "196",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/196/thumbnail/0-2377a0dd58213356",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "BlackJack MH",
+      "slug": "blackjack-mh",
+      "url": "https://www.playngo.com/games/blackjack-mh",
+      "symbol": "52",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/52/thumbnail/0-7634f104c803286c",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Keno",
+      "slug": "keno",
+      "url": "https://www.playngo.com/games/keno",
+      "symbol": "239",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/239/thumbnail/0-0a3e35433125848e",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Ship",
+      "slug": "dragon-ship",
+      "url": "https://www.playngo.com/games/dragon-ship",
+      "symbol": "238",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/238/thumbnail/0-f2b7b38eb0fc4b0f",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pearl Lagoon",
+      "slug": "pearl-lagoon",
+      "url": "https://www.playngo.com/games/pearl-lagoon",
+      "symbol": "241",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/241/thumbnail/0-82f16b382328e221",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Enchanted Meadow",
+      "slug": "enchanted-meadow",
+      "url": "https://www.playngo.com/games/enchanted-meadow",
+      "symbol": "225",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/225/thumbnail/0-bddc34618ee71b03",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "European BlackJack MH",
+      "slug": "european-blackjack-mh",
+      "url": "https://www.playngo.com/games/european-blackjack-mh",
+      "symbol": "53",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/53/thumbnail/0-af007a23c24b2cef",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aztec Idols",
+      "slug": "aztec-idols",
+      "url": "https://www.playngo.com/games/aztec-idols",
+      "symbol": "243",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/243/thumbnail/0-4df92fb06fcdae32",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jolly Roger",
+      "slug": "jolly-roger",
+      "url": "https://www.playngo.com/games/jolly-roger",
+      "symbol": "40",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/40/thumbnail/0-701fcc3b2f4c6c75",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tower Run Treasure Steps",
+      "slug": "tower-run-treasure-steps",
+      "url": "https://www.playngo.com/games/tower-run-treasure-steps",
+      "symbol": "1098",
+      "thumbnail_url": "https://wsh4cfcctixmqqzl.public.blob.vercel-storage.com/games/1098/thumbnail/0-1e3ee61374d71cc9",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    }
+  ]
+}

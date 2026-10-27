@@ -1,0 +1,642 @@
+{
+  "games": [
+    {
+      "slug": "3-gladiators-vs-caesar",
+      "name": "3 Gladiators Vs Caesar"
+    },
+    {
+      "slug": "3-piggies-of-bank",
+      "name": "3 Piggies Of Bank"
+    },
+    {
+      "slug": "4-foxx-crew-wildenergy-multimax",
+      "name": "4 Foxx Crew Wildenergy Multimax"
+    },
+    {
+      "slug": "4-wolves-of-fortune-doublemax",
+      "name": "4 Wolves Of Fortune Doublemax"
+    },
+    {
+      "slug": "777-volt-gigablox",
+      "name": "777 Volt Gigablox"
+    },
+    {
+      "slug": "age-asgard",
+      "name": "Age Asgard"
+    },
+    {
+      "slug": "alchymedes",
+      "name": "Alchymedes"
+    },
+    {
+      "slug": "aldos-journey",
+      "name": "Aldos Journey"
+    },
+    {
+      "slug": "aphrodite-goes-wild-rushingwilds",
+      "name": "Aphrodite Goes Wild Rushingwilds"
+    },
+    {
+      "slug": "arthurs-fortune",
+      "name": "Arthurs Fortune"
+    },
+    {
+      "slug": "atlantean-gigarise",
+      "name": "Atlantean Gigarise"
+    },
+    {
+      "slug": "avatars",
+      "name": "Avatars"
+    },
+    {
+      "slug": "badger-miners",
+      "name": "Badger Miners"
+    },
+    {
+      "slug": "baron-samedi",
+      "name": "Baron Samedi"
+    },
+    {
+      "slug": "beauty-and-the-beast",
+      "name": "Beauty And The Beast"
+    },
+    {
+      "slug": "bicicleta",
+      "name": "Bicicleta"
+    },
+    {
+      "slug": "big-blox",
+      "name": "Big Blox"
+    },
+    {
+      "slug": "blood-moon-wilds",
+      "name": "Blood Moon Wilds"
+    },
+    {
+      "slug": "bloody-pesos",
+      "name": "Bloody Pesos"
+    },
+    {
+      "slug": "bob-marlin-goes-deep",
+      "name": "Bob Marlin Goes Deep"
+    },
+    {
+      "slug": "bob-marlin-goes-splashing-wild-fight-rushingwilds",
+      "name": "Bob Marlin Goes Splashing Wild Fight Rushingwilds"
+    },
+    {
+      "slug": "boilin-pots",
+      "name": "Boilin Pots"
+    },
+    {
+      "slug": "brazil-bomba",
+      "name": "Brazil Bomba"
+    },
+    {
+      "slug": "buffalo-freedom-doublemax",
+      "name": "Buffalo Freedom Doublemax"
+    },
+    {
+      "slug": "calavera-crush",
+      "name": "Calavera Crush"
+    },
+    {
+      "slug": "candyfinity",
+      "name": "Candyfinity"
+    },
+    {
+      "slug": "cannonade",
+      "name": "Cannonade"
+    },
+    {
+      "slug": "carol-of-the-elves",
+      "name": "Carol Of The Elves"
+    },
+    {
+      "slug": "cazino_cosmos",
+      "name": "Cazino Cosmos"
+    },
+    {
+      "slug": "cazino-zeppelin",
+      "name": "Cazino Zeppelin"
+    },
+    {
+      "slug": "cazino-zeppelin-reloaded",
+      "name": "Cazino Zeppelin Reloaded"
+    },
+    {
+      "slug": "champion-of-the-underworld",
+      "name": "Champion Of The Underworld"
+    },
+    {
+      "slug": "champions_of_rome",
+      "name": "Champions Of Rome"
+    },
+    {
+      "slug": "chibeasties",
+      "name": "Chibeasties"
+    },
+    {
+      "slug": "christmas-plaza-doublemax",
+      "name": "Christmas Plaza Doublemax"
+    },
+    {
+      "slug": "coo-coo-cashoo-lightninglines",
+      "name": "Coo Coo Cashoo Lightninglines"
+    },
+    {
+      "slug": "dark-joker-rizes",
+      "name": "Dark Joker Rizes"
+    },
+    {
+      "slug": "dark-vortex",
+      "name": "Dark Vortex"
+    },
+    {
+      "slug": "defenders-of-mystica",
+      "name": "Defenders Of Mystica"
+    },
+    {
+      "slug": "devour-the-weak",
+      "name": "Devour The Weak"
+    },
+    {
+      "slug": "dick-the-farmer",
+      "name": "Dick The Farmer"
+    },
+    {
+      "slug": "double-dragons",
+      "name": "Double Dragons"
+    },
+    {
+      "slug": "dr_fortuno",
+      "name": "Dr Fortuno"
+    },
+    {
+      "slug": "dwarf_mine",
+      "name": "Dwarf Mine"
+    },
+    {
+      "slug": "e-force",
+      "name": "E Force"
+    },
+    {
+      "slug": "easter-island",
+      "name": "Easter Island"
+    },
+    {
+      "slug": "easter-island-2",
+      "name": "Easter Island 2"
+    },
+    {
+      "slug": "elysian-jackpots",
+      "name": "Elysian Jackpots"
+    },
+    {
+      "slug": "empire-fortune",
+      "name": "Empire Fortune"
+    },
+    {
+      "slug": "enchanted-waters",
+      "name": "Enchanted Waters"
+    },
+    {
+      "slug": "fatzs-diner-gigablox",
+      "name": "Fatzs Diner Gigablox"
+    },
+    {
+      "slug": "firekick-multimax",
+      "name": "Firekick Multimax"
+    },
+    {
+      "slug": "florageddon",
+      "name": "Florageddon"
+    },
+    {
+      "slug": "football-glory",
+      "name": "Football Glory"
+    },
+    {
+      "slug": "frost-queen-jackpots",
+      "name": "Frost Queen Jackpots"
+    },
+    {
+      "slug": "fruitoids",
+      "name": "Fruitoids"
+    },
+    {
+      "slug": "fruitpunk",
+      "name": "Fruitpunk"
+    },
+    {
+      "slug": "fruitylicious-doublemax",
+      "name": "Fruitylicious Doublemax"
+    },
+    {
+      "slug": "gator-gold-deluxe-gigablox",
+      "name": "Gator Gold Deluxe Gigablox"
+    },
+    {
+      "slug": "gator-gold-gigablox",
+      "name": "Gator Gold Gigablox"
+    },
+    {
+      "slug": "gem-rocks",
+      "name": "Gem Rocks"
+    },
+    {
+      "slug": "gemstone-jam",
+      "name": "Gemstone Jam"
+    },
+    {
+      "slug": "giga-zombies-gigablox",
+      "name": "Giga Zombies Gigablox"
+    },
+    {
+      "slug": "gigagong-gigablox",
+      "name": "Gigagong Gigablox"
+    },
+    {
+      "slug": "giganimals-gigablox",
+      "name": "Giganimals Gigablox"
+    },
+    {
+      "slug": "goals-of-olympus-boltlock",
+      "name": "Goals Of Olympus Boltlock"
+    },
+    {
+      "slug": "gold-frontier-jackpots-fastpot5",
+      "name": "Gold Frontier Jackpots Fastpot5"
+    },
+    {
+      "slug": "golden-chip-roulette",
+      "name": "Golden Chip Roulette"
+    },
+    {
+      "slug": "golden-fish-tank",
+      "name": "Golden Fish Tank"
+    },
+    {
+      "slug": "golden-fish-tank-2-gigablox",
+      "name": "Golden Fish Tank 2 Gigablox"
+    },
+    {
+      "slug": "golden-fish-tank-party",
+      "name": "Golden Fish Tank Party"
+    },
+    {
+      "slug": "golden-gorgon",
+      "name": "Golden Gorgon"
+    },
+    {
+      "slug": "golden-monkey",
+      "name": "Golden Monkey"
+    },
+    {
+      "slug": "goldstorm-ultra",
+      "name": "Goldstorm Ultra"
+    },
+    {
+      "slug": "hades",
+      "name": "Hades"
+    },
+    {
+      "slug": "hanzos-dojo",
+      "name": "Hanzos Dojo"
+    },
+    {
+      "slug": "holmes-stolen-stones",
+      "name": "Holmes Stolen Stones"
+    },
+    {
+      "slug": "hyperburst",
+      "name": "Hyperburst"
+    },
+    {
+      "slug": "incinerator",
+      "name": "Incinerator"
+    },
+    {
+      "slug": "jackpot-express",
+      "name": "Jackpot Express"
+    },
+    {
+      "slug": "jackpot-raiders",
+      "name": "Jackpot Raiders"
+    },
+    {
+      "slug": "joker-millions",
+      "name": "Joker Millions"
+    },
+    {
+      "slug": "jokerizer",
+      "name": "Jokerizer"
+    },
+    {
+      "slug": "jungle-books",
+      "name": "Jungle Books"
+    },
+    {
+      "slug": "lightning-joker",
+      "name": "Lightning Joker"
+    },
+    {
+      "slug": "lucha-maniacs",
+      "name": "Lucha Maniacs"
+    },
+    {
+      "slug": "lucky-apocalypse-gigablox",
+      "name": "Lucky Apocalypse Gigablox"
+    },
+    {
+      "slug": "lucky-neko",
+      "name": "Lucky Neko"
+    },
+    {
+      "slug": "lucky-ryan-gigablox",
+      "name": "Lucky Ryan Gigablox"
+    },
+    {
+      "slug": "max-elements-gigablox",
+      "name": "Max Elements Gigablox"
+    },
+    {
+      "slug": "mexomax",
+      "name": "Mexomax"
+    },
+    {
+      "slug": "mexomax-2-wildenergy-multimax",
+      "name": "Mexomax 2 Wildenergy Multimax"
+    },
+    {
+      "slug": "monkeys-go-bananas-multimax",
+      "name": "Monkeys Go Bananas Multimax"
+    },
+    {
+      "slug": "multifly",
+      "name": "Multifly"
+    },
+    {
+      "slug": "multifly-2-multimax",
+      "name": "Multifly 2 Multimax"
+    },
+    {
+      "slug": "neon-rush",
+      "name": "Neon Rush"
+    },
+    {
+      "slug": "neon-villains-doublemax",
+      "name": "Neon Villains Doublemax"
+    },
+    {
+      "slug": "neon-west",
+      "name": "Neon West"
+    },
+    {
+      "slug": "nice-catch-2-doublemax",
+      "name": "Nice Catch 2 Doublemax"
+    },
+    {
+      "slug": "nice-catch-doublemax",
+      "name": "Nice Catch Doublemax"
+    },
+    {
+      "slug": "nirvana",
+      "name": "Nirvana"
+    },
+    {
+      "slug": "nitro-circus",
+      "name": "Nitro Circus"
+    },
+    {
+      "slug": "notre-dame-tales-gigablox",
+      "name": "Notre Dame Tales Gigablox"
+    },
+    {
+      "slug": "of-sabers-and-monsters",
+      "name": "Of Sabers And Monsters"
+    },
+    {
+      "slug": "one-armed-bandit",
+      "name": "One Armed Bandit"
+    },
+    {
+      "slug": "orient-express",
+      "name": "Orient Express"
+    },
+    {
+      "slug": "ozwins-jackpots",
+      "name": "Ozwins Jackpots"
+    },
+    {
+      "slug": "penguin-city",
+      "name": "Penguin City"
+    },
+    {
+      "slug": "pirates-2-mutiny",
+      "name": "Pirates 2 Mutiny"
+    },
+    {
+      "slug": "pirates-smugglers-paradise",
+      "name": "Pirates Smugglers Paradise"
+    },
+    {
+      "slug": "pumpkin-smash",
+      "name": "Pumpkin Smash"
+    },
+    {
+      "slug": "pushy-cats",
+      "name": "Pushy Cats"
+    },
+    {
+      "slug": "ragnaravens-wildenergy",
+      "name": "Ragnaravens Wildenergy"
+    },
+    {
+      "slug": "ragnawolves",
+      "name": "Ragnawolves"
+    },
+    {
+      "slug": "rainbow-ryan",
+      "name": "Rainbow Ryan"
+    },
+    {
+      "slug": "rainbow-ryan-2",
+      "name": "Rainbow Ryan 2"
+    },
+    {
+      "slug": "raptor-2",
+      "name": "Raptor 2"
+    },
+    {
+      "slug": "raptor-doublemax",
+      "name": "Raptor Doublemax"
+    },
+    {
+      "slug": "red-dragon-sails",
+      "name": "Red Dragon Sails"
+    },
+    {
+      "slug": "reel-desire",
+      "name": "Reel Desire"
+    },
+    {
+      "slug": "rock-star-santa-multimax",
+      "name": "Rock Star Santa Multimax"
+    },
+    {
+      "slug": "royal-family",
+      "name": "Royal Family"
+    },
+    {
+      "slug": "sahara-nights",
+      "name": "Sahara Nights"
+    },
+    {
+      "slug": "scara-bucks",
+      "name": "Scara Bucks"
+    },
+    {
+      "slug": "seasons",
+      "name": "Seasons"
+    },
+    {
+      "slug": "shaker-club",
+      "name": "Shaker Club"
+    },
+    {
+      "slug": "spina-colada",
+      "name": "Spina Colada"
+    },
+    {
+      "slug": "suncatcher-gigablox",
+      "name": "Suncatcher Gigablox"
+    },
+    {
+      "slug": "sunny-shores",
+      "name": "Sunny Shores"
+    },
+    {
+      "slug": "syncronite",
+      "name": "Syncronite"
+    },
+    {
+      "slug": "temple-stacks",
+      "name": "Temple Stacks"
+    },
+    {
+      "slug": "timber-trail-treasures",
+      "name": "Timber Trail Treasures"
+    },
+    {
+      "slug": "time-travel-tigers",
+      "name": "Time Travel Tigers"
+    },
+    {
+      "slug": "trickstar-spins",
+      "name": "Trickstar Spins"
+    },
+    {
+      "slug": "trolls_bridge",
+      "name": "Trolls Bridge"
+    },
+    {
+      "slug": "turbo-gold-deluxe-gigablox",
+      "name": "Turbo Gold Deluxe Gigablox"
+    },
+    {
+      "slug": "tuts_twister",
+      "name": "Tuts Twister"
+    },
+    {
+      "slug": "valley-of-the-dead-onlywins",
+      "name": "Valley Of The Dead Onlywins"
+    },
+    {
+      "slug": "valley-of-the-gods",
+      "name": "Valley Of The Gods"
+    },
+    {
+      "slug": "valley-of-the-gods-2",
+      "name": "Valley Of The Gods 2"
+    },
+    {
+      "slug": "vampire-riches-doublemax",
+      "name": "Vampire Riches Doublemax"
+    },
+    {
+      "slug": "vault-of-fortune",
+      "name": "Vault Of Fortune"
+    },
+    {
+      "slug": "vikings-go-berzerk",
+      "name": "Vikings Go Berzerk"
+    },
+    {
+      "slug": "vikings-go-berzerk-reloaded",
+      "name": "Vikings Go Berzerk Reloaded"
+    },
+    {
+      "slug": "vikings-go-to-egypt-wild-fight",
+      "name": "Vikings Go To Egypt Wild Fight"
+    },
+    {
+      "slug": "vikings-go-to-hell",
+      "name": "Vikings Go To Hell"
+    },
+    {
+      "slug": "vikings-go-to-hollywood-wildfight-rushingwilds",
+      "name": "Vikings Go To Hollywood Wildfight Rushingwilds"
+    },
+    {
+      "slug": "vikings-go-to-olympus-wildfight-rushingwilds",
+      "name": "Vikings Go To Olympus Wildfight Rushingwilds"
+    },
+    {
+      "slug": "vikings-go-to-valhalla",
+      "name": "Vikings Go To Valhalla"
+    },
+    {
+      "slug": "vikings-go-to-vegas-wild-fight",
+      "name": "Vikings Go To Vegas Wild Fight"
+    },
+    {
+      "slug": "vikings-go-wild",
+      "name": "Vikings Go Wild"
+    },
+    {
+      "slug": "wild-robo-factory",
+      "name": "Wild Robo Factory"
+    },
+    {
+      "slug": "wild-stack-frenzy",
+      "name": "Wild Stack Frenzy"
+    },
+    {
+      "slug": "wilhelm-tell",
+      "name": "Wilhelm Tell"
+    },
+    {
+      "slug": "winter-berries",
+      "name": "Winter Berries"
+    },
+    {
+      "slug": "winterberries-2",
+      "name": "Winterberries 2"
+    },
+    {
+      "slug": "wolf-hunters",
+      "name": "Wolf Hunters"
+    },
+    {
+      "slug": "yokozuna-clash",
+      "name": "Yokozuna Clash"
+    },
+    {
+      "slug": "your-own-island",
+      "name": "Your Own Island"
+    }
+  ],
+  "source": "Shisetsu-Code/MultiPlay knowledge/providers/yggdrasil/sweep-last.json",
+  "imported_at": "2026-09-30"
+}

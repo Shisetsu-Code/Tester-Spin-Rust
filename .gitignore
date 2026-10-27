@@ -1,0 +1,11 @@
+/target/
+/data/
+/evidence/
+__pycache__/
+*.pyc
+
+/artifacts/
+.env
+.env.*
+!.env.example
+

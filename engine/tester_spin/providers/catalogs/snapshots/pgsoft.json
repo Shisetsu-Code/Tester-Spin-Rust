@@ -1,0 +1,1405 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "pgsoft",
+  "source": "https://api.pgsoft.com/Game/GetDefaultAllGame/language/en-US",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Thunder Reckoning",
+      "slug": "204",
+      "url": "https://www.pgsoft.com/games/204/",
+      "symbol": "2132187",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grimms’ Bounty: Princess & the Frog",
+      "slug": "203",
+      "url": "https://www.pgsoft.com/games/203/",
+      "symbol": "2140622",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Mischief",
+      "slug": "202",
+      "url": "https://www.pgsoft.com/games/202/",
+      "symbol": "2175036",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Touchdown Wins",
+      "slug": "200",
+      "url": "https://www.pgsoft.com/games/200/",
+      "symbol": "2152563",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Farmstead Fortune",
+      "slug": "199",
+      "url": "https://www.pgsoft.com/games/199/",
+      "symbol": "2118946",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tornado Rampage",
+      "slug": "198",
+      "url": "https://www.pgsoft.com/games/198/",
+      "symbol": "2126622",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Monkeys Wild Party",
+      "slug": "197",
+      "url": "https://www.pgsoft.com/games/197/",
+      "symbol": "2090174",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Zombie Blasters",
+      "slug": "196",
+      "url": "https://www.pgsoft.com/games/196/",
+      "symbol": "2075272",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Wildrix",
+      "slug": "195",
+      "url": "https://www.pgsoft.com/games/195/",
+      "symbol": "2040102",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Mania",
+      "slug": "194",
+      "url": "https://www.pgsoft.com/games/194/",
+      "symbol": "2081892",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel Royale Showdown",
+      "slug": "193",
+      "url": "https://www.pgsoft.com/games/193/",
+      "symbol": "2058347",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Funky Fortunez",
+      "slug": "192",
+      "url": "https://www.pgsoft.com/games/192/",
+      "symbol": "2035783",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Perfect Strike",
+      "slug": "191",
+      "url": "https://www.pgsoft.com/games/191/",
+      "symbol": "2024510",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mayan Destiny",
+      "slug": "190",
+      "url": "https://www.pgsoft.com/games/190/",
+      "symbol": "1997301",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Inferno Mayhem",
+      "slug": "189",
+      "url": "https://www.pgsoft.com/games/189/",
+      "symbol": "1950910",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Horse",
+      "slug": "188",
+      "url": "https://www.pgsoft.com/games/188/",
+      "symbol": "2100928",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Forbidden Alchemy",
+      "slug": "187",
+      "url": "https://www.pgsoft.com/games/187/",
+      "symbol": "1981965",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mythical Guardians",
+      "slug": "186",
+      "url": "https://www.pgsoft.com/games/186/",
+      "symbol": "1849515",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Poker Kingdom Win",
+      "slug": "185",
+      "url": "https://www.pgsoft.com/games/185/",
+      "symbol": "2009635",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Alibaba's Cave of Fortune",
+      "slug": "184",
+      "url": "https://www.pgsoft.com/games/184/",
+      "symbol": "1940257",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Skylight Wonders",
+      "slug": "183",
+      "url": "https://www.pgsoft.com/games/183/",
+      "symbol": "2012025",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pharaoh Royals",
+      "slug": "182",
+      "url": "https://www.pgsoft.com/games/182/",
+      "symbol": "1964781",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kraken Gold Rush",
+      "slug": "181",
+      "url": "https://www.pgsoft.com/games/181/",
+      "symbol": "1929177",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Empire",
+      "slug": "180",
+      "url": "https://www.pgsoft.com/games/180/",
+      "symbol": "1971587",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grimms' Bounty: Hansel & Gretel",
+      "slug": "179",
+      "url": "https://www.pgsoft.com/games/179/",
+      "symbol": "1903012",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Galaxy Miner",
+      "slug": "178",
+      "url": "https://www.pgsoft.com/games/178/",
+      "symbol": "1918451",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon's Treasure Quest",
+      "slug": "177",
+      "url": "https://www.pgsoft.com/games/177/",
+      "symbol": "1897678",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diner Frenzy Spins",
+      "slug": "176",
+      "url": "https://www.pgsoft.com/games/176/",
+      "symbol": "1935269",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jack the Giant Hunter",
+      "slug": "175",
+      "url": "https://www.pgsoft.com/games/175/",
+      "symbol": "1834850",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dead Man's Riches",
+      "slug": "174",
+      "url": "https://www.pgsoft.com/games/174/",
+      "symbol": "1865521",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Knockout Riches",
+      "slug": "173",
+      "url": "https://www.pgsoft.com/games/173/",
+      "symbol": "1881268",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Doomsday Rampage",
+      "slug": "172",
+      "url": "https://www.pgsoft.com/games/172/",
+      "symbol": "1827457",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Graffiti Rush",
+      "slug": "171",
+      "url": "https://www.pgsoft.com/games/171/",
+      "symbol": "1804577",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mr. Treasure's Fortune",
+      "slug": "170",
+      "url": "https://www.pgsoft.com/games/170/",
+      "symbol": "1799745",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Snake",
+      "slug": "169",
+      "url": "https://www.pgsoft.com/games/169/",
+      "symbol": "1879752",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Incan Wonders",
+      "slug": "168",
+      "url": "https://www.pgsoft.com/games/168/",
+      "symbol": "1850016",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Geisha’s Revenge",
+      "slug": "167",
+      "url": "https://www.pgsoft.com/games/167/",
+      "symbol": "1702123",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chocolate Deluxe",
+      "slug": "166",
+      "url": "https://www.pgsoft.com/games/166/",
+      "symbol": "1666445",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rio Fantasia",
+      "slug": "165",
+      "url": "https://www.pgsoft.com/games/165/",
+      "symbol": "1786529",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Museum Wonders",
+      "slug": "164",
+      "url": "https://www.pgsoft.com/games/164/",
+      "symbol": "1755623",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Oishi Delights",
+      "slug": "163",
+      "url": "https://www.pgsoft.com/games/163/",
+      "symbol": "1815268",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Three Crazy Piggies",
+      "slug": "162",
+      "url": "https://www.pgsoft.com/games/162/",
+      "symbol": "1727711",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wings of Iguazu",
+      "slug": "161",
+      "url": "https://www.pgsoft.com/games/161/",
+      "symbol": "1747549",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Yakuza Honor",
+      "slug": "160",
+      "url": "https://www.pgsoft.com/games/160/",
+      "symbol": "1760238",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shark Bounty",
+      "slug": "159",
+      "url": "https://www.pgsoft.com/games/159/",
+      "symbol": "1648578",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Futebol Fever",
+      "slug": "158",
+      "url": "https://www.pgsoft.com/games/158/",
+      "symbol": "1778752",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chicky Run",
+      "slug": "157",
+      "url": "https://www.pgsoft.com/games/157/",
+      "symbol": "1738001",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Zombie Outbreak",
+      "slug": "156",
+      "url": "https://www.pgsoft.com/games/156/",
+      "symbol": "1635221",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Anubis Wrath",
+      "slug": "155",
+      "url": "https://www.pgsoft.com/games/155/",
+      "symbol": "1623475",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystic Potion",
+      "slug": "154",
+      "url": "https://www.pgsoft.com/games/154/",
+      "symbol": "1717688",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pinata Wins",
+      "slug": "153",
+      "url": "https://www.pgsoft.com/games/153/",
+      "symbol": "1492288",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Ape #3258",
+      "slug": "152",
+      "url": "https://www.pgsoft.com/games/152/",
+      "symbol": "1508783",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Mania",
+      "slug": "151",
+      "url": "https://www.pgsoft.com/games/151/",
+      "symbol": "1682240",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gemstones Gold",
+      "slug": "150",
+      "url": "https://www.pgsoft.com/games/150/",
+      "symbol": "1671262",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Dragon",
+      "slug": "149",
+      "url": "https://www.pgsoft.com/games/149/",
+      "symbol": "1695365",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Hatch 2",
+      "slug": "148",
+      "url": "https://www.pgsoft.com/games/148/",
+      "symbol": "1451122",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Werewolf's Hunt",
+      "slug": "147",
+      "url": "https://www.pgsoft.com/games/147/",
+      "symbol": "1615454",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tsar Treasures",
+      "slug": "146",
+      "url": "https://www.pgsoft.com/games/146/",
+      "symbol": "1655268",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mafia Mayhem",
+      "slug": "145",
+      "url": "https://www.pgsoft.com/games/145/",
+      "symbol": "1580541",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Forge of Wealth",
+      "slug": "144",
+      "url": "https://www.pgsoft.com/games/144/",
+      "symbol": "1555350",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Heist Cashout",
+      "slug": "143",
+      "url": "https://www.pgsoft.com/games/143/",
+      "symbol": "1568554",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ninja Raccoon Frenzy",
+      "slug": "141",
+      "url": "https://www.pgsoft.com/games/141/",
+      "symbol": "1529867",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gladiator's Glory",
+      "slug": "140",
+      "url": "https://www.pgsoft.com/games/140/",
+      "symbol": "1572362",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Safari Wilds",
+      "slug": "139",
+      "url": "https://www.pgsoft.com/games/139/",
+      "symbol": "1594259",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cruise Royale",
+      "slug": "138",
+      "url": "https://www.pgsoft.com/games/138/",
+      "symbol": "1473388",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruity Candy",
+      "slug": "137",
+      "url": "https://www.pgsoft.com/games/137/",
+      "symbol": "1397455",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Clover Riches",
+      "slug": "136",
+      "url": "https://www.pgsoft.com/games/136/",
+      "symbol": "1601012",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Golf Drive",
+      "slug": "135",
+      "url": "https://www.pgsoft.com/games/135/",
+      "symbol": "1513328",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystical Spirits",
+      "slug": "134",
+      "url": "https://www.pgsoft.com/games/134/",
+      "symbol": "1432733",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Songkran Splash",
+      "slug": "133",
+      "url": "https://www.pgsoft.com/games/133/",
+      "symbol": "1448762",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hawaiian Tiki",
+      "slug": "131",
+      "url": "https://www.pgsoft.com/games/131/",
+      "symbol": "1381200",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rave Party Fever",
+      "slug": "130",
+      "url": "https://www.pgsoft.com/games/130/",
+      "symbol": "1420892",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Rabbit",
+      "slug": "129",
+      "url": "https://www.pgsoft.com/games/129/",
+      "symbol": "1543462",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midas Fortune",
+      "slug": "128",
+      "url": "https://www.pgsoft.com/games/128/",
+      "symbol": "1402846",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diner Delights",
+      "slug": "126",
+      "url": "https://www.pgsoft.com/games/126/",
+      "symbol": "1372643",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Alchemy Gold",
+      "slug": "125",
+      "url": "https://www.pgsoft.com/games/125/",
+      "symbol": "1368367",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Totem Wonders",
+      "slug": "124",
+      "url": "https://www.pgsoft.com/games/124/",
+      "symbol": "1338274",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prosperity Fortune Tree",
+      "slug": "123",
+      "url": "https://www.pgsoft.com/games/123/",
+      "symbol": "1312883",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Bounty Showdown",
+      "slug": "122",
+      "url": "https://www.pgsoft.com/games/122/",
+      "symbol": "135",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Coaster",
+      "slug": "121",
+      "url": "https://www.pgsoft.com/games/121/",
+      "symbol": "132",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legend of Perseus",
+      "slug": "120",
+      "url": "https://www.pgsoft.com/games/120/",
+      "symbol": "128",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Speed Winner",
+      "slug": "119",
+      "url": "https://www.pgsoft.com/games/119/",
+      "symbol": "127",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Piggy",
+      "slug": "118",
+      "url": "https://www.pgsoft.com/games/118/",
+      "symbol": "130",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Win Win Fish Prawn Crab",
+      "slug": "117",
+      "url": "https://www.pgsoft.com/games/117/",
+      "symbol": "129",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Battleground Royale",
+      "slug": "116",
+      "url": "https://www.pgsoft.com/games/116/",
+      "symbol": "124",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rooster Rumble",
+      "slug": "114",
+      "url": "https://www.pgsoft.com/games/114/",
+      "symbol": "123",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Butterfly Blossom",
+      "slug": "113",
+      "url": "https://www.pgsoft.com/games/113/",
+      "symbol": "125",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Destiny of Sun & Moon",
+      "slug": "112",
+      "url": "https://www.pgsoft.com/games/112/",
+      "symbol": "121",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Garuda Gems",
+      "slug": "111",
+      "url": "https://www.pgsoft.com/games/111/",
+      "symbol": "122",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Tiger",
+      "slug": "110",
+      "url": "https://www.pgsoft.com/games/110/",
+      "symbol": "126",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mask Carnival",
+      "slug": "108",
+      "url": "https://www.pgsoft.com/games/108/",
+      "symbol": "118",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Emoji Riches",
+      "slug": "106",
+      "url": "https://www.pgsoft.com/games/106/",
+      "symbol": "114",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legendary Monkey King",
+      "slug": "104",
+      "url": "https://www.pgsoft.com/games/104/",
+      "symbol": "107",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spirited Wonders",
+      "slug": "103",
+      "url": "https://www.pgsoft.com/games/103/",
+      "symbol": "119",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Buffalo Win",
+      "slug": "102",
+      "url": "https://www.pgsoft.com/games/102/",
+      "symbol": "108",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Raider Jane's Crypt of Fortune",
+      "slug": "101",
+      "url": "https://www.pgsoft.com/games/101/",
+      "symbol": "113",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Supermarket Spree",
+      "slug": "100",
+      "url": "https://www.pgsoft.com/games/100/",
+      "symbol": "115",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mermaid Riches",
+      "slug": "98",
+      "url": "https://www.pgsoft.com/games/98/",
+      "symbol": "102",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Heist Stakes",
+      "slug": "94",
+      "url": "https://www.pgsoft.com/games/94/",
+      "symbol": "105",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Bandito",
+      "slug": "92",
+      "url": "https://www.pgsoft.com/games/92/",
+      "symbol": "104",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Superwin",
+      "slug": "91",
+      "url": "https://www.pgsoft.com/games/91/",
+      "symbol": "100",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Majestic Treasures",
+      "slug": "90",
+      "url": "https://www.pgsoft.com/games/90/",
+      "symbol": "95",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bali Vacation",
+      "slug": "88",
+      "url": "https://www.pgsoft.com/games/88/",
+      "symbol": "94",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Ox",
+      "slug": "83",
+      "url": "https://www.pgsoft.com/games/83/",
+      "symbol": "98",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Guardians of Ice & Fire",
+      "slug": "82",
+      "url": "https://www.pgsoft.com/games/82/",
+      "symbol": "91",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Galactic Gems",
+      "slug": "81",
+      "url": "https://www.pgsoft.com/games/81/",
+      "symbol": "86",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jack Frost's Winter",
+      "slug": "80",
+      "url": "https://www.pgsoft.com/games/80/",
+      "symbol": "97",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jewels of Prosperity",
+      "slug": "77",
+      "url": "https://www.pgsoft.com/games/77/",
+      "symbol": "88",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Queen of Bounty",
+      "slug": "76",
+      "url": "https://www.pgsoft.com/games/76/",
+      "symbol": "84",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Secrets of Cleopatra",
+      "slug": "75",
+      "url": "https://www.pgsoft.com/games/75/",
+      "symbol": "90",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vampire's Charm",
+      "slug": "74",
+      "url": "https://www.pgsoft.com/games/74/",
+      "symbol": "58",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Circus Delight",
+      "slug": "71",
+      "url": "https://www.pgsoft.com/games/71/",
+      "symbol": "80",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Genie's 3 Wishes",
+      "slug": "70",
+      "url": "https://www.pgsoft.com/games/70/",
+      "symbol": "85",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Fireworks",
+      "slug": "68",
+      "url": "https://www.pgsoft.com/games/68/",
+      "symbol": "83",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Phoenix Rises",
+      "slug": "64",
+      "url": "https://www.pgsoft.com/games/64/",
+      "symbol": "82",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mahjong Ways 2",
+      "slug": "60",
+      "url": "https://www.pgsoft.com/games/60/",
+      "symbol": "74",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bikini Paradise",
+      "slug": "59",
+      "url": "https://www.pgsoft.com/games/59/",
+      "symbol": "69",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Burst",
+      "slug": "58",
+      "url": "https://www.pgsoft.com/games/58/",
+      "symbol": "70",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shaolin Soccer",
+      "slug": "56",
+      "url": "https://www.pgsoft.com/games/56/",
+      "symbol": "67",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel Love",
+      "slug": "54",
+      "url": "https://www.pgsoft.com/games/54/",
+      "symbol": "20",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Mouse",
+      "slug": "53",
+      "url": "https://www.pgsoft.com/games/53/",
+      "symbol": "68",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Hatch",
+      "slug": "52",
+      "url": "https://www.pgsoft.com/games/52/",
+      "symbol": "57",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mahjong Ways",
+      "slug": "50",
+      "url": "https://www.pgsoft.com/games/50/",
+      "symbol": "65",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Tiger Luck",
+      "slug": "49",
+      "url": "https://www.pgsoft.com/games/49/",
+      "symbol": "63",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Muay Thai Champion",
+      "slug": "48",
+      "url": "https://www.pgsoft.com/games/48/",
+      "symbol": "64",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ninja vs Samurai",
+      "slug": "47",
+      "url": "https://www.pgsoft.com/games/47/",
+      "symbol": "59",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flirting Scholar",
+      "slug": "46",
+      "url": "https://www.pgsoft.com/games/46/",
+      "symbol": "61",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Leprechaun Riches",
+      "slug": "45",
+      "url": "https://www.pgsoft.com/games/45/",
+      "symbol": "60",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Captain’s Bounty",
+      "slug": "43",
+      "url": "https://www.pgsoft.com/games/43/",
+      "symbol": "54",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Journey To The Wealth",
+      "slug": "42",
+      "url": "https://www.pgsoft.com/games/42/",
+      "symbol": "50",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Icescape",
+      "slug": "41",
+      "url": "https://www.pgsoft.com/games/41/",
+      "symbol": "53",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Double Fortune",
+      "slug": "39",
+      "url": "https://www.pgsoft.com/games/39/",
+      "symbol": "48",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Emperor's Favour",
+      "slug": "38",
+      "url": "https://www.pgsoft.com/games/38/",
+      "symbol": "44",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jungle Delight",
+      "slug": "36",
+      "url": "https://www.pgsoft.com/games/36/",
+      "symbol": "40",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ganesha Gold",
+      "slug": "33",
+      "url": "https://www.pgsoft.com/games/33/",
+      "symbol": "42",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Symbols of Egypt",
+      "slug": "30",
+      "url": "https://www.pgsoft.com/games/30/",
+      "symbol": "41",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Gold",
+      "slug": "29",
+      "url": "https://www.pgsoft.com/games/29/",
+      "symbol": "39",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gem Saviour Sword",
+      "slug": "28",
+      "url": "https://www.pgsoft.com/games/28/",
+      "symbol": "38",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Baccarat Deluxe",
+      "slug": "27",
+      "url": "https://www.pgsoft.com/games/27/",
+      "symbol": "31",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santa’s Gift Rush",
+      "slug": "26",
+      "url": "https://www.pgsoft.com/games/26/",
+      "symbol": "37",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hip Hop Panda",
+      "slug": "25",
+      "url": "https://www.pgsoft.com/games/25/",
+      "symbol": "33",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prosperity Lion",
+      "slug": "24",
+      "url": "https://www.pgsoft.com/games/24/",
+      "symbol": "36",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legend of Hou Yi",
+      "slug": "22",
+      "url": "https://www.pgsoft.com/games/22/",
+      "symbol": "34",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mr. Hallow-Jackpot!",
+      "slug": "21",
+      "url": "https://www.pgsoft.com/games/21/",
+      "symbol": "35",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hotpot",
+      "slug": "20",
+      "url": "https://www.pgsoft.com/games/20/",
+      "symbol": "28",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Legend",
+      "slug": "19",
+      "url": "https://www.pgsoft.com/games/19/",
+      "symbol": "29",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hood vs Wolf",
+      "slug": "18",
+      "url": "https://www.pgsoft.com/games/18/",
+      "symbol": "18",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gem Saviour",
+      "slug": "15",
+      "url": "https://www.pgsoft.com/games/15/",
+      "symbol": "2",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plushie Frenzy",
+      "slug": "14",
+      "url": "https://www.pgsoft.com/games/14/",
+      "symbol": "25",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Medusa",
+      "slug": "10",
+      "url": "https://www.pgsoft.com/games/10/",
+      "symbol": "7",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Win Win Won",
+      "slug": "9",
+      "url": "https://www.pgsoft.com/games/9/",
+      "symbol": "24",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Medusa II",
+      "slug": "6",
+      "url": "https://www.pgsoft.com/games/6/",
+      "symbol": "6",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tree Of Fortune",
+      "slug": "4",
+      "url": "https://www.pgsoft.com/games/4/",
+      "symbol": "26",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Gods",
+      "slug": "3",
+      "url": "https://www.pgsoft.com/games/3/",
+      "symbol": "3",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Honey Trap of Diao Chan",
+      "slug": "1",
+      "url": "https://www.pgsoft.com/games/1/",
+      "symbol": "1",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    }
+  ]
+}

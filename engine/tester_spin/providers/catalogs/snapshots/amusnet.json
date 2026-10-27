@@ -1,0 +1,1738 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "amusnet",
+  "source": "https://amusnetgaming.com/online-casino",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "10 Bulky Fruits",
+      "slug": "10-bulky-fruits",
+      "url": "https://amusnetgaming.com/10-bulky-fruits",
+      "symbol": "619",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/619%20horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Gobbler",
+      "slug": "coin-gobbler",
+      "url": "https://amusnetgaming.com/coin-gobbler",
+      "symbol": "910",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Coin%20Gobbler%20horiz.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Orient Story",
+      "slug": "orient-story",
+      "url": "https://amusnetgaming.com/orient-story",
+      "symbol": "593",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/593_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Diamond Plus",
+      "slug": "20-diamond-plus",
+      "url": "https://amusnetgaming.com/20-diamond-plus",
+      "symbol": "497",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/497.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Orient Story Deluxe",
+      "slug": "orient-story-deluxe",
+      "url": "https://amusnetgaming.com/orient-story-deluxe",
+      "symbol": "464",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/464_4.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Diamond Plus",
+      "slug": "40-diamond-plus",
+      "url": "https://amusnetgaming.com/40-diamond-plus",
+      "symbol": "498",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/40%20Diamond%20Plus%20hor%20new.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Secrets of Cairo",
+      "slug": "secrets-of-cairo",
+      "url": "https://amusnetgaming.com/secrets-of-cairo",
+      "symbol": "463",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Secrets%20of%20Cairo_horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Glossy Hot",
+      "slug": "10-glossy-hot",
+      "url": "https://amusnetgaming.com/10-glossy-hot",
+      "symbol": "620",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/620%20horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Diamond Plus",
+      "slug": "5-diamond-plus",
+      "url": "https://amusnetgaming.com/5-diamond-plus",
+      "symbol": "496",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/5%20Diamond%20Plus_horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Wild Goals",
+      "slug": "20-wild-goals",
+      "url": "https://amusnetgaming.com/20-wild-goals",
+      "symbol": "629",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/629.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Crown Classic",
+      "slug": "extra-crown-classic",
+      "url": "https://amusnetgaming.com/extra-crown-classic",
+      "symbol": "492",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/492%20%281%29.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Extra Crown",
+      "slug": "20-extra-crown",
+      "url": "https://amusnetgaming.com/20-extra-crown",
+      "symbol": "606",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/20%20Extra%20Crown%20-%20h.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Traces",
+      "slug": "wild-traces",
+      "url": "https://amusnetgaming.com/wild-traces",
+      "symbol": "479",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/479_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Power Hot",
+      "slug": "10-power-hot",
+      "url": "https://amusnetgaming.com/10-power-hot",
+      "symbol": "491",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/horizontal%2010%20power%20hot.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Glossy Hot",
+      "slug": "20-glossy-hot",
+      "url": "https://amusnetgaming.com/20-glossy-hot",
+      "symbol": "608",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/608_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Golden Coins",
+      "slug": "20-golden-coins",
+      "url": "https://amusnetgaming.com/20-golden-coins",
+      "symbol": "592",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/592_4.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Plus",
+      "slug": "diamond-plus",
+      "url": "https://amusnetgaming.com/diamond-plus",
+      "symbol": "402",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/402_8.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Golden Coins",
+      "slug": "100-golden-coins",
+      "url": "https://amusnetgaming.com/100-golden-coins",
+      "symbol": "470",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/470_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Hot Blast",
+      "slug": "20-hot-blast",
+      "url": "https://amusnetgaming.com/20-hot-blast",
+      "symbol": "558",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/558_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Drops of Water",
+      "slug": "drops-of-water",
+      "url": "https://amusnetgaming.com/drops-of-water",
+      "symbol": "425",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/425_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dancing Dead",
+      "slug": "dancing-dead",
+      "url": "https://amusnetgaming.com/dancing-dead",
+      "symbol": "437",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/437_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Amazons' Battle",
+      "slug": "amazons-battle",
+      "url": "https://amusnetgaming.com/amazons-battle",
+      "symbol": "859",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/859_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stoichkov#8",
+      "slug": "stoichkov-8",
+      "url": "https://amusnetgaming.com/stoichkov-8",
+      "symbol": "475",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Stoichkov_hero-banner_393px.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bulky Fruits",
+      "slug": "bulky-fruits",
+      "url": "https://amusnetgaming.com/bulky-fruits",
+      "symbol": "410",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/410_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Crown",
+      "slug": "extra-crown",
+      "url": "https://amusnetgaming.com/extra-crown",
+      "symbol": "446",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/446_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Power Hot",
+      "slug": "20-power-hot",
+      "url": "https://amusnetgaming.com/20-power-hot",
+      "symbol": "435",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/435_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Easter Frog",
+      "slug": "easter-frog",
+      "url": "https://amusnetgaming.com/easter-frog",
+      "symbol": "447",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/447_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cocktail Rush - Easter Edition",
+      "slug": "cocktail-rush-easter-edition",
+      "url": "https://amusnetgaming.com/cocktail-rush-easter-edition",
+      "symbol": "487",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/487-1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Almighty Ramses II",
+      "slug": "40-almighty-ramses-ii",
+      "url": "https://amusnetgaming.com/40-almighty-ramses-ii",
+      "symbol": "561",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/561_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7 & Crystals",
+      "slug": "7-and-crystals",
+      "url": "https://amusnetgaming.com/7-and-crystals",
+      "symbol": "480",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/480_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Cats",
+      "slug": "100-cats",
+      "url": "https://amusnetgaming.com/100-cats",
+      "symbol": "847",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/847_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Plus Football Edition",
+      "slug": "diamond-plus-football-edition",
+      "url": "https://amusnetgaming.com/diamond-plus-football-edition",
+      "symbol": "495",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/495.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Circus Brilliant",
+      "slug": "circus-brilliant",
+      "url": "https://amusnetgaming.com/circus-brilliant",
+      "symbol": "829",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/829_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Super Hot",
+      "slug": "100-super-hot",
+      "url": "https://amusnetgaming.com/100-super-hot",
+      "symbol": "527",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/527_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Super Hot",
+      "slug": "40-super-hot",
+      "url": "https://amusnetgaming.com/40-super-hot",
+      "symbol": "804",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/804_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Super Hot",
+      "slug": "20-super-hot",
+      "url": "https://amusnetgaming.com/20-super-hot",
+      "symbol": "803",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/803_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Bulky Fruits",
+      "slug": "100-bulky-fruits",
+      "url": "https://amusnetgaming.com/100-bulky-fruits",
+      "symbol": "441",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/441_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kemet's Treasures",
+      "slug": "kemets-treasures",
+      "url": "https://amusnetgaming.com/kemets-treasures",
+      "symbol": "452",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/452_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Power Hot",
+      "slug": "5-power-hot",
+      "url": "https://amusnetgaming.com/5-power-hot",
+      "symbol": "490",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/5%20Power%20Hot%20horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Secrets of Alchemy",
+      "slug": "secrets-of-alchemy",
+      "url": "https://amusnetgaming.com/secrets-of-alchemy",
+      "symbol": "828",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/828_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Palace",
+      "slug": "candy-palace",
+      "url": "https://amusnetgaming.com/candy-palace",
+      "symbol": "405",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/405_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shining Crown",
+      "slug": "shining-crown",
+      "url": "https://amusnetgaming.com/shining-crown",
+      "symbol": "831",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/831_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruits & Gold",
+      "slug": "fruits-and-gold",
+      "url": "https://amusnetgaming.com/fruits-and-gold",
+      "symbol": "417",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/417_6.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viking Rising",
+      "slug": "viking-rising",
+      "url": "https://amusnetgaming.com/viking-rising",
+      "symbol": "596",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/596_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Power Hot",
+      "slug": "100-power-hot",
+      "url": "https://amusnetgaming.com/100-power-hot",
+      "symbol": "434",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/434_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mythical Treasure",
+      "slug": "mythical-treasure",
+      "url": "https://amusnetgaming.com/mythical-treasure",
+      "symbol": "577",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/577_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cocktail Rush",
+      "slug": "cocktail-rush",
+      "url": "https://amusnetgaming.com/cocktail-rush",
+      "symbol": "412",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/412%20horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of RA",
+      "slug": "rise-of-ra",
+      "url": "https://amusnetgaming.com/rise-of-ra",
+      "symbol": "806",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/806_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Golden Coins",
+      "slug": "40-golden-coins",
+      "url": "https://amusnetgaming.com/40-golden-coins",
+      "symbol": "468",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/468_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruity Time",
+      "slug": "fruity-time",
+      "url": "https://amusnetgaming.com/fruity-time",
+      "symbol": "407",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/407_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Secrets of Sherwood",
+      "slug": "secrets-of-sherwood",
+      "url": "https://amusnetgaming.com/secrets-of-sherwood",
+      "symbol": "401",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/401_4.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Frog Story",
+      "slug": "frog-story",
+      "url": "https://amusnetgaming.com/frog-story",
+      "symbol": "853",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/853_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vampire Night",
+      "slug": "vampire-night",
+      "url": "https://amusnetgaming.com/vampire-night",
+      "symbol": "562",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/562_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Oil Company II",
+      "slug": "oil-company-ii",
+      "url": "https://amusnetgaming.com/oil-company-ii",
+      "symbol": "848",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/848_0.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blue Heart",
+      "slug": "blue-heart",
+      "url": "https://amusnetgaming.com/blue-heart",
+      "symbol": "814",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/814_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "30 Spicy Fruits",
+      "slug": "30-spicy-fruits",
+      "url": "https://amusnetgaming.com/30-spicy-fruits",
+      "symbol": "528",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/528_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Extra Crown 6 Reels",
+      "slug": "40-extra-crown-6-reels",
+      "url": "https://amusnetgaming.com/40-extra-crown-6-reels",
+      "symbol": "623",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/623.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Wild Goals Dice",
+      "slug": "20-wild-goals-dice",
+      "url": "https://amusnetgaming.com/20-wild-goals-dice",
+      "symbol": "5069",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/5069.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wenshi Lion",
+      "slug": "wenshi-lion",
+      "url": "https://amusnetgaming.com/wenshi-lion",
+      "symbol": "635",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/635%20%281%29.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Extra Crown 6 reels",
+      "slug": "100-extra-crown-6-reels",
+      "url": "https://amusnetgaming.com/100-extra-crown-6-reels",
+      "symbol": "630",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/630.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Pirate Bombs",
+      "slug": "20-pirate-bombs",
+      "url": "https://amusnetgaming.com/20-pirate-bombs",
+      "symbol": "641",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/641.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice of Magic - Easter Edition",
+      "slug": "dice-of-magic-easter-edition",
+      "url": "https://amusnetgaming.com/dice-of-magic-easter-edition",
+      "symbol": "612",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/612.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Easter Frog Dice",
+      "slug": "easter-frog-dice",
+      "url": "https://amusnetgaming.com/easter-frog-dice",
+      "symbol": "5005",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/5005%20copy.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shining Crown Buy Bonus",
+      "slug": "shining-crown-buy-bonus",
+      "url": "https://amusnetgaming.com/shining-crown-buy-bonus",
+      "symbol": "5000",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/5000.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sparta Legend",
+      "slug": "sparta-legend",
+      "url": "https://amusnetgaming.com/sparta-legend",
+      "symbol": "645",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/645.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Golden Coins Dice Edition",
+      "slug": "100-golden-coins-dice-edition",
+      "url": "https://amusnetgaming.com/100-golden-coins-dice-edition",
+      "symbol": "637",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/637.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Bulky Dice 6 reels",
+      "slug": "40-bulky-dice-6-reels",
+      "url": "https://amusnetgaming.com/40-bulky-dice-6-reels",
+      "symbol": "639",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/639.jpg",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Extra Crown",
+      "slug": "40-extra-crown",
+      "url": "https://amusnetgaming.com/40-extra-crown",
+      "symbol": "607",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/40%20Extra%20Crown%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Bulky Fruits",
+      "slug": "40-bulky-fruits",
+      "url": "https://amusnetgaming.com/40-bulky-fruits",
+      "symbol": "428",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/428_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Burning Heart",
+      "slug": "10-burning-heart",
+      "url": "https://amusnetgaming.com/10-burning-heart",
+      "symbol": "533",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/533_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Burning Hot",
+      "slug": "20-burning-hot",
+      "url": "https://amusnetgaming.com/20-burning-hot",
+      "symbol": "530",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/530_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Stars",
+      "slug": "extra-stars",
+      "url": "https://amusnetgaming.com/extra-stars",
+      "symbol": "822",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/822_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Hot",
+      "slug": "burning-hot",
+      "url": "https://amusnetgaming.com/burning-hot",
+      "symbol": "801",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/801_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Bulky Fruits",
+      "slug": "20-bulky-fruits",
+      "url": "https://amusnetgaming.com/20-bulky-fruits",
+      "symbol": "427",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/427_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Burning Hot 6 Reels",
+      "slug": "40-burning-hot-6-reels",
+      "url": "https://amusnetgaming.com/40-burning-hot-6-reels",
+      "symbol": "566",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/566_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Burning Hot",
+      "slug": "40-burning-hot",
+      "url": "https://amusnetgaming.com/40-burning-hot",
+      "symbol": "529",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/529_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Dazzling Hot",
+      "slug": "20-dazzling-hot",
+      "url": "https://amusnetgaming.com/20-dazzling-hot",
+      "symbol": "544",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/544_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Burning Heart",
+      "slug": "5-burning-heart",
+      "url": "https://amusnetgaming.com/5-burning-heart",
+      "symbol": "532",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/532_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great 27",
+      "slug": "great-27",
+      "url": "https://amusnetgaming.com/great-27",
+      "symbol": "555",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/555_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice & Roll",
+      "slug": "dice-and-roll",
+      "url": "https://amusnetgaming.com/dice-and-roll",
+      "symbol": "824",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/824_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bier O'Meter",
+      "slug": "bier-ometer",
+      "url": "https://amusnetgaming.com/bier-ometer",
+      "symbol": "460",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/460_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Crown Deluxe",
+      "slug": "extra-crown-deluxe",
+      "url": "https://amusnetgaming.com/extra-crown-deluxe",
+      "symbol": "632",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Extra%20Crown%20Deluxe%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vampire Beast",
+      "slug": "vampire-beast",
+      "url": "https://amusnetgaming.com/vampire-beast",
+      "symbol": "461",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/461_11.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Vampire Beast",
+      "slug": "10-vampire-beast",
+      "url": "https://amusnetgaming.com/10-vampire-beast",
+      "symbol": "661",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/661_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clover Islands",
+      "slug": "clover-islands",
+      "url": "https://amusnetgaming.com/clover-islands",
+      "symbol": "459",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/459_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Vampire Beast",
+      "slug": "20-vampire-beast",
+      "url": "https://amusnetgaming.com/20-vampire-beast",
+      "symbol": "662",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/662_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Plus - Valentine's Edition",
+      "slug": "diamond-plus-valentines-edition",
+      "url": "https://amusnetgaming.com/diamond-plus-valentines-edition",
+      "symbol": "489",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/402%20Valentine%27s.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "27 Eternal Hot",
+      "slug": "27-eternal-hot",
+      "url": "https://amusnetgaming.com/27-eternal-hot",
+      "symbol": "421",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/421_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ultimate Hot",
+      "slug": "ultimate-hot",
+      "url": "https://amusnetgaming.com/ultimate-hot",
+      "symbol": "802",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/802_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Supreme Hot",
+      "slug": "supreme-hot",
+      "url": "https://amusnetgaming.com/supreme-hot",
+      "symbol": "821",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/821_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Deco",
+      "slug": "hot-deco",
+      "url": "https://amusnetgaming.com/hot-deco",
+      "symbol": "411",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/411_4.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "27 Wins",
+      "slug": "27-wins",
+      "url": "https://amusnetgaming.com/27-wins",
+      "symbol": "556",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/556_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grace of Cleopatra",
+      "slug": "grace-of-cleopatra",
+      "url": "https://amusnetgaming.com/grace-of-cleopatra",
+      "symbol": "817",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/817_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "30 Spicy Dice",
+      "slug": "30-spicy-dice",
+      "url": "https://amusnetgaming.com/30-spicy-dice",
+      "symbol": "535",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/535_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caramel Dice",
+      "slug": "caramel-dice",
+      "url": "https://amusnetgaming.com/caramel-dice",
+      "symbol": "521",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/521_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice Plus",
+      "slug": "dice-plus",
+      "url": "https://amusnetgaming.com/dice-plus",
+      "symbol": "438",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/438_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extreme Dice",
+      "slug": "extreme-dice",
+      "url": "https://amusnetgaming.com/extreme-dice",
+      "symbol": "406",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/406_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ice Dice",
+      "slug": "ice-dice",
+      "url": "https://amusnetgaming.com/ice-dice",
+      "symbol": "867",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/867_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Neon Dice",
+      "slug": "neon-dice",
+      "url": "https://amusnetgaming.com/neon-dice",
+      "symbol": "861",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/861_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice of Magic",
+      "slug": "dice-of-magic",
+      "url": "https://amusnetgaming.com/dice-of-magic",
+      "symbol": "894",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/894%20horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Dice",
+      "slug": "100-dice",
+      "url": "https://amusnetgaming.com/100-dice",
+      "symbol": "893",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/893_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold & Crystals",
+      "slug": "gold-crystals",
+      "url": "https://amusnetgaming.com/gold-crystals",
+      "symbol": "430",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/430.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Dazzling Hot",
+      "slug": "5-dazzling-hot",
+      "url": "https://amusnetgaming.com/5-dazzling-hot",
+      "symbol": "810",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/810_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Golden Coins Dice Edition",
+      "slug": "40-golden-coins-dice-edition",
+      "url": "https://amusnetgaming.com/40-golden-coins-dice-edition",
+      "symbol": "636",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/40%20Golden%20Coins%20Dice%20Edition%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Power Hot",
+      "slug": "40-power-hot",
+      "url": "https://amusnetgaming.com/40-power-hot",
+      "symbol": "426",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/426_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Golden Coins Dice Edition",
+      "slug": "20-golden-coins-dice-edition",
+      "url": "https://amusnetgaming.com/20-golden-coins-dice-edition",
+      "symbol": "418",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/418-new.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Supreme Dice",
+      "slug": "supreme-dice",
+      "url": "https://amusnetgaming.com/supreme-dice",
+      "symbol": "845",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/845_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Dice",
+      "slug": "candy-dice",
+      "url": "https://amusnetgaming.com/candy-dice",
+      "symbol": "455",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/455_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Dice",
+      "slug": "burning-dice",
+      "url": "https://amusnetgaming.com/burning-dice",
+      "symbol": "842",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/842_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice & Dinosaurs",
+      "slug": "dice-dinosaurs",
+      "url": "https://amusnetgaming.com/dice-dinosaurs",
+      "symbol": "663",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Dice%26Dinosaurs%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Crown Dice",
+      "slug": "extra-crown-dice",
+      "url": "https://amusnetgaming.com/extra-crown-dice",
+      "symbol": "777",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Extra%20Crown%20Dice%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kemet's Dice",
+      "slug": "kemets-dice",
+      "url": "https://amusnetgaming.com/kemets-dice",
+      "symbol": "640",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Kemet%27s_Dice_horizontal.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Bulky Dice",
+      "slug": "40-bulky-dice",
+      "url": "https://amusnetgaming.com/40-bulky-dice",
+      "symbol": "638",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/638.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cocktail Dice",
+      "slug": "cocktail-dice",
+      "url": "https://amusnetgaming.com/cocktail-dice",
+      "symbol": "486",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Cocktail%20Dice%20h.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Power Hot Dice Edition",
+      "slug": "100-power-hot-dice-edition",
+      "url": "https://amusnetgaming.com/100-power-hot-dice-edition",
+      "symbol": "478",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/478%20%281%29.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruits & Gold Dice",
+      "slug": "fruits-and-gold-dice",
+      "url": "https://amusnetgaming.com/fruits-and-gold-dice",
+      "symbol": "471",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/471_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Super Dice",
+      "slug": "100-super-dice",
+      "url": "https://amusnetgaming.com/100-super-dice",
+      "symbol": "534",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/534_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shining Dice",
+      "slug": "shining-dice",
+      "url": "https://amusnetgaming.com/shining-dice",
+      "symbol": "560",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/560_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Power Hot Dice Edition",
+      "slug": "20-power-hot-dice-edition",
+      "url": "https://amusnetgaming.com/20-power-hot-dice-edition",
+      "symbol": "476",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/476_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice Deco",
+      "slug": "dice-deco",
+      "url": "https://amusnetgaming.com/dice-deco",
+      "symbol": "439",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/439_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aztec Dice",
+      "slug": "aztec-dice",
+      "url": "https://amusnetgaming.com/aztec-dice",
+      "symbol": "457",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/457_0.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Super Dice",
+      "slug": "40-super-dice",
+      "url": "https://amusnetgaming.com/40-super-dice",
+      "symbol": "844",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/844_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Glossy Dice",
+      "slug": "5-glossy-dice",
+      "url": "https://amusnetgaming.com/5-glossy-dice",
+      "symbol": "485",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/485%20%281%29.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 King",
+      "slug": "40-king",
+      "url": "https://amusnetgaming.com/40-king",
+      "symbol": "569",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/569_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bulky Dice",
+      "slug": "bulky-dice",
+      "url": "https://amusnetgaming.com/bulky-dice",
+      "symbol": "433",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/433_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Bulky Dice",
+      "slug": "20-bulky-dice",
+      "url": "https://amusnetgaming.com/20-bulky-dice",
+      "symbol": "456",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/456_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Power Hot Dice Edition",
+      "slug": "40-power-hot-dice-edition",
+      "url": "https://amusnetgaming.com/40-power-hot-dice-edition",
+      "symbol": "477",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/477%20%281%29.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Super Dice",
+      "slug": "20-super-dice",
+      "url": "https://amusnetgaming.com/20-super-dice",
+      "symbol": "843",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/843_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Burning Dice",
+      "slug": "20-burning-dice",
+      "url": "https://amusnetgaming.com/20-burning-dice",
+      "symbol": "537",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/537_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Joker",
+      "slug": "extra-joker",
+      "url": "https://amusnetgaming.com/extra-joker",
+      "symbol": "857",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/857_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Joker Dice",
+      "slug": "20-joker-dice",
+      "url": "https://amusnetgaming.com/20-joker-dice",
+      "symbol": "559",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/559_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "27 Dice",
+      "slug": "27-dice",
+      "url": "https://amusnetgaming.com/27-dice",
+      "symbol": "409",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/409_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice of Sherwood",
+      "slug": "dice-of-sherwood",
+      "url": "https://amusnetgaming.com/dice-of-sherwood",
+      "symbol": "444",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/444_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7 & Crystals Dice",
+      "slug": "7-crystals-dice",
+      "url": "https://amusnetgaming.com/7-crystals-dice",
+      "symbol": "625",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/625.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice Vikings",
+      "slug": "dice-vikings",
+      "url": "https://amusnetgaming.com/dice-vikings",
+      "symbol": "484",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/484_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice Ways",
+      "slug": "dice-ways",
+      "url": "https://amusnetgaming.com/dice-ways",
+      "symbol": "454",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/454_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Water Dice",
+      "slug": "water-dice",
+      "url": "https://amusnetgaming.com/water-dice",
+      "symbol": "467",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/467_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Golden Coins - Christmas Edition",
+      "slug": "20-golden-coins-christmas-edition",
+      "url": "https://amusnetgaming.com/20-golden-coins-christmas-edition",
+      "symbol": "622",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/20%20Golden%20Coins%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Palace - Christmas Edition",
+      "slug": "candy-palace-christmas-edition",
+      "url": "https://amusnetgaming.com/candy-palace-christmas-edition",
+      "symbol": "621",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Candy_Palace_Christmas_Edition%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caramel Hot - Christmas Edition",
+      "slug": "caramel-hot-christmas-edition",
+      "url": "https://amusnetgaming.com/caramel-hot-christmas-edition",
+      "symbol": "616",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Caramel%20Hot%20Christmas%20Edition%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice & Roll - Christmas Edition",
+      "slug": "dice-roll-christmas-edition",
+      "url": "https://amusnetgaming.com/dice-roll-christmas-edition",
+      "symbol": "613",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Dice%20and%20Roll%20Christmas%20Edition%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Richness Dice",
+      "slug": "richness-dice",
+      "url": "https://amusnetgaming.com/richness-dice",
+      "symbol": "450",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/450_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Luxury Dice",
+      "slug": "40-luxury-dice",
+      "url": "https://amusnetgaming.com/40-luxury-dice",
+      "symbol": "408",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/408_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caramel Hot",
+      "slug": "caramel-hot",
+      "url": "https://amusnetgaming.com/caramel-hot",
+      "symbol": "506",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/506_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Amazons' Battle",
+      "slug": "50-amazons-battle",
+      "url": "https://amusnetgaming.com/50-amazons-battle",
+      "symbol": "563",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/563_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aztec Forest",
+      "slug": "aztec-forest",
+      "url": "https://amusnetgaming.com/aztec-forest",
+      "symbol": "443",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Aztec%20Forest%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Phoenix Star",
+      "slug": "phoenix-star",
+      "url": "https://amusnetgaming.com/phoenix-star",
+      "symbol": "440",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/440_4.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caramel Dice - Christmas Edition",
+      "slug": "caramel-dice-christmas-edition",
+      "url": "https://amusnetgaming.com/caramel-dice-christmas-edition",
+      "symbol": "615",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Caramel%20Dice%20Christmas%20Edition%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rolling Dice - Christmas Edition",
+      "slug": "rolling-dice-christmas-edition",
+      "url": "https://amusnetgaming.com/rolling-dice-christmas-edition",
+      "symbol": "614",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/Rolling%20Dice%20Christmas%20Edition%20hor.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Versailles Gold",
+      "slug": "versailles-gold",
+      "url": "https://amusnetgaming.com/versailles-gold",
+      "symbol": "818",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/818_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Olympus Glory",
+      "slug": "olympus-glory",
+      "url": "https://amusnetgaming.com/olympus-glory",
+      "symbol": "819",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/819_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "More Dice & Roll",
+      "slug": "more-dice-and-roll",
+      "url": "https://amusnetgaming.com/more-dice-and-roll",
+      "symbol": "875",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/875_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Burning Hot",
+      "slug": "100-burning-hot",
+      "url": "https://amusnetgaming.com/100-burning-hot",
+      "symbol": "548",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/548_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Great Star",
+      "slug": "5-great-star",
+      "url": "https://amusnetgaming.com/5-great-star",
+      "symbol": "553",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/553_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Bulky Fruits 6 Reels",
+      "slug": "40-bulky-fruits-6-reels",
+      "url": "https://amusnetgaming.com/40-bulky-fruits-6-reels",
+      "symbol": "445",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/445_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Glossy Hot",
+      "slug": "5-glossy-hot",
+      "url": "https://amusnetgaming.com/5-glossy-hot",
+      "symbol": "451",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/451_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cavemen and Dinosaurs",
+      "slug": "cavemen-and-dinosaurs",
+      "url": "https://amusnetgaming.com/cavemen-and-dinosaurs",
+      "symbol": "442",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/442_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Lucky King",
+      "slug": "40-lucky-king",
+      "url": "https://amusnetgaming.com/40-lucky-king",
+      "symbol": "546",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/546_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Diamonds",
+      "slug": "20-diamonds",
+      "url": "https://amusnetgaming.com/20-diamonds",
+      "symbol": "854",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/854_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flaming Hot",
+      "slug": "flaming-hot",
+      "url": "https://amusnetgaming.com/flaming-hot",
+      "symbol": "805",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/805_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Secrets",
+      "slug": "royal-secrets",
+      "url": "https://amusnetgaming.com/royal-secrets",
+      "symbol": "809",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/809_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Zodiac Wheel",
+      "slug": "zodiac-wheel",
+      "url": "https://amusnetgaming.com/zodiac-wheel",
+      "symbol": "807",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/807_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Hot",
+      "slug": "lucky-hot",
+      "url": "https://amusnetgaming.com/lucky-hot",
+      "symbol": "849",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/849_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Art of Gold",
+      "slug": "art-of-gold",
+      "url": "https://amusnetgaming.com/art-of-gold",
+      "symbol": "449",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/449_3.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kangaroo Land",
+      "slug": "kangaroo-land",
+      "url": "https://amusnetgaming.com/kangaroo-land",
+      "symbol": "836",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/836_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Juggle Fruits",
+      "slug": "5-juggle-fruits",
+      "url": "https://amusnetgaming.com/5-juggle-fruits",
+      "symbol": "557",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/557.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Horses",
+      "slug": "50-horses",
+      "url": "https://amusnetgaming.com/50-horses",
+      "symbol": "879",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/879_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ancient Dynasty",
+      "slug": "ancient-dynasty",
+      "url": "https://amusnetgaming.com/ancient-dynasty",
+      "symbol": "567",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/567_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aztec Glory",
+      "slug": "aztec-glory",
+      "url": "https://amusnetgaming.com/aztec-glory",
+      "symbol": "511",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/511_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Casino Mania",
+      "slug": "casino-mania",
+      "url": "https://amusnetgaming.com/casino-mania",
+      "symbol": "850",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/850_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Reborn",
+      "slug": "dragon-reborn",
+      "url": "https://amusnetgaming.com/dragon-reborn",
+      "symbol": "508",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/508_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Mega Clover",
+      "slug": "40-mega-clover",
+      "url": "https://amusnetgaming.com/40-mega-clover",
+      "symbol": "547",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/547_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Almighty Ramses II",
+      "slug": "almighty-ramses-ii",
+      "url": "https://amusnetgaming.com/almighty-ramses-ii",
+      "symbol": "520",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/520_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flaming Hot Extreme",
+      "slug": "flaming-hot-extreme",
+      "url": "https://amusnetgaming.com/flaming-hot-extreme",
+      "symbol": "568",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/568_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Wood",
+      "slug": "lucky-wood",
+      "url": "https://amusnetgaming.com/lucky-wood",
+      "symbol": "573",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/573_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Sparta",
+      "slug": "mighty-sparta",
+      "url": "https://amusnetgaming.com/mighty-sparta",
+      "symbol": "404",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/404_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky & Wild",
+      "slug": "lucky-and-wild",
+      "url": "https://amusnetgaming.com/lucky-and-wild",
+      "symbol": "868",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/868_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flaming Hot 6 Reels",
+      "slug": "flaming-hot-6-reels",
+      "url": "https://amusnetgaming.com/flaming-hot-6-reels",
+      "symbol": "432",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/432_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Hot",
+      "slug": "power-hot",
+      "url": "https://amusnetgaming.com/power-hot",
+      "symbol": "431",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/431_5.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Egypt",
+      "slug": "the-great-egypt",
+      "url": "https://amusnetgaming.com/the-great-egypt",
+      "symbol": "885",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/885_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Joker Reels",
+      "slug": "20-joker-reels",
+      "url": "https://amusnetgaming.com/20-joker-reels",
+      "symbol": "554",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/554_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot & Cash",
+      "slug": "hot-and-cash",
+      "url": "https://amusnetgaming.com/hot-and-cash",
+      "symbol": "866",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/866_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Reels",
+      "slug": "dragon-reels",
+      "url": "https://amusnetgaming.com/dragon-reels",
+      "symbol": "813",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/813_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Greek Fortune",
+      "slug": "greek-fortune",
+      "url": "https://amusnetgaming.com/greek-fortune",
+      "symbol": "416",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/416_4.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Knight's Heart",
+      "slug": "knights-heart",
+      "url": "https://amusnetgaming.com/knights-heart",
+      "symbol": "574",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/574_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Keno",
+      "slug": "hot-keno",
+      "url": "https://amusnetgaming.com/hot-keno",
+      "symbol": "704",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/704_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Superb Keno",
+      "slug": "superb-keno",
+      "url": "https://amusnetgaming.com/superb-keno",
+      "symbol": "703",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/703_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Hot & Cash",
+      "slug": "40-hot-and-cash",
+      "url": "https://amusnetgaming.com/40-hot-and-cash",
+      "symbol": "545",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/545_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Ultra Respin",
+      "slug": "40-ultra-respin",
+      "url": "https://amusnetgaming.com/40-ultra-respin",
+      "symbol": "531",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/531_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "81 Wins",
+      "slug": "81-wins",
+      "url": "https://amusnetgaming.com/81-wins",
+      "symbol": "549",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/549_1.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super 20",
+      "slug": "super-20",
+      "url": "https://amusnetgaming.com/super-20",
+      "symbol": "897",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/897_2.webp",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice of Ra",
+      "slug": "dice-of-ra",
+      "url": "https://amusnetgaming.com/dice-of-ra",
+      "symbol": "856",
+      "thumbnail_url": "https://backend.careers-amusnet.com/sites/default/files/games/856_1.webp",
+      "studio": "",
+      "category": ""
+    }
+  ]
+}

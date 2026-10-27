@@ -1,0 +1,205 @@
+{
+  "schema": "pragmatic/observed-game-rules/v1",
+  "profiles": {
+    "legacy_five_lines": {
+      "kind": "spin_fields",
+      "fields": {
+        "l": "5"
+      },
+      "stake_scale": 5,
+      "omit_fields": [
+        "bl",
+        "sInfo"
+      ],
+      "terminal": {
+        "key": "gs",
+        "value": "0"
+      },
+      "evidence": "Official cs5triple8gold HAR 2026-10-03T02-39-15-981Z and captured HTTP tab30: doSpin c=0.01,l=5 without bl/sInfo; terminal gs=0 without na."
+    },
+    "extra_juicy_collect": {
+      "kind": "bonus_fields",
+      "fields": {
+        "ind": "1"
+      },
+      "match": {
+        "na": [
+          "b"
+        ],
+        "bgt": [
+          "35"
+        ],
+        "bgid": [
+          "0"
+        ],
+        "end": [
+          "0"
+        ],
+        "level": [
+          "0"
+        ],
+        "status": [
+          "0,1,0,0,0",
+          "1,0,0,0,0"
+        ]
+      },
+      "evidence": "Official vswaysxjuicy HAR 2026-10-03T02-10-07-964Z + captured HTTP events tab26: two doBonus(ind=1) continuations, then na=s/end=1."
+    },
+    "scratchcard_ticket": {
+      "kind": "scratchcard",
+      "fields": {
+        "action": "doBuy",
+        "tickets": "1"
+      },
+      "omit_fields": [
+        "c",
+        "l",
+        "bl",
+        "sInfo"
+      ],
+      "terminal": {
+        "key": "na",
+        "value": "buy"
+      },
+      "continuations": {
+        "play": "doPlay",
+        "end": "doEnd",
+        "collect": "doCollect"
+      },
+      "evidence": "Official scdiamond HAR 2026-10-03T01-40-25-612Z and captured client network events: doBuy tickets=1 -> play -> doPlay -> end -> doEnd -> collect -> doCollect -> buy."
+    },
+    "legacy_three_lines": {
+      "kind": "spin_fields",
+      "fields": {
+        "l": "3"
+      },
+      "stake_scale": 3,
+      "omit_fields": [
+        "bl",
+        "sInfo"
+      ],
+      "terminal": {
+        "key": "gs",
+        "value": "0"
+      },
+      "evidence": "Official cs3w HAR 2026-10-03T01-39-43-344Z: doSpin c=0.5,l=3; completed round gs=0, stake=1.50."
+    },
+    "zeus_olympus": {
+      "kind": "spin_fields",
+      "fields": {
+        "l": "15",
+        "ind": "1"
+      },
+      "evidence": "Official demo HAR 2026-10-03T01-33-18-693Z: vs15godsofwar, Olympus. doInit l=10 is stake scale; wire l=15 is line count."
+    },
+    "ra_volatility": {
+      "kind": "spin_fields",
+      "fields": {
+        "l": "15",
+        "ind": "0"
+      },
+      "evidence": "Official public Ra vs Osiris demo HAR www.pragmaticplay.com-2026-10-08T23-40-44-834Z: accepted doSpin c=0.2,l=15,ind=0; response l=10, na=s. Stake scale remains server-advertised."
+    },
+    "zeus_250_olympus": {
+      "kind": "spin_fields",
+      "fields": {
+        "l": "15",
+        "ind": "1"
+      },
+      "evidence": "Official demo HAR www.pragmaticplay.com-2026-10-08T23-43-26-323Z: vs15zeushadseq accepted doSpin c=0.2,l=15,ind=1 -> na=s, response l=10."
+    },
+    "champions_team": {
+      "kind": "spin_fields",
+      "fields": {
+        "prg_i": "7"
+      },
+      "omit_fields": [
+        "bl"
+      ],
+      "evidence": "Official demo HAR www.pragmaticplay.com-2026-10-08T23-43-27-166Z: vs25champ UI Argentina choice -> doSpin c=0.08,l=25,prg_i=7 without bl -> na=s; stake2."
+    },
+    "lucky_automatic_respin": {
+      "kind": "spin_fields",
+      "fields": {},
+      "automatic_respin": {
+        "rs_m": "1",
+        "rs_c": "1",
+        "rs_p": "0"
+      },
+      "evidence": "Official HAR www.pragmaticplay.com-2026-10-08T23-57-21-186Z: vswayslight rs=mc,rs_m=1,rs_c=1,rs_p=0 -> doSpin without sr -> na=s,rs_t=1 (two observations)."
+    },
+    "yum_automatic_respin": {
+      "kind": "spin_fields",
+      "fields": {},
+      "automatic_respin": [
+        {
+          "rs_m": "1",
+          "rs_c": "1",
+          "rs_p": "0"
+        },
+        {
+          "rs_m": "1",
+          "rs_c": "1",
+          "rs_p": "1"
+        }
+      ],
+      "evidence": "Official HAR www.pragmaticplay.com-2026-10-08T23-58-46-838Z: vswaysyumyum automatic doSpin without sr, rs_p0 -> rs_p1 -> na=c,rs_t2."
+    },
+    "fallen_expanding_symbols": {
+      "kind": "spin_fields",
+      "fields": {},
+      "omit_fields": [
+        "bl"
+      ],
+      "evidence": "Official HAR vs10bookfallen 2026-10-09T00-19-58-145Z: doSpin without bl for pur=0 and pur=1",
+      "purchase_s_info": "t"
+    }
+  },
+  "games": {
+    "cs5triple8gold": {
+      "profile": "legacy_five_lines"
+    },
+    "vswaysxjuicy": {
+      "profile": "extra_juicy_collect"
+    },
+    "vs15godsofwar": {
+      "profile": "zeus_olympus"
+    },
+    "cs3w": {
+      "profile": "legacy_three_lines"
+    },
+    "cs3irishcharms": {
+      "profile": "legacy_three_lines"
+    },
+    "scdiamond": {
+      "profile": "scratchcard_ticket"
+    },
+    "scgoldrush": {
+      "profile": "scratchcard_ticket"
+    },
+    "scqog": {
+      "profile": "scratchcard_ticket"
+    },
+    "scwolfgold": {
+      "profile": "scratchcard_ticket"
+    },
+    "vs15raos": {
+      "profile": "ra_volatility"
+    },
+    "vs15zeushadseq": {
+      "profile": "zeus_250_olympus"
+    },
+    "vs25champ": {
+      "profile": "champions_team"
+    },
+    "vswayslight": {
+      "profile": "lucky_automatic_respin"
+    },
+    "vswaysyumyum": {
+      "profile": "yum_automatic_respin"
+    },
+    "vs10bookfallen": {
+      "profile": "fallen_expanding_symbols"
+    }
+  }
+}

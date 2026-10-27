@@ -1,0 +1,2395 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "wazdan",
+  "source": "https://wazdan.com/games-sitemap.xml",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Black Jack",
+      "slug": "black-jack",
+      "url": "https://wazdan.com/games/black-jack",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Moon",
+      "slug": "sizzling-moon",
+      "url": "https://wazdan.com/games/sizzling-moon",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods Medusa",
+      "slug": "power-of-gods-medusa",
+      "url": "https://wazdan.com/games/power-of-gods-medusa",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jelly Reels",
+      "slug": "jelly-reels",
+      "url": "https://wazdan.com/games/jelly-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Bells",
+      "slug": "sizzling-bells",
+      "url": "https://wazdan.com/games/sizzling-bells",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Eggs Grand Gold Edition",
+      "slug": "sizzling-eggs-grand-gold-edition",
+      "url": "https://wazdan.com/games/sizzling-eggs-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "15 Coins Grand Platinum Edition",
+      "slug": "15-coins-grand-platinum-edition",
+      "url": "https://wazdan.com/games/15-coins-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Cash Out Grand Diamond Edition",
+      "slug": "hot-slot-777-cash-out-grand-diamond-edition",
+      "url": "https://wazdan.com/games/hot-slot-777-cash-out-grand-diamond-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "One Coin",
+      "slug": "one-coin",
+      "url": "https://wazdan.com/games/one-coin",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Symbols Jokers",
+      "slug": "mighty-symbols-jokers",
+      "url": "https://wazdan.com/games/mighty-symbols-jokers",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "24 Coins",
+      "slug": "24-coins",
+      "url": "https://wazdan.com/games/24-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prosperity Reels",
+      "slug": "prosperity-reels",
+      "url": "https://wazdan.com/games/prosperity-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Panther Grand Diamond Edition",
+      "slug": "mighty-wild-panther-grand-diamond-edition",
+      "url": "https://wazdan.com/games/mighty-wild-panther-grand-diamond-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Cash Out Grand Platinum Edition",
+      "slug": "hot-slot-777-cash-out-grand-platinum-edition",
+      "url": "https://wazdan.com/games/hot-slot-777-cash-out-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Lions Hold The Jackpot",
+      "slug": "9-lions-hold-the-jackpot",
+      "url": "https://wazdan.com/games/9-lions-hold-the-jackpot",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods Medusa Extremely Light",
+      "slug": "power-of-gods-medusa-extremely-light",
+      "url": "https://wazdan.com/games/power-of-gods-medusa-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Panther Grand Platinum Edition",
+      "slug": "mighty-wild-panther-grand-platinum-edition",
+      "url": "https://wazdan.com/games/mighty-wild-panther-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "36 Coins",
+      "slug": "36-coins",
+      "url": "https://wazdan.com/games/36-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods Valhalla Extremely Light",
+      "slug": "power-of-gods-valhalla-extremely-light",
+      "url": "https://wazdan.com/games/power-of-gods-valhalla-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "30 Coins",
+      "slug": "30-coins",
+      "url": "https://wazdan.com/games/30-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Panther Grand Gold Edition",
+      "slug": "mighty-wild-panther-grand-gold-edition",
+      "url": "https://wazdan.com/games/mighty-wild-panther-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Symbols Sevens",
+      "slug": "mighty-symbols-sevens",
+      "url": "https://wazdan.com/games/mighty-symbols-sevens",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "16 Coins Grand Gold Edition",
+      "slug": "16-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/16-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Of The Ring",
+      "slug": "magic-of-the-ring",
+      "url": "https://wazdan.com/games/magic-of-the-ring",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Coins",
+      "slug": "20-coins",
+      "url": "https://wazdan.com/games/20-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Bells",
+      "slug": "9-bells",
+      "url": "https://wazdan.com/games/9-bells",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book Of Faith",
+      "slug": "book-of-faith",
+      "url": "https://wazdan.com/games/book-of-faith",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "15 Coins Grand Gold Edition",
+      "slug": "15-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/15-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Fish Blue Marlin",
+      "slug": "mighty-fish-blue-marlin",
+      "url": "https://wazdan.com/games/mighty-fish-blue-marlin",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Rubies Extremely Light",
+      "slug": "hot-slot-777-rubies-extremely-light",
+      "url": "https://wazdan.com/games/hot-slot-777-rubies-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Cash Out Grand Gold Edition",
+      "slug": "hot-slot-777-cash-out-grand-gold-edition",
+      "url": "https://wazdan.com/games/hot-slot-777-cash-out-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Coins",
+      "slug": "25-coins",
+      "url": "https://wazdan.com/games/25-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Stars Extremely Light",
+      "slug": "hot-slot-777-stars-extremely-light",
+      "url": "https://wazdan.com/games/hot-slot-777-stars-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black Horse Cash Out Edition",
+      "slug": "black-horse-cash-out-edition",
+      "url": "https://wazdan.com/games/black-horse-cash-out-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Coins Extremely Light",
+      "slug": "hot-slot-777-coins-extremely-light",
+      "url": "https://wazdan.com/games/hot-slot-777-coins-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "12 Coins Grand Gold Edition",
+      "slug": "12-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/12-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Symbols Diamonds",
+      "slug": "mighty-symbols-diamonds",
+      "url": "https://wazdan.com/games/mighty-symbols-diamonds",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Los Muertos Ii",
+      "slug": "los-muertos-ii",
+      "url": "https://wazdan.com/games/los-muertos-ii",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Eggs Extremely Light",
+      "slug": "sizzling-eggs-extremely-light",
+      "url": "https://wazdan.com/games/sizzling-eggs-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Grand Diamond Edition",
+      "slug": "9-coins-grand-diamond-edition",
+      "url": "https://wazdan.com/games/9-coins-grand-diamond-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Cash Out Extremely Light",
+      "slug": "hot-slot-777-cash-out-extremely-light",
+      "url": "https://wazdan.com/games/hot-slot-777-cash-out-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Sun Extremely Light",
+      "slug": "burning-sun-extremely-light",
+      "url": "https://wazdan.com/games/burning-sun-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Extremely Light",
+      "slug": "9-coins-extremely-light",
+      "url": "https://wazdan.com/games/9-coins-extremely-light",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Grand Platinum Edition",
+      "slug": "9-coins-grand-platinum-edition",
+      "url": "https://wazdan.com/games/9-coins-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "16 Coins",
+      "slug": "16-coins",
+      "url": "https://wazdan.com/games/16-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Panther",
+      "slug": "mighty-wild-panther",
+      "url": "https://wazdan.com/games/mighty-wild-panther",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "15 Coins",
+      "slug": "15-coins",
+      "url": "https://wazdan.com/games/15-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Moon Of Fortune",
+      "slug": "moon-of-fortune",
+      "url": "https://wazdan.com/games/moon-of-fortune",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Symbols Crowns",
+      "slug": "mighty-symbols-crowns",
+      "url": "https://wazdan.com/games/mighty-symbols-crowns",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "12 Coins",
+      "slug": "12-coins",
+      "url": "https://wazdan.com/games/12-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Kingdom Mystery Bells",
+      "slug": "mystery-kingdom-mystery-bells",
+      "url": "https://wazdan.com/games/mystery-kingdom-mystery-bells",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Cash Out",
+      "slug": "hot-slot-777-cash-out",
+      "url": "https://wazdan.com/games/hot-slot-777-cash-out",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Stars",
+      "slug": "hot-slot-777-stars",
+      "url": "https://wazdan.com/games/hot-slot-777-stars",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Coins",
+      "slug": "hot-slot-777-coins",
+      "url": "https://wazdan.com/games/hot-slot-777-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Great Book Of Magic",
+      "slug": "hot-slot-great-book-of-magic",
+      "url": "https://wazdan.com/games/hot-slot-great-book-of-magic",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Rubies",
+      "slug": "hot-slot-777-rubies",
+      "url": "https://wazdan.com/games/hot-slot-777-rubies",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Magic Pearls",
+      "slug": "hot-slot-magic-pearls",
+      "url": "https://wazdan.com/games/hot-slot-magic-pearls",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins 1000 Edition",
+      "slug": "9-coins-1000-edition",
+      "url": "https://wazdan.com/games/9-coins-1000-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Grand Gold Edition",
+      "slug": "9-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/9-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Mystery Jackpot Joker",
+      "slug": "hot-slot-mystery-jackpot-joker",
+      "url": "https://wazdan.com/games/hot-slot-mystery-jackpot-joker",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Sun Svarog",
+      "slug": "power-of-sun-svarog",
+      "url": "https://wazdan.com/games/power-of-sun-svarog",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Kingdom Bison",
+      "slug": "sizzling-kingdom-bison",
+      "url": "https://wazdan.com/games/sizzling-kingdom-bison",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods Valhalla",
+      "slug": "power-of-gods-valhalla",
+      "url": "https://wazdan.com/games/power-of-gods-valhalla",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Burning Stars",
+      "slug": "9-burning-stars",
+      "url": "https://wazdan.com/games/9-burning-stars",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Magic Bombs",
+      "slug": "hot-slot-magic-bombs",
+      "url": "https://wazdan.com/games/hot-slot-magic-bombs",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Sun",
+      "slug": "burning-sun",
+      "url": "https://wazdan.com/games/burning-sun",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Crown",
+      "slug": "hot-slot-777-crown",
+      "url": "https://wazdan.com/games/hot-slot-777-crown",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Spins",
+      "slug": "magic-spins",
+      "url": "https://wazdan.com/games/magic-spins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Burning Dragons",
+      "slug": "9-burning-dragons",
+      "url": "https://wazdan.com/games/9-burning-dragons",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Eggs",
+      "slug": "sizzling-eggs",
+      "url": "https://wazdan.com/games/sizzling-eggs",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins",
+      "slug": "9-coins",
+      "url": "https://wazdan.com/games/9-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Highway To Hell",
+      "slug": "highway-to-hell",
+      "url": "https://wazdan.com/games/highway-to-hell",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Los Muertos",
+      "slug": "los-muertos",
+      "url": "https://wazdan.com/games/los-muertos",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dwarfs Fortune",
+      "slug": "dwarfs-fortune",
+      "url": "https://wazdan.com/games/dwarfs-fortune",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Eggs",
+      "slug": "magic-eggs",
+      "url": "https://wazdan.com/games/magic-eggs",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black Hawk",
+      "slug": "black-hawk",
+      "url": "https://wazdan.com/games/black-hawk",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Explosion",
+      "slug": "joker-explosion",
+      "url": "https://wazdan.com/games/joker-explosion",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Football Mania",
+      "slug": "football-mania",
+      "url": "https://wazdan.com/games/football-mania",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cube Mania",
+      "slug": "cube-mania",
+      "url": "https://wazdan.com/games/cube-mania",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Good Luck 40",
+      "slug": "good-luck-40",
+      "url": "https://wazdan.com/games/good-luck-40",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Corrida Romance",
+      "slug": "corrida-romance",
+      "url": "https://wazdan.com/games/corrida-romance",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Sphinx",
+      "slug": "golden-sphinx",
+      "url": "https://wazdan.com/games/golden-sphinx",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Queen",
+      "slug": "lucky-queen",
+      "url": "https://wazdan.com/games/lucky-queen",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bell Wizard",
+      "slug": "bell-wizard",
+      "url": "https://wazdan.com/games/bell-wizard",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Win Replay",
+      "slug": "win-replay",
+      "url": "https://wazdan.com/games/win-replay",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Girls",
+      "slug": "wild-girls",
+      "url": "https://wazdan.com/games/wild-girls",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Fortune",
+      "slug": "lucky-fortune",
+      "url": "https://wazdan.com/games/lucky-fortune",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Star",
+      "slug": "triple-star",
+      "url": "https://wazdan.com/games/triple-star",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Captain Shark",
+      "slug": "captain-shark",
+      "url": "https://wazdan.com/games/captain-shark",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling 777",
+      "slug": "sizzling-777",
+      "url": "https://wazdan.com/games/sizzling-777",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Target",
+      "slug": "magic-target",
+      "url": "https://wazdan.com/games/magic-target",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Jack",
+      "slug": "mystery-jack",
+      "url": "https://wazdan.com/games/mystery-jack",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fenix Play 27",
+      "slug": "fenix-play-27",
+      "url": "https://wazdan.com/games/fenix-play-27",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Hot",
+      "slug": "super-hot",
+      "url": "https://wazdan.com/games/super-hot",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Criss Cross 81",
+      "slug": "criss-cross-81",
+      "url": "https://wazdan.com/games/criss-cross-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit Mania",
+      "slug": "fruit-mania",
+      "url": "https://wazdan.com/games/fruit-mania",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fenix Play",
+      "slug": "fenix-play",
+      "url": "https://wazdan.com/games/fenix-play",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits",
+      "slug": "magic-fruits",
+      "url": "https://wazdan.com/games/magic-fruits",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Stars",
+      "slug": "burning-stars",
+      "url": "https://wazdan.com/games/burning-stars",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Party",
+      "slug": "hot-party",
+      "url": "https://wazdan.com/games/hot-party",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Jack 81",
+      "slug": "wild-jack-81",
+      "url": "https://wazdan.com/games/wild-jack-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits 4",
+      "slug": "magic-fruits-4",
+      "url": "https://wazdan.com/games/magic-fruits-4",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Miami Beach",
+      "slug": "miami-beach",
+      "url": "https://wazdan.com/games/miami-beach",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lost Treasure",
+      "slug": "lost-treasure",
+      "url": "https://wazdan.com/games/lost-treasure",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Jack",
+      "slug": "wild-jack",
+      "url": "https://wazdan.com/games/wild-jack",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black Horse",
+      "slug": "black-horse",
+      "url": "https://wazdan.com/games/black-horse",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Roulette",
+      "slug": "gold-roulette",
+      "url": "https://wazdan.com/games/gold-roulette",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Poker",
+      "slug": "magic-poker",
+      "url": "https://wazdan.com/games/magic-poker",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "American Gold Poker",
+      "slug": "american-gold-poker",
+      "url": "https://wazdan.com/games/american-gold-poker",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Bird",
+      "slug": "fire-bird",
+      "url": "https://wazdan.com/games/fire-bird",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot 777",
+      "slug": "hot-777",
+      "url": "https://wazdan.com/games/hot-777",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Stars",
+      "slug": "magic-stars",
+      "url": "https://wazdan.com/games/magic-stars",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Hot 4",
+      "slug": "magic-hot-4",
+      "url": "https://wazdan.com/games/magic-hot-4",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vegas Reels Ii",
+      "slug": "vegas-reels-ii",
+      "url": "https://wazdan.com/games/vegas-reels-ii",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits 81",
+      "slug": "magic-fruits-81",
+      "url": "https://wazdan.com/games/magic-fruits-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Arcade",
+      "slug": "arcade",
+      "url": "https://wazdan.com/games/arcade",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extra Bingo",
+      "slug": "extra-bingo",
+      "url": "https://wazdan.com/games/extra-bingo",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Turbo Poker",
+      "slug": "turbo-poker",
+      "url": "https://wazdan.com/games/turbo-poker",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits 27",
+      "slug": "magic-fruits-27",
+      "url": "https://wazdan.com/games/magic-fruits-27",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beach Party Hot",
+      "slug": "beach-party-hot",
+      "url": "https://wazdan.com/games/beach-party-hot",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vegas Hot",
+      "slug": "vegas-hot",
+      "url": "https://wazdan.com/games/vegas-hot",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Hot",
+      "slug": "magic-hot",
+      "url": "https://wazdan.com/games/magic-hot",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Poker",
+      "slug": "joker-poker",
+      "url": "https://wazdan.com/games/joker-poker",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Casino Roulette",
+      "slug": "casino-roulette",
+      "url": "https://wazdan.com/games/casino-roulette",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jack On Hold",
+      "slug": "jack-on-hold",
+      "url": "https://wazdan.com/games/jack-on-hold",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vegas Hot 81",
+      "slug": "vegas-hot-81",
+      "url": "https://wazdan.com/games/vegas-hot-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Welcome To Hell 81",
+      "slug": "welcome-to-hell-81",
+      "url": "https://wazdan.com/games/welcome-to-hell-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "American Poker V",
+      "slug": "american-poker-v",
+      "url": "https://wazdan.com/games/american-poker-v",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beach Party",
+      "slug": "beach-party",
+      "url": "https://wazdan.com/games/beach-party",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Three Cards",
+      "slug": "three-cards",
+      "url": "https://wazdan.com/games/three-cards",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caribbean Beach Poker",
+      "slug": "caribbean-beach-poker",
+      "url": "https://wazdan.com/games/caribbean-beach-poker",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Turbo Play",
+      "slug": "turbo-play",
+      "url": "https://wazdan.com/games/turbo-play",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Night Club 81",
+      "slug": "night-club-81",
+      "url": "https://wazdan.com/games/night-club-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Demon Jack 27",
+      "slug": "demon-jack-27",
+      "url": "https://wazdan.com/games/demon-jack-27",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jumping Fruits",
+      "slug": "jumping-fruits",
+      "url": "https://wazdan.com/games/jumping-fruits",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Guns",
+      "slug": "wild-guns",
+      "url": "https://wazdan.com/games/wild-guns",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jacks Ride",
+      "slug": "jacks-ride",
+      "url": "https://wazdan.com/games/jacks-ride",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "In The Forest",
+      "slug": "in-the-forest",
+      "url": "https://wazdan.com/games/in-the-forest",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Draculas Castle",
+      "slug": "draculas-castle",
+      "url": "https://wazdan.com/games/draculas-castle",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Colin The Cat",
+      "slug": "colin-the-cat",
+      "url": "https://wazdan.com/games/colin-the-cat",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Highschool Manga",
+      "slug": "highschool-manga",
+      "url": "https://wazdan.com/games/highschool-manga",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dino Reels 81",
+      "slug": "dino-reels-81",
+      "url": "https://wazdan.com/games/dino-reels-81",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Hot 4 Deluxe",
+      "slug": "magic-hot-4-deluxe",
+      "url": "https://wazdan.com/games/magic-hot-4-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits 4 Deluxe",
+      "slug": "magic-fruits-4-deluxe",
+      "url": "https://wazdan.com/games/magic-fruits-4-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Jack Deluxe",
+      "slug": "mystery-jack-deluxe",
+      "url": "https://wazdan.com/games/mystery-jack-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit Fiesta",
+      "slug": "fruit-fiesta",
+      "url": "https://wazdan.com/games/fruit-fiesta",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits Deluxe",
+      "slug": "magic-fruits-deluxe",
+      "url": "https://wazdan.com/games/magic-fruits-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bars7S",
+      "slug": "bars7s",
+      "url": "https://wazdan.com/games/bars7s",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kick Off",
+      "slug": "kick-off",
+      "url": "https://wazdan.com/games/kick-off",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crazy Cars",
+      "slug": "crazy-cars",
+      "url": "https://wazdan.com/games/crazy-cars",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great Book Of Magic",
+      "slug": "great-book-of-magic",
+      "url": "https://wazdan.com/games/great-book-of-magic",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hungry Shark",
+      "slug": "hungry-shark",
+      "url": "https://wazdan.com/games/hungry-shark",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fenix Play Deluxe",
+      "slug": "fenix-play-deluxe",
+      "url": "https://wazdan.com/games/fenix-play-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Reels",
+      "slug": "burning-reels",
+      "url": "https://wazdan.com/games/burning-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Valhalla",
+      "slug": "valhalla",
+      "url": "https://wazdan.com/games/valhalla",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Back To The 70S",
+      "slug": "back-to-the-70s",
+      "url": "https://wazdan.com/games/back-to-the-70s",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Stars 3",
+      "slug": "magic-stars-3",
+      "url": "https://wazdan.com/games/magic-stars-3",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cube Mania Deluxe",
+      "slug": "cube-mania-deluxe",
+      "url": "https://wazdan.com/games/cube-mania-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spectrum",
+      "slug": "spectrum",
+      "url": "https://wazdan.com/games/spectrum",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Lions",
+      "slug": "9-lions",
+      "url": "https://wazdan.com/games/9-lions",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Haunted Hospital",
+      "slug": "haunted-hospital",
+      "url": "https://wazdan.com/games/haunted-hospital",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Slot Jam",
+      "slug": "slot-jam",
+      "url": "https://wazdan.com/games/slot-jam",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jackpot Builders",
+      "slug": "jackpot-builders",
+      "url": "https://wazdan.com/games/jackpot-builders",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fenix Play 27 Deluxe",
+      "slug": "fenix-play-27-deluxe",
+      "url": "https://wazdan.com/games/fenix-play-27-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Target Deluxe",
+      "slug": "magic-target-deluxe",
+      "url": "https://wazdan.com/games/magic-target-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Football Mania Deluxe",
+      "slug": "football-mania-deluxe",
+      "url": "https://wazdan.com/games/football-mania-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling 777 Deluxe",
+      "slug": "sizzling-777-deluxe",
+      "url": "https://wazdan.com/games/sizzling-777-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot 777 Deluxe",
+      "slug": "hot-777-deluxe",
+      "url": "https://wazdan.com/games/hot-777-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mayan Ritual",
+      "slug": "mayan-ritual",
+      "url": "https://wazdan.com/games/mayan-ritual",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Corrida Romance Deluxe",
+      "slug": "corrida-romance-deluxe",
+      "url": "https://wazdan.com/games/corrida-romance-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Of The Ring Deluxe",
+      "slug": "magic-of-the-ring-deluxe",
+      "url": "https://wazdan.com/games/magic-of-the-ring-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit Mania Deluxe",
+      "slug": "fruit-mania-deluxe",
+      "url": "https://wazdan.com/games/fruit-mania-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Party Deluxe",
+      "slug": "hot-party-deluxe",
+      "url": "https://wazdan.com/games/hot-party-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great Book Of Magic Deluxe",
+      "slug": "great-book-of-magic-deluxe",
+      "url": "https://wazdan.com/games/great-book-of-magic-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Relic Hunters And The Book Of Faith",
+      "slug": "relic-hunters-and-the-book-of-faith",
+      "url": "https://wazdan.com/games/relic-hunters-and-the-book-of-faith",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Stars 5",
+      "slug": "magic-stars-5",
+      "url": "https://wazdan.com/games/magic-stars-5",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Space Gem",
+      "slug": "space-gem",
+      "url": "https://wazdan.com/games/space-gem",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black Hawk Deluxe",
+      "slug": "black-hawk-deluxe",
+      "url": "https://wazdan.com/games/black-hawk-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Highway To Hell Deluxe",
+      "slug": "highway-to-hell-deluxe",
+      "url": "https://wazdan.com/games/highway-to-hell-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Space Spins",
+      "slug": "space-spins",
+      "url": "https://wazdan.com/games/space-spins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Larry The Leprechaun",
+      "slug": "larry-the-leprechaun",
+      "url": "https://wazdan.com/games/larry-the-leprechaun",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruits Go Bananas",
+      "slug": "fruits-go-bananas",
+      "url": "https://wazdan.com/games/fruits-go-bananas",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Double Tigers",
+      "slug": "double-tigers",
+      "url": "https://wazdan.com/games/double-tigers",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Reels",
+      "slug": "lucky-reels",
+      "url": "https://wazdan.com/games/lucky-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beauty Fruity",
+      "slug": "beauty-fruity",
+      "url": "https://wazdan.com/games/beauty-fruity",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Stars 6",
+      "slug": "magic-stars-6",
+      "url": "https://wazdan.com/games/magic-stars-6",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Fish",
+      "slug": "lucky-fish",
+      "url": "https://wazdan.com/games/lucky-fish",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Juicy Reels",
+      "slug": "juicy-reels",
+      "url": "https://wazdan.com/games/juicy-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods The Pantheon",
+      "slug": "power-of-gods-the-pantheon",
+      "url": "https://wazdan.com/games/power-of-gods-the-pantheon",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Black Horse Deluxe",
+      "slug": "black-horse-deluxe",
+      "url": "https://wazdan.com/games/black-horse-deluxe",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragons Lucky 8",
+      "slug": "dragons-lucky-8",
+      "url": "https://wazdan.com/games/dragons-lucky-8",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Butterfly Lovers",
+      "slug": "butterfly-lovers",
+      "url": "https://wazdan.com/games/butterfly-lovers",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Stars 9",
+      "slug": "magic-stars-9",
+      "url": "https://wazdan.com/games/magic-stars-9",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sonic Reels",
+      "slug": "sonic-reels",
+      "url": "https://wazdan.com/games/sonic-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sic Bo Dragons",
+      "slug": "sic-bo-dragons",
+      "url": "https://wazdan.com/games/sic-bo-dragons",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel Hero",
+      "slug": "reel-hero",
+      "url": "https://wazdan.com/games/reel-hero",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods Egypt",
+      "slug": "power-of-gods-egypt",
+      "url": "https://wazdan.com/games/power-of-gods-egypt",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Neon City",
+      "slug": "neon-city",
+      "url": "https://wazdan.com/games/neon-city",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Tigers",
+      "slug": "9-tigers",
+      "url": "https://wazdan.com/games/9-tigers",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Telly Reels",
+      "slug": "telly-reels",
+      "url": "https://wazdan.com/games/telly-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Infinity Hero",
+      "slug": "infinity-hero",
+      "url": "https://wazdan.com/games/infinity-hero",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel Joke",
+      "slug": "reel-joke",
+      "url": "https://wazdan.com/games/reel-joke",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Unicorn Reels",
+      "slug": "unicorn-reels",
+      "url": "https://wazdan.com/games/unicorn-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clover Lady",
+      "slug": "clover-lady",
+      "url": "https://wazdan.com/games/clover-lady",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Stars 3",
+      "slug": "burning-stars-3",
+      "url": "https://wazdan.com/games/burning-stars-3",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Choco Reels",
+      "slug": "choco-reels",
+      "url": "https://wazdan.com/games/choco-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky 9",
+      "slug": "lucky-9",
+      "url": "https://wazdan.com/games/lucky-9",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midnight In Tokyo",
+      "slug": "midnight-in-tokyo",
+      "url": "https://wazdan.com/games/midnight-in-tokyo",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Reels",
+      "slug": "fortune-reels",
+      "url": "https://wazdan.com/games/fortune-reels",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sun Of Fortune",
+      "slug": "sun-of-fortune",
+      "url": "https://wazdan.com/games/sun-of-fortune",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prosperity Pearls",
+      "slug": "prosperity-pearls",
+      "url": "https://wazdan.com/games/prosperity-pearls",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gem Splitter",
+      "slug": "gem-splitter",
+      "url": "https://wazdan.com/games/gem-splitter",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Of Gods Hades",
+      "slug": "power-of-gods-hades",
+      "url": "https://wazdan.com/games/power-of-gods-hades",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "16 Coins Grand Platinum Edition",
+      "slug": "16-coins-grand-platinum-edition",
+      "url": "https://wazdan.com/games/16-coins-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "12 Coins Grand Platinum Edition",
+      "slug": "12-coins-grand-platinum-edition",
+      "url": "https://wazdan.com/games/12-coins-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Hold The Jackpot",
+      "slug": "hot-slot-777-hold-the-jackpot",
+      "url": "https://wazdan.com/games/hot-slot-777-hold-the-jackpot",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Eggs Grand Platinum Edition",
+      "slug": "sizzling-eggs-grand-platinum-edition",
+      "url": "https://wazdan.com/games/sizzling-eggs-grand-platinum-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bells Of Fortune",
+      "slug": "bells-of-fortune",
+      "url": "https://wazdan.com/games/bells-of-fortune",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "15 Coins Grand Diamond Edition",
+      "slug": "15-coins-grand-diamond-edition",
+      "url": "https://wazdan.com/games/15-coins-grand-diamond-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Burning Board",
+      "slug": "9-coins-burning-board",
+      "url": "https://wazdan.com/games/9-coins-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Platinum Burning Board",
+      "slug": "9-coins-platinum-burning-board",
+      "url": "https://wazdan.com/games/9-coins-platinum-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "16 Coins Diamond Burning Board",
+      "slug": "16-coins-diamond-burning-board",
+      "url": "https://wazdan.com/games/16-coins-diamond-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits Deluxe Burning Board",
+      "slug": "magic-fruits-deluxe-burning-board",
+      "url": "https://wazdan.com/games/magic-fruits-deluxe-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Panther Burning Board",
+      "slug": "mighty-wild-panther-burning-board",
+      "url": "https://wazdan.com/games/mighty-wild-panther-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santas Gifts Frenzy",
+      "slug": "santas-gifts-frenzy",
+      "url": "https://wazdan.com/games/santas-gifts-frenzy",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Coins Gold Burning Board",
+      "slug": "9-coins-gold-burning-board",
+      "url": "https://wazdan.com/games/9-coins-gold-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Panther Diamond Burning Board",
+      "slug": "mighty-wild-panther-diamond-burning-board",
+      "url": "https://wazdan.com/games/mighty-wild-panther-diamond-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Fish Blue Marlin Burning Board",
+      "slug": "mighty-fish-blue-marlin-burning-board",
+      "url": "https://wazdan.com/games/mighty-fish-blue-marlin-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Cash Out Burning Board",
+      "slug": "hot-slot-777-cash-out-burning-board",
+      "url": "https://wazdan.com/games/hot-slot-777-cash-out-burning-board",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bumba Meu Boi Coin",
+      "slug": "bumba-meu-boi-coin",
+      "url": "https://wazdan.com/games/bumba-meu-boi-coin",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fishermans Luck",
+      "slug": "fishermans-luck",
+      "url": "https://wazdan.com/games/fishermans-luck",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "12 Coins Grand Diamond Edition",
+      "slug": "12-coins-grand-diamond-edition",
+      "url": "https://wazdan.com/games/12-coins-grand-diamond-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "16 Coins X5000",
+      "slug": "16-coins-x5000",
+      "url": "https://wazdan.com/games/16-coins-x5000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "20 Coins Grand Gold Edition",
+      "slug": "20-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/20-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Coins Grand Gold Edition",
+      "slug": "25-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/25-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "30 Coins Grand Gold Edition",
+      "slug": "30-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/30-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "36 Coins Grand Gold Edition",
+      "slug": "36-coins-grand-gold-edition",
+      "url": "https://wazdan.com/games/36-coins-grand-gold-edition",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Grotto",
+      "slug": "cash-grotto",
+      "url": "https://wazdan.com/games/cash-grotto",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Easter Coins",
+      "slug": "easter-coins",
+      "url": "https://wazdan.com/games/easter-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eggs Of Fortune",
+      "slug": "eggs-of-fortune",
+      "url": "https://wazdan.com/games/eggs-of-fortune",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Diamond Crown",
+      "slug": "hot-slot-777-diamond-crown",
+      "url": "https://wazdan.com/games/hot-slot-777-diamond-crown",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Gold Crown",
+      "slug": "hot-slot-777-gold-crown",
+      "url": "https://wazdan.com/games/hot-slot-777-gold-crown",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot 777 Platinum Crown",
+      "slug": "hot-slot-777-platinum-crown",
+      "url": "https://wazdan.com/games/hot-slot-777-platinum-crown",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Diamond Coins",
+      "slug": "hot-slot-diamond-coins",
+      "url": "https://wazdan.com/games/hot-slot-diamond-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Gold Coins",
+      "slug": "hot-slot-gold-coins",
+      "url": "https://wazdan.com/games/hot-slot-gold-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Slot Platinum Coins",
+      "slug": "hot-slot-platinum-coins",
+      "url": "https://wazdan.com/games/hot-slot-platinum-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruit Oranges",
+      "slug": "magic-fruit-oranges",
+      "url": "https://wazdan.com/games/magic-fruit-oranges",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruits Dice",
+      "slug": "magic-fruits-dice",
+      "url": "https://wazdan.com/games/magic-fruits-dice",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Crown Legacy Of Mars",
+      "slug": "mighty-crown-legacy-of-mars",
+      "url": "https://wazdan.com/games/mighty-crown-legacy-of-mars",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Hot 777",
+      "slug": "mighty-hot-777",
+      "url": "https://wazdan.com/games/mighty-hot-777",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Gorilla",
+      "slug": "mighty-wild-gorilla",
+      "url": "https://wazdan.com/games/mighty-wild-gorilla",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Wild Jaguar",
+      "slug": "mighty-wild-jaguar",
+      "url": "https://wazdan.com/games/mighty-wild-jaguar",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ox Coin",
+      "slug": "ox-coin",
+      "url": "https://wazdan.com/games/ox-coin",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Balls",
+      "slug": "9-balls",
+      "url": "https://wazdan.com/games/9-balls",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "12 Bells",
+      "slug": "12-bells",
+      "url": "https://wazdan.com/games/12-bells",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Fruit Cherries",
+      "slug": "magic-fruit-cherries",
+      "url": "https://wazdan.com/games/magic-fruit-cherries",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Crown Empire Of Gold",
+      "slug": "mighty-crown-empire-of-gold",
+      "url": "https://wazdan.com/games/mighty-crown-empire-of-gold",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Hot Amazonia",
+      "slug": "mighty-hot-amazonia",
+      "url": "https://wazdan.com/games/mighty-hot-amazonia",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Throne Of Elements Platinum",
+      "slug": "throne-of-elements-platinum",
+      "url": "https://wazdan.com/games/throne-of-elements-platinum",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Valentines Coins",
+      "slug": "valentines-coins",
+      "url": "https://wazdan.com/games/valentines-coins",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Coins X3000",
+      "slug": "25-coins-x3000",
+      "url": "https://wazdan.com/games/25-coins-x3000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Magic Plums",
+      "slug": "25-magic-plums",
+      "url": "https://wazdan.com/games/25-magic-plums",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "36 Coins X3000",
+      "slug": "36-coins-x3000",
+      "url": "https://wazdan.com/games/36-coins-x3000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Haunted Coins X1000",
+      "slug": "haunted-coins-x1000",
+      "url": "https://wazdan.com/games/haunted-coins-x1000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Haunted Coins X5000",
+      "slug": "haunted-coins-x5000",
+      "url": "https://wazdan.com/games/haunted-coins-x5000",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    }
+  ]
+}

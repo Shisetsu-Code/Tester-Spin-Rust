@@ -1,0 +1,2163 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "netent",
+  "source": "https://netent.com/games",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Arabian Nights",
+      "slug": "arabian-nights",
+      "url": "https://netent.com/games/arabian-nights",
+      "symbol": "arabian000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/arabian_nights_icon5_811550e798.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "101 Candies",
+      "slug": "101-candies",
+      "url": "https://netent.com/games/101-candies",
+      "symbol": "101candiesr96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/101candies_icon4_193f9681f6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Aloha! Cluster Pays",
+      "slug": "aloha-cluster-pays",
+      "url": "https://netent.com/games/aloha-cluster-pays",
+      "symbol": "aloha00000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/aloha_icon5_3bca925ac4.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Arcane: Reel Chaos",
+      "slug": "arcane-reel-chaos",
+      "url": "https://netent.com/games/arcane-reel-chaos",
+      "symbol": "arcane0000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/archane_reel_chaos_icon5_bb69bd86bf.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Archangels: Salvation",
+      "slug": "archangels-salvation",
+      "url": "https://netent.com/games/archangels-salvation",
+      "symbol": "archangels000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/archangels_icon5_a5fa5be564.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Asgardian Stones",
+      "slug": "asgardian-stones",
+      "url": "https://netent.com/games/asgardian-stones",
+      "symbol": "asgardianstones0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/asgardian_stones_icon5_69b34cbc86.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Babylon Riches",
+      "slug": "babylon-riches",
+      "url": "https://netent.com/games/babylon-riches",
+      "symbol": "babylonriches000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/babylon_riches_icon5_73ce566ec7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Beach Invaders",
+      "slug": "beach-invaders",
+      "url": "https://netent.com/games/beach-invaders",
+      "symbol": "beachinvaders000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/beach_invaders_icon5_1141f155a0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Baccarat professional series",
+      "slug": "baccarat-professional-series-1",
+      "url": "https://netent.com/games/baccarat-professional-series-1",
+      "symbol": "baccarat2ne00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/Baccarat_professional_series_icon5_2cdc486b9a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Bee Hive Bonanza",
+      "slug": "bee-hive-bonanza",
+      "url": "https://netent.com/games/bee-hive-bonanza",
+      "symbol": "beehivebonanza00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/bee_hive_bonanza_icon5_8f67da05dd.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Berryburst",
+      "slug": "berryburst",
+      "url": "https://netent.com/games/berryburst",
+      "symbol": "berryburst000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/berryburst_icon5_18b1067979.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Berryburst MAX",
+      "slug": "berryburst-max",
+      "url": "https://netent.com/games/berryburst-max",
+      "symbol": "berryburstmax000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/berryburst_max_0241b9b22b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Big Bang Boom",
+      "slug": "big-bang-boom",
+      "url": "https://netent.com/games/big-bang-boom",
+      "symbol": "bigbangboomr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/big_bang_boom_icon5_421fc398f0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Big Money Wheel",
+      "slug": "big-money-wheel",
+      "url": "https://netent.com/games/big-money-wheel",
+      "symbol": "bigmoneywher96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/bigmoneywheel_icon5_56656ac725.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Blood Suckers",
+      "slug": "blood-suckers",
+      "url": "https://netent.com/games/blood-suckers",
+      "symbol": "bloodsuckersj0r2",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/bloodsuckers_icon5_c78caff816.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Blood Suckers 2",
+      "slug": "blood-suckers-2",
+      "url": "https://netent.com/games/blood-suckers-2",
+      "symbol": "bloodsuckers2000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/bloodsuckers_2_3db6413a8a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Buckshot Wilds",
+      "slug": "buckshot-wilds",
+      "url": "https://netent.com/games/buckshot-wilds",
+      "symbol": "buckshotwilr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/buckshot_wilds_icon5_62ce9b9764.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Buster’s Bones",
+      "slug": "busters-bones",
+      "url": "https://netent.com/games/busters-bones",
+      "symbol": "bustersboesr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/busters_bones_icon5_6b7f76ec9e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Butterfly Staxx",
+      "slug": "butterfly-staxx",
+      "url": "https://netent.com/games/butterfly-staxx",
+      "symbol": "butterflystaxx00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/butterfly_staxx_icon5_0cfc117c9d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Cash Noire",
+      "slug": "cash-noire",
+      "url": "https://netent.com/games/cash-noire",
+      "symbol": "cashnoire0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/casah_noire_bb1b973164.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Butterfly Staxx 2",
+      "slug": "butterfly-staxx-2",
+      "url": "https://netent.com/games/butterfly-staxx-2",
+      "symbol": "butterflystaxx20",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/butterfly_staxx_2_b20ae194ce.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Cashomatic",
+      "slug": "cash-o-matic",
+      "url": "https://netent.com/games/cash-o-matic",
+      "symbol": "cashomatic000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/cashomatic_icon5_c800fa35c3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Casino Hold'em Poker",
+      "slug": "casino-hold-em-poker",
+      "url": "https://netent.com/games/casino-hold-em-poker",
+      "symbol": "casinoholdemne00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/casino_holdem_poker_icon5_a9f32276fc.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Casino Night",
+      "slug": "casino-night",
+      "url": "https://netent.com/games/casino-night",
+      "symbol": "casinonight00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/casino_night_icon5_ace8494ba7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Codex of Fortune",
+      "slug": "codex-of-fortune",
+      "url": "https://netent.com/games/codex-of-fortune",
+      "symbol": "codexoffortune00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/codex_of_fortune_icon5_7f6711e061.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Coins of Egypt",
+      "slug": "coins-of-egypt",
+      "url": "https://netent.com/games/coins-of-egypt",
+      "symbol": "hiddencoiofegypt",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/coins_of_egypt_icon5_38b757ba6a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Conan",
+      "slug": "conan",
+      "url": "https://netent.com/games/conan",
+      "symbol": "conan00000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/conan_icon5_f15f03ba81.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Cornelius",
+      "slug": "cornelius",
+      "url": "https://netent.com/games/cornelius",
+      "symbol": "corneliusf000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/cornelius_icon5_ccb850ff2c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Cornelius Milk Hunter Megaways™",
+      "slug": "cornelius-milk-hunter-megaways",
+      "url": "https://netent.com/games/cornelius-milk-hunter-megaways",
+      "symbol": "corneliusmir96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/cornelius_milk_hunter_icon5_b9bc56e2d1.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Crab Trap",
+      "slug": "crab-trap",
+      "url": "https://netent.com/games/crab-trap",
+      "symbol": "crabtrapr96f1000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/crab_trap_icon5_f8254862a6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Cupcakes",
+      "slug": "cupcakes",
+      "url": "https://netent.com/games/cupcakes",
+      "symbol": "cupcakesf1000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/cupcakes_icon5_10ca353903.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Cursed Treasure",
+      "slug": "cursed-treasure",
+      "url": "https://netent.com/games/cursed-treasure",
+      "symbol": "cursedtreasr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/cursed_treasure_icon5_ecd086313d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dark King: Forbidden Riches™",
+      "slug": "dark-king-forbidden-riches",
+      "url": "https://netent.com/games/dark-king-forbidden-riches",
+      "symbol": "darkking00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dark_king_forbidden_riches_icon5_5352844efc.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dazzle Me",
+      "slug": "dazzle-me",
+      "url": "https://netent.com/games/dazzle-me",
+      "symbol": "dazzle0000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dazzle_me_icon5_6815af3618.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dazzle Me Christmas",
+      "slug": "dazzle-me-christmas",
+      "url": "https://netent.com/games/dazzle-me-christmas",
+      "symbol": "dazzlemechrr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dazzle_me_christmas_icon5_ee64378840.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dazzle Me™ Megaways™",
+      "slug": "dazzle-me-megaways",
+      "url": "https://netent.com/games/dazzle-me-megaways",
+      "symbol": "dazzlemwr3000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dazzle_me_megaways_icon5_0796efb6b7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dead or Alive",
+      "slug": "dead-or-alive",
+      "url": "https://netent.com/games/dead-or-alive",
+      "symbol": "deadoralive00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dead_or_alive_icon5_c45ed3ddf7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dead or Alive 2",
+      "slug": "dead-or-alive-2",
+      "url": "https://netent.com/games/dead-or-alive-2",
+      "symbol": "deadoralive2fb00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dead_or_alive_2_icon5_05d4d9f804.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Disco Danny",
+      "slug": "disco-danny",
+      "url": "https://netent.com/games/disco-danny",
+      "symbol": "discodanny000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/disco_danny_41ecaedfd9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Divine Fortune",
+      "slug": "divine-fortune",
+      "url": "https://netent.com/games/divine-fortune",
+      "symbol": "godsoffortune000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/divine_fortune_icon5_a58da9202c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Divine Fortune Megaways",
+      "slug": "divine-fortune-megaways",
+      "url": "https://netent.com/games/divine-fortune-megaways",
+      "symbol": "divinemegaways00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/divine_fortune_megaways_icon5_279f0907a8.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Don’t Eat the Candy",
+      "slug": "dont-eat-the-candy",
+      "url": "https://netent.com/games/dont-eat-the-candy",
+      "symbol": "donteatthecandy0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dont_eat_the_candy_icon5_41b27a228a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Double Stacks",
+      "slug": "double-stacks",
+      "url": "https://netent.com/games/double-stacks",
+      "symbol": "doublestacks0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/double_stacks_icon5_2566feb656.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dragons Playground",
+      "slug": "dragons-playground",
+      "url": "https://netent.com/games/dragons-playground",
+      "symbol": "dragonsplaygroun",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dragons_playground_icon5_7e66677ecb.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Drive: Multiplier Mayhem",
+      "slug": "drive",
+      "url": "https://netent.com/games/drive",
+      "symbol": "multipliermayhem",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/drive_icon5_ed65e58493.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Druids' Dream",
+      "slug": "druids-dream",
+      "url": "https://netent.com/games/druids-dream",
+      "symbol": "druidsdream00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/druids_dream_icon5_191286049b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Druid’s Magic",
+      "slug": "druids-magic",
+      "url": "https://netent.com/games/druids-magic",
+      "symbol": "druidsmagic00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/druids_magic_icon5_9afb6966e1.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Starburst™",
+      "slug": "starburst",
+      "url": "https://netent.com/games/starburst",
+      "symbol": "starburstr000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/starburst_icon4_5c413bfd0c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gonzo's Quest",
+      "slug": "gonzos-quest",
+      "url": "https://netent.com/games/gonzos-quest",
+      "symbol": "eldorado00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gonzos_quest_icon5_4ae0da4edf.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "EggOMatic",
+      "slug": "eggomatic",
+      "url": "https://netent.com/games/eggomatic",
+      "symbol": "eggomatic0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/eggomatic_icon5_c59d084e94.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Elements: The Awakening",
+      "slug": "elements-the-awakening",
+      "url": "https://netent.com/games/elements-the-awakening",
+      "symbol": "elements00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/elements_icon5_fee78001a0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Elk Hunter",
+      "slug": "elk-hunter",
+      "url": "https://netent.com/games/elk-hunter",
+      "symbol": "elkhunterr96f100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/elk_hunter_icon5_5ba27fe388.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Excalibur",
+      "slug": "excalibur",
+      "url": "https://netent.com/games/excalibur",
+      "symbol": "excalibur0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/excalibur_icon5_17b90a5db9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Finn and the Candy Spin",
+      "slug": "finn-and-the-candy-spin",
+      "url": "https://netent.com/games/finn-and-the-candy-spin",
+      "symbol": "finncandyspr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/finn_and_the_candyspin_icon_5_ffdd074542.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Finn and the Swirly Spin",
+      "slug": "finn-and-the-swirly-spin",
+      "url": "https://netent.com/games/finn-and-the-swirly-spin",
+      "symbol": "finn000000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/finn_and_the_swirly_spin_icon5_c4e22b02e9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Finn's Golden Tavern",
+      "slug": "finns-golden-tavern",
+      "url": "https://netent.com/games/finns-golden-tavern",
+      "symbol": "goldentavern0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/Finn_Golden_Tavern_icon5_ff4a60f0cc.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Flowers",
+      "slug": "flowers",
+      "url": "https://netent.com/games/flowers",
+      "symbol": "flowers000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/flowers_icon5_6164a430a7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Flowers Christmas",
+      "slug": "flowers-christmas",
+      "url": "https://netent.com/games/flowers-christmas",
+      "symbol": "flowerschristmas",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/flowers_christmas_icon5_fe2d89484a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Football: Champions Cup",
+      "slug": "football-champions-cup",
+      "url": "https://netent.com/games/football-champions-cup",
+      "symbol": "football00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/football_champions_cup_icon5_a51e15b2e9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Aloha! Christmas",
+      "slug": "aloha-christmas",
+      "url": "https://netent.com/games/aloha-christmas",
+      "symbol": "alohaxmas0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/aloha_christmas_icon5_345a4b3879.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Lights™",
+      "slug": "lights",
+      "url": "https://netent.com/games/lights",
+      "symbol": "fireflies0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/lights_icon5_fe9d83eb9f.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Lights, Camera, Cash!",
+      "slug": "lights-camera-cash",
+      "url": "https://netent.com/games/lights-camera-cash",
+      "symbol": "lightscameracash",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/lights_camera_action_icon5_a593eb9aae.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Lock and Pop",
+      "slug": "lock-and-pop",
+      "url": "https://netent.com/games/lock-and-pop",
+      "symbol": "lockandpopr96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/lock_and_pop_icon5_7e34fbf05d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Long Pao™",
+      "slug": "long-pao",
+      "url": "https://netent.com/games/long-pao",
+      "symbol": "longpao000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/long_pao_icon5_8e60e1184a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Lost Relics™",
+      "slug": "lost-relics",
+      "url": "https://netent.com/games/lost-relics",
+      "symbol": "lostrelics000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/lost_relics_icon5_d9baa38ee2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Let It Burn™",
+      "slug": "let-it-burn",
+      "url": "https://netent.com/games/let-it-burn",
+      "symbol": "letitburnr96f100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/let_it_burn_icon5_0e27fbcd17.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Lucky Angler: A Snowy Catch",
+      "slug": "lucky-angler-a-snowy-catch",
+      "url": "https://netent.com/games/lucky-angler-a-snowy-catch",
+      "symbol": "luckyangler00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/lucky_angler_476d8fd54b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Spinsane™",
+      "slug": "spinsane",
+      "url": "https://netent.com/games/spinsane",
+      "symbol": "spinsane00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/spinsane_icon5_dceaa6cbbf.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Magic Lab™",
+      "slug": "magic-lab",
+      "url": "https://netent.com/games/magic-lab",
+      "symbol": "magiclab00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/magic_lab_icon5_aed76b2f05.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Magic Maid Cafe™",
+      "slug": "magic-maid-cafe",
+      "url": "https://netent.com/games/magic-maid-cafe",
+      "symbol": "magicmaidcafe000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/magic_maid_icon5_aba94cda10.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mega Fortune™",
+      "slug": "mega-fortune",
+      "url": "https://netent.com/games/mega-fortune",
+      "symbol": "megafortune00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mega_fortune_icon5_5a0e6219e8.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Starburst Galaxy™",
+      "slug": "starburst-galaxy",
+      "url": "https://netent.com/games/starburst-galaxy",
+      "symbol": "starburstgar96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/starburst_galaxy_icon5_5fc07eae3d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Leprechaun Joy",
+      "slug": "leprechaun-joy",
+      "url": "https://netent.com/games/leprechaun-joy",
+      "symbol": "leprechaunjoy000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/leprechaun_joy_icon5_c41ed16f05.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Starburst™ XXXtreme",
+      "slug": "starburst-xxxtreme",
+      "url": "https://netent.com/games/starburst-xxxtreme",
+      "symbol": "starbursttremef1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/starburst_xxxtreme_icon5_95f11710b4.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Divine Fortune Black",
+      "slug": "divine-fortune-black",
+      "url": "https://netent.com/games/divine-fortune-black",
+      "symbol": "divinefortur96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/divine_fortune_black_icon5_5ce8cb84c6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Koi Princess™",
+      "slug": "koi-princess",
+      "url": "https://netent.com/games/koi-princess",
+      "symbol": "koiprincess00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/koi_princess_icon5_3ddfaaee0c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fortune Rangers™",
+      "slug": "fortune-rangers",
+      "url": "https://netent.com/games/fortune-rangers",
+      "symbol": "fortunerangers00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fortune_rangers_icon5_2d89a53384.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Steam Tower™",
+      "slug": "steam-tower",
+      "url": "https://netent.com/games/steam-tower",
+      "symbol": "steamtowerj0r100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/steamtower_icon5_4ce9563cb2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Street Fighter™ II: The World Warrior Slot is NetEnt™",
+      "slug": "street-fighter-2-the-world-warrior",
+      "url": "https://netent.com/games/street-fighter-2-the-world-warrior",
+      "symbol": "streetfighter2f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/street_fighter_icon5_2a3ab5069b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Strolling Staxx: Cubic Fruits™",
+      "slug": "strolling-staxx-cubic-fruits",
+      "url": "https://netent.com/games/strolling-staxx-cubic-fruits",
+      "symbol": "strollingstaxx00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/strolling_staxx_cubic_friut_icon5_8d7c5da12d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Super Striker™",
+      "slug": "super-striker",
+      "url": "https://netent.com/games/super-striker",
+      "symbol": "superstrikerf100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/super_striker_icon5_fb4f664258.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Superstars™",
+      "slug": "superstars",
+      "url": "https://netent.com/games/superstars",
+      "symbol": "superstarsf10000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/superstars_icon5_606d2449e6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Blaze",
+      "slug": "fruit-blaze",
+      "url": "https://netent.com/games/fruit-blaze",
+      "symbol": "fruitblazef1r300",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_blaze_icon5_188e3cb476.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Sweety Honey Fruity™",
+      "slug": "sweety-honey-fruity",
+      "url": "https://netent.com/games/sweety-honey-fruity",
+      "symbol": "sweetyhoneyfruit",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/shf_icon5_b7e42fb1ae.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Temple of Nudges™",
+      "slug": "temple-of-nudges",
+      "url": "https://netent.com/games/temple-of-nudges",
+      "symbol": "templeofnudges00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/temple_of_nudges_icon5_6915f621d2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mega Joker",
+      "slug": "mega-joker",
+      "url": "https://netent.com/games/mega-joker",
+      "symbol": "megajoker0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mega_joker_icon5_a2a33db7c3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mercy of the Gods™",
+      "slug": "mercy-of-the-gods",
+      "url": "https://netent.com/games/mercy-of-the-gods",
+      "symbol": "mercyofthegods00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mog_icon5_b21470be9d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "The Legend of Shangri-La: Cluster Pays™",
+      "slug": "the-legend-of-shangri-la-cluster-pays",
+      "url": "https://netent.com/games/the-legend-of-shangri-la-cluster-pays",
+      "symbol": "shangrila0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/tosl_icon5_256f2796d3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Case",
+      "slug": "fruit-case",
+      "url": "https://netent.com/games/fruit-case",
+      "symbol": "fruitsne00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_case_icon5_c516ccd530.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "The Wish Master™",
+      "slug": "the-wish-master",
+      "url": "https://netent.com/games/the-wish-master",
+      "symbol": "wishmasteroct000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/the_wish_master_icon5_6b3469f82f.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mermaids™",
+      "slug": "mermaids",
+      "url": "https://netent.com/games/mermaids",
+      "symbol": "mermaids00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mermaids_icon5_223b643039.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "The Wish Master™ Megaways™",
+      "slug": "the-wish-master-megaways",
+      "url": "https://netent.com/games/the-wish-master-megaways",
+      "symbol": "thewishmastermeg",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wish_master_megaways_icon5_8b23d7b548.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Milkshake™ XXXtreme",
+      "slug": "milkshake-xxxtreme",
+      "url": "https://netent.com/games/milkshake-xxxtreme",
+      "symbol": "milkshakexxr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/milkshake_extreme_icon5_b5a5687fc2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "The Wolf's Bane™",
+      "slug": "the-wolfs-bane",
+      "url": "https://netent.com/games/the-wolfs-bane",
+      "symbol": "thewolfsnight000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/the_wolfs_bane_icon5_e253a9b757.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mine Blown™",
+      "slug": "mine-blown",
+      "url": "https://netent.com/games/mine-blown",
+      "symbol": "mineblown0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mineblown_icon5_3d98f03095.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Theme Park: Tickets of Fortune™",
+      "slug": "theme-park-tickets-of-fortune-touch",
+      "url": "https://netent.com/games/theme-park-tickets-of-fortune-touch",
+      "symbol": "themepark0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/tptof_icon5_e04f8d7b57.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Thrill to Grill",
+      "slug": "thrill-to-grill",
+      "url": "https://netent.com/games/thrill-to-grill",
+      "symbol": "thrilltogrir96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/thrill_to_grill_icon5_bdda409860.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Ticket to Wild™",
+      "slug": "ticket-to-wild",
+      "url": "https://netent.com/games/ticket-to-wild",
+      "symbol": "tickettowild0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/ticket_to_wild_icon5_8de97dd543.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Motörhead™",
+      "slug": "motorhead",
+      "url": "https://netent.com/games/motorhead",
+      "symbol": "motorhead0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/motoerhead_icon5_c29b55ef44.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Trollpot 5000™",
+      "slug": "trollpot-5000",
+      "url": "https://netent.com/games/trollpot-5000",
+      "symbol": "trollpot00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/trollpot_5000_icon5_91fa75c73b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Shop",
+      "slug": "fruit-shop",
+      "url": "https://netent.com/games/fruit-shop",
+      "symbol": "fruitshop0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_shop_icon5_3c31a4a0f1.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Ms Robin Hood",
+      "slug": "ms-robin-hood",
+      "url": "https://netent.com/games/ms-robin-hood",
+      "symbol": "msrobinhood00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/ms_robin_hood_icon5_9a9bc1c6c5.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Turn Your Fortune™",
+      "slug": "turn-your-fortune",
+      "url": "https://netent.com/games/turn-your-fortune",
+      "symbol": "turnyourfortune0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/turn_your_fortune_icon5_a4e0d210f6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Twin Spin™",
+      "slug": "twin-spin",
+      "url": "https://netent.com/games/twin-spin",
+      "symbol": "twinspin00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/twin_spin_icon5_6455786d6c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mummy™ Megaways™",
+      "slug": "mummy-megaways",
+      "url": "https://netent.com/games/mummy-megaways",
+      "symbol": "mummymegaways000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mummy_megaways_icon5_6c99d7ccd5.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mythic Maiden™",
+      "slug": "mythic-maiden",
+      "url": "https://netent.com/games/mythic-maiden",
+      "symbol": "mythicmaiden0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mythic_maiden_icon5_23142b0173.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Narcos™",
+      "slug": "narcos",
+      "url": "https://netent.com/games/narcos",
+      "symbol": "narcos0000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/narcos_icon5_cb9cc13026.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Shop Christmas",
+      "slug": "fruit-shop-christmas",
+      "url": "https://netent.com/games/fruit-shop-christmas",
+      "symbol": "fruitshopchristm",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_shop_christmas_icon5_7322cc0510.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Shop™ Megaways™",
+      "slug": "fruit-shop-megaways",
+      "url": "https://netent.com/games/fruit-shop-megaways",
+      "symbol": "fruitshopawaysr1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_shop_megaways_icon5_dfa61cbd21.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Twin Happiness™",
+      "slug": "twin-happiness",
+      "url": "https://netent.com/games/twin-happiness",
+      "symbol": "twinhappiness000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/twin_happiness_icon5_03bca5c373.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Taco Fury™ XXXtreme",
+      "slug": "taco-fury-xxxtreme",
+      "url": "https://netent.com/games/taco-fury-xxxtreme",
+      "symbol": "tacofuryr96f1000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/taco_fury_extreme_icon5_a7edec19ba.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Twin Spin™ Megaways™",
+      "slug": "twin-spin-megaways",
+      "url": "https://netent.com/games/twin-spin-megaways",
+      "symbol": "twinspinmw000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/twin_spin_megaways_icon5_9cfc5ca9a4.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Shop™ Frenzy",
+      "slug": "fruit-shop-frenzy",
+      "url": "https://netent.com/games/fruit-shop-frenzy",
+      "symbol": "fruitshopfrenzy0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_shop_frenzy_icon5_2452bd9b6f.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Spin™",
+      "slug": "fruit-spin",
+      "url": "https://netent.com/games/fruit-spin",
+      "symbol": "jewelfruits00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_spin_icon5_fc2daff52c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Twin Spin™ XXXtreme",
+      "slug": "twin-spin-xxxtreme",
+      "url": "https://netent.com/games/twin-spin-xxxtreme",
+      "symbol": "twinspinextr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/twin_spin_xxxtreme_icon5_a50dec020a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Twister",
+      "slug": "twister",
+      "url": "https://netent.com/games/twister",
+      "symbol": "twisterr96f10000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/twister_icon5_816c10d2dd.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Vegas Night Life™",
+      "slug": "vegas-night-life",
+      "url": "https://netent.com/games/vegas-night-life",
+      "symbol": "vegasnightlife00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/vegas_night_life_icon5_01d35b09b2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Victorious MAX™",
+      "slug": "victorious",
+      "url": "https://netent.com/games/victorious",
+      "symbol": "victorious000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/victorious_max_3b19f08fc9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Vikings Video Slot™",
+      "slug": "vikings",
+      "url": "https://netent.com/games/vikings",
+      "symbol": "vikings000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/vikings_icon5_7874219b18.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Warlords - Crystals of Power™",
+      "slug": "warlords-crystals-of-power",
+      "url": "https://netent.com/games/warlords-crystals-of-power",
+      "symbol": "warlords00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/warlords_icon5_879ebcd5a0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Who's the Bride™",
+      "slug": "whos-the-bride",
+      "url": "https://netent.com/games/whos-the-bride",
+      "symbol": "whosthebride0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/whos_the_bride_icon5_a0ab54101c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Neon Staxx™",
+      "slug": "neon-staxx",
+      "url": "https://netent.com/games/neon-staxx",
+      "symbol": "neonstaxx0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/neon_staxx_icon5_d720803a89.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Bazaar™",
+      "slug": "wild-bazaar",
+      "url": "https://netent.com/games/wild-bazaar",
+      "symbol": "wildbazaar000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_bazaar_icon5_1af4d40f51.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Spiñata Grande",
+      "slug": "spinata-grande",
+      "url": "https://netent.com/games/spinata-grande",
+      "symbol": "colossalpinatas0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/spinata_grande_icon5_3ae3ec5a2e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Funk Master™",
+      "slug": "funk-master",
+      "url": "https://netent.com/games/funk-master",
+      "symbol": "funkmaster000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/funk_master_icon5_5fb364aca9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Ocean's Treasure™",
+      "slug": "oceans-treasure",
+      "url": "https://netent.com/games/oceans-treasure",
+      "symbol": "oceanstreasure00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/oceans_treasure_icon5_b211c35f54.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Ozzy Osbourne™",
+      "slug": "ozzy-osbourne",
+      "url": "https://netent.com/games/ozzy-osbourne",
+      "symbol": "ozzy000000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/ozzy_osbourne_icon5_2767ade38c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Mining™ XXXtreme",
+      "slug": "wild-mining-xxxtreme",
+      "url": "https://netent.com/games/wild-mining-xxxtreme",
+      "symbol": "wildminingxx96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_mining_xxxtreme_icon5_e22c33ef2e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Space Wars™",
+      "slug": "space-wars",
+      "url": "https://netent.com/games/space-wars",
+      "symbol": "spacewars0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/space_wars_icon5_02640540a3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Pandora’s Treasure™",
+      "slug": "pandoras-treasure",
+      "url": "https://netent.com/games/pandoras-treasure",
+      "symbol": "pandorastreasure",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/pandoras_treasure_icon5_d208bf3fe6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gem Crush™",
+      "slug": "gem-crush",
+      "url": "https://netent.com/games/gem-crush",
+      "symbol": "gemcrush00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gem_crush_icon5_40f076926c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Space Wars 2™ Powerpoints™",
+      "slug": "space-wars-2-powerpoints",
+      "url": "https://netent.com/games/space-wars-2-powerpoints",
+      "symbol": "spacewars2000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/space_wars_2_powerpoints_icon5_9cd2003f71.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Parthenon: Quest For Immortality™",
+      "slug": "parthenon-quest-for-immortality",
+      "url": "https://netent.com/games/parthenon-quest-for-immortality",
+      "symbol": "parthenon0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/parthenon_icon5_8be67f50f8.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Turkey™",
+      "slug": "wild-turkey",
+      "url": "https://netent.com/games/wild-turkey",
+      "symbol": "wildturkey000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_turkey_icon5_031a353a06.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Space Wars™ Megaways™ XXXtreme",
+      "slug": "space-wars-megaways-xxxtreme",
+      "url": "https://netent.com/games/space-wars-megaways-xxxtreme",
+      "symbol": "spacewarsmwr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/spacewars_megaways_9f63321bda.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Silverback Gold™",
+      "slug": "silverback-gold",
+      "url": "https://netent.com/games/silverback-gold",
+      "symbol": "silverback000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/serengeti_kings_icon5_baa3f14e84.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Turkey™ Megaways™",
+      "slug": "wild-turkey-megaways",
+      "url": "https://netent.com/games/wild-turkey-megaways",
+      "symbol": "wildturkeymegawa",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_turkey_megaways_icon5_243f284b50.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Water™",
+      "slug": "wild-water",
+      "url": "https://netent.com/games/wild-water",
+      "symbol": "wildwater0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_water_icon5_386436c4ae.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Wild West: The Great Train Heist™",
+      "slug": "wild-wild-west-the-great-train-heist",
+      "url": "https://netent.com/games/wild-wild-west-the-great-train-heist",
+      "symbol": "wildwildwest0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_wild_west_icon5_0182e58e49.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Piggy Riches™",
+      "slug": "piggy-riches",
+      "url": "https://netent.com/games/piggy-riches",
+      "symbol": "piggyriches00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/piggy_riches_icon5_b9a34a3049.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Serengeti Kings",
+      "slug": "serengeti-kings",
+      "url": "https://netent.com/games/serengeti-kings",
+      "symbol": "serengetikings00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/serengeti_kings_icon5_65bef2d0d7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Secrets of Christmas™",
+      "slug": "secrets-of-christmas",
+      "url": "https://netent.com/games/secrets-of-christmas",
+      "symbol": "secretsofchristm",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/secrets_of_christmas_icon5_c9b7da7c4f.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Secrets of Atlantis",
+      "slug": "secrets-of-atlantis",
+      "url": "https://netent.com/games/secrets-of-atlantis",
+      "symbol": "highlights000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/secrets_of_atlantis_icon5_175287ffe9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Pirates Party™",
+      "slug": "pirates-party",
+      "url": "https://netent.com/games/pirates-party",
+      "symbol": "piratesparty0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/pirates_party_icon5_5a78ac14cc.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Secret of the Stones MAX™",
+      "slug": "secret-of-the-stones-max",
+      "url": "https://netent.com/games/secret-of-the-stones-max",
+      "symbol": "secretofthestone",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/secret_of_the_stones_icon5_2607167d8f.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild Worlds™",
+      "slug": "wild-worlds",
+      "url": "https://netent.com/games/wild-worlds",
+      "symbol": "wildworlds000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_worlds_icon5_24a2435cf7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wilderland™",
+      "slug": "wilderland",
+      "url": "https://netent.com/games/wilderland",
+      "symbol": "wilderland000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wilderland_icon5_ceed384d63.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Scudamore’s Super Stakes",
+      "slug": "scudamores-super-stakes",
+      "url": "https://netent.com/games/scudamores-super-stakes",
+      "symbol": "scudamore0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/scudamore_icon5_8ed987b5bb.jpg",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Scruffy Duck",
+      "slug": "scruffy-duck",
+      "url": "https://netent.com/games/scruffy-duck",
+      "symbol": "scruffyduck00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/scruffy_duck_icon5_ebe1b82180.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Pyramid: Quest for Immortality™",
+      "slug": "pyramid-quest-for-immortality",
+      "url": "https://netent.com/games/pyramid-quest-for-immortality",
+      "symbol": "pyramid000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/pyramid_icon5_23a0b1a06c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wild-O-Tron 3000™",
+      "slug": "wild-o-tron-3000",
+      "url": "https://netent.com/games/wild-o-tron-3000",
+      "symbol": "wildotron3000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wild_o_tron_icon5_3b8433ee7c.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Santa vs Rudolf",
+      "slug": "santa-vs-rudolf",
+      "url": "https://netent.com/games/santa-vs-rudolf",
+      "symbol": "santavsrudolf000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/santa_vs_rudolf_icon5_c64479145b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Royal Nuts",
+      "slug": "royal-nuts",
+      "url": "https://netent.com/games/royal-nuts",
+      "symbol": "royalnutsr96f100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/royal_nuts_icon5_0920b59b46.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rabid Randy",
+      "slug": "rabid-randy",
+      "url": "https://netent.com/games/rabid-randy",
+      "symbol": "rabidrandyr96000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rabid_randy_icon5_00500177b0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rome: The Golden Age",
+      "slug": "rome-the-golden-age",
+      "url": "https://netent.com/games/rome-the-golden-age",
+      "symbol": "rome000000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rome_icon5_e8382716fd.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Robin Hood: Shifting Riches",
+      "slug": "robin-hood-shifting-riches",
+      "url": "https://netent.com/games/robin-hood-shifting-riches",
+      "symbol": "robinhood0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/robin_hood_icon5_e295abc8aa.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Willy's Hot Chillies™",
+      "slug": "willys-hot-chillies",
+      "url": "https://netent.com/games/willys-hot-chillies",
+      "symbol": "willyshotchillie",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/willys_hot_chillies_icon5_13737d7e6e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "RAGE",
+      "slug": "rage",
+      "url": "https://netent.com/games/rage",
+      "symbol": "rager96f10000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/RAGE_dc80415a4e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rise of Maya™",
+      "slug": "rise-of-maya",
+      "url": "https://netent.com/games/rise-of-maya",
+      "symbol": "riseofmaya000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rise_of_maya_icon5_a92a67548a.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wings of Riches™",
+      "slug": "wings-of-riches",
+      "url": "https://netent.com/games/wings-of-riches",
+      "symbol": "wingsofriches000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wings_of_riches_icon5_57f9658aca.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Riches of Midgard: Land and Expand",
+      "slug": "riches-of-midgard-land-and-expand",
+      "url": "https://netent.com/games/riches-of-midgard-land-and-expand",
+      "symbol": "richesofmidgard0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/riches_of_midgard_icon5_9d90daa1c9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rage of the Seas™",
+      "slug": "rage-of-the-seas",
+      "url": "https://netent.com/games/rage-of-the-seas",
+      "symbol": "rageoftheseas000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rage_of_the_seas_icon5_79f17ae947.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Ghost Pirates™",
+      "slug": "ghost-pirates",
+      "url": "https://netent.com/games/ghost-pirates",
+      "symbol": "ghostpirates0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/ghost_pirates_icon5_4e1cde1a03.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "King of Slots™",
+      "slug": "king-of-slots",
+      "url": "https://netent.com/games/king-of-slots",
+      "symbol": "kingofslots00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/king_kos_icon5_2f06f02088.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "King of 3 Kingdoms",
+      "slug": "king-of-3-kingdoms",
+      "url": "https://netent.com/games/king-of-3-kingdoms",
+      "symbol": "kingof3kingdoms0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/k3k_icon5_cb78bb0086.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rainforest Gold™",
+      "slug": "rainforest-gold",
+      "url": "https://netent.com/games/rainforest-gold",
+      "symbol": "rainforestgold00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rainforest_gold_icon5_1afaa3e253.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jungle Spirit: Call of the Wild",
+      "slug": "jungle-spirit-call-of-the-wild",
+      "url": "https://netent.com/games/jungle-spirit-call-of-the-wild",
+      "symbol": "junglespirit0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jungle_icon5_f1fb1931e8.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Go Bananas!™",
+      "slug": "go-bananas",
+      "url": "https://netent.com/games/go-bananas",
+      "symbol": "monkeys000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/go_bananas_icon5_05c4cb4dab.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jungle Spirit Megaways™",
+      "slug": "jungle-spirit-megaways",
+      "url": "https://netent.com/games/jungle-spirit-megaways",
+      "symbol": "junglespirir96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jungle_spirit_MM_0f0fbbb4b5.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wolf Cub™",
+      "slug": "wolf-cub",
+      "url": "https://netent.com/games/wolf-cub",
+      "symbol": "wolfcub000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wolf_cub_icon5_bc83f8115e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jumanji",
+      "slug": "jumanji",
+      "url": "https://netent.com/games/jumanji",
+      "symbol": "jumanji000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jumanji_icon5_e7985042ed.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Wonders of Christmas™",
+      "slug": "wonders-of-christmas",
+      "url": "https://netent.com/games/wonders-of-christmas",
+      "symbol": "wondersofstmasf0",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/wonders_of_christmas_icon5_763e5b3114.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jingle Spin",
+      "slug": "jingle-spin",
+      "url": "https://netent.com/games/jingle-spin",
+      "symbol": "jinglespin000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jingle_spin_icon5_d81af6a0d0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gods of Gold: InfiniReels™",
+      "slug": "gods-of-gold-infini-reels",
+      "url": "https://netent.com/games/gods-of-gold-infini-reels",
+      "symbol": "godsofgold000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gog_icon5_de5f49cf46.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Joker Pro",
+      "slug": "joker-pro",
+      "url": "https://netent.com/games/joker-pro",
+      "symbol": "jokerpro00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jpro_icon5_9fb057ba9e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jingle Bells Bonanza",
+      "slug": "jingle-bells-bonanza",
+      "url": "https://netent.com/games/jingle-bells-bonanza",
+      "symbol": "jinglebellsbonan",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jingle_bells_icon5_60a55439f2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jimi Hendrix Online Slot™",
+      "slug": "jimi-hendrix",
+      "url": "https://netent.com/games/jimi-hendrix",
+      "symbol": "jimihendrix00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jimi_hendrix_ixon5_b1767e0350.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Stickers™",
+      "slug": "stickers",
+      "url": "https://netent.com/games/stickers",
+      "symbol": "stickers00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/stickers_icon5_ac7d0f34b3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jelly Belly Megaways™",
+      "slug": "jelly-belly-megaways",
+      "url": "https://netent.com/games/jelly-belly-megaways",
+      "symbol": "jellybellymegawa",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jelly_belly_megaways_53d38cbf64.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Golden Egg Invaders",
+      "slug": "golden-egg-invaders",
+      "url": "https://netent.com/games/golden-egg-invaders",
+      "symbol": "goldeneggirs96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/golden_egg_invaders_icon5_70d922d0f9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jackpot 6000",
+      "slug": "jackpot-6000",
+      "url": "https://netent.com/games/jackpot-6000",
+      "symbol": "jackpot600000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jackpot_6000_icon5_81475ac789.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fairytale Legends: Red Riding Hood™",
+      "slug": "fairytale-legends-red-riding-hood",
+      "url": "https://netent.com/games/fairytale-legends-red-riding-hood",
+      "symbol": "fairyred00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/red_riding_hood_icon5_1d8420f7c6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Golden Grimoire™",
+      "slug": "golden-grimoire",
+      "url": "https://netent.com/games/golden-grimoire",
+      "symbol": "goldengrimoire00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/golden_grimoire_icon5_4619f8aaf2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Hotline™",
+      "slug": "hotline",
+      "url": "https://netent.com/games/hotline",
+      "symbol": "hotline000000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/hotline_icon5_5031c0eed2.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Hotline 2™",
+      "slug": "hotline-2",
+      "url": "https://netent.com/games/hotline-2",
+      "symbol": "hotline200000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/hotline_2_icon5_f2574386ef.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Golden Realms",
+      "slug": "golden-realms",
+      "url": "https://netent.com/games/golden-realms",
+      "symbol": "goldenrealmr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/golden_realms_icon5_4076ec75e9.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Reef Raider™",
+      "slug": "reef-raider",
+      "url": "https://netent.com/games/reef-raider",
+      "symbol": "reefraiderr30000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/reef_raider_icon5_ee83941b42.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Imperial Riches™",
+      "slug": "imperial-riches",
+      "url": "https://netent.com/games/imperial-riches",
+      "symbol": "imperialriches00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/imperial_riches_icon5_e91d8b3204.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Happy Riches™",
+      "slug": "happy-riches",
+      "url": "https://netent.com/games/happy-riches",
+      "symbol": "happyriches00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/happy_riches_icon5_5ea2e168ab.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gonzo's Gold",
+      "slug": "gonzos-gold",
+      "url": "https://netent.com/games/gonzos-gold",
+      "symbol": "gonzosgoldr30000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gonzos_gold_icon5_bd2bbb89a7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Hook's Heroes",
+      "slug": "hooks-heroes",
+      "url": "https://netent.com/games/hooks-heroes",
+      "symbol": "hooksheroes00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/hooks_heroes_icon5_f377276557.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Golden Wheels of Egypt",
+      "slug": "golden-wheels-of-egypt",
+      "url": "https://netent.com/games/golden-wheels-of-egypt",
+      "symbol": "goldenwheelr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/golden_wheels_icon5_b7b1e76044.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Irish Pot Luck™",
+      "slug": "irish-pot-luck",
+      "url": "https://netent.com/games/irish-pot-luck",
+      "symbol": "irishpotluck0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/irish_pot_luck_icon5_fb5a96cd15.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Hall of Gods™",
+      "slug": "hall-of-gods",
+      "url": "https://netent.com/games/hall-of-gods",
+      "symbol": "hallofgods000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/hog_icon5_2d92364c08.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Reel Rush™",
+      "slug": "reel-rush",
+      "url": "https://netent.com/games/reel-rush",
+      "symbol": "reelrush00000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/reel_rush_bc9a2082d7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack Hammer",
+      "slug": "jack-hammer",
+      "url": "https://netent.com/games/jack-hammer",
+      "symbol": "jackhammer000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jack_hammer_icon5_9d1a56f4f0.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Halloween Jack™",
+      "slug": "halloween-jack",
+      "url": "https://netent.com/games/halloween-jack",
+      "symbol": "halloweenjack000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/halloween_jack_icon5_3e9a180727.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Good Old 7’s™",
+      "slug": "good-old-7s",
+      "url": "https://netent.com/games/good-old-7s",
+      "symbol": "goodold7s0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/good_old_7s_icon5_c52adff128.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack Hammer 2: Fishy Business",
+      "slug": "jack-hammer-2",
+      "url": "https://netent.com/games/jack-hammer-2",
+      "symbol": "jackhammer200000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jack_hammer_2_icon5_f6c7fa9233.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack and the Beanstalk™",
+      "slug": "jack-and-the-beanstalk",
+      "url": "https://netent.com/games/jack-and-the-beanstalk",
+      "symbol": "jackandbeanstalk",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jack_and_the_beanstalk_icon5_c3bca5d803.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack Hammer 3: Diamond Affair",
+      "slug": "jack-hammer-3",
+      "url": "https://netent.com/games/jack-hammer-3",
+      "symbol": "jackhammer3r96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/Jack_hammer_4_icon5_15ead5b9ee.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack Hammer 4: Chasing the Dragon",
+      "slug": "jack-hammer-4",
+      "url": "https://netent.com/games/jack-hammer-4",
+      "symbol": "jackhammer4r96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/JH_4_icon5_7b96cf137d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack and the Beanstalk™ Remastered",
+      "slug": "jack-and-the-beanstalk-remastered",
+      "url": "https://netent.com/games/jack-and-the-beanstalk-remastered",
+      "symbol": "jackandbeanr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jack_and_the_beanstalk_remastered_icon5_a895e4e3cf.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gorilla Kingdom™",
+      "slug": "gorilla-kingdom",
+      "url": "https://netent.com/games/gorilla-kingdom",
+      "symbol": "gorillakingdom00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gorilla_kingdom_icon5_e3d3dca15e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Reel Rush 2™",
+      "slug": "reel-rush-2",
+      "url": "https://netent.com/games/reel-rush-2",
+      "symbol": "reelrush20000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/reel_rush_2_38c9da9289.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "The Reel Steal™",
+      "slug": "the-reel-steal",
+      "url": "https://netent.com/games/the-reel-steal",
+      "symbol": "reelsteal0000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/reel_steel_ca62cbad86.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Grand Spinn™",
+      "slug": "grand-spinn",
+      "url": "https://netent.com/games/grand-spinn",
+      "symbol": "grandspinn000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/grand_spinn_icon5_e5b43150e1.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fairytale Legends: Mirror Mirror™",
+      "slug": "fairytale-legends-mirror-mirror",
+      "url": "https://netent.com/games/fairytale-legends-mirror-mirror",
+      "symbol": "fairymirror00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mirror_mirror_icon5_cc9d245655.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gladiator Clash",
+      "slug": "gladiator-clash",
+      "url": "https://netent.com/games/gladiator-clash",
+      "symbol": "gladiatorclash00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gladiator_clash_icon5_b957a93177.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fairytale Legends: Hansel and Gretel",
+      "slug": "fairytale-legends-hansel-and-gretel",
+      "url": "https://netent.com/games/fairytale-legends-hansel-and-gretel",
+      "symbol": "fairyhansel00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/hansel_and_gretel_icon5_06afeea78b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Finn and the Dragon Tales",
+      "slug": "finn-and-the-dragon-tales",
+      "url": "https://netent.com/games/finn-and-the-dragon-tales",
+      "symbol": "finndragontr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/finn_and_the_dragon_tales_icon5_a68983e7fe.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Reel Rush XXXtreme",
+      "slug": "reel-rush-xxxtreme",
+      "url": "https://netent.com/games/reel-rush-xxxtreme",
+      "symbol": "reelrushxxxr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/reel_rush_xxxtreme_icon5_91ffeb4cba.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Piggy Riches 3: Hog Heaven",
+      "slug": "piggy-riches-3-hog-heaven",
+      "url": "https://netent.com/games/piggy-riches-3-hog-heaven",
+      "symbol": "piggyriche3r96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/piggy_riches_3_hog_heaven_fansite_ne_thumbnail_icon_512x512_2025_05_02_1_b60e234117.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gonzo's Quest II: Return to El Dorado",
+      "slug": "gonzo-s-quest-ii-return-to-el-dorado",
+      "url": "https://netent.com/games/gonzo-s-quest-ii-return-to-el-dorado",
+      "symbol": "gonzosquestr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/gonzos_guest_2_fansite_ne_thumbnail_icon_512x512_2025_05_01_2ef5b87ebc.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dead West",
+      "slug": "dead-west",
+      "url": "https://netent.com/games/dead-west",
+      "symbol": "deadwestr96f1000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/dead_west_fansite_ne_thumbnail_icon_512x512_2025_06_02_9e48cfcb11.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rabid Randy Dark Trails",
+      "slug": "rabid-randy-dark-trails",
+      "url": "https://netent.com/games/rabid-randy-dark-trails",
+      "symbol": "rabidrandydr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rabid_randy_dark_trails_fansite_ne_thumbnail_logo_346x346_2025_05_02_d544e49692.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Flock Me",
+      "slug": "flock-me",
+      "url": "https://netent.com/games/flock-me",
+      "symbol": "flockmer96f10000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/flock_me_playin_ne_icon_thumbnail_346x346_3d3e05db35.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "American Roulette",
+      "slug": "american-roulette",
+      "url": "https://netent.com/games/american-roulette",
+      "symbol": "ameriroulette3ne",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/american_roulette_icon5_11abfc2f95.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Blackjack",
+      "slug": "blackjack",
+      "url": "https://netent.com/games/blackjack",
+      "symbol": "blackjack3ne0000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/b_LACKJACK_icon5_50b571baa7.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Roulette Advanced",
+      "slug": "roulette-advanced",
+      "url": "https://netent.com/games/roulette-advanced",
+      "symbol": "roulette2advne00",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/roulette_advanced_icon5_50914b92d3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Roulette Touch",
+      "slug": "roulette-touch",
+      "url": "https://netent.com/games/roulette-touch",
+      "symbol": "roulettesne00000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/roulette_touch_icon5_1b93519e8d.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jacks or Better Double Up",
+      "slug": "jacks-or-better-double-up",
+      "url": "https://netent.com/games/jacks-or-better-double-up",
+      "symbol": "jacksmultihandn1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jacks_or_better_icon_27dd3fe4c6.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Rabid Randy Gone Fishing",
+      "slug": "rabid-randy-gone-fishing",
+      "url": "https://netent.com/games/rabid-randy-gone-fishing",
+      "symbol": "rabidrandygr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/rabid_randy_gone_fishing_playin_ne_icon_thumbnail_346x346_9e030fb52b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "MONOPOLY Money Line",
+      "slug": "monopoly-money-line",
+      "url": "https://netent.com/games/monopoly-money-line",
+      "symbol": "monopolymonr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/monopoly_money_line_playin_ne_icon_thumbnail_346x346_8bde9b0471.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Godbreaker",
+      "slug": "godbreaker",
+      "url": "https://netent.com/games/godbreaker",
+      "symbol": "godbreakerr96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/godbreaker_playin_ne_icon_thumbnail_346x346_287ba60a8e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Dead or Alive™ 3: Wanted",
+      "slug": "dead-or-alive-3-wanted",
+      "url": "https://netent.com/games/dead-or-alive-3-wanted",
+      "symbol": "deadalive3r96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/doa_3_playin_ne_icon_thumbnail_346x346_ced7915405.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Divine Fortune Gold",
+      "slug": "divine-fortune-gold",
+      "url": "https://netent.com/games/divine-fortune-gold",
+      "symbol": "divinegoldr96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/divine_fortune_gold_playin_ne_icon_thumbnail_346x346_f95d146a0b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "What's Up? Witches",
+      "slug": "what-s-up-witches",
+      "url": "https://netent.com/games/what-s-up-witches",
+      "symbol": "whatsupwitcr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/whats_up_witches_playin_ne_icon_thumbnail_346x346_863fa5189e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "In and Out",
+      "slug": "in-and-out",
+      "url": "https://netent.com/games/in-and-out",
+      "symbol": "inandoutr96f1000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/in_and_out_playin_ne_icon_thumbnail_346x346_53f30592e3.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Fruit Shop Grand Re-Opening",
+      "slug": "fruit-shop-grand-re-opening",
+      "url": "https://netent.com/games/fruit-shop-grand-re-opening",
+      "symbol": "fruitshopgrr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/fruit_shop_grand_reopening_Icon_Playin_ef26a40d72.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Spice",
+      "slug": "spice",
+      "url": "https://netent.com/games/spice",
+      "symbol": "spicer96f1000000",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/spice_icon_playin_1_0054a6ca81.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Judgemental",
+      "slug": "judgemental",
+      "url": "https://netent.com/games/judgemental",
+      "symbol": "judgementalr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/in_and_out_playin_ne_icon_thumbnail_346x346_f1e628d515.jpg",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Aftermath",
+      "slug": "aftermath",
+      "url": "https://netent.com/games/aftermath",
+      "symbol": "aftermathr96f100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/aftermath_playin_ne_icon_thumbnail_346x346_9d3ae07cb2.jpg",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Jack and the Beanstalk 2",
+      "slug": "jack-and-the-beanstalk-2",
+      "url": "https://netent.com/games/jack-and-the-beanstalk-2",
+      "symbol": "jackbeanstar96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/jack_and_the_beanstalk_playin_ne_icon_thumbnail_346x346_4e2b5b782b.jpg",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Nunchucks",
+      "slug": "nunchucks",
+      "url": "https://netent.com/games/nunchucks",
+      "symbol": "nunchucksr96f100",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/nunchucks_ne_icon_8cd6c12fcc.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Demon Beats",
+      "slug": "demon-beats",
+      "url": "https://netent.com/games/demon-beats",
+      "symbol": "demonbeatsr96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/demon_beats_ne_346x346_a041bb363b.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Mexican Standoff",
+      "slug": "mexican-standoff",
+      "url": "https://netent.com/games/mexican-standoff",
+      "symbol": "mexicanstanr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/mexican_standoff_ne_346x346_1_4b08b25f6e.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Parthenon 2: Feast of Olympus",
+      "slug": "parthenon-2-feast-of-olympus",
+      "url": "https://netent.com/games/parthenon-2-feast-of-olympus",
+      "symbol": "parthenon2r96f10",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/playin_NE_coming_soon_icon_692x692_9498517bdb.png",
+      "studio": "NetEnt",
+      "category": ""
+    },
+    {
+      "name": "Gonzo Goes Mental",
+      "slug": "gonzo-goes-mental",
+      "url": "https://netent.com/games/gonzo-goes-mental",
+      "symbol": "gonzomentalr96f1",
+      "thumbnail_url": "https://fan-cdn.nolimitcity.com/playin_NE_coming_soon_icon_692x692_9498517bdb.png",
+      "studio": "NetEnt",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    }
+  ]
+}

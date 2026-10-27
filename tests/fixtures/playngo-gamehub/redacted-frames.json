@@ -1,0 +1,18 @@
+[
+  {
+    "direction": "sent",
+    "payload_b64": "OpUBgMCtUHJvY2Vzc1BhY2tldJHZJWQ9Nw0KeHh4eHh4eHh4eHh4eHh4eHgNCjEgMTAgMSAxMCAxDQo="
+  },
+  {
+    "direction": "received",
+    "payload_b64": "igGWAYDAqENvbW1hbmRzkdl5ZD0xIDEwIDEgMTAgNiA4IDMgOCAxIDkgOSA1IDMgOCAzIDUgMSAwIDYgMCAzIDIgMyAzIDEgMyA1IDggNCAxIDUwIDE4IDMgMyAyIDMgNCAxMCAyIDUgMSAxMCA0IDEgNyAzIDENCjMgMCA1NiA1NjAgMCAxDQoNCpA="
+  },
+  {
+    "direction": "sent",
+    "payload_b64": "MZUBgMCtUHJvY2Vzc1BhY2tldJG9ZD04DQp4eHh4eHh4eHh4eHh4eHh4eA0KNCAwDQo="
+  },
+  {
+    "direction": "received",
+    "payload_b64": "MpYBgMCoQ29tbWFuZHOR2SFkPTUgNTYNCjYgNTYwDQo1MiAyNTAwMzYwIDAgMA0KDQqQ"
+  }
+]

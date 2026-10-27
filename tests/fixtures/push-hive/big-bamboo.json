@@ -1,0 +1,638 @@
+{
+  "purchase": {
+    "timestamp": "2026-10-27T12:22:36.345350Z",
+    "walletData": {
+      "walletBalance": 99990,
+      "walletFunds": [
+        {
+          "balance": 99990,
+          "type": "CASH"
+        }
+      ]
+    },
+    "availableActions": [
+      "spin"
+    ],
+    "totalBet": 10,
+    "actionId": "id-8257d543f11ce17e",
+    "playId": "id-8257d543f11ce17e",
+    "hivePlayId": "id-7e98541f38d926e9",
+    "actionComplete": false,
+    "prevActionId": 0,
+    "actionName": "spin",
+    "cumulativeWin": 56,
+    "autoCompleted": false,
+    "endOfPlay": true,
+    "nextAllowedPlayTime": "2026-10-27T12:22:38.345497Z",
+    "jurisdiction": "NA",
+    "state": {
+      "totalWin": 56,
+      "isGamblingEnabled": true
+    },
+    "steps": [
+      {
+        "stepNumber": 0,
+        "win": 56,
+        "cumulativeWin": 56,
+        "eventId": 604873475,
+        "gameMode": "base-game",
+        "reelStops": [
+          7,
+          139,
+          234,
+          75,
+          55
+        ],
+        "spinGrid": [
+          [
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY"
+          ],
+          [
+            "L4",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY"
+          ],
+          [
+            "L2",
+            "L1",
+            "L1",
+            "L1",
+            "MYSTERY",
+            "MYSTERY"
+          ],
+          [
+            "L4",
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ],
+          [
+            "L2",
+            "WILD",
+            "L3",
+            "L3",
+            "L3",
+            "L4"
+          ]
+        ],
+        "finalGrid": [
+          [
+            "H2",
+            "H2",
+            "H2",
+            "H2",
+            "H2",
+            "H2"
+          ],
+          [
+            "L4",
+            "H2",
+            "H2",
+            "H2",
+            "H2",
+            "H2"
+          ],
+          [
+            "L2",
+            "L1",
+            "L1",
+            "L1",
+            "H2",
+            "H2"
+          ],
+          [
+            "L4",
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ],
+          [
+            "L2",
+            "WILD",
+            "L3",
+            "L3",
+            "L3",
+            "L4"
+          ]
+        ],
+        "revealedSymbol": "H2",
+        "winningLines": [
+          {
+            "lineIndex": 4,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 5,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 8,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              2,
+              3,
+              4,
+              3,
+              2
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 9,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              4,
+              5,
+              4,
+              3
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 17,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              4,
+              4,
+              4,
+              3
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 18,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              5,
+              5,
+              5,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 23,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              4,
+              4,
+              4,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 27,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              4,
+              4,
+              4,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 28,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              4,
+              4,
+              4,
+              3
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 36,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              5,
+              4,
+              5,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 37,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              4,
+              5,
+              4,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 38,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              3,
+              4,
+              3,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 45,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              3,
+              4,
+              5,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 46,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              5,
+              4,
+              3,
+              3
+            ],
+            "win": 4
+          }
+        ],
+        "freeSpinsWin": 0
+      }
+    ]
+  },
+  "settlement": {
+    "timestamp": "2026-10-27T12:22:36.872500Z",
+    "walletData": {
+      "walletBalance": 100046,
+      "walletFunds": [
+        {
+          "balance": 100046,
+          "type": "CASH"
+        }
+      ]
+    },
+    "availableActions": [
+      "spin"
+    ],
+    "totalBet": 10,
+    "actionId": "id-8257d543f11ce17e",
+    "playId": "id-8257d543f11ce17e",
+    "hivePlayId": "id-7e98541f38d926e9",
+    "actionComplete": true,
+    "prevActionId": 0,
+    "actionName": "spin",
+    "cumulativeWin": 56,
+    "autoCompleted": false,
+    "endOfPlay": true,
+    "nextAllowedPlayTime": "2026-10-27T12:22:38.345Z",
+    "jurisdiction": "NA",
+    "state": {
+      "totalWin": 56,
+      "isGamblingEnabled": true
+    },
+    "steps": [
+      {
+        "stepNumber": 0,
+        "win": 56,
+        "cumulativeWin": 56,
+        "eventId": 604873475,
+        "gameMode": "base-game",
+        "reelStops": [
+          7,
+          139,
+          234,
+          75,
+          55
+        ],
+        "spinGrid": [
+          [
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY"
+          ],
+          [
+            "L4",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY",
+            "MYSTERY"
+          ],
+          [
+            "L2",
+            "L1",
+            "L1",
+            "L1",
+            "MYSTERY",
+            "MYSTERY"
+          ],
+          [
+            "L4",
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ],
+          [
+            "L2",
+            "WILD",
+            "L3",
+            "L3",
+            "L3",
+            "L4"
+          ]
+        ],
+        "finalGrid": [
+          [
+            "H2",
+            "H2",
+            "H2",
+            "H2",
+            "H2",
+            "H2"
+          ],
+          [
+            "L4",
+            "H2",
+            "H2",
+            "H2",
+            "H2",
+            "H2"
+          ],
+          [
+            "L2",
+            "L1",
+            "L1",
+            "L1",
+            "H2",
+            "H2"
+          ],
+          [
+            "L4",
+            "H1",
+            "H1",
+            "H1",
+            "H1",
+            "H1"
+          ],
+          [
+            "L2",
+            "WILD",
+            "L3",
+            "L3",
+            "L3",
+            "L4"
+          ]
+        ],
+        "revealedSymbol": "H2",
+        "winningLines": [
+          {
+            "lineIndex": 4,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 5,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 8,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              2,
+              3,
+              4,
+              3,
+              2
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 9,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              4,
+              5,
+              4,
+              3
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 17,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              4,
+              4,
+              4,
+              3
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 18,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              5,
+              5,
+              5,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 23,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              4,
+              4,
+              4,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 27,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              4,
+              4,
+              4,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 28,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              4,
+              4,
+              4,
+              3
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 36,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              5,
+              4,
+              5,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 37,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              4,
+              5,
+              4,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 38,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              4,
+              3,
+              4,
+              3,
+              4
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 45,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              3,
+              3,
+              4,
+              5,
+              5
+            ],
+            "win": 4
+          },
+          {
+            "lineIndex": 46,
+            "symbol": "H2",
+            "matchCount": 3,
+            "line": [
+              5,
+              5,
+              4,
+              3,
+              3
+            ],
+            "win": 4
+          }
+        ],
+        "freeSpinsWin": 0
+      }
+    ]
+  },
+  "before": 100000,
+  "bet": 10
+}

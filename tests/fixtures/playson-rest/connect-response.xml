@@ -1,0 +1,7 @@
+<server command="connect" session="REDACTED" rnd="1793106112806" status="reconnect">
+    <system guidcreate="2375273237790611973" />
+    <source server-ver="0.0.0" />
+    <game name="lucky_pots" />
+    <user currency-id="EUR" is_test="true" type="real" gs_id="REDACTED" wlid="REDACTED" wl_code_id="demomode" cash_type="real" wlcode="demomode" game_id="3203" />
+    <user_new cash="1100000" />
+</server>

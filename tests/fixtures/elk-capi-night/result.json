@@ -1,0 +1,132 @@
+{
+  "slug": "night-trax",
+  "status": "all-declared-modes-closed",
+  "rounds": [
+    {
+      "id": "DEF",
+      "amount": "0.20",
+      "betlevel": "1",
+      "balanceBefore": "5000.00",
+      "status": "closed",
+      "win": "0.00",
+      "balanceAfter": "4999.80",
+      "states": 1,
+      "closedBy": "checkwin+balance+roundid"
+    },
+    {
+      "id": "X01",
+      "amount": "1.00",
+      "betlevel": "1",
+      "balanceBefore": "4999.80",
+      "status": "closed",
+      "win": "0.08",
+      "balanceAfter": "4998.88",
+      "states": 2,
+      "closedBy": "checkwin+balance+roundid"
+    },
+    {
+      "id": "X02",
+      "amount": "5.00",
+      "betlevel": "1",
+      "balanceBefore": "4998.88",
+      "status": "closed",
+      "win": "10.34",
+      "balanceAfter": "5004.22",
+      "states": 10,
+      "closedBy": "checkwin+balance+roundid"
+    },
+    {
+      "id": "X03",
+      "amount": "20.00",
+      "betlevel": "1",
+      "balanceBefore": "5004.22",
+      "status": "closed",
+      "win": "7.60",
+      "balanceAfter": "4991.82",
+      "states": 15,
+      "closedBy": "checkwin+balance+roundid"
+    },
+    {
+      "id": "X04",
+      "amount": "50.00",
+      "betlevel": "1",
+      "balanceBefore": "4991.82",
+      "status": "closed",
+      "win": "43.40",
+      "balanceAfter": "4985.22",
+      "states": 20,
+      "closedBy": "checkwin+balance+roundid"
+    },
+    {
+      "id": "X05",
+      "amount": "100.00",
+      "betlevel": "1",
+      "balanceBefore": "4985.22",
+      "status": "closed",
+      "win": "32.00",
+      "balanceAfter": "4917.22",
+      "states": 10,
+      "closedBy": "checkwin+balance+roundid"
+    },
+    {
+      "id": "DEF",
+      "amount": "0.20",
+      "betlevel": "1",
+      "balanceBefore": "4917.22",
+      "status": "closed",
+      "win": "0.00",
+      "balanceAfter": "4917.02",
+      "states": 1,
+      "closedBy": "checkwin+balance+roundid"
+    }
+  ],
+  "scope": "experimental CAPI declared modes; not UI coverage or installed adapter",
+  "versions": {
+    "ecf": "369146",
+    "game": "214764"
+  },
+  "endpoint": "https://gc5-stage.contentmedia.eu/capi/10059/play",
+  "minimumSpinDelayMs": 1200,
+  "declaredModes": [
+    {
+      "id": "DEF",
+      "amount": "0.20",
+      "betlevel": "1"
+    },
+    {
+      "id": "X01",
+      "amount": "1.00",
+      "betlevel": "1"
+    },
+    {
+      "id": "X02",
+      "amount": "5.00",
+      "betlevel": "1"
+    },
+    {
+      "id": "X03",
+      "amount": "20.00",
+      "betlevel": "1"
+    },
+    {
+      "id": "X04",
+      "amount": "50.00",
+      "betlevel": "1"
+    },
+    {
+      "id": "X05",
+      "amount": "100.00",
+      "betlevel": "1"
+    }
+  ],
+  "betLevelCount": 12,
+  "requestedModes": [
+    "DEF",
+    "X01",
+    "X02",
+    "X03",
+    "X04",
+    "X05"
+  ],
+  "returnToBase": true
+}

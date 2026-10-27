@@ -1,0 +1,811 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "pushgaming",
+  "source": "https://www.pushgaming.com/games/",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Neon Cash City",
+      "slug": "neon-cash-city",
+      "url": "https://www.pushgaming.com/games/neon-cash-city.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Liberty Eagles",
+      "slug": "3-liberty-eagles",
+      "url": "https://www.pushgaming.com/games/3-liberty-eagles.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Viva Lock Vegas",
+      "slug": "viva-lock-vegas",
+      "url": "https://www.pushgaming.com/games/viva-lock-vegas.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jiggys Pot O Gold",
+      "slug": "jiggys-pot-o-gold",
+      "url": "https://www.pushgaming.com/games/jiggys-pot-o-gold.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Razor Shark Jackpots",
+      "slug": "razor-shark-jackpots",
+      "url": "https://www.pushgaming.com/games/razor-shark-jackpots.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vegas Vault",
+      "slug": "vegas-vault",
+      "url": "https://www.pushgaming.com/games/vegas-vault.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamonds 4 Win",
+      "slug": "diamonds-4-win",
+      "url": "https://www.pushgaming.com/games/diamonds-4-win.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Retroverse",
+      "slug": "retroverse",
+      "url": "https://www.pushgaming.com/games/retroverse.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Bamboo 2",
+      "slug": "big-bamboo-2",
+      "url": "https://www.pushgaming.com/games/big-bamboo-2.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Swarm 3 Chocolate Eggs",
+      "slug": "wild-swarm-3-chocolate-eggs",
+      "url": "https://www.pushgaming.com/games/wild-swarm-3-chocolate-eggs.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot Multipliers",
+      "slug": "red-hot-multipliers",
+      "url": "https://www.pushgaming.com/games/red-hot-multipliers.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great Banker",
+      "slug": "great-banker",
+      "url": "https://www.pushgaming.com/games/great-banker.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bait N Bank",
+      "slug": "bait-n-bank",
+      "url": "https://www.pushgaming.com/games/bait-n-bank.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Supernova 5",
+      "slug": "diamond-supernova-5",
+      "url": "https://www.pushgaming.com/games/diamond-supernova-5.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Supernova 20",
+      "slug": "diamond-supernova-20",
+      "url": "https://www.pushgaming.com/games/diamond-supernova-20.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Supernova 40",
+      "slug": "diamond-supernova-40",
+      "url": "https://www.pushgaming.com/games/diamond-supernova-40.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Supernova 100",
+      "slug": "diamond-supernova-100",
+      "url": "https://www.pushgaming.com/games/diamond-supernova-100.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Santas Reindeers",
+      "slug": "10-santas-reindeers",
+      "url": "https://www.pushgaming.com/games/10-santas-reindeers.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santa Hopper",
+      "slug": "santa-hopper",
+      "url": "https://www.pushgaming.com/games/santa-hopper.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santas Vault",
+      "slug": "santas-vault",
+      "url": "https://www.pushgaming.com/games/santas-vault.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sea Spirits",
+      "slug": "sea-spirits",
+      "url": "https://www.pushgaming.com/games/sea-spirits.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Happy Bamboo",
+      "slug": "happy-bamboo",
+      "url": "https://www.pushgaming.com/games/happy-bamboo.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tricky Treats",
+      "slug": "tricky-treats",
+      "url": "https://www.pushgaming.com/games/tricky-treats.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tarot Treasures",
+      "slug": "tarot-treasures",
+      "url": "https://www.pushgaming.com/games/tarot-treasures.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Masked Mayhem",
+      "slug": "masked-mayhem",
+      "url": "https://www.pushgaming.com/games/masked-mayhem.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bamboo Ways",
+      "slug": "bamboo-ways",
+      "url": "https://www.pushgaming.com/games/bamboo-ways.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Cash Bisons",
+      "slug": "10-cash-bisons",
+      "url": "https://www.pushgaming.com/games/10-cash-bisons.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Triple Rampage",
+      "slug": "triple-rampage",
+      "url": "https://www.pushgaming.com/games/triple-rampage.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Pig Push Ways",
+      "slug": "fire-pig-push-ways",
+      "url": "https://www.pushgaming.com/games/fire-pig-push-ways.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Swarm Triple Hive",
+      "slug": "wild-swarm-triple-hive",
+      "url": "https://www.pushgaming.com/games/wild-swarm-triple-hive.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Paws",
+      "slug": "power-paws",
+      "url": "https://www.pushgaming.com/games/power-paws.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fish N Nudge Big Catch",
+      "slug": "fish-n-nudge-big-catch",
+      "url": "https://www.pushgaming.com/games/fish-n-nudge-big-catch.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Iron Phoenix",
+      "slug": "iron-phoenix",
+      "url": "https://www.pushgaming.com/games/iron-phoenix.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fang City",
+      "slug": "fang-city",
+      "url": "https://www.pushgaming.com/games/fang-city.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Henry Ape",
+      "slug": "henry-ape",
+      "url": "https://www.pushgaming.com/games/henry-ape.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Regal Knights",
+      "slug": "regal-knights",
+      "url": "https://www.pushgaming.com/games/regal-knights.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Olympus Unleashed",
+      "slug": "olympus-unleashed",
+      "url": "https://www.pushgaming.com/games/olympus-unleashed.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Magic Pots",
+      "slug": "3-magic-pots",
+      "url": "https://www.pushgaming.com/games/3-magic-pots.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Pharaohs",
+      "slug": "10-pharaohs",
+      "url": "https://www.pushgaming.com/games/10-pharaohs.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Blast",
+      "slug": "candy-blast",
+      "url": "https://www.pushgaming.com/games/candy-blast.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Bite Push Ways",
+      "slug": "big-bite-push-ways",
+      "url": "https://www.pushgaming.com/games/big-bite-push-ways.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Vault",
+      "slug": "power-vault",
+      "url": "https://www.pushgaming.com/games/power-vault.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mad Blast",
+      "slug": "mad-blast",
+      "url": "https://www.pushgaming.com/games/mad-blast.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Hopper",
+      "slug": "dragon-hopper",
+      "url": "https://www.pushgaming.com/games/dragon-hopper.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Nile",
+      "slug": "mystery-nile",
+      "url": "https://www.pushgaming.com/games/mystery-nile.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Flaming Bisons",
+      "slug": "10-flaming-bisons",
+      "url": "https://www.pushgaming.com/games/10-flaming-bisons.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jaguar Drop",
+      "slug": "jaguar-drop",
+      "url": "https://www.pushgaming.com/games/jaguar-drop.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cats Olympuss",
+      "slug": "cats-olympuss",
+      "url": "https://www.pushgaming.com/games/cats-olympuss.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Bam Book",
+      "slug": "big-bam-book",
+      "url": "https://www.pushgaming.com/games/big-bam-book.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Razor Ways",
+      "slug": "razor-ways",
+      "url": "https://www.pushgaming.com/games/razor-ways.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grand Show",
+      "slug": "grand-show",
+      "url": "https://www.pushgaming.com/games/grand-show.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Retro Sweets",
+      "slug": "retro-sweets",
+      "url": "https://www.pushgaming.com/games/retro-sweets.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dj Cat",
+      "slug": "dj-cat",
+      "url": "https://www.pushgaming.com/games/dj-cat.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Samurais Katana",
+      "slug": "samurais-katana",
+      "url": "https://www.pushgaming.com/games/samurais-katana.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shamrock Saints",
+      "slug": "shamrock-saints",
+      "url": "https://www.pushgaming.com/games/shamrock-saints.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Swarm 2",
+      "slug": "wild-swarm-2",
+      "url": "https://www.pushgaming.com/games/wild-swarm-2.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Bite",
+      "slug": "big-bite",
+      "url": "https://www.pushgaming.com/games/big-bite.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hearts Highway",
+      "slug": "hearts-highway",
+      "url": "https://www.pushgaming.com/games/hearts-highway.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dj Fox",
+      "slug": "dj-fox",
+      "url": "https://www.pushgaming.com/games/dj-fox.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Boss Bear",
+      "slug": "boss-bear",
+      "url": "https://www.pushgaming.com/games/boss-bear.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fish N Nudge",
+      "slug": "fish-n-nudge",
+      "url": "https://www.pushgaming.com/games/fish-n-nudge.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Goat Getter",
+      "slug": "goat-getter",
+      "url": "https://www.pushgaming.com/games/goat-getter.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Razor Returns",
+      "slug": "razor-returns",
+      "url": "https://www.pushgaming.com/games/razor-returns.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rat King",
+      "slug": "rat-king",
+      "url": "https://www.pushgaming.com/games/rat-king.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crystal Catcher",
+      "slug": "crystal-catcher",
+      "url": "https://www.pushgaming.com/games/crystal-catcher.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "10 Swords",
+      "slug": "10-swords",
+      "url": "https://www.pushgaming.com/games/10-swords.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dino Pd",
+      "slug": "dino-pd",
+      "url": "https://www.pushgaming.com/games/dino-pd.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Giga Jar",
+      "slug": "giga-jar",
+      "url": "https://www.pushgaming.com/games/giga-jar.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Generous Jack",
+      "slug": "generous-jack",
+      "url": "https://www.pushgaming.com/games/generous-jack.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Retro Tapes",
+      "slug": "retro-tapes",
+      "url": "https://www.pushgaming.com/games/retro-tapes.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Mission Moon",
+      "slug": "mystery-mission-moon",
+      "url": "https://www.pushgaming.com/games/mystery-mission-moon.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deadly 5",
+      "slug": "deadly-5",
+      "url": "https://www.pushgaming.com/games/deadly-5.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mad Cars",
+      "slug": "mad-cars",
+      "url": "https://www.pushgaming.com/games/mad-cars.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Bamboo",
+      "slug": "big-bamboo",
+      "url": "https://www.pushgaming.com/games/big-bamboo.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jammin Jars",
+      "slug": "jammin-jars",
+      "url": "https://www.pushgaming.com/games/jammin-jars.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Swarm",
+      "slug": "wild-swarm",
+      "url": "https://www.pushgaming.com/games/wild-swarm.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Razor Shark",
+      "slug": "razor-shark",
+      "url": "https://www.pushgaming.com/games/razor-shark.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystery Museum",
+      "slug": "mystery-museum",
+      "url": "https://www.pushgaming.com/games/mystery-museum.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Troupe",
+      "slug": "joker-troupe",
+      "url": "https://www.pushgaming.com/games/joker-troupe.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fat Rabbit",
+      "slug": "fat-rabbit",
+      "url": "https://www.pushgaming.com/games/fat-rabbit.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tiki Tumble",
+      "slug": "tiki-tumble",
+      "url": "https://www.pushgaming.com/games/tiki-tumble.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jammin Jars 2",
+      "slug": "jammin-jars-2",
+      "url": "https://www.pushgaming.com/games/jammin-jars-2.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fire Hopper",
+      "slug": "fire-hopper",
+      "url": "https://www.pushgaming.com/games/fire-hopper.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dinopolis",
+      "slug": "dinopolis",
+      "url": "https://www.pushgaming.com/games/dinopolis.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bison Battle",
+      "slug": "bison-battle",
+      "url": "https://www.pushgaming.com/games/bison-battle.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fat Banker",
+      "slug": "fat-banker",
+      "url": "https://www.pushgaming.com/games/fat-banker.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fat Drac",
+      "slug": "fat-drac",
+      "url": "https://www.pushgaming.com/games/fat-drac.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fat Santa",
+      "slug": "fat-santa",
+      "url": "https://www.pushgaming.com/games/fat-santa.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blaze Ra",
+      "slug": "blaze-ra",
+      "url": "https://www.pushgaming.com/games/blaze-ra.html",
+      "symbol": "",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    }
+  ]
+}

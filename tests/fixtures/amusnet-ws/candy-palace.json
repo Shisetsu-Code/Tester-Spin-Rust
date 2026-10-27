@@ -1,0 +1,1320 @@
+{
+  "init_sent": {
+    "command": "init_game",
+    "platformType": "desktop",
+    "gin": 405,
+    "sessionKey": "[REDACTED]",
+    "messageId": "r-r_1793112294265_1"
+  },
+  "init_received": {
+    "states": {
+      "gameState": {
+        "complex": {
+          "currentState": {
+            "gamblesUsed": 0,
+            "freespinsUsed": 0,
+            "previousGambles": [],
+            "bet": 20,
+            "denomination": 1,
+            "state": "idle",
+            "winAmount": 0,
+            "featureId": 0,
+            "betMultiplier": 1,
+            "reels": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              1,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              2,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              3,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              4,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5,
+              5
+            ],
+            "cardWins": [],
+            "scatters": [],
+            "multipliers": [],
+            "hiddenMultipliers": [],
+            "gambles": 0,
+            "freespins": 0,
+            "freespinScatters": [],
+            "jackpot": false
+          }
+        },
+        "gameIdentificationNumber": 405,
+        "gin": 405,
+        "gameNumber": "-1",
+        "sessionKey": "[REDACTED]",
+        "msg": "success",
+        "messageId": "r-r_1793112294265_1",
+        "command": "init_game",
+        "eventTimestamp": 1793112296333
+      },
+      "jackpotState": {
+        "gameNumber": "-1",
+        "jackpotState": {
+          "jackpotCards": {
+            "levelI": 2392440.0,
+            "levelII": 2098013.0,
+            "levelIII": 106484037.0,
+            "levelIV": 1483061618.0,
+            "winsLevelI": 41958.0,
+            "largestWinLevelI": 11519320.0,
+            "largestWinDateLevelI": "2024-11-25T19:30:41.085Z",
+            "largestWinUserLevelI": "sl_playerDemo Player - 1384677064707",
+            "lastWinLevelI": 2113078.0,
+            "lastWinDateLevelI": "2026-10-27T14:17:02.841Z",
+            "lastWinUserLevelI": "Demo Player - 916f9cb9-d241-4744-9608-95adb7bc9e85",
+            "winsLevelII": 13878.0,
+            "largestWinLevelII": 43668967.0,
+            "largestWinDateLevelII": "2024-11-16T12:57:21.648Z",
+            "largestWinUserLevelII": "player",
+            "lastWinLevelII": 4515575.0,
+            "lastWinDateLevelII": "2026-10-27T14:37:35.327Z",
+            "lastWinUserLevelII": "Demo Player - 3bb005c5-1ebe-47be-94cc-0760143eeae9",
+            "winsLevelIII": 389.0,
+            "largestWinLevelIII": 1316734144.0,
+            "largestWinDateLevelIII": "2025-01-13T19:44:49.571Z",
+            "largestWinUserLevelIII": "player",
+            "lastWinLevelIII": 158323765.0,
+            "lastWinDateLevelIII": "2026-10-26T16:57:14.929Z",
+            "lastWinUserLevelIII": "Demo Player - cd2bdac4-1e3f-4891-ae27-44c723766bff",
+            "winsLevelIV": 30.0,
+            "largestWinLevelIV": 7119677079.0,
+            "largestWinDateLevelIV": "2024-11-17T01:47:32.764Z",
+            "largestWinUserLevelIV": "player",
+            "lastWinLevelIV": 2828284093.0,
+            "lastWinDateLevelIV": "2026-10-20T21:45:31.457Z",
+            "lastWinUserLevelIV": "Demo Player - cefd782c-f12f-4e43-a5b1-688cd5a87c60",
+            "screenName": "Demo Player - 3bb005c5-1ebe-47be-94cc-0760143eeae9",
+            "winAmount": 4515575.0,
+            "winLevel": 1.0,
+            "lastWinners": [
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "Demo Player - 3bb005c5-1ebe-47be-94cc-0760143eeae9",
+                "winAmount": 4515575.0,
+                "winDate": "2026-10-27T14:37:35.327Z",
+                "gin": "530",
+                "winLevel": "1"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "Demo Player - 916f9cb9-d241-4744-9608-95adb7bc9e85",
+                "winAmount": 2113078.0,
+                "winDate": "2026-10-27T14:17:02.841Z",
+                "gin": "5178",
+                "winLevel": "0"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "Demo Player - 1fea9f4d-7a31-4bb0-aa42-f5597609e5fe",
+                "winAmount": 3237039.0,
+                "winDate": "2026-10-27T14:02:27.653Z",
+                "gin": "5181",
+                "winLevel": "0"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "Demo Player - 6b1ec0ae-6371-442e-a1ae-0a727621f179",
+                "winAmount": 4060171.0,
+                "winDate": "2026-10-27T13:40:07.42Z",
+                "gin": "5178",
+                "winLevel": "1"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "Demo Player - c995cb8c-6648-4bd2-a828-cb922d2ee0cc",
+                "winAmount": 3043696.0,
+                "winDate": "2026-10-27T13:25:32.617Z",
+                "gin": "5000",
+                "winLevel": "0"
+              }
+            ],
+            "topWinners": [
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "Demo Player - 1583846723588",
+                "winAmount": 6768094423.0,
+                "winDate": "2026-06-11T14:12:02.66Z",
+                "gin": "548",
+                "winLevel": "3"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "sl_playerDemo Player - 1550870937601",
+                "winAmount": 4442989077.0,
+                "winDate": "2026-03-10T09:47:46.257Z",
+                "gin": "5090",
+                "winLevel": "3"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "sl_playerDemo Player - 1497615802369",
+                "winAmount": 4216557758.0,
+                "winDate": "2025-10-10T22:15:04.127Z",
+                "gin": "528",
+                "winLevel": "3"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "sl_playerDemo Player - 1513252245505",
+                "winAmount": 3879936344.0,
+                "winDate": "2025-11-24T02:36:25.428Z",
+                "gin": "5180",
+                "winLevel": "3"
+              },
+              {
+                "playerId": "[REDACTED]",
+                "winUser": "sl_playerDemo Player - 1445911347203",
+                "winAmount": 3740684980.0,
+                "winDate": "2025-05-17T23:51:50.2Z",
+                "gin": "19",
+                "winLevel": "3"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "settings": {
+      "gameSettings": {
+        "complex": {
+          "scatterIndices": [
+            9
+          ],
+          "freespinFakeReels": [
+            [
+              9,
+              2,
+              8,
+              8,
+              6,
+              6,
+              7,
+              7,
+              4,
+              4,
+              10,
+              1,
+              1,
+              3,
+              0,
+              0,
+              9,
+              1,
+              1,
+              2,
+              2,
+              5,
+              5,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              2,
+              4,
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              9,
+              10,
+              6,
+              6,
+              1,
+              8,
+              8,
+              5,
+              5,
+              7,
+              7
+            ],
+            [
+              9,
+              3,
+              3,
+              2,
+              2,
+              1,
+              6,
+              6,
+              10,
+              2,
+              2,
+              1,
+              1,
+              8,
+              8,
+              4,
+              4,
+              0,
+              0,
+              3,
+              5,
+              5,
+              7,
+              7
+            ],
+            [
+              9,
+              8,
+              8,
+              2,
+              7,
+              7,
+              4,
+              4,
+              1,
+              0,
+              0,
+              10,
+              6,
+              6,
+              2,
+              2,
+              9,
+              3,
+              3,
+              0,
+              4,
+              4,
+              5,
+              5
+            ],
+            [
+              9,
+              7,
+              7,
+              0,
+              2,
+              2,
+              10,
+              3,
+              5,
+              5,
+              8,
+              8,
+              9,
+              2,
+              2,
+              0,
+              0,
+              4,
+              4,
+              6,
+              6,
+              0,
+              0,
+              7,
+              7,
+              1,
+              1
+            ],
+            [
+              9,
+              0,
+              0,
+              2,
+              4,
+              4,
+              1,
+              1,
+              7,
+              7,
+              10,
+              0,
+              0,
+              9,
+              3,
+              3,
+              2,
+              5,
+              5,
+              8,
+              8,
+              2,
+              6,
+              6
+            ]
+          ],
+          "maxGambleBetCoefficient": 70,
+          "featureIds": {
+            "NONE": 0,
+            "BUY_FREESPINS": 1,
+            "DOUBLE_CHANCE": 2
+          },
+          "featureMultipliers": {
+            "0": 1,
+            "1": 80,
+            "2": 1.25
+          },
+          "paytableCoef": {
+            "0": {
+              "coef": [
+                0.25,
+                0.25,
+                0.75,
+                0.75,
+                2
+              ],
+              "multiplier": 1
+            },
+            "1": {
+              "coef": [
+                0.4,
+                0.4,
+                0.9,
+                0.9,
+                4
+              ],
+              "multiplier": 1
+            },
+            "2": {
+              "coef": [
+                0.5,
+                0.5,
+                1,
+                1,
+                5
+              ],
+              "multiplier": 1
+            },
+            "3": {
+              "coef": [
+                0.8,
+                0.8,
+                1.2,
+                1.2,
+                8
+              ],
+              "multiplier": 1
+            },
+            "4": {
+              "coef": [
+                1,
+                1,
+                1.5,
+                1.5,
+                10
+              ],
+              "multiplier": 1
+            },
+            "5": {
+              "coef": [
+                1.5,
+                1.5,
+                2,
+                2,
+                12
+              ],
+              "multiplier": 1
+            },
+            "6": {
+              "coef": [
+                2,
+                2,
+                5,
+                5,
+                15
+              ],
+              "multiplier": 1
+            },
+            "7": {
+              "coef": [
+                2.5,
+                2.5,
+                10,
+                10,
+                25
+              ],
+              "multiplier": 1
+            },
+            "8": {
+              "coef": [
+                10,
+                10,
+                25,
+                25,
+                50
+              ],
+              "multiplier": 1
+            },
+            "9": {
+              "coef": [
+                3,
+                5,
+                100
+              ],
+              "multiplier": 1
+            },
+            "10": {
+              "coef": [],
+              "multiplier": 1
+            }
+          },
+          "maxGambleAmount": 150000,
+          "bets": [
+            20,
+            40,
+            60,
+            80,
+            100,
+            120,
+            140,
+            160,
+            180,
+            200,
+            260,
+            300,
+            360,
+            400,
+            460,
+            500,
+            560,
+            600,
+            660,
+            700,
+            800,
+            900,
+            1000,
+            1200,
+            1400,
+            1600,
+            1800,
+            2000,
+            2500,
+            3000,
+            3500,
+            4000,
+            4500,
+            5000,
+            5500,
+            6000,
+            7000,
+            8000,
+            9000,
+            10000
+          ],
+          "mainFakeReels": [
+            [
+              9,
+              2,
+              8,
+              8,
+              6,
+              6,
+              7,
+              7,
+              4,
+              4,
+              1,
+              1,
+              3,
+              0,
+              0,
+              9,
+              1,
+              1,
+              2,
+              2,
+              5,
+              5,
+              0
+            ],
+            [
+              9,
+              0,
+              0,
+              2,
+              4,
+              4,
+              3,
+              3,
+              1,
+              0,
+              0,
+              9,
+              6,
+              6,
+              1,
+              8,
+              8,
+              5,
+              5,
+              7,
+              7
+            ],
+            [
+              9,
+              3,
+              3,
+              2,
+              2,
+              1,
+              6,
+              6,
+              2,
+              2,
+              1,
+              1,
+              8,
+              8,
+              4,
+              4,
+              0,
+              0,
+              3,
+              5,
+              5,
+              7,
+              7
+            ],
+            [
+              9,
+              8,
+              8,
+              2,
+              7,
+              7,
+              4,
+              4,
+              1,
+              0,
+              0,
+              6,
+              6,
+              2,
+              2,
+              9,
+              3,
+              3,
+              0,
+              4,
+              4,
+              5,
+              5
+            ],
+            [
+              9,
+              7,
+              7,
+              0,
+              2,
+              2,
+              3,
+              5,
+              5,
+              8,
+              8,
+              9,
+              2,
+              2,
+              0,
+              0,
+              4,
+              4,
+              6,
+              6,
+              0,
+              0,
+              7,
+              7,
+              1,
+              1
+            ],
+            [
+              9,
+              0,
+              0,
+              2,
+              4,
+              4,
+              1,
+              1,
+              7,
+              7,
+              0,
+              0,
+              9,
+              3,
+              3,
+              2,
+              5,
+              5,
+              8,
+              8,
+              2,
+              6,
+              6
+            ]
+          ],
+          "rtp": "96.45"
+        },
+        "gameIdentificationNumber": -1,
+        "gin": 0,
+        "gameNumber": "-1",
+        "sessionKey": "[REDACTED]",
+        "msg": "success",
+        "messageId": "r-r_1793112294265_1",
+        "command": "init_game",
+        "eventTimestamp": 1793112296333
+      },
+      "jackpotSettings": {
+        "jackpot": true,
+        "jackpotCards": {
+          "jackpotMaxBet": 5000000.0,
+          "jackpotMinBet": 500.0,
+          "jackpotMinBetLevelI": 0.0,
+          "jackpotMinBetLevelII": 0.0,
+          "jackpotMinBetLevelIII": 0.0,
+          "jackpotMinBetLevelIV": 0.0,
+          "contribution": "1"
+        }
+      }
+    },
+    "playerName": "[REDACTED]",
+    "playerIdToken": "[REDACTED]",
+    "balance": 5000000,
+    "netGain": 0,
+    "currency": "FUN",
+    "sendTotalsInfo": false,
+    "pendingWinResult": {
+      "totalRemainingOverflowAmount": 0
+    },
+    "maxCap": {},
+    "gameMetadata": {
+      "gin": 405,
+      "type": "VIDEO_SLOT",
+      "released": true,
+      "deprecated": false,
+      "gameVersion": "1.0.0.r",
+      "remoteGame": false,
+      "jackpot": "MLM",
+      "metadata": {
+        "maxCap": true,
+        "defaultRtp": "96.45",
+        "isBuyBonus": true,
+        "vipGame": false,
+        "customFeatures": {},
+        "betConfigLines": 20,
+        "maxProbabilityAndRtp": true,
+        "gameDefaultRtp": {
+          "id": "28",
+          "rtp": "96.45",
+          "jurisdictions": []
+        },
+        "maxBetEur": "100.00",
+        "desktop": true,
+        "bespokeGame": false,
+        "utcClock": true,
+        "type": "VIDEO_SLOT",
+        "reels": 6,
+        "multiplayerGame": "[REDACTED]",
+        "gameVersion": "1.0.0.r",
+        "releaseDate": "2022-06-01",
+        "jackpots": [
+          "MLM"
+        ],
+        "minBetEur": "0.20",
+        "themes": [
+          "FESTIVE",
+          "CASCADE"
+        ],
+        "upscale": true,
+        "casinoDivision": "CASINO",
+        "hitRate": "27.00",
+        "module": "CPJSlot",
+        "volatility": "3.0",
+        "certifiedName": "Candy Palace",
+        "buyBonus": "YES",
+        "linesWaysMatches": "MATCH",
+        "costCentre": "CASINO",
+        "translations": [
+          {
+            "countryCode": "BG",
+            "translated": true
+          },
+          {
+            "countryCode": "CS",
+            "translated": true
+          },
+          {
+            "countryCode": "DA",
+            "translated": true
+          },
+          {
+            "countryCode": "DE",
+            "translated": true
+          },
+          {
+            "countryCode": "EL",
+            "translated": true
+          },
+          {
+            "countryCode": "EN",
+            "translated": true
+          },
+          {
+            "countryCode": "ES",
+            "translated": true
+          },
+          {
+            "countryCode": "FI",
+            "translated": true
+          },
+          {
+            "countryCode": "FR",
+            "translated": true
+          },
+          {
+            "countryCode": "HR",
+            "translated": true
+          },
+          {
+            "countryCode": "HU",
+            "translated": true
+          },
+          {
+            "countryCode": "IT",
+            "translated": true
+          },
+          {
+            "countryCode": "KA",
+            "translated": true
+          },
+          {
+            "countryCode": "MK",
+            "translated": true
+          },
+          {
+            "countryCode": "NL",
+            "translated": true
+          },
+          {
+            "countryCode": "PT",
+            "translated": true
+          },
+          {
+            "countryCode": "PT_BR",
+            "translated": true
+          },
+          {
+            "countryCode": "RO",
+            "translated": true
+          },
+          {
+            "countryCode": "RU",
+            "translated": true
+          },
+          {
+            "countryCode": "SK",
+            "translated": true
+          },
+          {
+            "countryCode": "SV",
+            "translated": true
+          },
+          {
+            "countryCode": "TR",
+            "translated": true
+          },
+          {
+            "countryCode": "UK",
+            "translated": true
+          },
+          {
+            "countryCode": "KO",
+            "translated": true
+          },
+          {
+            "countryCode": "UK_UA",
+            "translated": true
+          },
+          {
+            "countryCode": "AR",
+            "translated": true
+          },
+          {
+            "countryCode": "ZH",
+            "translated": true
+          }
+        ],
+        "jackpotRtp": true,
+        "mobile": "YES",
+        "gameLaunchUrl": "https://www.amusnet.com/games/online-casino/candy-palace/",
+        "rngGame": true,
+        "doubleChance": true,
+        "gameJurisdictions": [
+          {
+            "code": "BY",
+            "status": "YES"
+          },
+          {
+            "code": "BE",
+            "status": "YES"
+          },
+          {
+            "code": "BA",
+            "status": "YES"
+          },
+          {
+            "code": "BR",
+            "status": "YES"
+          },
+          {
+            "code": "BG",
+            "status": "YES"
+          },
+          {
+            "code": "CO",
+            "status": "YES"
+          },
+          {
+            "code": "HR",
+            "status": "YES"
+          },
+          {
+            "code": "CW",
+            "status": "YES"
+          },
+          {
+            "code": "CZ",
+            "status": "YES"
+          },
+          {
+            "code": "DK",
+            "status": "YES"
+          },
+          {
+            "code": "EE",
+            "status": "YES"
+          },
+          {
+            "code": "GE",
+            "status": "YES"
+          },
+          {
+            "code": "GR",
+            "status": "YES"
+          },
+          {
+            "code": "HU",
+            "status": "YES"
+          },
+          {
+            "code": "IT",
+            "status": "YES"
+          },
+          {
+            "code": "LV",
+            "status": "YES"
+          },
+          {
+            "code": "LT",
+            "status": "YES"
+          },
+          {
+            "code": "MT",
+            "status": "YES"
+          },
+          {
+            "code": "MX",
+            "status": "YES"
+          },
+          {
+            "code": "NL",
+            "status": "YES"
+          },
+          {
+            "code": "PA",
+            "status": "YES"
+          },
+          {
+            "code": "PE",
+            "status": "YES"
+          },
+          {
+            "code": "PT",
+            "status": "YES"
+          },
+          {
+            "code": "RO",
+            "status": "YES"
+          },
+          {
+            "code": "SK",
+            "status": "YES"
+          },
+          {
+            "code": "ZA",
+            "status": "YES"
+          },
+          {
+            "code": "ES",
+            "status": "YES"
+          },
+          {
+            "code": "SE",
+            "status": "YES"
+          },
+          {
+            "code": "CH",
+            "status": "YES"
+          },
+          {
+            "code": "UA",
+            "status": "YES"
+          },
+          {
+            "code": "AR-B",
+            "status": "YES"
+          },
+          {
+            "code": "AR-C",
+            "status": "YES"
+          },
+          {
+            "code": "SI",
+            "status": "YES"
+          },
+          {
+            "code": "FI",
+            "status": "YES"
+          },
+          {
+            "code": "AT",
+            "status": "YES"
+          },
+          {
+            "code": "CA-ON",
+            "status": "YES"
+          },
+          {
+            "code": "CA-AB",
+            "status": "YES"
+          }
+        ],
+        "jurisdictions": [
+          "BY",
+          "BE",
+          "BA",
+          "BR",
+          "BG",
+          "CO",
+          "HR",
+          "CW",
+          "CZ",
+          "DK",
+          "EE",
+          "GE",
+          "GR",
+          "HU",
+          "IT",
+          "LV",
+          "LT",
+          "MT",
+          "MX",
+          "NL",
+          "PA",
+          "PE",
+          "PT",
+          "RO",
+          "SK",
+          "ZA",
+          "ES",
+          "SE",
+          "CH",
+          "UA",
+          "AR-B",
+          "AR-C",
+          "SI",
+          "FI",
+          "AT",
+          "CA-ON",
+          "CA-AB"
+        ],
+        "engine": "CandyPalaceSlot",
+        "chanceOfMaxWinProbability": "1:255631360000",
+        "lineOptions": "PLUS_8",
+        "buyBonusProperties": [
+          {
+            "featureId": "BUY_FREESPINS",
+            "name": "Free Spins",
+            "price": "80"
+          }
+        ],
+        "bonusFeatures": [
+          "FREE_SPIN",
+          "FREE_BUY_BONUS",
+          "LUCKY_SPIN",
+          "COUNTDOWN_FREE_SPIN"
+        ],
+        "rows": 5,
+        "remoteGame": false,
+        "gin": 405,
+        "deprecated": false,
+        "released": true,
+        "gameFactory": "CASINO_DIVISION",
+        "features": [
+          "RANDOM_MULTIPLIERS",
+          "GAMBLE",
+          "BONUS_SPINS"
+        ],
+        "jackpot": "MLM"
+      }
+    },
+    "messageId": "r-r_1793112294265_1",
+    "sessionKey": "[REDACTED]",
+    "status": "success",
+    "command": "init_game",
+    "eventTimestamp": 1793112296338
+  },
+  "bet_sent": {
+    "command": "bet",
+    "bet": {
+      "bet": 20,
+      "betMultiplier": 1,
+      "bonus": false,
+      "featureId": 0,
+      "gameCommand": "bet"
+    },
+    "gameNumber": "-1",
+    "bonusData": null,
+    "gin": 405,
+    "sessionKey": "[REDACTED]",
+    "messageId": "r-r_525718638295335888_902930875198398848_1793112413485_2"
+  },
+  "bet_received": {
+    "complex": {
+      "reels": [
+        2,
+        3,
+        3,
+        4,
+        4,
+        7,
+        7,
+        6,
+        6,
+        4,
+        4,
+        1,
+        1,
+        2,
+        3,
+        0,
+        0,
+        5,
+        5,
+        4,
+        4,
+        6,
+        8,
+        8,
+        1,
+        1,
+        9,
+        0,
+        2,
+        1,
+        1,
+        8,
+        8,
+        5,
+        5,
+        6,
+        6,
+        4,
+        4,
+        1,
+        1,
+        2
+      ],
+      "cardWins": [
+        {
+          "cardId": 1,
+          "winAmount": 8,
+          "cells": [
+            1,
+            3,
+            1,
+            4,
+            3,
+            2,
+            3,
+            3,
+            4,
+            0,
+            4,
+            1,
+            5,
+            3,
+            5,
+            4
+          ]
+        }
+      ],
+      "scatters": [],
+      "multipliers": [],
+      "hiddenMultipliers": [],
+      "gambles": 3,
+      "freespins": 0,
+      "freespinScatters": [],
+      "cascades": [
+        {
+          "reelsChange": [
+            {
+              "cells": [],
+              "cards": [],
+              "multipliers": []
+            },
+            {
+              "cells": [
+                3,
+                4
+              ],
+              "cards": [
+                0,
+                0
+              ],
+              "multipliers": []
+            },
+            {
+              "cells": [],
+              "cards": [],
+              "multipliers": []
+            },
+            {
+              "cells": [
+                2,
+                3
+              ],
+              "cards": [
+                2,
+                6
+              ],
+              "multipliers": []
+            },
+            {
+              "cells": [
+                0,
+                1
+              ],
+              "cards": [
+                6,
+                2
+              ],
+              "multipliers": []
+            },
+            {
+              "cells": [
+                3,
+                4
+              ],
+              "cards": [
+                0,
+                0
+              ],
+              "multipliers": []
+            }
+          ],
+          "cardWins": [],
+          "scatters": [],
+          "multipliers": [],
+          "freespins": 0,
+          "freespinScatters": [],
+          "winAmount": 0
+        }
+      ],
+      "jackpot": false,
+      "gameCommand": "bet"
+    },
+    "state": "gamble",
+    "winAmount": 8,
+    "gameIdentificationNumber": 405,
+    "gin": 405,
+    "gameNumber": "902931375251712203",
+    "balance": 4999980,
+    "netGain": -20,
+    "pendingWinResult": {
+      "overflowAmount": 0,
+      "mysteryAmount": 0,
+      "totalRemainingOverflowAmount": 0
+    },
+    "sessionKey": "[REDACTED]",
+    "msg": "success",
+    "messageId": "r-r_525718638295335888_902930875198398848_1793112413485_2",
+    "command": "bet",
+    "eventTimestamp": 1793112415552
+  },
+  "collect_sent": {
+    "command": "bet",
+    "bet": {
+      "gameCommand": "collect"
+    },
+    "gameNumber": "902931375251712203",
+    "gin": 405,
+    "sessionKey": "[REDACTED]",
+    "messageId": "r-r_525718638295335888_902930875198398848_1793112450345_3"
+  },
+  "collect_received": {
+    "complex": {
+      "gameCommand": "collect"
+    },
+    "state": "idle",
+    "winAmount": 8,
+    "gameIdentificationNumber": -1,
+    "gin": 0,
+    "gameNumber": "902931375251712203",
+    "balance": 4999988,
+    "netGain": -12,
+    "pendingWinResult": {
+      "overflowAmount": 0,
+      "mysteryAmount": 0,
+      "totalRemainingOverflowAmount": 0
+    },
+    "sessionKey": "[REDACTED]",
+    "msg": "success",
+    "messageId": "r-r_525718638295335888_902930875198398848_1793112450345_3",
+    "command": "bet",
+    "eventTimestamp": 1793112452401
+  }
+}

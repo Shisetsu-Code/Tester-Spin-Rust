@@ -1,0 +1,175 @@
+{
+  "request": {
+    "g": "diamondsdd",
+    "restoreState": {
+      "restoreSpin": true
+    },
+    "restoreVersion": 1,
+    "ba": 250,
+    "ga": "spin",
+    "timestamp": 1793104406266
+  },
+  "response": {
+    "collectorWinnings": [],
+    "correspondingBa": 250,
+    "freeSpinAwardedCount": 0,
+    "generations": [
+      {
+        "runningTotal": 0,
+        "removedSymbols": [],
+        "scatterSymbols": [],
+        "collectedSymbols": 0,
+        "collectedLevel": 0,
+        "collectorSymbols": [],
+        "winnings": [],
+        "symbols": [
+          [
+            "L8",
+            "H3",
+            "L8",
+            "H4",
+            "H1"
+          ],
+          [
+            "H1",
+            "H1",
+            "L7",
+            "L7",
+            "H2"
+          ],
+          [
+            "L5",
+            "L5",
+            "H3",
+            "H2",
+            "L8"
+          ],
+          [
+            "H1",
+            "H3",
+            "L7",
+            "L5",
+            "H2"
+          ],
+          [
+            "H1",
+            "H1",
+            "L6",
+            "H1",
+            "L5"
+          ]
+        ]
+      }
+    ],
+    "stats": {
+      "b": 499750,
+      "fm": 100000,
+      "currency": "FUN",
+      "realityCheck": {
+        "result": 0,
+        "sessionMinutes": 5,
+        "lossLimit": null,
+        "winSum": 0,
+        "resetedResult": 0,
+        "hardErrors": false,
+        "totalSessionMinutes": 5,
+        "sessionLimitSeconds": null,
+        "betSum": 0,
+        "containedRoundBetSum": 0,
+        "containedRoundWinSum": 0,
+        "status": "ok"
+      }
+    },
+    "jackpot": true,
+    "payTokens": false,
+    "ended": true,
+    "subgameTriggered": false,
+    "jackpotCurrency": "EUR",
+    "roundType": "demo",
+    "jackpots": {
+      "0": {
+        "winCount": 294,
+        "amount": 150112889,
+        "eurAmount": 150112889,
+        "lastWin": {
+          "amount": 199999999,
+          "eurAmount": 199999999,
+          "ts": 1783073851
+        },
+        "guaranteed": 200000000,
+        "currency": "EUR",
+        "eurGuaranteed": 200000000
+      },
+      "1": {
+        "winCount": 240,
+        "amount": 3766154,
+        "eurAmount": 3766154,
+        "lastWin": {
+          "amount": 3791857,
+          "eurAmount": 3791857,
+          "ts": 1787726381
+        },
+        "guaranteed": 5000000,
+        "currency": "EUR",
+        "eurGuaranteed": 5000000
+      },
+      "2": {
+        "winCount": 817,
+        "amount": 32498,
+        "eurAmount": 32498,
+        "lastWin": {
+          "amount": 25051,
+          "eurAmount": 25051,
+          "ts": 1792414676
+        },
+        "guaranteed": -1,
+        "currency": "EUR",
+        "eurGuaranteed": -1
+      },
+      "3": {
+        "winCount": 801,
+        "amount": 3209,
+        "eurAmount": 3209,
+        "lastWin": {
+          "amount": 2125,
+          "eurAmount": 2125,
+          "ts": 1792414728
+        },
+        "guaranteed": -1,
+        "currency": "EUR",
+        "eurGuaranteed": -1
+      },
+      "4": {
+        "winCount": 1014,
+        "amount": 213,
+        "eurAmount": 213,
+        "lastWin": {
+          "amount": 1080,
+          "eurAmount": 1080,
+          "ts": 1792763968
+        },
+        "guaranteed": -1,
+        "currency": "EUR",
+        "eurGuaranteed": -1
+      },
+      "5": {
+        "winCount": 298,
+        "amount": 17,
+        "startDateTime": "2026-10-27T06:00Z",
+        "eurAmount": 17,
+        "lastWin": {
+          "amount": 25,
+          "eurAmount": 25,
+          "ts": 1793007511
+        },
+        "guaranteed": -1,
+        "currency": "EUR",
+        "endDateTime": "2026-10-27T14:00Z",
+        "eurGuaranteed": -1
+      }
+    },
+    "roundId": 0,
+    "win": 0,
+    "ba": 250
+  }
+}

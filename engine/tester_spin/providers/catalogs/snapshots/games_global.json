@@ -1,0 +1,892 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "games_global",
+  "source": "https://www.gamesglobal.com/Products",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_featured_selection",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Gold Blitz Extreme™",
+      "slug": "goldblitzextreme",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldBlitzExtreme",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Gold Blitz™",
+      "slug": "goldblitz",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldBlitz",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "12 Masks of Fire Drums™",
+      "slug": "12masksoffiredrums",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "12MasksofFireDrums",
+      "thumbnail_url": "",
+      "studio": "Gameburger Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Area Link Dragon",
+      "slug": "arealinkdragon",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AreaLinkDragon",
+      "thumbnail_url": "",
+      "studio": "AreaLinkDragon",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Gold Blitz Ultimate",
+      "slug": "goldblitzultimate",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldBlitzUltimate",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Fire and Roses Joker™",
+      "slug": "fireandrosesjoker",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "FireandRosesJoker",
+      "thumbnail_url": "",
+      "studio": "Triple Edge Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Dark Waters Power Combo™",
+      "slug": "darkwaterspowercombo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "DarkWatersPowerCombo",
+      "thumbnail_url": "",
+      "studio": "Just For The Win Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Amazing Link Zeus",
+      "slug": "amazinglinkzeus",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkZeus",
+      "thumbnail_url": "",
+      "studio": "Spinplay Games",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "9 Masks of Fire",
+      "slug": "9masksoffire",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "9MasksofFire",
+      "thumbnail_url": "",
+      "studio": "Gameburger Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Gold Rush Express",
+      "slug": "goldrushexpress",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldRushExpress",
+      "thumbnail_url": "",
+      "studio": "AreaVegas Games",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Area Link™ Phoenix",
+      "slug": "arealinkphoenix",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AreaLinkPhoenix",
+      "thumbnail_url": "",
+      "studio": "Area Vegas",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Immortal Romance™ II",
+      "slug": "immortalromanceii",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ImmortalRomanceII",
+      "thumbnail_url": "",
+      "studio": "Stormcraft Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Rome Fight For Gold Deluxe",
+      "slug": "romefightforgolddeluxe",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "RomeFightForGoldDeluxe",
+      "thumbnail_url": "",
+      "studio": "Foxium",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Ancient Fortunes: Poseidon™ WowPot! MEGAWAYS™",
+      "slug": "ancientfortunesposeidonwowpotmegaways",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AncientFortunesPoseidonWOWPotMegaways",
+      "thumbnail_url": "",
+      "studio": "Triple Edge Studios",
+      "category": "Legendary Slots",
+      "catalog_aliases": [
+        "Ancient Fortunes: Poseidon™ WowPot! MEGAWAYS™"
+      ]
+    },
+    {
+      "name": "Rising Rewards",
+      "slug": "risingrewards",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "RisingRewards",
+      "thumbnail_url": "",
+      "studio": "Triple Edge Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Blazing Bison™ Gold Blitz™",
+      "slug": "blazingbisongoldblitz",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "BlazingBisonGoldBlitz",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Fishin' Pots Of Gold",
+      "slug": "fishinpotsofgold",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "FishinPotsOfGold",
+      "thumbnail_url": "",
+      "studio": "Gameburger Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Cerberus Gold",
+      "slug": "cerberusgold",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "CerberusGold",
+      "thumbnail_url": "",
+      "studio": "Pear Fiction Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "3 Lucky Rainbows Action Boost Max",
+      "slug": "3luckyrainbowsactionboostmax",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "3LuckyRainbowsActionBoostMax",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "333 Boom Banks POWER COMBO",
+      "slug": "333boombankspowercombo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "333BoomBanksPOWERCOMBO",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Legendary Slots"
+    },
+    {
+      "name": "Mega Moolah",
+      "slug": "megamoolah",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "MegaMoolah",
+      "thumbnail_url": "",
+      "studio": "Games Global Portfolio",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Book of Atem WowPot",
+      "slug": "bookofatemwowpot",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "BookofAtemWOWPOT",
+      "thumbnail_url": "",
+      "studio": "All41 Studios ",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Atlantean Treasures Mega Moolah",
+      "slug": "atlanteantreasuresmegamoolah",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AtlanteanTreasuresMegaMoolah",
+      "thumbnail_url": "",
+      "studio": "Neon Valley Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "9 Masks of Fire™ King Millions™",
+      "slug": "9maskoffirekingmillions",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "9MaskofFireKingMillions",
+      "thumbnail_url": "",
+      "studio": "Gameburger Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Give Me Gold Rising Rewards King Millions",
+      "slug": "givemegoldrisingrewardskingmillions",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GiveMeGoldRisingRewardsKingMillions",
+      "thumbnail_url": "",
+      "studio": "All For One Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Sisters of Oz WowPot",
+      "slug": "sistersofozwowpot",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "SistersofOzWOWPOT",
+      "thumbnail_url": "",
+      "studio": "Triple Edge Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Roulette Mega Moolah",
+      "slug": "roulettemegamoolah",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "RouletteMegaMoolah",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Progressives Jackpots",
+      "catalog_aliases": [
+        "Roulette Mega Moolah"
+      ]
+    },
+    {
+      "name": "Immortal Romance Mega Moolah",
+      "slug": "immortalromancemegamoolah",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ImmortalRomanceMegaMoolah",
+      "thumbnail_url": "",
+      "studio": "Games Global Portfolio",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "9 Blazing Diamonds WOWPOT",
+      "slug": "9blazingdiamondswowpot",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "9BlazingDiamondsWOWPOT",
+      "thumbnail_url": "",
+      "studio": "Spin Play Games",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Thunderstruck Wild Lightning Mega Moolah",
+      "slug": "thunderstruckwildlightningmegamoolah",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ThunderstruckWildLightningMegaMoolah",
+      "thumbnail_url": "",
+      "studio": "Stormcraft Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Wheel of Wishes",
+      "slug": "wheelofwishes",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "WheelofWishes",
+      "thumbnail_url": "",
+      "studio": "Alchemy Gaming",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Gold Factory Jackpots Maple Moolah",
+      "slug": "goldfactoryjackpots",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldFactoryJackpots",
+      "thumbnail_url": "",
+      "studio": "Aurum Signature Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Gold Blitz™ King Millions™",
+      "slug": "goldblitzkingmillions",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldBlitzKingMillions",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "Queen of Alexandria WOWPOT",
+      "slug": "queenofalexandriawowpot",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "QueenofAlexandriaWOWPOT",
+      "thumbnail_url": "",
+      "studio": "Neon Valley Studios",
+      "category": "Progressives Jackpots"
+    },
+    {
+      "name": "DUNGEONS & DRAGONS POWER COMBO™",
+      "slug": "dungeonsdragonspowercombo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "DUNGEONSDRAGONSPOWERCOMBO",
+      "thumbnail_url": "",
+      "studio": "Triple Edge Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "Money Mayweather",
+      "slug": "moneymayweather",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "MoneyMayweather",
+      "thumbnail_url": "",
+      "studio": "Neon Valley Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "UFC Gold Blitz Extreme™",
+      "slug": "ufcgoldblitzextreme",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "UFCGoldBlitzExtreme",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "WWE Bonus Rumble™: Gold Blitz™",
+      "slug": "wwebonusrumblegoldblitz",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "WWEBonusRumbleGoldBlitz",
+      "thumbnail_url": "",
+      "studio": "Fortune Factory Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "Playboy® Fortunes™ King Millions™",
+      "slug": "playboyfortuneskingmillions",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "PlayboyFortunesKingMillions",
+      "thumbnail_url": "",
+      "studio": "Gameburger Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "Lara Croft®: Tomb of the Sun™",
+      "slug": "laracrofttombofthesun",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "LaraCroftTomboftheSun",
+      "thumbnail_url": "",
+      "studio": "Triple Edge Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "Playboy Fortunes",
+      "slug": "playboyfortunes",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "PlayboyFortunes",
+      "thumbnail_url": "",
+      "studio": "Gameburger Studios",
+      "category": "Branded Titles"
+    },
+    {
+      "name": "Low Stakes Roulette",
+      "slug": "lowstakesroulette",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "LowStakesRoulette",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "European Roulette",
+      "slug": "switcheuropeanroulette",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "SwitchEuropeanRoulette",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Multifire Roulette",
+      "slug": "multifireroulette",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "MultifireRoulette",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Extreme Multifire Roulette",
+      "slug": "extrememultifireroulette",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ExtremeMultifireRoulette",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "9 Pots of Gold Roulette",
+      "slug": "9potsofgoldroulette",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "9PotsofGoldRoulette",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Multihand Classic Blackjack",
+      "slug": "multihandclassicblackjack",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "MultihandClassicBlackjack",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Premier Blackjack with Side Bets",
+      "slug": "premierblackjackwithsidebets",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "PremierBlackjackwithSideBets",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "European Blackjack",
+      "slug": "europeanblackjack",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "EuropeanBlackjack",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Three Wheel Roulette",
+      "slug": "threewheelroulette",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ThreeWheelRoulette",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Baccarat",
+      "slug": "switchbaccarat",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "SwitchBaccarat",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Sic Bo",
+      "slug": "sicbo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "SicBo",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games"
+    },
+    {
+      "name": "Wheel of Winners",
+      "slug": "wheelofwinners",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "WheelofWinners",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Table Games",
+      "catalog_aliases": [
+        "Wheel of Winners"
+      ]
+    },
+    {
+      "name": "Roulette with Rachael",
+      "slug": "roulettewithrachael",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "RoulettewithRachael",
+      "thumbnail_url": "",
+      "studio": "Real Dealer",
+      "category": "Table Games"
+    },
+    {
+      "name": "Vinnie Jones Blackjack",
+      "slug": "vinniejonesblackjack",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "VinnieJonesBlackjack",
+      "thumbnail_url": "",
+      "studio": "Real Dealer",
+      "category": "Table Games"
+    },
+    {
+      "name": "Golden Tiger: Jackpot Fortunes™",
+      "slug": "goldentigerjackpotfortunes",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "GoldenTigerJackpotFortunes",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Jacks or Better Power Poker",
+      "slug": "jacksorbetterpowerpoker",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "JacksorBetterPowerPoker",
+      "thumbnail_url": "",
+      "studio": "Flip Five Gaming",
+      "category": "Video Bingo & Poker",
+      "catalog_aliases": [
+        "Jacks or Better - Power Poker"
+      ]
+    },
+    {
+      "name": "Carnaval Link&Win™",
+      "slug": "carnavallinkwin",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "CarnavalLinkWin",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Catrina",
+      "slug": "catrina",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "Catrina",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Double Double Bonus - Power Poker",
+      "slug": "doubledoublebonuspowerpoker",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "DoubleDoubleBonusPowerPoker",
+      "thumbnail_url": "",
+      "studio": "Flip Five Gaming",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Bingote",
+      "slug": "bingote",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "Bingote",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Bonus Poker - Power Poker",
+      "slug": "bonuspokerpowerpoker",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "BonusPokerPowerPoker",
+      "thumbnail_url": "",
+      "studio": "Flip Five Gaming",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Pachinko",
+      "slug": "pachinko",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "Pachinko",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Deuces & Joker - Power Poker",
+      "slug": "deucesjokerpowerpoker",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "DeucesJokerPowerPoker",
+      "thumbnail_url": "",
+      "studio": "Flip Five Gaming",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "American Gold Fever",
+      "slug": "americangoldfever",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmericanGoldFever",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Immortal Romance Video Bingo",
+      "slug": "immortalromancevideobingo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ImmortalRomanceVideoBingo",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Thunderstruck II Video Bingo",
+      "slug": "thunderstruckiivideobingo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ThunderstruckIIVideoBingo",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Fu 88",
+      "slug": "fu88",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "Fu88",
+      "thumbnail_url": "",
+      "studio": "Neko Games",
+      "category": "Video Bingo & Poker"
+    },
+    {
+      "name": "Thunderstruck™ FlyX™",
+      "slug": "thunderstruckflyx",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ThunderstruckFlyX",
+      "thumbnail_url": "",
+      "studio": "Stormcraft Studios",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Mines Originals",
+      "slug": "minesoriginals",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "MinesOriginals",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Whack the Bell - Tap n Cash™",
+      "slug": "whackthebelltapncash",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "WhacktheBellTapnCash",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Plinball™ - Originals",
+      "slug": "plinkooriginals",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "PlinkoOriginals",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "FlyX",
+      "slug": "flyx",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "FlyX",
+      "thumbnail_url": "",
+      "studio": "Buck Stakes Entertainment",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "LaunchX™ - Originals",
+      "slug": "limbooriginals",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "LimboOriginals",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "9 Masks of Fire™ Land & Win™",
+      "slug": "9masksoffirelandwin",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "9MasksofFireLandWin",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "9 Pots of Gold Land & Win™",
+      "slug": "9potsofgoldlandwin",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "9PotsofGoldLandWin",
+      "thumbnail_url": "",
+      "studio": "Switch Studios",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Rock Paper Scissors - Originals",
+      "slug": "rockpaperscissorsoriginals",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "RockPaperScissorsOriginals",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "FlyX™ Cash Booster™",
+      "slug": "flyxcashboosta",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "FlyXCashBoosta",
+      "thumbnail_url": "",
+      "studio": "Buck Stakes Entertainment",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Mega Money Wheel",
+      "slug": "megamoneywheel",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "MegaMoneyWheel",
+      "thumbnail_url": "",
+      "studio": "Buck Stakes Entertainment",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Dice - Originals",
+      "slug": "diceoriginals",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "DiceOriginals",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Wild Scoops - Tap n Cash™",
+      "slug": "wildscoopstapncash",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "WildScoopsTapnCash",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Balls Galore Lightning Drop™",
+      "slug": "ballsgalorelightningdrop",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "BallsGaloreLightningDrop",
+      "thumbnail_url": "",
+      "studio": "Coin Machine Gaming",
+      "category": "Crash, Casual and More"
+    },
+    {
+      "name": "Action Boost™ Amber Island",
+      "slug": "actionboostamberisland",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ActionBoostAmberIsland",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Action Boost™ Gladiator",
+      "slug": "actionboostgladiator",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ActionBoostGladiator",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Action Boost™ Gorilla Gems",
+      "slug": "actionboostgorillagems",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "ActionBoostGorillaGems",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link Medusa",
+      "slug": "amazinglinkmedusa",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkMedusa",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link Riches",
+      "slug": "amazinglinkriches",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkRiches",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link Zeus Epic 4™",
+      "slug": "amazinglinkzeusepic4",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkZeusEpic4",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link™ Apollo",
+      "slug": "amazinglinkapollo",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkApollo",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link™ Bounty",
+      "slug": "amazinglinkbounty",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkBounty",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link™ Catalleros",
+      "slug": "amazinglinkcatalleros",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkCatalleros",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link™ Fates",
+      "slug": "amazinglinkfates",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkFates",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Amazing Link™ Frenzy",
+      "slug": "amazinglinkfrenzy",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "AmazingLinkFrenzy",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Wild Link Frenzy",
+      "slug": "wildlinkfrenzy",
+      "url": "https://www.gamesglobal.com/Products",
+      "symbol": "WildLinkFrenzy",
+      "thumbnail_url": "",
+      "studio": "SpinPlay Games",
+      "category": "Legendary Slots",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    }
+  ]
+}

@@ -1,0 +1,6772 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "greentube",
+  "source": "https://www.greentube.com/all-games/",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Xtension Link™ – Golden Chicago™ XL",
+      "slug": "xtension-link-golden-chicago-xl-linked",
+      "url": "https://www.greentube.com/game/xtension-link-golden-chicago-xl-linked/",
+      "symbol": "90982",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Witch Tricks™ Win Ways™",
+      "slug": "witch-tricks-win-ways",
+      "url": "https://www.greentube.com/game/witch-tricks-win-ways/",
+      "symbol": "90979",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Tut’s Tomb of Riches",
+      "slug": "lucky-tuts-tomb-of-riches",
+      "url": "https://www.greentube.com/game/lucky-tuts-tomb-of-riches/",
+      "symbol": "90833",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Orange Trio",
+      "slug": "orange-trio",
+      "url": "https://www.greentube.com/game/orange-trio/",
+      "symbol": "90830",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtension Link™ – Golden Book of Ra™ XL",
+      "slug": "xtension-link-golden-book-of-ra-xl",
+      "url": "https://www.greentube.com/game/xtension-link-golden-book-of-ra-xl/",
+      "symbol": "90712",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Lawless Loot™",
+      "slug": "piggy-prizes-lawless-loot",
+      "url": "https://www.greentube.com/game/piggy-prizes-lawless-loot/",
+      "symbol": "90838",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firecracker Frenzy™ Roar of Riches™",
+      "slug": "firecracker-frenzy-roar-of-riches",
+      "url": "https://www.greentube.com/game/firecracker-frenzy-roar-of-riches/",
+      "symbol": "90559",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Coins Joker Buy Bonus",
+      "slug": "multi-coins-joker-buy-bonus",
+      "url": "https://www.greentube.com/game/multi-coins-joker-buy-bonus/",
+      "symbol": "90551",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Brilliant Pots – Jester’s Gift",
+      "slug": "brilliant-pots-jesters-gift",
+      "url": "https://www.greentube.com/game/brilliant-pots-jesters-gift/",
+      "symbol": "90876",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Lawless Loot™ Buy Bonus",
+      "slug": "piggy-prizes-lawless-loot-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-lawless-loot-buy-bonus/",
+      "symbol": "90871",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Tut’s Tomb of Riches Buy Bonus",
+      "slug": "lucky-tuts-tomb-of-riches-buy-bonus",
+      "url": "https://www.greentube.com/game/lucky-tuts-tomb-of-riches-buy-bonus/",
+      "symbol": "90835",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Orange Trio Buy Bonus",
+      "slug": "orange-trio-buy-bonus",
+      "url": "https://www.greentube.com/game/orange-trio-buy-bonus/",
+      "symbol": "90831",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firecracker Frenzy™ Roar of Riches™ Buy Bonus",
+      "slug": "firecracker-frenzy-roar-of-riches-buy-bonus",
+      "url": "https://www.greentube.com/game/firecracker-frenzy-roar-of-riches-buy-bonus/",
+      "symbol": "90571",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Samurai",
+      "slug": "diamond-link-mighty-samurai",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-samurai/",
+      "symbol": "90543",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Charming Lady’s Boom™ Coins Dice",
+      "slug": "cash-connection-charming-ladys-boom-coins-dice",
+      "url": "https://www.greentube.com/game/cash-connection-charming-ladys-boom-coins-dice/",
+      "symbol": "90705",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Viking Dice",
+      "slug": "diamond-link-mighty-viking-dice",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-viking-dice/",
+      "symbol": "89367",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Cleopatra Dice",
+      "slug": "diamond-link-mighty-cleopatra-dice",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-cleopatra-dice/",
+      "symbol": "89360",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santa’s Wild Ride",
+      "slug": "santas-wild-ride",
+      "url": "https://www.greentube.com/game/santas-wild-ride/",
+      "symbol": "85291",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hǔ Wants a Vacation Buy Bonus",
+      "slug": "hu-wants-a-vacation-buy-bonus",
+      "url": "https://www.greentube.com/game/hu-wants-a-vacation-buy-bonus/",
+      "symbol": "84974",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hǔ Wants a Vacation",
+      "slug": "hu-wants-a-vacation",
+      "url": "https://www.greentube.com/game/hu-wants-a-vacation/",
+      "symbol": "84972",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stairway to Sevens Stack & Collect™ Buy Bonus",
+      "slug": "stairway-to-sevens-stack-collect-buy-bonus",
+      "url": "https://www.greentube.com/game/stairway-to-sevens-stack-collect-buy-bonus/",
+      "symbol": "84969",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stairway to Sevens Stack & Collect™",
+      "slug": "stairway-to-sevens-stack-collect",
+      "url": "https://www.greentube.com/game/stairway-to-sevens-stack-collect/",
+      "symbol": "84967",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wish Upon a Star™ 2 Buy Bonus",
+      "slug": "wish-upon-a-star-2-buy-bonus",
+      "url": "https://www.greentube.com/game/wish-upon-a-star-2-buy-bonus/",
+      "symbol": "84964",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wish Upon a Star™ 2",
+      "slug": "wish-upon-a-star-2",
+      "url": "https://www.greentube.com/game/wish-upon-a-star-2/",
+      "symbol": "84962",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rumble Riches™ – Santa’s Sleigh of Gold™ Buy Bonus",
+      "slug": "rumble-riches-santas-sleigh-of-gold-buy-bonus",
+      "url": "https://www.greentube.com/game/rumble-riches-santas-sleigh-of-gold-buy-bonus/",
+      "symbol": "84959",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rumble Riches™ – Santa’s Sleigh of Gold™",
+      "slug": "rumble-riches-santas-sleigh-of-gold",
+      "url": "https://www.greentube.com/game/rumble-riches-santas-sleigh-of-gold/",
+      "symbol": "84957",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Alotta Lobsters",
+      "slug": "alotta-lobsters",
+      "url": "https://www.greentube.com/game/alotta-lobsters/",
+      "symbol": "85294",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtension Link™ – Golden Chicago™ XL",
+      "slug": "xtension-link-golden-chicago-xl-mynt",
+      "url": "https://www.greentube.com/game/xtension-link-golden-chicago-xl-mynt/",
+      "symbol": "85288",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blazing Volcano Pots Buy Bonus",
+      "slug": "blazing-volcano-pots-buy-bonus",
+      "url": "https://www.greentube.com/game/blazing-volcano-pots-buy-bonus/",
+      "symbol": "84954",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blazing Volcano Pots",
+      "slug": "blazing-volcano-pots",
+      "url": "https://www.greentube.com/game/blazing-volcano-pots/",
+      "symbol": "84952",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Buffalo Round ‘em Up! Buy Bonus",
+      "slug": "mighty-buffalo-round-em-up-buy-bonus",
+      "url": "https://www.greentube.com/game/mighty-buffalo-round-em-up-buy-bonus/",
+      "symbol": "84949",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mighty Buffalo: Round ‘Em Up!",
+      "slug": "mighty-buffalo-round-em-up",
+      "url": "https://www.greentube.com/game/mighty-buffalo-round-em-up/",
+      "symbol": "84947",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Monkeys Ahoy Buy Bonus",
+      "slug": "monkeys-ahoy-buy-bonus",
+      "url": "https://www.greentube.com/game/monkeys-ahoy-buy-bonus/",
+      "symbol": "84944",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Monkeys Ahoy",
+      "slug": "monkeys-ahoy",
+      "url": "https://www.greentube.com/game/monkeys-ahoy/",
+      "symbol": "84942",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ – Ghost of Gambini™ Buy Bonus",
+      "slug": "piggy-prizes-ghost-of-gambini-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-ghost-of-gambini-buy-bonus/",
+      "symbol": "84940",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ – Ghost of Gambini™",
+      "slug": "piggy-prizes-ghost-of-gambini",
+      "url": "https://www.greentube.com/game/piggy-prizes-ghost-of-gambini/",
+      "symbol": "84938",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charming Lady’s Boom™ Dice",
+      "slug": "charming-ladys-boom-dice",
+      "url": "https://www.greentube.com/game/charming-ladys-boom-dice/",
+      "symbol": "84802",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bursting Buffalo Pots Buy Bonus",
+      "slug": "bursting-buffalo-pots-buy-bonus",
+      "url": "https://www.greentube.com/game/bursting-buffalo-pots-buy-bonus/",
+      "symbol": "84798",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bursting Buffalo Pots",
+      "slug": "bursting-buffalo-pots",
+      "url": "https://www.greentube.com/game/bursting-buffalo-pots/",
+      "symbol": "84790",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux – Magic Sevens",
+      "slug": "silver-lux-magic-sevens",
+      "url": "https://www.greentube.com/game/silver-lux-magic-sevens/",
+      "symbol": "66827",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tumbling Joker",
+      "slug": "tumbling-joker",
+      "url": "https://www.greentube.com/game/tumbling-joker/",
+      "symbol": "84746",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Brilliant Pots – Tumbling Joker",
+      "slug": "brilliant-pots-tumbling-joker",
+      "url": "https://www.greentube.com/game/brilliant-pots-tumbling-joker/",
+      "symbol": "81985",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtreme 3™ – Wish of Riches™",
+      "slug": "xtreme-3-wish-of-riches",
+      "url": "https://www.greentube.com/game/xtreme-3-wish-of-riches/",
+      "symbol": "81995",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtreme 3™ – Wish of Riches™ Buy Bonus",
+      "slug": "xtreme-3-wish-of-riches-buy-bonus",
+      "url": "https://www.greentube.com/game/xtreme-3-wish-of-riches-buy-bonus/",
+      "symbol": "81997",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Highway to Bell Stack & Collect™ Buy Bonus",
+      "slug": "highway-to-bell-stack-collect-buy-bonus",
+      "url": "https://www.greentube.com/game/highway-to-bell-stack-collect-buy-bonus/",
+      "symbol": "81991",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Highway to Bell Stack & Collect™",
+      "slug": "highway-to-bell-stack-collect",
+      "url": "https://www.greentube.com/game/highway-to-bell-stack-collect/",
+      "symbol": "81449",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtension Link™ – Stars Up™",
+      "slug": "xtension-link-stars-up",
+      "url": "https://www.greentube.com/game/xtension-link-stars-up/",
+      "symbol": "83615",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtension Link™ – Golden Book of Ra™ XL",
+      "slug": "xtension-link-golden-book-of-ra",
+      "url": "https://www.greentube.com/game/xtension-link-golden-book-of-ra/",
+      "symbol": "83533",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reeling in Cash",
+      "slug": "reeling-in-cash",
+      "url": "https://www.greentube.com/game/reeling-in-cash/",
+      "symbol": "81987",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reeling in Cash Buy Bonus",
+      "slug": "reeling-in-cash-buy-bonus",
+      "url": "https://www.greentube.com/game/reeling-in-cash-buy-bonus/",
+      "symbol": "81989",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Party Gods Buy Bonus",
+      "slug": "party-gods-buy-bonus",
+      "url": "https://www.greentube.com/game/party-gods-buy-bonus/",
+      "symbol": "82072",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Party Gods",
+      "slug": "party-gods",
+      "url": "https://www.greentube.com/game/party-gods/",
+      "symbol": "82069",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Gems™",
+      "slug": "sizzling-gems",
+      "url": "https://www.greentube.com/game/sizzling-gems/",
+      "symbol": "83180",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Novo Pick a Poker – Jack’s Draw Poker ™",
+      "slug": "novo-pick-a-poker-jacks-draw-poker",
+      "url": "https://www.greentube.com/game/novo-pick-a-poker-jacks-draw-poker/",
+      "symbol": "82613",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hu Wants Money",
+      "slug": "hu-wants-money",
+      "url": "https://www.greentube.com/game/hu-wants-money/",
+      "symbol": "81608",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ Athena Goddess of War™ Xtreme Bet",
+      "slug": "starlight-jackpots-athena-goddess-of-war-xtreme-bet",
+      "url": "https://www.greentube.com/game/starlight-jackpots-athena-goddess-of-war-xtreme-bet/",
+      "symbol": "81452",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jumping Jesters 100",
+      "slug": "jumping-jesters-100",
+      "url": "https://www.greentube.com/game/jumping-jesters-100/",
+      "symbol": "82208",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Monster Buy Bonus",
+      "slug": "candy-monster-buy-bonus",
+      "url": "https://www.greentube.com/game/candy-monster-buy-bonus/",
+      "symbol": "81605",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "DJ Dog Buy Bonus",
+      "slug": "dj-dog-buy-bonus",
+      "url": "https://www.greentube.com/game/dj-dog-buy-bonus/",
+      "symbol": "81612",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "DJ Dog",
+      "slug": "dj-dog",
+      "url": "https://www.greentube.com/game/dj-dog/",
+      "symbol": "81610",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™ – Mighty Aztec",
+      "slug": "diamond-cash-mighty-aztec",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-aztec/",
+      "symbol": "81960",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™ – Mighty Aztec",
+      "slug": "diamond-link-mighty-aztec",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-aztec/",
+      "symbol": "81615",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Runner",
+      "slug": "multi-runner",
+      "url": "https://www.greentube.com/game/multi-runner/",
+      "symbol": "81903",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Greedy Joker",
+      "slug": "greedy-joker",
+      "url": "https://www.greentube.com/game/greedy-joker/",
+      "symbol": "81702",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flaming Devil",
+      "slug": "flaming-devil",
+      "url": "https://www.greentube.com/game/flaming-devil/",
+      "symbol": "81438",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Wish of Riches 2™ Buy Bonus",
+      "slug": "piggy-prizes-wish-of-riches-2-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-wish-of-riches-2-buy-bonus/",
+      "symbol": "80709",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Wish of Riches 2™",
+      "slug": "piggy-prizes-wish-of-riches-2",
+      "url": "https://www.greentube.com/game/piggy-prizes-wish-of-riches-2/",
+      "symbol": "78199",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Charming Lady’s Boom™ Coins",
+      "slug": "thunder-cash-charming-ladys-boom-coins",
+      "url": "https://www.greentube.com/game/thunder-cash-charming-ladys-boom-coins/",
+      "symbol": "80885",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Monster",
+      "slug": "candy-monster",
+      "url": "https://www.greentube.com/game/candy-monster/",
+      "symbol": "81028",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ Bison Rush™",
+      "slug": "starlight-jackpots-bison-rush",
+      "url": "https://www.greentube.com/game/starlight-jackpots-bison-rush/",
+      "symbol": "78147",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Coins Joker",
+      "slug": "multi-coins-joker",
+      "url": "https://www.greentube.com/game/multi-coins-joker/",
+      "symbol": "80922",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "FaziDrops – Wild Hot 40",
+      "slug": "fazidrops-wild-hot-40",
+      "url": "https://www.greentube.com/game/fazidrops-wild-hot-40/",
+      "symbol": "80066",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Cascade – 40 Wild Fire 6™",
+      "slug": "cash-cascade-40-wild-fire-6",
+      "url": "https://www.greentube.com/game/cash-cascade-40-wild-fire-6/",
+      "symbol": "80038",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Jokers",
+      "slug": "golden-jokers",
+      "url": "https://www.greentube.com/game/golden-jokers/",
+      "symbol": "71275",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Flows",
+      "slug": "fortune-flows",
+      "url": "https://www.greentube.com/game/fortune-flows/",
+      "symbol": "79160",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Runner",
+      "slug": "fortune-runner",
+      "url": "https://www.greentube.com/game/fortune-runner/",
+      "symbol": "78822",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Charming Lady’s Boom™ Coins",
+      "slug": "cash-connection-charming-ladys-boom-coins",
+      "url": "https://www.greentube.com/game/cash-connection-charming-ladys-boom-coins/",
+      "symbol": "77818",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Railroad Rumble™",
+      "slug": "piggy-prizes-railroad-rumble",
+      "url": "https://www.greentube.com/game/piggy-prizes-railroad-rumble/",
+      "symbol": "77521",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luckycapi Buy Bonus",
+      "slug": "luckycapi-buy-bonus",
+      "url": "https://www.greentube.com/game/luckycapi-buy-bonus/",
+      "symbol": "78422",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luckycapi",
+      "slug": "luckycapi",
+      "url": "https://www.greentube.com/game/luckycapi/",
+      "symbol": "78203",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Railroad Rumble™ Buy Bonus",
+      "slug": "piggy-prizes-railroad-rumble-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-railroad-rumble-buy-bonus/",
+      "symbol": "78064",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Flaming Dragon",
+      "slug": "golden-flaming-dragon",
+      "url": "https://www.greentube.com/game/golden-flaming-dragon/",
+      "symbol": "75875",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Maker 2 Buy Bonus",
+      "slug": "money-maker-buy-bonus",
+      "url": "https://www.greentube.com/game/money-maker-buy-bonus/",
+      "symbol": "77828",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Maker 2",
+      "slug": "money-maker-2",
+      "url": "https://www.greentube.com/game/money-maker-2/",
+      "symbol": "77823",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Flaming Dragon Buy Bonus",
+      "slug": "golden-flaming-dragon-buy-bonus",
+      "url": "https://www.greentube.com/game/golden-flaming-dragon-buy-bonus/",
+      "symbol": "78152",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wheeler Dealer Buy Bonus",
+      "slug": "wheeler-dealer-buy-bonus",
+      "url": "https://www.greentube.com/game/wheeler-dealer-buy-bonus/",
+      "symbol": "74611",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Brilliant Pots – Fortune Flows",
+      "slug": "brilliant-pots-fortune-flows-ante-bet",
+      "url": "https://www.greentube.com/game/brilliant-pots-fortune-flows-ante-bet/",
+      "symbol": "74977",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Charming 7’s 6reels",
+      "slug": "diamond-mystery-40-charming-7s-6reels",
+      "url": "https://www.greentube.com/game/diamond-mystery-40-charming-7s-6reels/",
+      "symbol": "77719",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Easter BOOM",
+      "slug": "easter-boom",
+      "url": "https://www.greentube.com/game/easter-boom/",
+      "symbol": "77638",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cow Abduction- Tapper",
+      "slug": "cow-abduction-tapper",
+      "url": "https://www.greentube.com/game/cow-abduction-tapper/",
+      "symbol": "77492",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Queen of Coins",
+      "slug": "queen-of-coins",
+      "url": "https://www.greentube.com/game/queen-of-coins/",
+      "symbol": "77485",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wheeler Dealer",
+      "slug": "wheeler-dealer",
+      "url": "https://www.greentube.com/game/wheeler-dealer/",
+      "symbol": "71663",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Blast",
+      "slug": "coin-blast",
+      "url": "https://www.greentube.com/game/coin-blast/",
+      "symbol": "77017",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "100 Magnificent Crown",
+      "slug": "100-magnificent-crown-no-pot",
+      "url": "https://www.greentube.com/game/100-magnificent-crown-no-pot/",
+      "symbol": "77069",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Joker Frenzy",
+      "slug": "50-joker-frenzy",
+      "url": "https://www.greentube.com/game/50-joker-frenzy/",
+      "symbol": "77073",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rumble Riches™ – Haulin’ Gold™",
+      "slug": "rumble-riches-haulin-gold",
+      "url": "https://www.greentube.com/game/rumble-riches-haulin-gold/",
+      "symbol": "75284",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Buffalo Dice",
+      "slug": "diamond-link-mighty-buffalo-dice",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-buffalo-dice/",
+      "symbol": "76955",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rumble Riches™ – Haulin’ Gold™ Buy Bonus",
+      "slug": "rumble-riches-haulin-gold-buy-bonus",
+      "url": "https://www.greentube.com/game/rumble-riches-haulin-gold-buy-bonus/",
+      "symbol": "75287",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wild™ SuperStars",
+      "slug": "simply-wild-superstars",
+      "url": "https://www.greentube.com/game/simply-wild-superstars/",
+      "symbol": "71780",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Risk 4 Reward",
+      "slug": "risk-4-reward",
+      "url": "https://www.greentube.com/game/risk-4-reward/",
+      "symbol": "71756",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Smashing Sevens™: Win Ways™ Dice",
+      "slug": "smashing-sevens-win-ways-dice",
+      "url": "https://www.greentube.com/game/smashing-sevens-win-ways-dice/",
+      "symbol": "76553",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ Mighty Mayans™",
+      "slug": "starlight-jackpots-mighty-mayans",
+      "url": "https://www.greentube.com/game/starlight-jackpots-mighty-mayans/",
+      "symbol": "75281",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Panda Pearls",
+      "slug": "panda-pearls",
+      "url": "https://www.greentube.com/game/panda-pearls/",
+      "symbol": "75239",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Moonlight Safari",
+      "slug": "thunder-cash-moonlight-safari",
+      "url": "https://www.greentube.com/game/thunder-cash-moonlight-safari/",
+      "symbol": "75001",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firecracker Frenzy™ – Money Toad™  Buy Bonus",
+      "slug": "firecracker-frenzy-money-toad-buy-bonus",
+      "url": "https://www.greentube.com/game/firecracker-frenzy-money-toad-buy-bonus/",
+      "symbol": "75277",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firecracker Frenzy™ – Money Toad™",
+      "slug": "firecracker-frenzy-money-toad",
+      "url": "https://www.greentube.com/game/firecracker-frenzy-money-toad/",
+      "symbol": "75272",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of the Dragon",
+      "slug": "eye-of-the-dragon-mynt",
+      "url": "https://www.greentube.com/game/eye-of-the-dragon-mynt/",
+      "symbol": "76178",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Toxic Tides™",
+      "slug": "toxic-tides",
+      "url": "https://www.greentube.com/game/toxic-tides/",
+      "symbol": "76166",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Swiss Magic",
+      "slug": "thunder-cash-swiss-magic-2",
+      "url": "https://www.greentube.com/game/thunder-cash-swiss-magic-2/",
+      "symbol": "70671",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Three Bandits: Shoot ’n’ Spin Buy Bonus",
+      "slug": "three-bandits-shoot-n-spin-buy-bonus",
+      "url": "https://www.greentube.com/game/three-bandits-shoot-n-spin-buy-bonus/",
+      "symbol": "75264",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe Buy Bonus",
+      "slug": "book-of-ra-deluxe-buy-bonus",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-buy-bonus/",
+      "symbol": "73460",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Mystic Lamps",
+      "slug": "3-mystic-lamps",
+      "url": "https://www.greentube.com/game/3-mystic-lamps/",
+      "symbol": "74308",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Brilliant Pots – 100 Magnificent Crown",
+      "slug": "brilliant-pots-100-magnificent-crown",
+      "url": "https://www.greentube.com/game/brilliant-pots-100-magnificent-crown/",
+      "symbol": "71055",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Mystic Lamps Buy Bonus",
+      "slug": "3-mystic-lamps-buy-bonus",
+      "url": "https://www.greentube.com/game/3-mystic-lamps-buy-bonus/",
+      "symbol": "74836",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Brilliant Pots – 50 Joker Frenzy",
+      "slug": "brilliant-pots-50-joker-frenzy",
+      "url": "https://www.greentube.com/game/brilliant-pots-50-joker-frenzy/",
+      "symbol": "73616",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gorilla Cash™",
+      "slug": "gorilla-cash",
+      "url": "https://www.greentube.com/game/gorilla-cash/",
+      "symbol": "75130",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gorilla Cash™ Buy Bonus",
+      "slug": "gorilla-cash-buy-bonus",
+      "url": "https://www.greentube.com/game/gorilla-cash-buy-bonus/",
+      "symbol": "75120",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Coins Pro",
+      "slug": "multi-coins-pro",
+      "url": "https://www.greentube.com/game/multi-coins-pro/",
+      "symbol": "75083",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bingo Triplo",
+      "slug": "bingo-triplo",
+      "url": "https://www.greentube.com/game/bingo-triplo/",
+      "symbol": "71063",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bambu Bingo",
+      "slug": "bambu-bingo",
+      "url": "https://www.greentube.com/game/bambu-bingo/",
+      "symbol": "71540",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Moonlight Safari",
+      "slug": "cash-connection-moonlight-safari",
+      "url": "https://www.greentube.com/game/cash-connection-moonlight-safari/",
+      "symbol": "71701",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dolphin’s Pearl™",
+      "slug": "dolphins-pearl",
+      "url": "https://www.greentube.com/game/dolphins-pearl/",
+      "symbol": "72656",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Reels™ – Grand Slam",
+      "slug": "multi-reels-grand-slam",
+      "url": "https://www.greentube.com/game/multi-reels-grand-slam/",
+      "symbol": "71931",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "A Christmas Full of Wilds™ (MYNT)",
+      "slug": "a-christmas-full-of-wilds-adapted",
+      "url": "https://www.greentube.com/game/a-christmas-full-of-wilds-adapted/",
+      "symbol": "69196",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Three Bandits: Shoot ’n’ Spin",
+      "slug": "three-bandits-shoot-n-spin",
+      "url": "https://www.greentube.com/game/three-bandits-shoot-n-spin/",
+      "symbol": "71891",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Cash Coins",
+      "slug": "simply-cash-coins",
+      "url": "https://www.greentube.com/game/simply-cash-coins/",
+      "symbol": "71328",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Solid Sevens™",
+      "slug": "thunder-cash-solid-sevens",
+      "url": "https://www.greentube.com/game/thunder-cash-solid-sevens/",
+      "symbol": "71538",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Fury",
+      "slug": "coin-fury",
+      "url": "https://www.greentube.com/game/coin-fury/",
+      "symbol": "71469",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "CAICHEN TRIPLE BLOSSOM",
+      "slug": "caichen-triple-blossom",
+      "url": "https://www.greentube.com/game/caichen-triple-blossom/",
+      "symbol": "71201",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Scatter X",
+      "slug": "super-scatter-x",
+      "url": "https://www.greentube.com/game/super-scatter-x/",
+      "symbol": "71164",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Enchanted Pegasus™ BOOM",
+      "slug": "enchanted-pegasus-boom",
+      "url": "https://www.greentube.com/game/enchanted-pegasus-boom/",
+      "symbol": "71156",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Jingle Jackpots™ Buy Bonus",
+      "slug": "piggy-prizes-jingle-jackpots-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-jingle-jackpots-buy-bonus/",
+      "symbol": "71107",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Jingle Jackpots™",
+      "slug": "piggy-prizes-jingle-jackpots",
+      "url": "https://www.greentube.com/game/piggy-prizes-jingle-jackpots/",
+      "symbol": "70801",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lock Breakers – Golden Nuts Buy Bonus",
+      "slug": "lock-breakers-golden-nuts-buy-bonus",
+      "url": "https://www.greentube.com/game/lock-breakers-golden-nuts-buy-bonus/",
+      "symbol": "70724",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lock Breakers – Golden Nuts",
+      "slug": "lock-breakers-golden-nuts",
+      "url": "https://www.greentube.com/game/lock-breakers-golden-nuts/",
+      "symbol": "70721",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Solid Sevens™",
+      "slug": "cash-connection-solid-sevens",
+      "url": "https://www.greentube.com/game/cash-connection-solid-sevens/",
+      "symbol": "70716",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lone Star Link™: Sizzling Wins",
+      "slug": "lone-star-link-sizzling-wins",
+      "url": "https://www.greentube.com/game/lone-star-link-sizzling-wins/",
+      "symbol": "69530",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "A Mummy Full of Wilds™",
+      "slug": "a-mummy-full-of-wilds",
+      "url": "https://www.greentube.com/game/a-mummy-full-of-wilds/",
+      "symbol": "70677",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Creepy Candy Buy Bonus",
+      "slug": "creepy-candy-buy-bonus",
+      "url": "https://www.greentube.com/game/creepy-candy-buy-bonus/",
+      "symbol": "69504",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Creepy Candy",
+      "slug": "creepy-candy",
+      "url": "https://www.greentube.com/game/creepy-candy/",
+      "symbol": "69404",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux – Sevens Hold’em Respin",
+      "slug": "silver-lux-sevens-holdem-respin",
+      "url": "https://www.greentube.com/game/silver-lux-sevens-holdem-respin/",
+      "symbol": "69526",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legends of Huntsman – Against the Darkness™",
+      "slug": "legends-of-huntsman-against-the-darkness",
+      "url": "https://www.greentube.com/game/legends-of-huntsman-against-the-darkness/",
+      "symbol": "70241",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Swiss Magic",
+      "slug": "cash-connection-swiss-magic",
+      "url": "https://www.greentube.com/game/cash-connection-swiss-magic/",
+      "symbol": "70567",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Jackpot: Hot Shot",
+      "slug": "classic-jackpot-hot-shot",
+      "url": "https://www.greentube.com/game/classic-jackpot-hot-shot/",
+      "symbol": "69514",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Spinner",
+      "slug": "coin-spinner",
+      "url": "https://www.greentube.com/game/coin-spinner/",
+      "symbol": "69501",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Wild Winner",
+      "slug": "random-wild-winner",
+      "url": "https://www.greentube.com/game/random-wild-winner/",
+      "symbol": "69161",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™ – Mighty Elephant Dice",
+      "slug": "diamond-link-mighty-elephant-dice",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-elephant-dice/",
+      "symbol": "69012",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Sevens Dice",
+      "slug": "diamond-link-mighty-sevens-dice",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-sevens-dice/",
+      "symbol": "69003",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Hold’em",
+      "slug": "simply-holdem",
+      "url": "https://www.greentube.com/game/simply-holdem/",
+      "symbol": "68705",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ – Captain’s Catch™",
+      "slug": "starlight-jackpots-captains-catch",
+      "url": "https://www.greentube.com/game/starlight-jackpots-captains-catch/",
+      "symbol": "68929",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Luchadoras Buy Bonus",
+      "slug": "lucky-luchadoras-buy-bonus",
+      "url": "https://www.greentube.com/game/lucky-luchadoras-buy-bonus/",
+      "symbol": "68926",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Luchadoras",
+      "slug": "lucky-luchadoras",
+      "url": "https://www.greentube.com/game/lucky-luchadoras/",
+      "symbol": "68921",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Coins",
+      "slug": "multi-coins",
+      "url": "https://www.greentube.com/game/multi-coins/",
+      "symbol": "66360",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9 Hearts",
+      "slug": "9-hearts",
+      "url": "https://www.greentube.com/game/9-hearts/",
+      "symbol": "68912",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Golden Sizzling Hot™",
+      "slug": "cash-connection-golden-sizzling-hot",
+      "url": "https://www.greentube.com/game/cash-connection-golden-sizzling-hot/",
+      "symbol": "66357",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker’s Bonanza™",
+      "slug": "jokers-bonanza",
+      "url": "https://www.greentube.com/game/jokers-bonanza/",
+      "symbol": "68752",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firecracker Frenzy™ Empress Wealth™ Buy Bonus",
+      "slug": "firecracker-frenzy-empress-wealth-buy-bonus",
+      "url": "https://www.greentube.com/game/firecracker-frenzy-empress-wealth-buy-bonus/",
+      "symbol": "67936",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Firecracker Frenzy™ Empress Wealth™",
+      "slug": "firecracker-frenzy-empress-wealth",
+      "url": "https://www.greentube.com/game/firecracker-frenzy-empress-wealth/",
+      "symbol": "67929",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "American Respin",
+      "slug": "american-respin",
+      "url": "https://www.greentube.com/game/american-respin/",
+      "symbol": "67779",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux – Extra Dice",
+      "slug": "silver-lux-extra-dice",
+      "url": "https://www.greentube.com/game/silver-lux-extra-dice/",
+      "symbol": "66351",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Triple Fortune",
+      "slug": "super-triple-fortune-mynt",
+      "url": "https://www.greentube.com/game/super-triple-fortune-mynt/",
+      "symbol": "66707",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ Chances Des Dieux 2",
+      "slug": "starlight-jackpots-chances-des-dieux-2",
+      "url": "https://www.greentube.com/game/starlight-jackpots-chances-des-dieux-2/",
+      "symbol": "66224",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™ – Mighty Cleopatra",
+      "slug": "diamond-cash-mighty-cleopatra",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-cleopatra/",
+      "symbol": "63869",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Coins O’ Plenty™",
+      "slug": "piggy-prizes-coins-o-plenty",
+      "url": "https://www.greentube.com/game/piggy-prizes-coins-o-plenty/",
+      "symbol": "65357",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Coins O’ Plenty™ Buy Bonus",
+      "slug": "piggy-prizes-coins-o-plenty-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-coins-o-plenty-buy-bonus/",
+      "symbol": "65177",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lock Breakers – Goblin Bros. Buy Bonus",
+      "slug": "lock-breakers-goblin-bros-buy-bonus",
+      "url": "https://www.greentube.com/game/lock-breakers-goblin-bros-buy-bonus/",
+      "symbol": "65169",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lock Breakers – Goblin Bros.",
+      "slug": "lock-breakers-goblin-bros",
+      "url": "https://www.greentube.com/game/lock-breakers-goblin-bros/",
+      "symbol": "65164",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Trinity Treasures™ Wukong Buy Bonus",
+      "slug": "trinity-treasures-buy-bonus",
+      "url": "https://www.greentube.com/game/trinity-treasures-buy-bonus/",
+      "symbol": "65148",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Trinity Treasures™ Wukong",
+      "slug": "trinity-treasures-wukong",
+      "url": "https://www.greentube.com/game/trinity-treasures-wukong/",
+      "symbol": "65143",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ultra Blitz™ – Chilli El Toro Buy Bonus",
+      "slug": "ultra-blitz-chilli-el-toro-buy-bonus",
+      "url": "https://www.greentube.com/game/ultra-blitz-chilli-el-toro-buy-bonus/",
+      "symbol": "65139",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ultra Blitz™ – Chilli El Toro",
+      "slug": "ultra-blitz-chilli-el-toro",
+      "url": "https://www.greentube.com/game/ultra-blitz-chilli-el-toro/",
+      "symbol": "65133",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ Odds of the Gods 2",
+      "slug": "starlight-jackpots-odds-of-the-gods-2",
+      "url": "https://www.greentube.com/game/starlight-jackpots-odds-of-the-gods-2/",
+      "symbol": "65130",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™ – Mighty Cleopatra",
+      "slug": "diamond-link-mighty-cleopatra",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-cleopatra/",
+      "symbol": "63446",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gang Wars Buy Bonus",
+      "slug": "gang-wars-buy-bonus",
+      "url": "https://www.greentube.com/game/gang-wars-buy-bonus/",
+      "symbol": "63166",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gang Wars",
+      "slug": "gang-wars",
+      "url": "https://www.greentube.com/game/gang-wars/",
+      "symbol": "63163",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash Lotto",
+      "slug": "diamond-cash-lotto",
+      "url": "https://www.greentube.com/game/diamond-cash-lotto/",
+      "symbol": "63156",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Cascade – 100 Charming 7’s",
+      "slug": "cash-cascade-100-charming-7s",
+      "url": "https://www.greentube.com/game/cash-cascade-100-charming-7s/",
+      "symbol": "59990",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Winner",
+      "slug": "joker-winner",
+      "url": "https://www.greentube.com/game/joker-winner/",
+      "symbol": "63107",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sushi Fruits™",
+      "slug": "sushi-fruits",
+      "url": "https://www.greentube.com/game/sushi-fruits/",
+      "symbol": "63091",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pepper Mania Casino",
+      "slug": "pepper-mania-casino",
+      "url": "https://www.greentube.com/game/pepper-mania-casino/",
+      "symbol": "59981",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dessert Kingdom Buy Bonus",
+      "slug": "dessert-kingdom-buy-bonus",
+      "url": "https://www.greentube.com/game/dessert-kingdom-buy-bonus/",
+      "symbol": "62241",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™ Mighty Viking",
+      "slug": "diamond-cash-mighty-viking",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-viking/",
+      "symbol": "62866",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charming Lady™ Win Ways™",
+      "slug": "charming-lady-win-ways",
+      "url": "https://www.greentube.com/game/charming-lady-win-ways/",
+      "symbol": "62822",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "3 Fortune Wishes",
+      "slug": "3-fortune-wishes",
+      "url": "https://www.greentube.com/game/3-fortune-wishes/",
+      "symbol": "62813",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Roulette",
+      "slug": "royal-roulette",
+      "url": "https://www.greentube.com/game/royal-roulette/",
+      "symbol": "62549",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™: Wand Of Riches 2™ Buy Bonus",
+      "slug": "piggy-prizes-wand-of-riches-2-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-wand-of-riches-2-buy-bonus/",
+      "symbol": "62245",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™: Wand Of Riches 2™",
+      "slug": "piggy-prizes-wand-of-riches-2",
+      "url": "https://www.greentube.com/game/piggy-prizes-wand-of-riches-2/",
+      "symbol": "62100",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s™ Roulette",
+      "slug": "lucky-ladys-roulette",
+      "url": "https://www.greentube.com/game/lucky-ladys-roulette/",
+      "symbol": "62203",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dessert Kingdom",
+      "slug": "dessert-kingdom",
+      "url": "https://www.greentube.com/game/dessert-kingdom/",
+      "symbol": "62096",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Little Cluckers™",
+      "slug": "little-cluckers",
+      "url": "https://www.greentube.com/game/little-cluckers/",
+      "symbol": "59654",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Party Parrots™",
+      "slug": "party-parrots",
+      "url": "https://www.greentube.com/game/party-parrots/",
+      "symbol": "62070",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™ Mighty Viking",
+      "slug": "diamond-link-mighty-viking",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-viking/",
+      "symbol": "59532",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 100 Charming 7’s",
+      "slug": "diamond-mystery-100-charming-7s",
+      "url": "https://www.greentube.com/game/diamond-mystery-100-charming-7s/",
+      "symbol": "58664",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Fruitful Frenzy – Cash Accumulator",
+      "slug": "diamond-mystery-fruitful-frenzy-cash-accumulator",
+      "url": "https://www.greentube.com/game/diamond-mystery-fruitful-frenzy-cash-accumulator/",
+      "symbol": "58668",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Triple Fortune",
+      "slug": "super-triple-fortune",
+      "url": "https://www.greentube.com/game/super-triple-fortune/",
+      "symbol": "61468",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Howdy, Cupid!",
+      "slug": "howdy-cupid",
+      "url": "https://www.greentube.com/game/howdy-cupid/",
+      "symbol": "61074",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ 10 Dice",
+      "slug": "book-of-ra-10-dice",
+      "url": "https://www.greentube.com/game/book-of-ra-10-dice/",
+      "symbol": "60967",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Luck of the Dead",
+      "slug": "match-more-luck-of-the-dead",
+      "url": "https://www.greentube.com/game/match-more-luck-of-the-dead/",
+      "symbol": "60563",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Flame Queen",
+      "slug": "match-more-flame-queen",
+      "url": "https://www.greentube.com/game/match-more-flame-queen/",
+      "symbol": "60560",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Golden Safari",
+      "slug": "match-more-golden-safari",
+      "url": "https://www.greentube.com/game/match-more-golden-safari/",
+      "symbol": "60557",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Biker’s Bounty",
+      "slug": "match-more-bikers-bounty",
+      "url": "https://www.greentube.com/game/match-more-bikers-bounty/",
+      "symbol": "60545",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Bayou Queen",
+      "slug": "match-more-bayou-queen",
+      "url": "https://www.greentube.com/game/match-more-bayou-queen/",
+      "symbol": "60886",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Honey Touch",
+      "slug": "match-more-honey-touch",
+      "url": "https://www.greentube.com/game/match-more-honey-touch/",
+      "symbol": "60539",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Match More: Jewels and Gems",
+      "slug": "match-jewels-gems",
+      "url": "https://www.greentube.com/game/match-jewels-gems/",
+      "symbol": "60796",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux- Triple Bonus Gems",
+      "slug": "silver-lux-triple-bonus-gems",
+      "url": "https://www.greentube.com/game/silver-lux-triple-bonus-gems/",
+      "symbol": "58177",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lamp Of Wonders – Tapper",
+      "slug": "lamp-of-wonders-tapper",
+      "url": "https://www.greentube.com/game/lamp-of-wonders-tapper/",
+      "symbol": "55860",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Sword – Tapper",
+      "slug": "lucky-sword-tapper",
+      "url": "https://www.greentube.com/game/lucky-sword-tapper/",
+      "symbol": "58224",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit King Super Cash",
+      "slug": "fruit-king-super-cash",
+      "url": "https://www.greentube.com/game/fruit-king-super-cash/",
+      "symbol": "58166",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Jackpot: TopSpinner™",
+      "slug": "classic-jackpot-topspinner",
+      "url": "https://www.greentube.com/game/classic-jackpot-topspinner/",
+      "symbol": "58651",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Runner Unlimited Cascading Wins (Ante Bet)",
+      "slug": "runner-unlimited-cascading-wins",
+      "url": "https://www.greentube.com/game/runner-unlimited-cascading-wins/",
+      "symbol": "55857",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Mighty Santa Boarded Up",
+      "slug": "diamond-cash-mighty-santa-boarded-up",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-santa-boarded-up/",
+      "symbol": "58169",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™ – Mighty Santa: Boarded Up",
+      "slug": "diamond-link-mighty-santa-boarded",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-santa-boarded/",
+      "symbol": "57628",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xmas Bells™",
+      "slug": "xmas-bells",
+      "url": "https://www.greentube.com/game/xmas-bells/",
+      "symbol": "57625",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tiger & Jewel™",
+      "slug": "tiger-jewel",
+      "url": "https://www.greentube.com/game/tiger-jewel/",
+      "symbol": "57620",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Calacas Cash™ Buy Bonus",
+      "slug": "calacas-cash-buy-bonus",
+      "url": "https://www.greentube.com/game/calacas-cash-buy-bonus/",
+      "symbol": "57553",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Calacas Cash™",
+      "slug": "calacas-cash",
+      "url": "https://www.greentube.com/game/calacas-cash/",
+      "symbol": "57542",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hit ME Baby!",
+      "slug": "hit-me-baby",
+      "url": "https://www.greentube.com/game/hit-me-baby/",
+      "symbol": "54334",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Cards on Reels",
+      "slug": "lucky-cards-on-reels",
+      "url": "https://www.greentube.com/game/lucky-cards-on-reels/",
+      "symbol": "55854",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wild™ 20",
+      "slug": "simply-wild-20",
+      "url": "https://www.greentube.com/game/simply-wild-20/",
+      "symbol": "55851",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Flush™ Trophy Spins™ Buy Bonus",
+      "slug": "royal-flush-trophy-spins-buy-bonus",
+      "url": "https://www.greentube.com/game/royal-flush-trophy-spins-buy-bonus/",
+      "symbol": "57121",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Flush™ Trophy Spins™",
+      "slug": "royal-flush-trophy-spins",
+      "url": "https://www.greentube.com/game/royal-flush-trophy-spins/",
+      "symbol": "57018",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ Fortune Streaks",
+      "slug": "diamond-mystery-fortune-streaks-fixed-jp",
+      "url": "https://www.greentube.com/game/diamond-mystery-fortune-streaks-fixed-jp/",
+      "symbol": "47571",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ Win Ways™",
+      "slug": "lucky-ladys-charm-win-ways",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-win-ways/",
+      "symbol": "52052",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piñata Blast- Tapper",
+      "slug": "pinata-blast-tapper",
+      "url": "https://www.greentube.com/game/pinata-blast-tapper/",
+      "symbol": "54167",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Ferocious Fruits Dice",
+      "slug": "diamond-mystery-40-ferocious-fruits-dice",
+      "url": "https://www.greentube.com/game/diamond-mystery-40-ferocious-fruits-dice/",
+      "symbol": "54308",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Jackpot Random Runner™ Ante bet",
+      "slug": "classic-jackpot-random-runner-ante-bet",
+      "url": "https://www.greentube.com/game/classic-jackpot-random-runner-ante-bet/",
+      "symbol": "54481",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Jackpot Simply Wild Ante bet",
+      "slug": "classic-jackpot-simply-wild-ante-bet",
+      "url": "https://www.greentube.com/game/classic-jackpot-simply-wild-ante-bet/",
+      "symbol": "55847",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shrimp on the Barbie Buy Bonus",
+      "slug": "shrimp-on-the-barbie-buy-bonus",
+      "url": "https://www.greentube.com/game/shrimp-on-the-barbie-buy-bonus/",
+      "symbol": "53347",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shrimp on the Barbie",
+      "slug": "shrimp-on-the-barbie",
+      "url": "https://www.greentube.com/game/shrimp-on-the-barbie/",
+      "symbol": "55252",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Barkin’ Clusters",
+      "slug": "barkin-clusters-ante-bet",
+      "url": "https://www.greentube.com/game/barkin-clusters-ante-bet/",
+      "symbol": "54056",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 81 Boosting Jokers",
+      "slug": "diamond-mystery-81-boosting-jokers",
+      "url": "https://www.greentube.com/game/diamond-mystery-81-boosting-jokers/",
+      "symbol": "46051",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Flashback",
+      "slug": "random-flashback",
+      "url": "https://www.greentube.com/game/random-flashback/",
+      "symbol": "52098",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lone Star Link™: Eagle Wins",
+      "slug": "lone-star-link-eagle-wins",
+      "url": "https://www.greentube.com/game/lone-star-link-eagle-wins/",
+      "symbol": "52570",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Splasher Buy Bonus",
+      "slug": "candy-splasherbuy-bonus",
+      "url": "https://www.greentube.com/game/candy-splasherbuy-bonus/",
+      "symbol": "52085",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Love and Rage – Olympus Buy Bonus",
+      "slug": "love-and-rage-olympus-buy-bonus",
+      "url": "https://www.greentube.com/game/love-and-rage-olympus-buy-bonus/",
+      "symbol": "52566",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Love and Rage – Olympus",
+      "slug": "love-and-rage-olympus",
+      "url": "https://www.greentube.com/game/love-and-rage-olympus/",
+      "symbol": "52576",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 100 Wild Fire",
+      "slug": "diamond-mystery-100-wild-fire",
+      "url": "https://www.greentube.com/game/diamond-mystery-100-wild-fire/",
+      "symbol": "54041",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Roar BOOM",
+      "slug": "golden-roar-boom",
+      "url": "https://www.greentube.com/game/golden-roar-boom/",
+      "symbol": "54051",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Candy Splasher",
+      "slug": "candy-splasher",
+      "url": "https://www.greentube.com/game/candy-splasher/",
+      "symbol": "52079",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Charming 7’s",
+      "slug": "diamond-mystery-40-charming-7s",
+      "url": "https://www.greentube.com/game/diamond-mystery-40-charming-7s/",
+      "symbol": "52942",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Jungle House™ Win Ways™ Buy Bonus",
+      "slug": "the-jungle-house-win-ways-buy-bonus",
+      "url": "https://www.greentube.com/game/the-jungle-house-win-ways-buy-bonus/",
+      "symbol": "50700",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Jungle House™ Win Ways™",
+      "slug": "the-jungle-house",
+      "url": "https://www.greentube.com/game/the-jungle-house/",
+      "symbol": "37578",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lone Star Link™: Grizzly Wins",
+      "slug": "lone-star-link-grizzly-wins",
+      "url": "https://www.greentube.com/game/lone-star-link-grizzly-wins/",
+      "symbol": "47529",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux – Coin Stacks",
+      "slug": "silver-lux-coin-stacks",
+      "url": "https://www.greentube.com/game/silver-lux-coin-stacks/",
+      "symbol": "49026",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Wish of Riches™ Buy Bonus",
+      "slug": "piggy-prizes-wish-of-riches-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-wish-of-riches-buy-bonus/",
+      "symbol": "49038",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Wish of Riches™",
+      "slug": "piggy-prizes-wish-of-riches",
+      "url": "https://www.greentube.com/game/piggy-prizes-wish-of-riches/",
+      "symbol": "52776",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ Super Wild",
+      "slug": "about-random-runner-super-wild",
+      "url": "https://www.greentube.com/game/about-random-runner-super-wild/",
+      "symbol": "52069",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magnificent Merlin™",
+      "slug": "magnificent-merlin",
+      "url": "https://www.greentube.com/game/magnificent-merlin/",
+      "symbol": "37600",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Cascade – Imperial Crown",
+      "slug": "imperial-crown-cash-cascade",
+      "url": "https://www.greentube.com/game/imperial-crown-cash-cascade/",
+      "symbol": "47417",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Mighty Elephant Win Ways™",
+      "slug": "diamond-cash-mighty-elephant-win-ways",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-elephant-win-ways/",
+      "symbol": "45149",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dynamite Fortunes™",
+      "slug": "dynamite-fortunes",
+      "url": "https://www.greentube.com/game/dynamite-fortunes/",
+      "symbol": "49029",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash: Mighty Stampede",
+      "slug": "diamond-cash-mighty-stampede",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-stampede/",
+      "symbol": "37576",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mustang Dreaming™ Buy Bonus",
+      "slug": "mustang-dreaming-buy-bonus",
+      "url": "https://www.greentube.com/game/mustang-dreaming-buy-bonus/",
+      "symbol": "48870",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mustang Dreaming™",
+      "slug": "mustang-dreaming",
+      "url": "https://www.greentube.com/game/mustang-dreaming/",
+      "symbol": "50716",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™ Mighty Dwarves Inc.",
+      "slug": "diamond-cash-mighty-dwarves-inc-2",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-dwarves-inc-2/",
+      "symbol": "47156",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wild™ 4ortune",
+      "slug": "simply-wild-4ortune",
+      "url": "https://www.greentube.com/game/simply-wild-4ortune/",
+      "symbol": "43962",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Elephant Win Ways™",
+      "slug": "diamond-link-mighty-elephant-win-ways",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-elephant-win-ways/",
+      "symbol": "45154",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux – Coin Run",
+      "slug": "silver-lux-coin-run",
+      "url": "https://www.greentube.com/game/silver-lux-coin-run/",
+      "symbol": "37634",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Lux – Big Win Spinner",
+      "slug": "silver-lux-big-win-spinner",
+      "url": "https://www.greentube.com/game/silver-lux-big-win-spinner/",
+      "symbol": "48875",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Dwarves Inc.",
+      "slug": "diamond-link-mighty-dwarves-inc",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-dwarves-inc/",
+      "symbol": "45163",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Mighty Sevens Win Ways™",
+      "slug": "diamond-cash-mighty-sevens-win-ways",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-sevens-win-ways/",
+      "symbol": "43592",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Stampede™",
+      "slug": "diamond-link-mighty-stampede",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-stampede/",
+      "symbol": "37561",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Electric Flamingo™",
+      "slug": "electric-flamingo",
+      "url": "https://www.greentube.com/game/electric-flamingo/",
+      "symbol": "45575",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Egyptian Underworld deluxe™",
+      "slug": "egyptian-underworld-deluxe",
+      "url": "https://www.greentube.com/game/egyptian-underworld-deluxe/",
+      "symbol": "45955",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Luck of the Dead",
+      "slug": "luck-of-the-dead",
+      "url": "https://www.greentube.com/game/luck-of-the-dead/",
+      "symbol": "45543",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Biker’s Bounty",
+      "slug": "bikers-bounty",
+      "url": "https://www.greentube.com/game/bikers-bounty/",
+      "symbol": "45533",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Frenzy",
+      "slug": "coin-frenzy",
+      "url": "https://www.greentube.com/game/coin-frenzy/",
+      "symbol": "43860",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Safari",
+      "slug": "golden-safari",
+      "url": "https://www.greentube.com/game/golden-safari/",
+      "symbol": "43785",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "TopSpinner™",
+      "slug": "topspinner",
+      "url": "https://www.greentube.com/game/topspinner/",
+      "symbol": "37636",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Sevens Win Ways™",
+      "slug": "diamond-link-mighty-sevens-win-ways",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-sevens-win-ways/",
+      "symbol": "43102",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Empire of Dead",
+      "slug": "empire-of-dead",
+      "url": "https://www.greentube.com/game/empire-of-dead/",
+      "symbol": "35771",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ Rad van Geluk",
+      "slug": "random-runner-rad-van-geluk-2",
+      "url": "https://www.greentube.com/game/random-runner-rad-van-geluk-2/",
+      "symbol": "45280",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Honey Touch",
+      "slug": "honey-touch",
+      "url": "https://www.greentube.com/game/honey-touch/",
+      "symbol": "43575",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stellar Joker",
+      "slug": "stellar-joker",
+      "url": "https://www.greentube.com/game/stellar-joker/",
+      "symbol": "37580",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bayou Queen",
+      "slug": "bayou-queen",
+      "url": "https://www.greentube.com/game/bayou-queen/",
+      "symbol": "43579",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Almighty Wolf ™",
+      "slug": "diamond-cash-almighty-wolf",
+      "url": "https://www.greentube.com/game/diamond-cash-almighty-wolf/",
+      "symbol": "44765",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Joker Party 6 Dice",
+      "slug": "diamond-mystery-joker-party-6-dice",
+      "url": "https://www.greentube.com/game/diamond-mystery-joker-party-6-dice/",
+      "symbol": "37353",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ Rising Joker Dice",
+      "slug": "diamond-mystery-rising-joker-dice",
+      "url": "https://www.greentube.com/game/diamond-mystery-rising-joker-dice/",
+      "symbol": "43778",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lightning Lion",
+      "slug": "tale-of-lightning-lion",
+      "url": "https://www.greentube.com/game/tale-of-lightning-lion/",
+      "symbol": "37428",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ Fruitilicious deluxe",
+      "slug": "diamond-mystery-fruitilicious-deluxe",
+      "url": "https://www.greentube.com/game/diamond-mystery-fruitilicious-deluxe/",
+      "symbol": "43564",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jewels and Gems",
+      "slug": "jewels-and-gems",
+      "url": "https://www.greentube.com/game/jewels-and-gems/",
+      "symbol": "43267",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Wand of Riches™ Buy Bonus",
+      "slug": "piggy-prizes-wand-of-riches-buy-bonus",
+      "url": "https://www.greentube.com/game/piggy-prizes-wand-of-riches-buy-bonus/",
+      "symbol": "43151",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ Twin",
+      "slug": "random-runner-twin",
+      "url": "https://www.greentube.com/game/random-runner-twin/",
+      "symbol": "37421",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ 4ortune",
+      "slug": "random-runner-4ortune",
+      "url": "https://www.greentube.com/game/random-runner-4ortune/",
+      "symbol": "37452",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Piggy Prizes™ Wand of Riches™",
+      "slug": "piggy-prizes-wand-of-riches",
+      "url": "https://www.greentube.com/game/piggy-prizes-wand-of-riches/",
+      "symbol": "42140",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Golden Voodoo Magic™",
+      "slug": "cash-connection-golden-voodoo-magic",
+      "url": "https://www.greentube.com/game/cash-connection-golden-voodoo-magic/",
+      "symbol": "43644",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flame Queen",
+      "slug": "flame-queen",
+      "url": "https://www.greentube.com/game/flame-queen/",
+      "symbol": "37602",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Mega Blaze Dice",
+      "slug": "diamond-mystery-mega-blaze-dice",
+      "url": "https://www.greentube.com/game/diamond-mystery-mega-blaze-dice/",
+      "symbol": "43253",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™ : Almighty Kraken",
+      "slug": "diamond-link-almighty-kraken-v2",
+      "url": "https://www.greentube.com/game/diamond-link-almighty-kraken-v2/",
+      "symbol": "37257",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Golden Voodoo Magic™",
+      "slug": "thunder-cash-golden-voodoo-magic",
+      "url": "https://www.greentube.com/game/thunder-cash-golden-voodoo-magic/",
+      "symbol": "43030",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic Luck Casino",
+      "slug": "magic-luck-casino",
+      "url": "https://www.greentube.com/game/magic-luck-casino/",
+      "symbol": "42806",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "BINGO STAXX™ – Rudolphs Reign",
+      "slug": "bingo-staxx-rudolphs-reign",
+      "url": "https://www.greentube.com/game/bingo-staxx-rudolphs-reign/",
+      "symbol": "37620",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starlight Jackpots™ Athena Goddess of War™",
+      "slug": "starlight-jackpots-athena-goddess-of-war-2",
+      "url": "https://www.greentube.com/game/starlight-jackpots-athena-goddess-of-war-2/",
+      "symbol": "33588",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5-Line Hold & Spin",
+      "slug": "5-line-hold-spin",
+      "url": "https://www.greentube.com/game/5-line-hold-spin/",
+      "symbol": "38402",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "A Christmas Full of Wilds™",
+      "slug": "a-christmas-full-of-wilds",
+      "url": "https://www.greentube.com/game/a-christmas-full-of-wilds/",
+      "symbol": "37176",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charming Lady™ deluxe 10: Win Ways™ Ante Bet + Buy Bonus",
+      "slug": "charming-lady-deluxe-10-win-ways-ante-bet-buy-bonus",
+      "url": "https://www.greentube.com/game/charming-lady-deluxe-10-win-ways-ante-bet-buy-bonus/",
+      "symbol": "38803",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sharky’s Choices Win Ways™ Buy Bonus",
+      "slug": "sharkys-choices-win-ways-buy-bonus",
+      "url": "https://www.greentube.com/game/sharkys-choices-win-ways-buy-bonus/",
+      "symbol": "35659",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sharky’s Choices Win Ways™",
+      "slug": "sharkys-choices-win-ways",
+      "url": "https://www.greentube.com/game/sharkys-choices-win-ways/",
+      "symbol": "37263",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™ : Almighty Kraken",
+      "slug": "diamond-link-almighty-kraken-v2-2",
+      "url": "https://www.greentube.com/game/diamond-link-almighty-kraken-v2-2/",
+      "symbol": "37310",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Almighty Wolf (no pot)",
+      "slug": "diamond-link-almighty-wolf-no-pot",
+      "url": "https://www.greentube.com/game/diamond-link-almighty-wolf-no-pot/",
+      "symbol": "37653",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Emperor’s New Clothes Buy Bonus",
+      "slug": "diamond-tales-the-emperors-new-clothes-buy",
+      "url": "https://www.greentube.com/game/diamond-tales-the-emperors-new-clothes-buy/",
+      "symbol": "35660",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Emperor’s New Clothes",
+      "slug": "diamond-tales-the-emperors-new-clothes",
+      "url": "https://www.greentube.com/game/diamond-tales-the-emperors-new-clothes/",
+      "symbol": "35650",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Candelas de los Muertos™ – Señor Muerte",
+      "slug": "thunder-cash-candelas-de-los-muertos-senor-muerte",
+      "url": "https://www.greentube.com/game/thunder-cash-candelas-de-los-muertos-senor-muerte/",
+      "symbol": "36106",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Link™ Club 2000™",
+      "slug": "classic-link-club-2000",
+      "url": "https://www.greentube.com/game/classic-link-club-2000/",
+      "symbol": "35680",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Link™ Random Runner™",
+      "slug": "classic-link-random-runner",
+      "url": "https://www.greentube.com/game/classic-link-random-runner/",
+      "symbol": "35678",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Classic Link™ Simply Wild™",
+      "slug": "classic-link-simply-wild",
+      "url": "https://www.greentube.com/game/classic-link-simply-wild/",
+      "symbol": "35682",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Princess and the Pea Buy Bonus",
+      "slug": "diamond-tales-the-princess-and-the-pea-buy-bonus-2",
+      "url": "https://www.greentube.com/game/diamond-tales-the-princess-and-the-pea-buy-bonus-2/",
+      "symbol": "35177",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Princess and the Pea",
+      "slug": "diamond-tales-the-princess-and-the-pea-original",
+      "url": "https://www.greentube.com/game/diamond-tales-the-princess-and-the-pea-original/",
+      "symbol": "35180",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Bankin Bonanza™",
+      "slug": "big-bankin-bonanza",
+      "url": "https://www.greentube.com/game/big-bankin-bonanza/",
+      "symbol": "35126",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sevens Bonus",
+      "slug": "sevens-bonus",
+      "url": "https://www.greentube.com/game/sevens-bonus/",
+      "symbol": "34610",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pots of Treasure™: Win Ways™ Ante Bet + Buy Bonus",
+      "slug": "pots-of-treasure-win-ways-ante-bet-b-b",
+      "url": "https://www.greentube.com/game/pots-of-treasure-win-ways-ante-bet-b-b/",
+      "symbol": "34229",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pots of Treasure™: Win Ways™",
+      "slug": "pots-of-treasure-win-ways",
+      "url": "https://www.greentube.com/game/pots-of-treasure-win-ways/",
+      "symbol": "34234",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pots of Treasure™: Win Ways™ Ante Bet",
+      "slug": "pots-of-treasure-win-ways-ante-bet",
+      "url": "https://www.greentube.com/game/pots-of-treasure-win-ways-ante-bet/",
+      "symbol": "33369",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Coin Runner Classic",
+      "slug": "coin-runner-classic",
+      "url": "https://www.greentube.com/game/coin-runner-classic/",
+      "symbol": "32627",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Mega Blaze",
+      "slug": "mega-blaze-diamond-mystery",
+      "url": "https://www.greentube.com/game/mega-blaze-diamond-mystery/",
+      "symbol": "30913",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Maker",
+      "slug": "money-maker",
+      "url": "https://www.greentube.com/game/money-maker/",
+      "symbol": "29323",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 100 Imperial Crown™ deluxe",
+      "slug": "diamond-mystery-100-imperial-crown-deluxe-2",
+      "url": "https://www.greentube.com/game/diamond-mystery-100-imperial-crown-deluxe-2/",
+      "symbol": "30987",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5-Line Bonus 21",
+      "slug": "5-line-bonus-21",
+      "url": "https://www.greentube.com/game/5-line-bonus-21/",
+      "symbol": "30572",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cyber Wildz",
+      "slug": "cyber-wildz",
+      "url": "https://www.greentube.com/game/cyber-wildz/",
+      "symbol": "30576",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cyber Wildz Buy Bonus",
+      "slug": "cyber-wildz-buy-bonus",
+      "url": "https://www.greentube.com/game/cyber-wildz-buy-bonus/",
+      "symbol": "29303",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Red Hot Burning Clover Link™ CC",
+      "slug": "50-red-hot-burning-clover-link-cc-new",
+      "url": "https://www.greentube.com/game/50-red-hot-burning-clover-link-cc-new/",
+      "symbol": "31024",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Red Hot Burning Clover Link™ CC",
+      "slug": "25-red-hot-burning-clover-link-cc-new",
+      "url": "https://www.greentube.com/game/25-red-hot-burning-clover-link-cc-new/",
+      "symbol": "31019",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Cops ‘n’ Robbers™",
+      "slug": "diamond-cash-cops-n-robbers-3",
+      "url": "https://www.greentube.com/game/diamond-cash-cops-n-robbers-3/",
+      "symbol": "36123",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Cops ‘n’ Robbers™",
+      "slug": "d-link-cops-n-robbers",
+      "url": "https://www.greentube.com/game/d-link-cops-n-robbers/",
+      "symbol": "29329",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Free Winner",
+      "slug": "random-free-winner",
+      "url": "https://www.greentube.com/game/random-free-winner/",
+      "symbol": "30608",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Egyptian Underworld™",
+      "slug": "egyptian-underworld",
+      "url": "https://www.greentube.com/game/egyptian-underworld/",
+      "symbol": "30570",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Almighty Wolf ™",
+      "slug": "diamond-link-almighty-wolf",
+      "url": "https://www.greentube.com/game/diamond-link-almighty-wolf/",
+      "symbol": "29634",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 20 Imperial Crown™ deluxe",
+      "slug": "twenty-imperial-crown-deluxe",
+      "url": "https://www.greentube.com/game/twenty-imperial-crown-deluxe/",
+      "symbol": "34356",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 10 Imperial Crown™ deluxe",
+      "slug": "10-imperial-crown-del",
+      "url": "https://www.greentube.com/game/10-imperial-crown-del/",
+      "symbol": "29263",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "BINGO STAXX™ – Amazon Fury",
+      "slug": "bingo-staxx-amazon-fury",
+      "url": "https://www.greentube.com/game/bingo-staxx-amazon-fury/",
+      "symbol": "29569",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Random Runner™ Hold & Run",
+      "slug": "super-random-runner-hold-run",
+      "url": "https://www.greentube.com/game/super-random-runner-hold-run/",
+      "symbol": "29848",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wild™ SuperGame",
+      "slug": "simply-wild-supergame",
+      "url": "https://www.greentube.com/game/simply-wild-supergame/",
+      "symbol": "29652",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Running Wild Super",
+      "slug": "running-wild-super",
+      "url": "https://www.greentube.com/game/running-wild-super/",
+      "symbol": "29268",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Little Mermaid Buy Bonus",
+      "slug": "diamond-tales-the-little-mermaid-buy-bonus",
+      "url": "https://www.greentube.com/game/diamond-tales-the-little-mermaid-buy-bonus/",
+      "symbol": "29307",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gems of Giza™",
+      "slug": "gems-of-giza",
+      "url": "https://www.greentube.com/game/gems-of-giza/",
+      "symbol": "29550",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Tut™ Magic Buy Bonus",
+      "slug": "rise-of-tut-magic-buy-bonus",
+      "url": "https://www.greentube.com/game/rise-of-tut-magic-buy-bonus/",
+      "symbol": "35281",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rise of Tut™ Magic",
+      "slug": "rise-of-tut-magic-2",
+      "url": "https://www.greentube.com/game/rise-of-tut-magic-2/",
+      "symbol": "30574",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wild™ Twin",
+      "slug": "simply-wild-twin",
+      "url": "https://www.greentube.com/game/simply-wild-twin/",
+      "symbol": "29644",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twin Player™ – Pepper Mania",
+      "slug": "twin-player-pepper-mania",
+      "url": "https://www.greentube.com/game/twin-player-pepper-mania/",
+      "symbol": "29646",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cherrylicious™ Buy Bonus",
+      "slug": "cherrylicious-bb",
+      "url": "https://www.greentube.com/game/cherrylicious-bb/",
+      "symbol": "30084",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Little Mermaid",
+      "slug": "diamond-tales-the-little-mermaid",
+      "url": "https://www.greentube.com/game/diamond-tales-the-little-mermaid/",
+      "symbol": "29310",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe: Win Ways™ Ante Bet",
+      "slug": "book-of-ra-deluxe-win-ways-ante-bet",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-win-ways-ante-bet/",
+      "symbol": "28040",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe: Win Ways™ Ante Bet + Buy Bonus",
+      "slug": "book-of-ra-deluxe-win-ways-ante-bet-bb",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-win-ways-ante-bet-bb/",
+      "symbol": "29210",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Charming Lady’s Boom™",
+      "slug": "charming-ladys-boom",
+      "url": "https://www.greentube.com/game/charming-ladys-boom/",
+      "symbol": "29332",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Cherry Lock’N’Win",
+      "slug": "super-cherry-locknwin",
+      "url": "https://www.greentube.com/game/super-cherry-locknwin/",
+      "symbol": "29637",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Goddess of Egypt™",
+      "slug": "goddess-of-egypt",
+      "url": "https://www.greentube.com/game/goddess-of-egypt/",
+      "symbol": "29703",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cherry Surprise™ Buy Bonus",
+      "slug": "cherry-surprise-buy-bonus",
+      "url": "https://www.greentube.com/game/cherry-surprise-buy-bonus/",
+      "symbol": "29572",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe Win Ways™",
+      "slug": "book-of-ra-deluxe-win-ways",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-win-ways/",
+      "symbol": "29520",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fortune Fishing™",
+      "slug": "fortune-fishing",
+      "url": "https://www.greentube.com/game/fortune-fishing/",
+      "symbol": "29258",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Dolphin’s Pearl™",
+      "slug": "thunder-cash-dolphins-pearl-2",
+      "url": "https://www.greentube.com/game/thunder-cash-dolphins-pearl-2/",
+      "symbol": "29423",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 50 Extreme Hot™ Dice",
+      "slug": "50-extreme-hot-dice",
+      "url": "https://www.greentube.com/game/50-extreme-hot-dice/",
+      "symbol": "29152",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Smoking Hot 7’s™ Dice",
+      "slug": "smoking-hot-7s-dice",
+      "url": "https://www.greentube.com/game/smoking-hot-7s-dice/",
+      "symbol": "29160",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Wild Fire 6™ Dice",
+      "slug": "40-wild-fire-6-dice",
+      "url": "https://www.greentube.com/game/40-wild-fire-6-dice/",
+      "symbol": "29162",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Imperial Crown™ Dice",
+      "slug": "about-diamond-mystery-imperial-crown-dice",
+      "url": "https://www.greentube.com/game/about-diamond-mystery-imperial-crown-dice/",
+      "symbol": "29154",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Forever Hot™ Dice",
+      "slug": "forever-hot-dice",
+      "url": "https://www.greentube.com/game/forever-hot-dice/",
+      "symbol": "29158",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Top Runner™ XL",
+      "slug": "top-runner-xl",
+      "url": "https://www.greentube.com/game/top-runner-xl/",
+      "symbol": "29326",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Free Spinner",
+      "slug": "free-spinner",
+      "url": "https://www.greentube.com/game/free-spinner/",
+      "symbol": "35089",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ 20",
+      "slug": "random-runner-20",
+      "url": "https://www.greentube.com/game/random-runner-20/",
+      "symbol": "29275",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Bonus Winner",
+      "slug": "random-bonus-winner",
+      "url": "https://www.greentube.com/game/random-bonus-winner/",
+      "symbol": "29272",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Imperial Crown™",
+      "slug": "diamond-mystery-40-imperial-crown-adapted",
+      "url": "https://www.greentube.com/game/diamond-mystery-40-imperial-crown-adapted/",
+      "symbol": "69066",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Imperial Crown deluxe",
+      "slug": "40-imperial-crown-2",
+      "url": "https://www.greentube.com/game/40-imperial-crown-2/",
+      "symbol": "34354",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Imperial Crown™",
+      "slug": "40-imperial-crown",
+      "url": "https://www.greentube.com/game/40-imperial-crown/",
+      "symbol": "29246",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™ Bingo CCJ",
+      "slug": "lord-of-the-ocean-bingo",
+      "url": "https://www.greentube.com/game/lord-of-the-ocean-bingo/",
+      "symbol": "18561",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clash of Legends™ Battle Lines™ Ante Bet",
+      "slug": "clash-of-legends-battle-lines-ante-bet",
+      "url": "https://www.greentube.com/game/clash-of-legends-battle-lines-ante-bet/",
+      "symbol": "28761",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Clash of Legends™ Battle Lines™ Ante + Bet Buy Bonus",
+      "slug": "clash-of-legends-battle-lines-antebet-buybonus",
+      "url": "https://www.greentube.com/game/clash-of-legends-battle-lines-antebet-buybonus/",
+      "symbol": "28759",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Red Hot 7 Clover Link™",
+      "slug": "25-red-hot-7-clover-link-adapted",
+      "url": "https://www.greentube.com/game/25-red-hot-7-clover-link-adapted/",
+      "symbol": "68979",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Red Hot 7 Clover Link™",
+      "slug": "25-red-hot-7-clover-link",
+      "url": "https://www.greentube.com/game/25-red-hot-7-clover-link/",
+      "symbol": "28401",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Juicy Riches™",
+      "slug": "juicy-riches",
+      "url": "https://www.greentube.com/game/juicy-riches/",
+      "symbol": "25890",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Voodoo Magic™",
+      "slug": "thunder-cash-voodoo-magic",
+      "url": "https://www.greentube.com/game/thunder-cash-voodoo-magic/",
+      "symbol": "28447",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cherrylicious™",
+      "slug": "cherrylicious",
+      "url": "https://www.greentube.com/game/cherrylicious/",
+      "symbol": "28380",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cherry Surprise™",
+      "slug": "cherry-surprise-ii1jeapr-xxypo",
+      "url": "https://www.greentube.com/game/cherry-surprise-ii1jeapr-xxypo/",
+      "symbol": "28340",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Ugly Duckling Buy Bonus",
+      "slug": "diamond-tales-the-ugly-duckling-bb",
+      "url": "https://www.greentube.com/game/diamond-tales-the-ugly-duckling-bb/",
+      "symbol": "28274",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Candy Buy Bonus",
+      "slug": "star-candy-buy-bonus",
+      "url": "https://www.greentube.com/game/star-candy-buy-bonus/",
+      "symbol": "28202",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe 10: Win Ways™",
+      "slug": "lucky-ladys-charm-deluxe-10-win-ways",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10-win-ways/",
+      "symbol": "28069",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Runner™",
+      "slug": "wild-runner",
+      "url": "https://www.greentube.com/game/wild-runner/",
+      "symbol": "27549",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Candy",
+      "slug": "star-candy",
+      "url": "https://www.greentube.com/game/star-candy/",
+      "symbol": "28014",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Tales™: The Ugly Duckling",
+      "slug": "diamond-tales-ugly-duckling",
+      "url": "https://www.greentube.com/game/diamond-tales-ugly-duckling/",
+      "symbol": "27964",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ Multi Card Bingo Deluxe",
+      "slug": "book-of-ra-bingo-multicard-deluxe",
+      "url": "https://www.greentube.com/game/book-of-ra-bingo-multicard-deluxe/",
+      "symbol": "27941",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Voodoo Magic™",
+      "slug": "cash-connection-voodoo-magic",
+      "url": "https://www.greentube.com/game/cash-connection-voodoo-magic/",
+      "symbol": "27597",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "BINGO STAXX™ Thunder Power",
+      "slug": "thunder-power-bingo-staxx",
+      "url": "https://www.greentube.com/game/thunder-power-bingo-staxx/",
+      "symbol": "27575",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Manic Potions™",
+      "slug": "manic-potions",
+      "url": "https://www.greentube.com/game/manic-potions/",
+      "symbol": "25891",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Forever Hot",
+      "slug": "forever-hot",
+      "url": "https://www.greentube.com/game/forever-hot/",
+      "symbol": "25893",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "High Seas Jackpots™",
+      "slug": "high-seas-jackpots",
+      "url": "https://www.greentube.com/game/high-seas-jackpots/",
+      "symbol": "27213",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Golden Book of Ra™",
+      "slug": "thunder-cash-golden-book-of-ra-2",
+      "url": "https://www.greentube.com/game/thunder-cash-golden-book-of-ra-2/",
+      "symbol": "27230",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Book of Ra™",
+      "slug": "thunder-cash-book-of-ra",
+      "url": "https://www.greentube.com/game/thunder-cash-book-of-ra/",
+      "symbol": "26076",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Red Hot 7 Clover Link™",
+      "slug": "50-red-hot-7-clover-link-adapted",
+      "url": "https://www.greentube.com/game/50-red-hot-7-clover-link-adapted/",
+      "symbol": "68975",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Red Hot 7 Clover Link™",
+      "slug": "50-red-hot-burning-clover-link-2",
+      "url": "https://www.greentube.com/game/50-red-hot-burning-clover-link-2/",
+      "symbol": "26806",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twin Player™ – Super Bells Extra",
+      "slug": "super-bells-extra-twin",
+      "url": "https://www.greentube.com/game/super-bells-extra-twin/",
+      "symbol": "26820",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super TopSpinner™",
+      "slug": "super-topspinner",
+      "url": "https://www.greentube.com/game/super-topspinner/",
+      "symbol": "26780",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jackpot Joker",
+      "slug": "jackpot-joker",
+      "url": "https://www.greentube.com/game/jackpot-joker/",
+      "symbol": "25897",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner® VIP+",
+      "slug": "random-runner-vip-plus",
+      "url": "https://www.greentube.com/game/random-runner-vip-plus/",
+      "symbol": "26368",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Rising Joker™",
+      "slug": "rising-joker",
+      "url": "https://www.greentube.com/game/rising-joker/",
+      "symbol": "25895",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Mighty Buffalo",
+      "slug": "diamond-cash-mighty-buffalo",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-buffalo/",
+      "symbol": "25823",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruity Splasher Buy Bonus",
+      "slug": "fruity-splasher-buy-bonus",
+      "url": "https://www.greentube.com/game/fruity-splasher-buy-bonus/",
+      "symbol": "25384",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bonus Dice™",
+      "slug": "bonus-dice",
+      "url": "https://www.greentube.com/game/bonus-dice/",
+      "symbol": "25233",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Cherry™ Deluxe",
+      "slug": "hot-cherry-deluxe",
+      "url": "https://www.greentube.com/game/hot-cherry-deluxe/",
+      "symbol": "25225",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Candelas de Los Muertos™ – Señorita Suerte",
+      "slug": "thunder-cash-senorita-suerte",
+      "url": "https://www.greentube.com/game/thunder-cash-senorita-suerte/",
+      "symbol": "36117",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Candelas de Los Muertos™ – Señor Muerte",
+      "slug": "cash-connection-candelas-de-los-muertos-senor-muerte",
+      "url": "https://www.greentube.com/game/cash-connection-candelas-de-los-muertos-senor-muerte/",
+      "symbol": "35182",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Candelas de Los Muertos™ – Señorita Suerte",
+      "slug": "candelas-de-los-muertos-promo",
+      "url": "https://www.greentube.com/game/candelas-de-los-muertos-promo/",
+      "symbol": "30266",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cops ‘n’ Robbers™ Drop Shot™ deluxe",
+      "slug": "cops-n-robbers-drop-shot-deluxe",
+      "url": "https://www.greentube.com/game/cops-n-robbers-drop-shot-deluxe/",
+      "symbol": "24798",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruity Splasher",
+      "slug": "fruity-splasher-fdhjsijsa",
+      "url": "https://www.greentube.com/game/fruity-splasher-fdhjsijsa/",
+      "symbol": "25178",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super 2 Dice™",
+      "slug": "super-dice-2",
+      "url": "https://www.greentube.com/game/super-dice-2/",
+      "symbol": "25069",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chilli El Toro™",
+      "slug": "chilli-el-toro",
+      "url": "https://www.greentube.com/game/chilli-el-toro/",
+      "symbol": "24873",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™ 10: Win Ways™ Buy Bonus",
+      "slug": "lord-of-the-ocean-10-win-ways-bb",
+      "url": "https://www.greentube.com/game/lord-of-the-ocean-10-win-ways-bb/",
+      "symbol": "24785",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™ 10: Win Ways™",
+      "slug": "lord-ocean-10-win-ways",
+      "url": "https://www.greentube.com/game/lord-ocean-10-win-ways/",
+      "symbol": "24780",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Feelin’ Fruity™: Win Ways™",
+      "slug": "feelin-fruity-win-ways",
+      "url": "https://www.greentube.com/game/feelin-fruity-win-ways/",
+      "symbol": "24772",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Feelin’ Fruity™: Win Ways™ Buy Bonus",
+      "slug": "feeling-fruity-win-ways",
+      "url": "https://www.greentube.com/game/feeling-fruity-win-ways/",
+      "symbol": "24766",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grand Blackjack",
+      "slug": "grand-blackjack",
+      "url": "https://www.greentube.com/game/grand-blackjack/",
+      "symbol": "24477",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe 10: Win Ways™ Ante Bet + Buy Bonus",
+      "slug": "lucky-ladys-charm-deluxe-10-win-ways-bb-antebet",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10-win-ways-bb-antebet/",
+      "symbol": "22827",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Smashing Sevens™: Win Ways™",
+      "slug": "smashing-sevens-win-ways-adapted",
+      "url": "https://www.greentube.com/game/smashing-sevens-win-ways-adapted/",
+      "symbol": "69078",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Smashing Sevens™: Win Ways™",
+      "slug": "smashing-sevens-win-ways",
+      "url": "https://www.greentube.com/game/smashing-sevens-win-ways/",
+      "symbol": "23911",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Golden Book of Ra™",
+      "slug": "cash-connection-golden-book-of-ra",
+      "url": "https://www.greentube.com/game/cash-connection-golden-book-of-ra/",
+      "symbol": "23907",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Stars Inferno™",
+      "slug": "stars-inferno",
+      "url": "https://www.greentube.com/game/stars-inferno/",
+      "symbol": "23859",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ Hold & Run",
+      "slug": "random-runner-holdrun",
+      "url": "https://www.greentube.com/game/random-runner-holdrun/",
+      "symbol": "23823",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot™ deluxe Bonus Spins",
+      "slug": "sizzling-hot-deluxe-bonus-spins",
+      "url": "https://www.greentube.com/game/sizzling-hot-deluxe-bonus-spins/",
+      "symbol": "23790",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Joker Party™ 6",
+      "slug": "joker-party-6",
+      "url": "https://www.greentube.com/game/joker-party-6/",
+      "symbol": "23785",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Golden Sizzling Hot™",
+      "slug": "thunder-cash-golden-sizzling-hot",
+      "url": "https://www.greentube.com/game/thunder-cash-golden-sizzling-hot/",
+      "symbol": "68823",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Sizzling Hot™",
+      "slug": "thunder-cash-sizzling-hot",
+      "url": "https://www.greentube.com/game/thunder-cash-sizzling-hot/",
+      "symbol": "23031",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe 10: Win Ways™  Ante Bet",
+      "slug": "lucky-ladys-charm-deluxe-ten-win-ways-ante-bet",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-ten-win-ways-ante-bet/",
+      "symbol": "22785",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe 10: Win Ways™ Buy Bonus",
+      "slug": "book-of-ra-deluxe-10-win-ways-bb",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-10-win-ways-bb/",
+      "symbol": "22601",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starliner II",
+      "slug": "starliner-ii",
+      "url": "https://www.greentube.com/game/starliner-ii/",
+      "symbol": "22535",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Buffalo",
+      "slug": "diamond-link-mighty-buffalo",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-buffalo/",
+      "symbol": "22349",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot™ deluxe 10: Win Ways™",
+      "slug": "sizzling-hot-deluxe-win",
+      "url": "https://www.greentube.com/game/sizzling-hot-deluxe-win/",
+      "symbol": "22328",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe 10: Win Ways™",
+      "slug": "book-of-ra-deluxe-10-win-ways",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-10-win-ways/",
+      "symbol": "22322",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twin Spinner Book of Ra™ deluxe",
+      "slug": "twin-spinner-book-of-ra-deluxe",
+      "url": "https://www.greentube.com/game/twin-spinner-book-of-ra-deluxe/",
+      "symbol": "22257",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Random Flashback™",
+      "slug": "super-random-flashback",
+      "url": "https://www.greentube.com/game/super-random-flashback/",
+      "symbol": "22225",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe Bonus Spins",
+      "slug": "lucky-ladys-charm-bonus-spins",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-bonus-spins/",
+      "symbol": "22124",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™ Bonus Spins",
+      "slug": "lord-of-the-ocean-bonus-spins",
+      "url": "https://www.greentube.com/game/lord-of-the-ocean-bonus-spins/",
+      "symbol": "22103",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dolphin’s Pearl™ deluxe Bonus Spins",
+      "slug": "dolphins-pearl-deluxe-bonus-spins-2",
+      "url": "https://www.greentube.com/game/dolphins-pearl-deluxe-bonus-spins-2/",
+      "symbol": "22088",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Hit Jackpots™",
+      "slug": "star-hit-jackpots",
+      "url": "https://www.greentube.com/game/star-hit-jackpots/",
+      "symbol": "18005",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Imperial Crown™",
+      "slug": "imperial-crown-35",
+      "url": "https://www.greentube.com/game/imperial-crown-35/",
+      "symbol": "21282",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Cash™: Mighty Santa",
+      "slug": "diamond-cash-mighty-santa",
+      "url": "https://www.greentube.com/game/diamond-cash-mighty-santa/",
+      "symbol": "21115",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – Smoking Hot 7’s™",
+      "slug": "smoking-hot-7s",
+      "url": "https://www.greentube.com/game/smoking-hot-7s/",
+      "symbol": "21046",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "A Fistful of Wilds™",
+      "slug": "a-fistful-of-wilds-%c2%a7",
+      "url": "https://www.greentube.com/game/a-fistful-of-wilds-%c2%a7/",
+      "symbol": "20959",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Starliner",
+      "slug": "starliner-1-%c2%a74-%c2%a7",
+      "url": "https://www.greentube.com/game/starliner-1-%c2%a74-%c2%a7/",
+      "symbol": "20908",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "POWER PRIZES™ – Noble Peacock™",
+      "slug": "power-prizes-noble-peacock-89%c2%a7",
+      "url": "https://www.greentube.com/game/power-prizes-noble-peacock-89%c2%a7/",
+      "symbol": "20258",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "9-Line Fortune™",
+      "slug": "9-line-fortune-%c2%a7%c2%a7",
+      "url": "https://www.greentube.com/game/9-line-fortune-%c2%a7%c2%a7/",
+      "symbol": "20262",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "7’s Gold Casino",
+      "slug": "7s-gold-casino",
+      "url": "https://www.greentube.com/game/7s-gold-casino/",
+      "symbol": "20236",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Dolphin’s Pearl™",
+      "slug": "cash-connection-dolphins-pearl-0s23",
+      "url": "https://www.greentube.com/game/cash-connection-dolphins-pearl-0s23/",
+      "symbol": "18557",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe – Bonus Spins",
+      "slug": "book-of-ra-deluxe-bonus-spins",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-bonus-spins/",
+      "symbol": "19930",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Apollo God of the Sun™ 10: Win Ways™ Buy Bonus",
+      "slug": "apollo-god-of-the-sun-10-win-ways-bonus-edition",
+      "url": "https://www.greentube.com/game/apollo-god-of-the-sun-10-win-ways-bonus-edition/",
+      "symbol": "19910",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 50 Extreme Hot™",
+      "slug": "50-extreme-hot-456",
+      "url": "https://www.greentube.com/game/50-extreme-hot-456/",
+      "symbol": "19795",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Supra Hot Cubes",
+      "slug": "supra-hot-cubes",
+      "url": "https://www.greentube.com/game/supra-hot-cubes/",
+      "symbol": "18565",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ Cubes",
+      "slug": "lucky-ladys-charm-cubes",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-cubes/",
+      "symbol": "18567",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Top o’ the Money™ – Pots of Wealth",
+      "slug": "top-o-money-pots-wealth-e-%c2%a7",
+      "url": "https://www.greentube.com/game/top-o-money-pots-wealth-e-%c2%a7/",
+      "symbol": "18559",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Apollo God Of The Sun™ 10: Win Ways™",
+      "slug": "apollo-god-of-the-sun-10-win-ways-adapted",
+      "url": "https://www.greentube.com/game/apollo-god-of-the-sun-10-win-ways-adapted/",
+      "symbol": "69200",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Apollo God Of The Sun™ 10: Win Ways™",
+      "slug": "apollo-god-sun-10-win-ways",
+      "url": "https://www.greentube.com/game/apollo-god-sun-10-win-ways/",
+      "symbol": "18546",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Ranger™",
+      "slug": "wild-ranger",
+      "url": "https://www.greentube.com/game/wild-ranger/",
+      "symbol": "18555",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twin Spinner",
+      "slug": "twin-spinner",
+      "url": "https://www.greentube.com/game/twin-spinner/",
+      "symbol": "18526",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "POWER PRIZES™ – Royal Crane™",
+      "slug": "power-prizes-royal-crane",
+      "url": "https://www.greentube.com/game/power-prizes-royal-crane/",
+      "symbol": "18537",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Santa",
+      "slug": "diamond-link-mighty-santa",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-santa/",
+      "symbol": "18548",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Lines: American Eagle™",
+      "slug": "wild-lines-american-eagle",
+      "url": "https://www.greentube.com/game/wild-lines-american-eagle/",
+      "symbol": "18551",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Strike It Gold™: Win Ways™",
+      "slug": "strike-gold-win-ways",
+      "url": "https://www.greentube.com/game/strike-gold-win-ways/",
+      "symbol": "18563",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Blitz™",
+      "slug": "dragon-blitz",
+      "url": "https://www.greentube.com/game/dragon-blitz/",
+      "symbol": "18015",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Book of Ra™",
+      "slug": "cash-connection-book-ra",
+      "url": "https://www.greentube.com/game/cash-connection-book-ra/",
+      "symbol": "17642",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit Magic",
+      "slug": "fruit-magic",
+      "url": "https://www.greentube.com/game/fruit-magic/",
+      "symbol": "17731",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "POWER PRIZES™ – Eternal Mandarin Ducks™",
+      "slug": "power-prizes-eternal-mandarin-ducks-2",
+      "url": "https://www.greentube.com/game/power-prizes-eternal-mandarin-ducks-2/",
+      "symbol": "17582",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chili Bomba™",
+      "slug": "chili-bomba",
+      "url": "https://www.greentube.com/game/chili-bomba/",
+      "symbol": "17590",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twin Spinner Sizzling Hot™ deluxe",
+      "slug": "twin-spinner-sizzling-hot-deluxe",
+      "url": "https://www.greentube.com/game/twin-spinner-sizzling-hot-deluxe/",
+      "symbol": "17574",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Supreme™",
+      "slug": "star-supreme",
+      "url": "https://www.greentube.com/game/star-supreme/",
+      "symbol": "17629",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Ferocious Fruits™",
+      "slug": "40-ferocious-fruits",
+      "url": "https://www.greentube.com/game/40-ferocious-fruits/",
+      "symbol": "17087",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Welcome Fortune™",
+      "slug": "welcome-fortune",
+      "url": "https://www.greentube.com/game/welcome-fortune/",
+      "symbol": "17103",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "40 Fortune Fruits 6™",
+      "slug": "40-fortune-fruits-6",
+      "url": "https://www.greentube.com/game/40-fortune-fruits-6/",
+      "symbol": "14776",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Früchteparadies™ 10",
+      "slug": "fruchteparadies-10",
+      "url": "https://www.greentube.com/game/fruchteparadies-10/",
+      "symbol": "14683",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dolphin’s Pearl™ deluxe 10",
+      "slug": "dolphins-pearl-deluxe-10",
+      "url": "https://www.greentube.com/game/dolphins-pearl-deluxe-10/",
+      "symbol": "14563",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Feelin’ Fruity™ 10",
+      "slug": "feelin-fruity-10",
+      "url": "https://www.greentube.com/game/feelin-fruity-10/",
+      "symbol": "14397",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fàngbàozhú™",
+      "slug": "fangbaozhu",
+      "url": "https://www.greentube.com/game/fangbaozhu/",
+      "symbol": "14399",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Wild Fire 6™",
+      "slug": "40-wild-fire-6",
+      "url": "https://www.greentube.com/game/40-wild-fire-6/",
+      "symbol": "14401",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Supreme Fruits™",
+      "slug": "40-supreme-fruits",
+      "url": "https://www.greentube.com/game/40-supreme-fruits/",
+      "symbol": "14403",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of the Queen™",
+      "slug": "eye-of-the-queen",
+      "url": "https://www.greentube.com/game/eye-of-the-queen/",
+      "symbol": "14405",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ – Sizzling Hot™",
+      "slug": "cash-connection-sizzling-hot",
+      "url": "https://www.greentube.com/game/cash-connection-sizzling-hot/",
+      "symbol": "14394",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Thunder Cash™ – Charming Lady™ – U.S.A",
+      "slug": "thunder-cash-charming-lady",
+      "url": "https://www.greentube.com/game/thunder-cash-charming-lady/",
+      "symbol": "14411",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice King™",
+      "slug": "dice-king",
+      "url": "https://www.greentube.com/game/dice-king/",
+      "symbol": "14419",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Action Dice™",
+      "slug": "action-dice",
+      "url": "https://www.greentube.com/game/action-dice/",
+      "symbol": "14415",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wings of Fortune™",
+      "slug": "wings-of-fortune",
+      "url": "https://www.greentube.com/game/wings-of-fortune/",
+      "symbol": "14390",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit King™",
+      "slug": "fruit-king",
+      "url": "https://www.greentube.com/game/fruit-king/",
+      "symbol": "14417",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 Fortune Dice™",
+      "slug": "50-fortune-dice",
+      "url": "https://www.greentube.com/game/50-fortune-dice/",
+      "symbol": "14421",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great Emperor™",
+      "slug": "great-emperor",
+      "url": "https://www.greentube.com/game/great-emperor/",
+      "symbol": "14040",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silver Trails™",
+      "slug": "silver-trails",
+      "url": "https://www.greentube.com/game/silver-trails/",
+      "symbol": "13485",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Circus™",
+      "slug": "super-circus",
+      "url": "https://www.greentube.com/game/super-circus/",
+      "symbol": "13332",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fuzanglong Fire Wilds™",
+      "slug": "fuzanglong-fire-wilds",
+      "url": "https://www.greentube.com/game/fuzanglong-fire-wilds/",
+      "symbol": "13327",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Autodromo Bingo™",
+      "slug": "autodromo-bingo",
+      "url": "https://www.greentube.com/game/autodromo-bingo/",
+      "symbol": "13559",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Line Mystery Gold",
+      "slug": "5-line-mystery-gold",
+      "url": "https://www.greentube.com/game/5-line-mystery-gold/",
+      "symbol": "12897",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Action 6™",
+      "slug": "joker-action-6",
+      "url": "https://www.greentube.com/game/joker-action-6/",
+      "symbol": "12895",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot 40",
+      "slug": "red-hot-40",
+      "url": "https://www.greentube.com/game/red-hot-40/",
+      "symbol": "13003",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Captain Venture™: Treasures of the Sea",
+      "slug": "captain-venture-treasures-sea",
+      "url": "https://www.greentube.com/game/captain-venture-treasures-sea/",
+      "symbol": "13349",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Woonsters™",
+      "slug": "woonsters",
+      "url": "https://www.greentube.com/game/woonsters/",
+      "symbol": "13014",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "THUNDER CASH™ – Juicy Juicy",
+      "slug": "thunder-cash-juicy-juicy",
+      "url": "https://www.greentube.com/game/thunder-cash-juicy-juicy/",
+      "symbol": "12621",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santa’s Riches™",
+      "slug": "santas-riches",
+      "url": "https://www.greentube.com/game/santas-riches/",
+      "symbol": "12619",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "THUNDER CASH™ – Fruity Fruity",
+      "slug": "thunder-cash-fruity-fruity",
+      "url": "https://www.greentube.com/game/thunder-cash-fruity-fruity/",
+      "symbol": "12610",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Burning Wild™",
+      "slug": "burning-wild",
+      "url": "https://www.greentube.com/game/burning-wild/",
+      "symbol": "12558",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "25 Red Hot Burning Clover Link™",
+      "slug": "25-red-hot-burning-clover-link",
+      "url": "https://www.greentube.com/game/25-red-hot-burning-clover-link/",
+      "symbol": "12542",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Five™",
+      "slug": "big-five",
+      "url": "https://www.greentube.com/game/big-five/",
+      "symbol": "12306",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spooky Spells™",
+      "slug": "spooky-spells",
+      "url": "https://www.greentube.com/game/spooky-spells/",
+      "symbol": "12304",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "From Dusk Till Dawn™ 10",
+      "slug": "dusk-till-dawn-10",
+      "url": "https://www.greentube.com/game/dusk-till-dawn-10/",
+      "symbol": "12456",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cops ‘n’ Robbers™ Vegas Nights",
+      "slug": "cops-n-robbers-vegas-nights",
+      "url": "https://www.greentube.com/game/cops-n-robbers-vegas-nights/",
+      "symbol": "11170",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™ Magic",
+      "slug": "lord-of-the-ocean-magic-adapted",
+      "url": "https://www.greentube.com/game/lord-of-the-ocean-magic-adapted/",
+      "symbol": "68664",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™ Magic",
+      "slug": "lord-ocean-magic",
+      "url": "https://www.greentube.com/game/lord-ocean-magic/",
+      "symbol": "10898",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5-Line Fortune™",
+      "slug": "5-line-fortune",
+      "url": "https://www.greentube.com/game/5-line-fortune/",
+      "symbol": "10896",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rising Tiger – Shēng qǐ de Lǎohǔ™",
+      "slug": "rising-tiger-sheng-qi-de-laohu",
+      "url": "https://www.greentube.com/game/rising-tiger-sheng-qi-de-laohu/",
+      "symbol": "10888",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Seven Seas Jackpots™",
+      "slug": "seven-seas-jackpots",
+      "url": "https://www.greentube.com/game/seven-seas-jackpots/",
+      "symbol": "11067",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Indian Spirit™ Deluxe",
+      "slug": "indian-spirit-deluxe",
+      "url": "https://www.greentube.com/game/indian-spirit-deluxe/",
+      "symbol": "10893",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Scat Cat Fortune™",
+      "slug": "scat-cat-fortune",
+      "url": "https://www.greentube.com/game/scat-cat-fortune/",
+      "symbol": "10890",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sevens Staxx™",
+      "slug": "sevens-staxx",
+      "url": "https://www.greentube.com/game/sevens-staxx/",
+      "symbol": "10884",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lotus Flower™",
+      "slug": "lotus-flower",
+      "url": "https://www.greentube.com/game/lotus-flower/",
+      "symbol": "10883",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Sevens",
+      "slug": "diamond-link-mighty-sevens",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-sevens/",
+      "symbol": "10616",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Cubes",
+      "slug": "hot-cubes-adapted",
+      "url": "https://www.greentube.com/game/hot-cubes-adapted/",
+      "symbol": "68015",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Cubes",
+      "slug": "hot-cubes",
+      "url": "https://www.greentube.com/game/hot-cubes/",
+      "symbol": "10454",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great Fortune™",
+      "slug": "great-fortune",
+      "url": "https://www.greentube.com/game/great-fortune/",
+      "symbol": "9652",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pay Day",
+      "slug": "pay-day",
+      "url": "https://www.greentube.com/game/pay-day/",
+      "symbol": "9654",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Emperor",
+      "slug": "diamond-link-mighty-emperor",
+      "url": "https://www.greentube.com/game/diamond-link-mighty-emperor/",
+      "symbol": "9867",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Riches of Babylon™",
+      "slug": "riches-of-babylon",
+      "url": "https://www.greentube.com/game/riches-of-babylon/",
+      "symbol": "9281",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rising Treasures™",
+      "slug": "rising-treasures",
+      "url": "https://www.greentube.com/game/rising-treasures/",
+      "symbol": "9638",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Spin Jackpots™",
+      "slug": "lucky-spin-jackpots-adapted",
+      "url": "https://www.greentube.com/game/lucky-spin-jackpots-adapted/",
+      "symbol": "68041",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Spin Jackpots™",
+      "slug": "lucky-spin-jackpots",
+      "url": "https://www.greentube.com/game/lucky-spin-jackpots/",
+      "symbol": "9646",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Romeo & Juliet – Sealed with a Kiss™",
+      "slug": "romeo-juliet-sealed-kiss",
+      "url": "https://www.greentube.com/game/romeo-juliet-sealed-kiss/",
+      "symbol": "9642",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Star Fruits™",
+      "slug": "gold-star-fruits",
+      "url": "https://www.greentube.com/game/gold-star-fruits/",
+      "symbol": "9044",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Great American Wilds™",
+      "slug": "great-american-wilds",
+      "url": "https://www.greentube.com/game/great-american-wilds/",
+      "symbol": "8786",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Oasis Riches",
+      "slug": "diamond-link-oasis-riches",
+      "url": "https://www.greentube.com/game/diamond-link-oasis-riches/",
+      "symbol": "8780",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Phoenix Fortune™",
+      "slug": "phoenix-fortune",
+      "url": "https://www.greentube.com/game/phoenix-fortune/",
+      "symbol": "8772",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Cherry 1000",
+      "slug": "super-cherry-1000",
+      "url": "https://www.greentube.com/game/super-cherry-1000/",
+      "symbol": "9190",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Cherry 2000",
+      "slug": "super-cherry-2000",
+      "url": "https://www.greentube.com/game/super-cherry-2000/",
+      "symbol": "9200",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash Connection™ Charming Lady™",
+      "slug": "cash-connection-charming-lady",
+      "url": "https://www.greentube.com/game/cash-connection-charming-lady/",
+      "symbol": "8775",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Action Joker",
+      "slug": "action-joker",
+      "url": "https://www.greentube.com/game/action-joker/",
+      "symbol": "8784",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prize Of The Nile™",
+      "slug": "prize-of-the-nile",
+      "url": "https://www.greentube.com/game/prize-of-the-nile/",
+      "symbol": "8778",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Super Cherry 5000",
+      "slug": "super-cherry-5000",
+      "url": "https://www.greentube.com/game/super-cherry-5000/",
+      "symbol": "8888",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "RouletteS",
+      "slug": "roulettes",
+      "url": "https://www.greentube.com/game/roulettes/",
+      "symbol": "8590",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Prized Panda™",
+      "slug": "prized-panda",
+      "url": "https://www.greentube.com/game/prized-panda/",
+      "symbol": "8796",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe 10",
+      "slug": "book-of-ra-deluxe-10-2",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-10-2/",
+      "symbol": "66969",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe 10",
+      "slug": "book-ra-deluxe-10",
+      "url": "https://www.greentube.com/game/book-ra-deluxe-10/",
+      "symbol": "8356",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lone Star Jackpots™",
+      "slug": "lone-star-jackpots-adapted",
+      "url": "https://www.greentube.com/game/lone-star-jackpots-adapted/",
+      "symbol": "68035",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lone Star Jackpots™",
+      "slug": "lone-star-jackpots",
+      "url": "https://www.greentube.com/game/lone-star-jackpots/",
+      "symbol": "8354",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "50 FORTUNE FRUITS™",
+      "slug": "50-fortune-fruits",
+      "url": "https://www.greentube.com/game/50-fortune-fruits/",
+      "symbol": "8307",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Darkness™ – Midnight Heat",
+      "slug": "midnight-heat",
+      "url": "https://www.greentube.com/game/midnight-heat/",
+      "symbol": "8301",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wish Upon a Star™",
+      "slug": "wish-upon-star",
+      "url": "https://www.greentube.com/game/wish-upon-star/",
+      "symbol": "8364",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ – Temple of Gold™",
+      "slug": "book-ra-temple-gold",
+      "url": "https://www.greentube.com/game/book-ra-temple-gold/",
+      "symbol": "8277",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crazy Hot Slots™",
+      "slug": "crazy-hot-slots",
+      "url": "https://www.greentube.com/game/crazy-hot-slots/",
+      "symbol": "8150",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Diamond Link™: Mighty Elephant",
+      "slug": "mighty-elephant",
+      "url": "https://www.greentube.com/game/mighty-elephant/",
+      "symbol": "7840",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Myth of Medusa™ Gold",
+      "slug": "7837",
+      "url": "https://www.greentube.com/game/7837/",
+      "symbol": "7837",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beauty of Cleopatra",
+      "slug": "beauty-of-cleopatra",
+      "url": "https://www.greentube.com/game/beauty-of-cleopatra/",
+      "symbol": "7831",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Haul of Hades – Super Spinner™",
+      "slug": "haul-hades-super-spinner",
+      "url": "https://www.greentube.com/game/haul-hades-super-spinner/",
+      "symbol": "7822",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ALMIGHTY JACKPOTS – Garden of Persephone™",
+      "slug": "almighty-jackpots-garden-persephone",
+      "url": "https://www.greentube.com/game/almighty-jackpots-garden-persephone/",
+      "symbol": "7820",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fluffy Bingo™",
+      "slug": "fluffy-bingo",
+      "url": "https://www.greentube.com/game/fluffy-bingo/",
+      "symbol": "7818",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ALMIGHTY JACKPOTS – Realm of Poseidon™",
+      "slug": "almighty-jackpots-realm-poseidon",
+      "url": "https://www.greentube.com/game/almighty-jackpots-realm-poseidon/",
+      "symbol": "7816",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jackpot Dice",
+      "slug": "jackpot-dice",
+      "url": "https://www.greentube.com/game/jackpot-dice/",
+      "symbol": "7814",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grand Hold’em",
+      "slug": "grand-holdem",
+      "url": "https://www.greentube.com/game/grand-holdem/",
+      "symbol": "7496",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ancient Goddess",
+      "slug": "ancient-goddess",
+      "url": "https://www.greentube.com/game/ancient-goddess/",
+      "symbol": "7484",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Madly Wild™",
+      "slug": "madly-wild",
+      "url": "https://www.greentube.com/game/madly-wild/",
+      "symbol": "7341",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Slam™ Casino",
+      "slug": "mega-slam-casino",
+      "url": "https://www.greentube.com/game/mega-slam-casino/",
+      "symbol": "7335",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Vampire Fortunes™",
+      "slug": "vampire-fortunes",
+      "url": "https://www.greentube.com/game/vampire-fortunes/",
+      "symbol": "7131",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pyramid Fortunes™",
+      "slug": "pyramid-fortunes",
+      "url": "https://www.greentube.com/game/pyramid-fortunes/",
+      "symbol": "7126",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Island Heat™",
+      "slug": "island-heat",
+      "url": "https://www.greentube.com/game/island-heat/",
+      "symbol": "6964",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ Mystic Fortunes",
+      "slug": "book-ra-mystic-fortunes",
+      "url": "https://www.greentube.com/game/book-ra-mystic-fortunes/",
+      "symbol": "7089",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Feather Frenzy™",
+      "slug": "feather-frenzy",
+      "url": "https://www.greentube.com/game/feather-frenzy/",
+      "symbol": "7066",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Gambini’s Night Magic",
+      "slug": "great-gambinis-night-magic",
+      "url": "https://www.greentube.com/game/great-gambinis-night-magic/",
+      "symbol": "6988",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tidal Riches",
+      "slug": "tidal-riches",
+      "url": "https://www.greentube.com/game/tidal-riches/",
+      "symbol": "6952",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Warrior™",
+      "slug": "dragon-warrior",
+      "url": "https://www.greentube.com/game/dragon-warrior/",
+      "symbol": "6974",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Country™",
+      "slug": "wild-country",
+      "url": "https://www.greentube.com/game/wild-country/",
+      "symbol": "6581",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ALMIGHTY REELS – Garden of Persephone",
+      "slug": "almighty-reels-garden-persephone",
+      "url": "https://www.greentube.com/game/almighty-reels-garden-persephone/",
+      "symbol": "6573",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Asian Fortunes™",
+      "slug": "asian-fortunes",
+      "url": "https://www.greentube.com/game/asian-fortunes/",
+      "symbol": "6569",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Arctic Race",
+      "slug": "artic-race",
+      "url": "https://www.greentube.com/game/artic-race/",
+      "symbol": "6565",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe 10",
+      "slug": "lucky-ladys-charm-deluxe-10-2-2",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10-2-2/",
+      "symbol": "67003",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe 10",
+      "slug": "lucky-ladys-charm-deluxe-10",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-10/",
+      "symbol": "6543",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Stein Haus™",
+      "slug": "stein-haus",
+      "url": "https://www.greentube.com/game/stein-haus/",
+      "symbol": "5935",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Eye of the Dragon",
+      "slug": "eye-of-the-dragon",
+      "url": "https://www.greentube.com/game/eye-of-the-dragon/",
+      "symbol": "694",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Darkness™ Full Moon",
+      "slug": "tales-darkness-full-moon",
+      "url": "https://www.greentube.com/game/tales-darkness-full-moon/",
+      "symbol": "5616",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Darkness™ Break of Dawn",
+      "slug": "tales-darknessbreak-dawn",
+      "url": "https://www.greentube.com/game/tales-darknessbreak-dawn/",
+      "symbol": "5600",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ALMIGHTY REELS™ – Realm of Poseidon",
+      "slug": "almighty-reels-realm-poseidon",
+      "url": "https://www.greentube.com/game/almighty-reels-realm-poseidon/",
+      "symbol": "5593",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ Dice",
+      "slug": "book-ra-dice",
+      "url": "https://www.greentube.com/game/book-ra-dice/",
+      "symbol": "5587",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tales of Darkness™ Lunar Eclipse",
+      "slug": "tales-darkness-lunar-eclipse",
+      "url": "https://www.greentube.com/game/tales-darkness-lunar-eclipse/",
+      "symbol": "5580",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "ALMIGHTY REELS – Power of Zeus ™",
+      "slug": "almighty-reels-power-zeus",
+      "url": "https://www.greentube.com/game/almighty-reels-power-zeus/",
+      "symbol": "5564",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot 20",
+      "slug": "red-hot-20",
+      "url": "https://www.greentube.com/game/red-hot-20/",
+      "symbol": "5526",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Spinner™ casino",
+      "slug": "wild-spinner-casino",
+      "url": "https://www.greentube.com/game/wild-spinner-casino/",
+      "symbol": "5538",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Hot Burning",
+      "slug": "red-hot-burning",
+      "url": "https://www.greentube.com/game/red-hot-burning/",
+      "symbol": "5409",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jack in the Box™",
+      "slug": "jack-in-the-box",
+      "url": "https://www.greentube.com/game/jack-in-the-box/",
+      "symbol": "5367",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Irish Coins™",
+      "slug": "irish-coins",
+      "url": "https://www.greentube.com/game/irish-coins/",
+      "symbol": "5190",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ Magic",
+      "slug": "book-of-ra-magic-2",
+      "url": "https://www.greentube.com/game/book-of-ra-magic-2/",
+      "symbol": "66979",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ Magic",
+      "slug": "book-ra-magic",
+      "url": "https://www.greentube.com/game/book-ra-magic/",
+      "symbol": "5235",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "From Dusk Till Dawn™",
+      "slug": "dusk-till-dawn",
+      "url": "https://www.greentube.com/game/dusk-till-dawn/",
+      "symbol": "5226",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker 5000 Wild",
+      "slug": "joker-5000-wild",
+      "url": "https://www.greentube.com/game/joker-5000-wild/",
+      "symbol": "4812",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "1-2-3 Bingo!™",
+      "slug": "1-2-3-bingo",
+      "url": "https://www.greentube.com/game/1-2-3-bingo/",
+      "symbol": "4787",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Totally Wild™",
+      "slug": "totally-wild",
+      "url": "https://www.greentube.com/game/totally-wild/",
+      "symbol": "4763",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gemini Twin",
+      "slug": "gemini-twin",
+      "url": "https://www.greentube.com/game/gemini-twin/",
+      "symbol": "4755",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Extreme Riches",
+      "slug": "extreme-riches",
+      "url": "https://www.greentube.com/game/extreme-riches/",
+      "symbol": "3728",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragon Pays – 2nd Chance Respin",
+      "slug": "dragon-pays-2nd-chance-respin",
+      "url": "https://www.greentube.com/game/dragon-pays-2nd-chance-respin/",
+      "symbol": "3800",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Asian Diamonds™",
+      "slug": "asian-diamonds",
+      "url": "https://www.greentube.com/game/asian-diamonds/",
+      "symbol": "3711",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker 2000",
+      "slug": "joker-2000",
+      "url": "https://www.greentube.com/game/joker-2000/",
+      "symbol": "3835",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady Bingo™",
+      "slug": "lucky-lady-bingo",
+      "url": "https://www.greentube.com/game/lucky-lady-bingo/",
+      "symbol": "3844",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flame Dancer™",
+      "slug": "flame-dancer",
+      "url": "https://www.greentube.com/game/flame-dancer/",
+      "symbol": "7020",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Double Dice™",
+      "slug": "double-dice-2",
+      "url": "https://www.greentube.com/game/double-dice-2/",
+      "symbol": "690",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Shot",
+      "slug": "hot-shot",
+      "url": "https://www.greentube.com/game/hot-shot/",
+      "symbol": "689",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plenty on Twenty™ II hot",
+      "slug": "plenty-on-twenty-ii-hot",
+      "url": "https://www.greentube.com/game/plenty-on-twenty-ii-hot/",
+      "symbol": "687",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Club 2000™ Casino",
+      "slug": "club-2000-casino",
+      "url": "https://www.greentube.com/game/club-2000-casino/",
+      "symbol": "3809",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Autodromo™",
+      "slug": "autodromo",
+      "url": "https://www.greentube.com/game/autodromo/",
+      "symbol": "682",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Amazing Sevens",
+      "slug": "amazing-sevens",
+      "url": "https://www.greentube.com/game/amazing-sevens/",
+      "symbol": "681",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Queen Cleopatra",
+      "slug": "queen-cleopatra-mynt-ported",
+      "url": "https://www.greentube.com/game/queen-cleopatra-mynt-ported/",
+      "symbol": "77377",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Queen Cleopatra",
+      "slug": "queen-cleopatra",
+      "url": "https://www.greentube.com/game/queen-cleopatra/",
+      "symbol": "680",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe 6",
+      "slug": "lucky-ladys-charm-deluxe-6",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-6/",
+      "symbol": "679",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bingo 10™",
+      "slug": "bingo-10",
+      "url": "https://www.greentube.com/game/bingo-10/",
+      "symbol": "674",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Apollo God of The Sun™",
+      "slug": "apollo-god-of-the-sun-mynt",
+      "url": "https://www.greentube.com/game/apollo-god-of-the-sun-mynt/",
+      "symbol": "66961",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Apollo God of The Sun™",
+      "slug": "apollo-god-of-the-sun",
+      "url": "https://www.greentube.com/game/apollo-god-of-the-sun/",
+      "symbol": "666",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Awesome Stars™",
+      "slug": "awesome-stars",
+      "url": "https://www.greentube.com/game/awesome-stars/",
+      "symbol": "661",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Roaring Wilds™",
+      "slug": "roaring-wilds",
+      "url": "https://www.greentube.com/game/roaring-wilds/",
+      "symbol": "660",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Top o´the Money™",
+      "slug": "top-o-the-money",
+      "url": "https://www.greentube.com/game/top-o-the-money/",
+      "symbol": "658",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gold Runner™",
+      "slug": "gold-runner",
+      "url": "https://www.greentube.com/game/gold-runner/",
+      "symbol": "646",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Freibier!™",
+      "slug": "freibier",
+      "url": "https://www.greentube.com/game/freibier/",
+      "symbol": "645",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Age of Privateers",
+      "slug": "age-of-privateers",
+      "url": "https://www.greentube.com/game/age-of-privateers/",
+      "symbol": "644",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Sevens deluxe",
+      "slug": "golden-sevens-deluxe",
+      "url": "https://www.greentube.com/game/golden-sevens-deluxe/",
+      "symbol": "642",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lux Blackjack 6-Decks™",
+      "slug": "lux-blackjack",
+      "url": "https://www.greentube.com/game/lux-blackjack/",
+      "symbol": "634",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lux Roulette",
+      "slug": "lux-roulette",
+      "url": "https://www.greentube.com/game/lux-roulette/",
+      "symbol": "633",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spooky House",
+      "slug": "spooky-house",
+      "url": "https://www.greentube.com/game/spooky-house/",
+      "symbol": "630",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shooting Stars Supernova™",
+      "slug": "shooting-stars-supernova",
+      "url": "https://www.greentube.com/game/shooting-stars-supernova/",
+      "symbol": "629",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wilder™",
+      "slug": "simply-wilder",
+      "url": "https://www.greentube.com/game/simply-wilder/",
+      "symbol": "621",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Twin Winner™",
+      "slug": "twin-winner",
+      "url": "https://www.greentube.com/game/twin-winner/",
+      "symbol": "615",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Winter Queen™",
+      "slug": "winter-queen",
+      "url": "https://www.greentube.com/game/winter-queen/",
+      "symbol": "613",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Amazon´s Diamonds",
+      "slug": "amazons-diamonds",
+      "url": "https://www.greentube.com/game/amazons-diamonds/",
+      "symbol": "612",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Nova™",
+      "slug": "star-nova",
+      "url": "https://www.greentube.com/game/star-nova/",
+      "symbol": "609",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Snake Rattle & Roll™",
+      "slug": "snake-rattle-roll",
+      "url": "https://www.greentube.com/game/snake-rattle-roll/",
+      "symbol": "608",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot 6 extra gold™",
+      "slug": "sizzling-hot-6-extra-gold-adapted",
+      "url": "https://www.greentube.com/game/sizzling-hot-6-extra-gold-adapted/",
+      "symbol": "68025",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot 6 extra gold™",
+      "slug": "sizzling-hot-6-extra-gold",
+      "url": "https://www.greentube.com/game/sizzling-hot-6-extra-gold/",
+      "symbol": "594",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Temple of Secrets",
+      "slug": "temple-of-secrets",
+      "url": "https://www.greentube.com/game/temple-of-secrets/",
+      "symbol": "591",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe Bingo",
+      "slug": "book-of-ra-bingo",
+      "url": "https://www.greentube.com/game/book-of-ra-bingo/",
+      "symbol": "590",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Big Runner™",
+      "slug": "big-runner",
+      "url": "https://www.greentube.com/game/big-runner/",
+      "symbol": "589",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grand Jester",
+      "slug": "grand-jester",
+      "url": "https://www.greentube.com/game/grand-jester/",
+      "symbol": "586",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Autumn Queen™",
+      "slug": "autumn-queen",
+      "url": "https://www.greentube.com/game/autumn-queen/",
+      "symbol": "575",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner® VIP",
+      "slug": "random-runner-vip",
+      "url": "https://www.greentube.com/game/random-runner-vip/",
+      "symbol": "560",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dynasty of Ra™",
+      "slug": "dynasty-of-ra",
+      "url": "https://www.greentube.com/game/dynasty-of-ra/",
+      "symbol": "557",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Summer Queen™",
+      "slug": "summer-queen",
+      "url": "https://www.greentube.com/game/summer-queen/",
+      "symbol": "552",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Star Lotto",
+      "slug": "star-lotto",
+      "url": "https://www.greentube.com/game/star-lotto/",
+      "symbol": "550",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Club 2000™",
+      "slug": "club-2000",
+      "url": "https://www.greentube.com/game/club-2000/",
+      "symbol": "544",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spring Queen™",
+      "slug": "spring-queen",
+      "url": "https://www.greentube.com/game/spring-queen/",
+      "symbol": "540",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dice Winner",
+      "slug": "dice-winner",
+      "url": "https://www.greentube.com/game/dice-winner/",
+      "symbol": "535",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel King Potty™",
+      "slug": "reel-king-potty",
+      "url": "https://www.greentube.com/game/reel-king-potty/",
+      "symbol": "532",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Simply Wild™",
+      "slug": "simply-wild",
+      "url": "https://www.greentube.com/game/simply-wild/",
+      "symbol": "528",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hold it Casino™",
+      "slug": "hold-it-casino",
+      "url": "https://www.greentube.com/game/hold-it-casino/",
+      "symbol": "518",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bruno Bingo™",
+      "slug": "bruno-bingo",
+      "url": "https://www.greentube.com/game/bruno-bingo/",
+      "symbol": "514",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Haul of Hades™",
+      "slug": "haul-of-hades",
+      "url": "https://www.greentube.com/game/haul-of-hades/",
+      "symbol": "513",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Line Mystery™",
+      "slug": "5-line-mystery",
+      "url": "https://www.greentube.com/game/5-line-mystery/",
+      "symbol": "512",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash 300™ Casino",
+      "slug": "cash-300-casino",
+      "url": "https://www.greentube.com/game/cash-300-casino/",
+      "symbol": "504",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Faust™",
+      "slug": "faust-adapted",
+      "url": "https://www.greentube.com/game/faust-adapted/",
+      "symbol": "68656",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Faust™",
+      "slug": "faust",
+      "url": "https://www.greentube.com/game/faust/",
+      "symbol": "500",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shooting Stars™",
+      "slug": "shooting-stars",
+      "url": "https://www.greentube.com/game/shooting-stars/",
+      "symbol": "499",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plenty of Fruit 20 Hot™",
+      "slug": "plenty-of-fruit-20-hot",
+      "url": "https://www.greentube.com/game/plenty-of-fruit-20-hot/",
+      "symbol": "498",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plenty of Fruit 40™",
+      "slug": "plenty-of-fruit-40",
+      "url": "https://www.greentube.com/game/plenty-of-fruit-40/",
+      "symbol": "497",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plenty of Fruit 20™",
+      "slug": "plenty-of-fruit-20",
+      "url": "https://www.greentube.com/game/plenty-of-fruit-20/",
+      "symbol": "495",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruit Fest™",
+      "slug": "fruit-fest",
+      "url": "https://www.greentube.com/game/fruit-fest/",
+      "symbol": "489",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Maya™",
+      "slug": "book-of-maya",
+      "url": "https://www.greentube.com/game/book-of-maya/",
+      "symbol": "484",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crazy Slots",
+      "slug": "crazy-slots-3",
+      "url": "https://www.greentube.com/game/crazy-slots-3/",
+      "symbol": "483",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gryphon´s Gold™ deluxe",
+      "slug": "gryphons-gold-deluxe",
+      "url": "https://www.greentube.com/game/gryphons-gold-deluxe/",
+      "symbol": "480",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe 6",
+      "slug": "book-of-ra-deluxe-6-2-2",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-6-2-2/",
+      "symbol": "66975",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe 6",
+      "slug": "book-of-ra-deluxe-6",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-6/",
+      "symbol": "477",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "5 Line Jokers™",
+      "slug": "5-line-jokers",
+      "url": "https://www.greentube.com/game/5-line-jokers/",
+      "symbol": "474",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cops ‘n’ Robbers Millionaries Row",
+      "slug": "cops-nrobbers-millionaries-row",
+      "url": "https://www.greentube.com/game/cops-nrobbers-millionaries-row/",
+      "symbol": "472",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Stars",
+      "slug": "book-of-stars",
+      "url": "https://www.greentube.com/game/book-of-stars/",
+      "symbol": "470",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Always Hot™ Cubes",
+      "slug": "always-hot-cubes",
+      "url": "https://www.greentube.com/game/always-hot-cubes/",
+      "symbol": "467",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Supra Hot",
+      "slug": "supra-hot",
+      "url": "https://www.greentube.com/game/supra-hot/",
+      "symbol": "466",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™",
+      "slug": "random-runner-awp",
+      "url": "https://www.greentube.com/game/random-runner-awp/",
+      "symbol": "465",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "River Queen™",
+      "slug": "river-queen",
+      "url": "https://www.greentube.com/game/river-queen/",
+      "symbol": "463",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King of Cards™",
+      "slug": "king-of-cards-2-2",
+      "url": "https://www.greentube.com/game/king-of-cards-2-2/",
+      "symbol": "66991",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King of Cards™",
+      "slug": "king-of-cards",
+      "url": "https://www.greentube.com/game/king-of-cards/",
+      "symbol": "462",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic 27",
+      "slug": "magic27",
+      "url": "https://www.greentube.com/game/magic27/",
+      "symbol": "455",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jokers Casino™",
+      "slug": "jokers-casino",
+      "url": "https://www.greentube.com/game/jokers-casino/",
+      "symbol": "448",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Joker™",
+      "slug": "power-joker",
+      "url": "https://www.greentube.com/game/power-joker/",
+      "symbol": "446",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Always Hot™ deluxe",
+      "slug": "always-hot-deluxe-2",
+      "url": "https://www.greentube.com/game/always-hot-deluxe-2/",
+      "symbol": "66957",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Always Hot™ deluxe",
+      "slug": "always-hottm-deluxe",
+      "url": "https://www.greentube.com/game/always-hottm-deluxe/",
+      "symbol": "445",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Crown Blackjack",
+      "slug": "royal-crown-blackjack",
+      "url": "https://www.greentube.com/game/royal-crown-blackjack/",
+      "symbol": "444",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Red Lady",
+      "slug": "red-lady",
+      "url": "https://www.greentube.com/game/red-lady/",
+      "symbol": "441",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multi Dice™",
+      "slug": "multi-dice",
+      "url": "https://www.greentube.com/game/multi-dice/",
+      "symbol": "439",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Amazing Stars",
+      "slug": "amazing-stars",
+      "url": "https://www.greentube.com/game/amazing-stars/",
+      "symbol": "421",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wizard Bingo",
+      "slug": "wizard-bingo",
+      "url": "https://www.greentube.com/game/wizard-bingo/",
+      "symbol": "420",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Express Bonus Bingo",
+      "slug": "express-bonus-game",
+      "url": "https://www.greentube.com/game/express-bonus-game/",
+      "symbol": "419",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dynamite Bingo",
+      "slug": "dynamite-bingo",
+      "url": "https://www.greentube.com/game/dynamite-bingo/",
+      "symbol": "418",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Crazy Cactus Bingo",
+      "slug": "crazy-cactus",
+      "url": "https://www.greentube.com/game/crazy-cactus/",
+      "symbol": "417",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beach Party Bingo",
+      "slug": "beach-party",
+      "url": "https://www.greentube.com/game/beach-party/",
+      "symbol": "416",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magic 81 Lines™",
+      "slug": "magic-81-lines-2",
+      "url": "https://www.greentube.com/game/magic-81-lines-2/",
+      "symbol": "415",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sinderella",
+      "slug": "sinderella",
+      "url": "https://www.greentube.com/game/sinderella/",
+      "symbol": "413",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grand Slam™ Casino",
+      "slug": "grand-slam-casino",
+      "url": "https://www.greentube.com/game/grand-slam-casino/",
+      "symbol": "412",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Royal Crown European Roulette",
+      "slug": "royal-crown-roulette",
+      "url": "https://www.greentube.com/game/royal-crown-roulette/",
+      "symbol": "410",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Garden of Riches",
+      "slug": "garden-of-riches",
+      "url": "https://www.greentube.com/game/garden-of-riches/",
+      "symbol": "407",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Flamenco Roses™",
+      "slug": "flamenco-roses",
+      "url": "https://www.greentube.com/game/flamenco-roses/",
+      "symbol": "405",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hoffmeister™",
+      "slug": "hoffmeister",
+      "url": "https://www.greentube.com/game/hoffmeister/",
+      "symbol": "402",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot Quattro™",
+      "slug": "sizzling-hot-quattro",
+      "url": "https://www.greentube.com/game/sizzling-hot-quattro/",
+      "symbol": "398",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "SUPER DICE™",
+      "slug": "super-dice",
+      "url": "https://www.greentube.com/game/super-dice/",
+      "symbol": "396",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Random Runner™ 15",
+      "slug": "random-runner-15",
+      "url": "https://www.greentube.com/game/random-runner-15/",
+      "symbol": "394",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruitilicious™",
+      "slug": "fruitilicious",
+      "url": "https://www.greentube.com/game/fruitilicious/",
+      "symbol": "383",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pharao´s Bingo",
+      "slug": "pharaohs-bingo",
+      "url": "https://www.greentube.com/game/pharaohs-bingo/",
+      "symbol": "382",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Silverball",
+      "slug": "silverball",
+      "url": "https://www.greentube.com/game/silverball/",
+      "symbol": "381",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nineballs Bingo",
+      "slug": "nineballs",
+      "url": "https://www.greentube.com/game/nineballs/",
+      "symbol": "380",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Backgammon",
+      "slug": "backgammon",
+      "url": "https://www.greentube.com/game/backgammon/",
+      "symbol": "302",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caribbean Holidays",
+      "slug": "carribean-holidays",
+      "url": "https://www.greentube.com/game/carribean-holidays/",
+      "symbol": "294",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fruits’n Sevens",
+      "slug": "fruitsn-sevens",
+      "url": "https://www.greentube.com/game/fruitsn-sevens/",
+      "symbol": "293",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jacks or Better",
+      "slug": "jacks-or-better",
+      "url": "https://www.greentube.com/game/jacks-or-better/",
+      "symbol": "290",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deuces Wild",
+      "slug": "deuces-wild",
+      "url": "https://www.greentube.com/game/deuces-wild/",
+      "symbol": "289",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "American Poker™ II",
+      "slug": "american-poker-ii",
+      "url": "https://www.greentube.com/game/american-poker-ii/",
+      "symbol": "288",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "European Roulette",
+      "slug": "roulette-european",
+      "url": "https://www.greentube.com/game/roulette-european/",
+      "symbol": "283",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Xtra Hot™",
+      "slug": "xtra-hot",
+      "url": "https://www.greentube.com/game/xtra-hot/",
+      "symbol": "279",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ultra Hot™ deluxe",
+      "slug": "ultra-hot-deluxe-222",
+      "url": "https://www.greentube.com/game/ultra-hot-deluxe-222/",
+      "symbol": "67025",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ultra Hot™ deluxe",
+      "slug": "ultra-hot-deluxe",
+      "url": "https://www.greentube.com/game/ultra-hot-deluxe/",
+      "symbol": "277",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot™ deluxe",
+      "slug": "sizzling-hot-deluxe-22",
+      "url": "https://www.greentube.com/game/sizzling-hot-deluxe-22/",
+      "symbol": "67021",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sizzling Hot™ deluxe",
+      "slug": "sizzling-hot-deluxe",
+      "url": "https://www.greentube.com/game/sizzling-hot-deluxe/",
+      "symbol": "275",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Roaring Forties™",
+      "slug": "roaring-forties-22",
+      "url": "https://www.greentube.com/game/roaring-forties-22/",
+      "symbol": "67017",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Roaring Forties™",
+      "slug": "roaring-forties",
+      "url": "https://www.greentube.com/game/roaring-forties/",
+      "symbol": "274",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Reel King™",
+      "slug": "reel-king",
+      "url": "https://www.greentube.com/game/reel-king/",
+      "symbol": "273",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Stars™",
+      "slug": "power-stars-2-2",
+      "url": "https://www.greentube.com/game/power-stars-2-2/",
+      "symbol": "67013",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Power Stars™",
+      "slug": "power-stars",
+      "url": "https://www.greentube.com/game/power-stars/",
+      "symbol": "272",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plenty on Twenty™",
+      "slug": "plenty-on-twenty",
+      "url": "https://www.greentube.com/game/plenty-on-twenty/",
+      "symbol": "271",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Joker™",
+      "slug": "mega-joker-2-2",
+      "url": "https://www.greentube.com/game/mega-joker-2-2/",
+      "symbol": "67009",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Joker™",
+      "slug": "mega-joker",
+      "url": "https://www.greentube.com/game/mega-joker/",
+      "symbol": "269",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Just Jewels™ deluxe",
+      "slug": "just-jewels-deluxe",
+      "url": "https://www.greentube.com/game/just-jewels-deluxe/",
+      "symbol": "268",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jolly Fruits™",
+      "slug": "jolly-fruits",
+      "url": "https://www.greentube.com/game/jolly-fruits/",
+      "symbol": "267",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jackpot Crown™",
+      "slug": "jackpot-crown",
+      "url": "https://www.greentube.com/game/jackpot-crown/",
+      "symbol": "266",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Chance™",
+      "slug": "hot-chance",
+      "url": "https://www.greentube.com/game/hot-chance/",
+      "symbol": "265",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Sevens",
+      "slug": "golden-sevens",
+      "url": "https://www.greentube.com/game/golden-sevens/",
+      "symbol": "263",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "4 Reel Kings",
+      "slug": "4-reel-kings",
+      "url": "https://www.greentube.com/game/4-reel-kings/",
+      "symbol": "261",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cops ‘n’ Robbers™",
+      "slug": "cobsn-robbers",
+      "url": "https://www.greentube.com/game/cobsn-robbers/",
+      "symbol": "253",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sharky™",
+      "slug": "sharky",
+      "url": "https://www.greentube.com/game/sharky/",
+      "symbol": "249",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Rumpel Wildspins™",
+      "slug": "rumpel-wildspins",
+      "url": "https://www.greentube.com/game/rumpel-wildspins/",
+      "symbol": "245",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Queen of Hearts™ deluxe",
+      "slug": "queen-of-hearts-deluxe",
+      "url": "https://www.greentube.com/game/queen-of-hearts-deluxe/",
+      "symbol": "239",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pharaoh’s Tomb™",
+      "slug": "pharaohs-tomb",
+      "url": "https://www.greentube.com/game/pharaohs-tomb/",
+      "symbol": "238",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pharaoh’s Ring™",
+      "slug": "pharaohs-ring",
+      "url": "https://www.greentube.com/game/pharaohs-ring/",
+      "symbol": "237",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystic Secrets™",
+      "slug": "mystic-secrets",
+      "url": "https://www.greentube.com/game/mystic-secrets/",
+      "symbol": "236",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mermaid’s Pearl",
+      "slug": "mermaids-pearl",
+      "url": "https://www.greentube.com/game/mermaids-pearl/",
+      "symbol": "235",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mayan Moons™",
+      "slug": "mayan-moons",
+      "url": "https://www.greentube.com/game/mayan-moons/",
+      "symbol": "234",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™",
+      "slug": "lord-of-the-ocean-2-2",
+      "url": "https://www.greentube.com/game/lord-of-the-ocean-2-2/",
+      "symbol": "66995",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lord of the Ocean™",
+      "slug": "lord-of-the-ocean",
+      "url": "https://www.greentube.com/game/lord-of-the-ocean/",
+      "symbol": "231",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Katana™",
+      "slug": "katana",
+      "url": "https://www.greentube.com/game/katana/",
+      "symbol": "228",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Gorilla™",
+      "slug": "gorilla",
+      "url": "https://www.greentube.com/game/gorilla/",
+      "symbol": "224",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Golden Ark™",
+      "slug": "golden-ark",
+      "url": "https://www.greentube.com/game/golden-ark/",
+      "symbol": "223",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fairy Queen™",
+      "slug": "fairy-queen",
+      "url": "https://www.greentube.com/game/fairy-queen/",
+      "symbol": "222",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dolphin’s Pearl™",
+      "slug": "dolphins-pearl-22",
+      "url": "https://www.greentube.com/game/dolphins-pearl-22/",
+      "symbol": "67194",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dolphin’s Pearl™ deluxe",
+      "slug": "dolphins-pearl-deluxe-2-2",
+      "url": "https://www.greentube.com/game/dolphins-pearl-deluxe-2-2/",
+      "symbol": "66987",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dolphin’s Pearl™ deluxe",
+      "slug": "dolphins-pearl-deluxe",
+      "url": "https://www.greentube.com/game/dolphins-pearl-deluxe/",
+      "symbol": "221",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Columbus deluxe™",
+      "slug": "columbus-deluxe-2-2",
+      "url": "https://www.greentube.com/game/columbus-deluxe-2-2/",
+      "symbol": "66983",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Columbus deluxe™",
+      "slug": "columbus-deluxe",
+      "url": "https://www.greentube.com/game/columbus-deluxe/",
+      "symbol": "217",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chicago™",
+      "slug": "chicago",
+      "url": "https://www.greentube.com/game/chicago/",
+      "symbol": "215",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Captain Venture™",
+      "slug": "captain-venture",
+      "url": "https://www.greentube.com/game/captain-venture/",
+      "symbol": "212",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe",
+      "slug": "book-of-ra-deluxe-2",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-2/",
+      "symbol": "66965",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™ deluxe",
+      "slug": "book-of-ra-deluxe",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe/",
+      "symbol": "211",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aztec Power™",
+      "slug": "actec-powertm",
+      "url": "https://www.greentube.com/game/actec-powertm/",
+      "symbol": "208",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "African Simba™",
+      "slug": "african-simba",
+      "url": "https://www.greentube.com/game/african-simba/",
+      "symbol": "207",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™",
+      "slug": "book-of-ra-2",
+      "url": "https://www.greentube.com/game/book-of-ra-2/",
+      "symbol": "67119",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Ra™",
+      "slug": "book-of-ra",
+      "url": "https://www.greentube.com/game/book-of-ra/",
+      "symbol": "205",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe",
+      "slug": "lucky-ladys-charm-deluxe-2-2",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe-2-2/",
+      "symbol": "66999",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lucky Lady’s Charm™ deluxe",
+      "slug": "lucky-ladys-charm-deluxe",
+      "url": "https://www.greentube.com/game/lucky-ladys-charm-deluxe/",
+      "symbol": "204",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "A Fistful of Wilds™",
+      "slug": "a-fistful-of-wilds-adapted",
+      "url": "https://www.greentube.com/game/a-fistful-of-wilds-adapted/",
+      "symbol": "69074",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Book of Ra™ deluxe",
+      "slug": "book-of-ra-deluxe-mynt",
+      "url": "https://www.greentube.com/game/book-of-ra-deluxe-mynt/",
+      "symbol": "66965",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Diamond Mystery™ – 100 Imperial Crown™ deluxe",
+      "slug": "diamond-mystery-100-imperial-crown-deluxe-adapted",
+      "url": "https://www.greentube.com/game/diamond-mystery-100-imperial-crown-deluxe-adapted/",
+      "symbol": "69062",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Diamond Mystery™ – 40 Wild Fire 6™",
+      "slug": "diamond-mystery-40-wild-fire-6-adapted",
+      "url": "https://www.greentube.com/game/diamond-mystery-40-wild-fire-6-adapted/",
+      "symbol": "69038",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Diamond Mystery™ – Imperial Crown™",
+      "slug": "diamond-mystery-imperial-crown-adapted",
+      "url": "https://www.greentube.com/game/diamond-mystery-imperial-crown-adapted/",
+      "symbol": "69042",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    },
+    {
+      "name": "Diamond Mystery™ – Smoking Hot 7’s™",
+      "slug": "diamond-mystery-smoking-hot-7s-adapted",
+      "url": "https://www.greentube.com/game/diamond-mystery-smoking-hot-7s-adapted/",
+      "symbol": "69048",
+      "thumbnail_url": "",
+      "studio": "",
+      "category": "",
+      "demo_availability": "unknown",
+      "catalog_aliases": []
+    }
+  ]
+}

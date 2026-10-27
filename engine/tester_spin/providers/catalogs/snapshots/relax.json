@@ -1,0 +1,1585 @@
+{
+  "schema": "tester-spin-catalog/v1",
+  "provider": "relax",
+  "source": "https://www.relax-gaming.com/products/own-games",
+  "captured_at": "2026-10-16T09:50:21+00:00",
+  "coverage": "public_listing",
+  "execution_supported": false,
+  "games": [
+    {
+      "name": "Cloudforge",
+      "slug": "cloudforge",
+      "url": "https://www.relax-gaming.com/products/casino/cloudforge",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/cloudforge/thumbnail1x/Thumbnail_CloudForge_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Train 5",
+      "slug": "moneytrain5",
+      "url": "https://www.relax-gaming.com/products/casino/moneytrain5",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneytrain5/thumbnail1x/Thumbnail_Money_Train_5_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Nugget Ridge",
+      "slug": "nuggetridge",
+      "url": "https://www.relax-gaming.com/products/casino/nuggetridge",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/nuggetridge/thumbnail1x/Thumbnail_Nugget_Ridge_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "AgroCulture",
+      "slug": "agroculture",
+      "url": "https://www.relax-gaming.com/products/casino/agroculture",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/agroculture/thumbnail1x/Thumbnail_AgroCulture_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Plane",
+      "slug": "moneyplane",
+      "url": "https://www.relax-gaming.com/products/casino/moneyplane",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneyplane/thumbnail1x/Thumbnail_Money_Plane_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midnight Marauder - ClusterBreaker",
+      "slug": "midnightmarauderclusterbreaker",
+      "url": "https://www.relax-gaming.com/products/casino/midnightmarauderclusterbreaker",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/midnightmarauderclusterbreaker/thumbnail1x/Thumbnail_Midnight_Marauder_ClusterBreaker_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "World Class Kick Off Dream Drop",
+      "slug": "worldclasskickoffdd",
+      "url": "https://www.relax-gaming.com/products/casino/worldclasskickoffdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/worldclasskickoffdd/thumbnail1x/Thumbnail_World_Class_Kick_Off_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Guitar Quest",
+      "slug": "guitarquest",
+      "url": "https://www.relax-gaming.com/products/casino/guitarquest",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/guitarquest/thumbnail1x/Thumbnail_Guitar_Quest_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Purrrminator Dream Drop",
+      "slug": "purrrminatordd",
+      "url": "https://www.relax-gaming.com/products/casino/purrrminatordd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/purrrminatordd/thumbnail1x/Thumbnail_Purrrminator_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bonsai Dragon Blitz",
+      "slug": "bonsaidragonblitz",
+      "url": "https://www.relax-gaming.com/products/casino/bonsaidragonblitz",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bonsaidragonblitz/thumbnail1x/RG_Bonsai_Dragon_Blitz_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "World Class Kick Off",
+      "slug": "worldclasskickoff",
+      "url": "https://www.relax-gaming.com/products/casino/worldclasskickoff",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/worldclasskickoff/thumbnail1x/Thumbnail_World_Class_Kick_Off_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cod of Thunder Dream Drop",
+      "slug": "codofthunderdd",
+      "url": "https://www.relax-gaming.com/products/casino/codofthunderdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/codofthunderdd/thumbnail1x/Thumbnail_Cod_Of_Thunder_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Treasure Tumble",
+      "slug": "treasuretumble",
+      "url": "https://www.relax-gaming.com/products/casino/treasuretumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/treasuretumble/thumbnail1x/Thumbnail_Treasure_Tumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beast Gains",
+      "slug": "beastgains",
+      "url": "https://www.relax-gaming.com/products/casino/beastgains",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/beastgains/thumbnail1x/Thumbnail_Beast_Gains_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pharaoh's Last Wish",
+      "slug": "pharaohslastwish",
+      "url": "https://www.relax-gaming.com/products/casino/pharaohslastwish",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/pharaohslastwish/thumbnail1x/Thumbnail_Pharaohs_Last_Wish_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Olympus 7s Dream Drop",
+      "slug": "olympus7sdd",
+      "url": "https://www.relax-gaming.com/products/casino/olympus7sdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/olympus7sdd/thumbnail1x/RG_Olympus_7s_DD_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Necromancer’s Gate",
+      "slug": "necromancersgate",
+      "url": "https://www.relax-gaming.com/products/casino/necromancersgate",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/necromancersgate/thumbnail1x/RG_Necromancers_Gate_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bill & Coin 2 Dream Drop",
+      "slug": "billandcoin2dd",
+      "url": "https://www.relax-gaming.com/products/casino/billandcoin2dd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/billandcoin2dd/thumbnail1x/Thumbnail_BillCoin_2_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Iron Bank 2",
+      "slug": "ironbank2",
+      "url": "https://www.relax-gaming.com/products/casino/ironbank2",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/ironbank2/thumbnail1x/Thumbnail_IronBank2_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Snake Arena 2",
+      "slug": "snakearena2",
+      "url": "https://www.relax-gaming.com/products/casino/snakearena2",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/snakearena2/thumbnail1x/Thumbnail_Snake_Arena_2_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Treasure Tumble Dream Drop",
+      "slug": "treasuretumbledd",
+      "url": "https://www.relax-gaming.com/products/casino/treasuretumbledd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/treasuretumbledd/thumbnail1x/Thumbnail_Treasure_Tumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Frank's Diner",
+      "slug": "franksdiner",
+      "url": "https://www.relax-gaming.com/products/casino/franksdiner",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/franksdiner/thumbnail1x/Thumbnail_Franks_Diner_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Masked Treasures",
+      "slug": "maskedtreasures",
+      "url": "https://www.relax-gaming.com/products/casino/maskedtreasures",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/maskedtreasures/thumbnail1x/Thumbnail_Masked_Treasures_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bacon Bankroll",
+      "slug": "baconbankroll",
+      "url": "https://www.relax-gaming.com/products/casino/baconbankroll",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/baconbankroll/thumbnail1x/uAXbYHa7UaHmpYTK3CVe/Thumbnail_Bacon_Bankroll_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Net Gains Dream Drop",
+      "slug": "netgainsdd",
+      "url": "https://www.relax-gaming.com/products/casino/netgainsdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/netgainsdd/thumbnail1x/CWZmnfauKf73k8CWydtk/Thumbnail_NetGainsDreamDrop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bill & Coin 2",
+      "slug": "billandcoin2",
+      "url": "https://www.relax-gaming.com/products/casino/billandcoin2",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/billandcoin2/thumbnail1x/pCQm8CQ7N8D4bTZwZ4Y2/Thumbnail_Bill&Coin_2_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aura God",
+      "slug": "auragod",
+      "url": "https://www.relax-gaming.com/products/casino/auragod",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/auragod/thumbnail1x/RRfaDwnU5prHkgAVHhM2/Thumbnail_Aura_God_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Legend Of Odysseus",
+      "slug": "legendofodysseus",
+      "url": "https://www.relax-gaming.com/products/casino/legendofodysseus",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/legendofodysseus/thumbnail1x/LSwLqubN2sdcwYmQvghw/Thumbnail_Legend-of-Odysseus_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Conquer Babylon",
+      "slug": "conquerbabylon",
+      "url": "https://www.relax-gaming.com/products/casino/conquerbabylon",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/conquerbabylon/thumbnail1x/zagLGKfPSdKmSTzGsgCG/Thumbnail_ConquerBabylon_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jumbo Juicy",
+      "slug": "jumbojuicy",
+      "url": "https://www.relax-gaming.com/products/casino/jumbojuicy",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/jumbojuicy/thumbnail1x/dC9P3Bu22v4vCY225ZTB/Thumbnail_Jumbo_Juicy_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Groovy Knights Dream Drop",
+      "slug": "groovyknightsdd",
+      "url": "https://www.relax-gaming.com/products/casino/groovyknightsdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/groovyknightsdd/thumbnail1x/2sSWMZD8ByD9HULBCMRS/Thumbnail_Groovy_Knights_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bounty County",
+      "slug": "bountycounty",
+      "url": "https://www.relax-gaming.com/products/casino/bountycounty",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bountycounty/thumbnail1x/GLpN8PNttWGR4yS83Usb/Thumbnail_BountyCounty_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bonsai Dragon Blitz Dream Drop",
+      "slug": "bonsaidragonblitzdd",
+      "url": "https://www.relax-gaming.com/products/casino/bonsaidragonblitzdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bonsaidragonblitzdd/thumbnail1x/etUMuxWuwF6wmBWx4VcG/Thumbnail_BonsaiDragonBlitz_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fang's Inferno",
+      "slug": "fangsinferno",
+      "url": "https://www.relax-gaming.com/products/casino/fangsinferno",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/fangsinferno/thumbnail1x/b7TUQgTLSVZG3Fc3anbY/Thumbnail_Fang'sInferno_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cash in Transit",
+      "slug": "cashintransit",
+      "url": "https://www.relax-gaming.com/products/casino/cashintransit",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/cashintransit/thumbnail1x/xee5eXB8GbNCXvUbDzEH/Thumbnail_Cash_in_Transit_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tiger Shrine",
+      "slug": "tigershrine",
+      "url": "https://www.relax-gaming.com/products/casino/tigershrine",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/tigershrine/thumbnail1x/6KTeR6xB9NTXnBzU987U/Thumbnail_TigerShrine_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mystic Multipliers",
+      "slug": "mysticmultipliers",
+      "url": "https://www.relax-gaming.com/products/casino/mysticmultipliers",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/mysticmultipliers/thumbnail1x/LUeZHQx8eQkh3Tsahuxe/Thumbnail_Mystic_Multipliers_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Chapo 2 Dream Drop",
+      "slug": "wildchapo2dd",
+      "url": "https://www.relax-gaming.com/products/casino/wildchapo2dd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildchapo2dd/thumbnail1x/cWeRNfZaesYpdTcPEXtD/Thumbnail_Wild_Chapo_2_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Purrrminator",
+      "slug": "purrrminator",
+      "url": "https://www.relax-gaming.com/products/casino/purrrminator",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/purrrminator/thumbnail1x/n6pzcwNtpwvVKELh8uXX/Thumbnail_Purrrminator_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Glyph of Gods",
+      "slug": "glyphofgods",
+      "url": "https://www.relax-gaming.com/products/casino/glyphofgods",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/glyphofgods/thumbnail1x/a8g63x5wpTGv5znDedCA/Thumbnail_GlyphofGods_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Giants & Sheep",
+      "slug": "giantsandsheep",
+      "url": "https://www.relax-gaming.com/products/casino/giantsandsheep",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/giantsandsheep/thumbnail1x/rZfdk3cENsKwPyKq3rF9/Thumbnail_Giants_And_Sheep_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Camelot Cash",
+      "slug": "camelotcash",
+      "url": "https://www.relax-gaming.com/products/casino/camelotcash",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/camelotcash/thumbnail1x/6dLnBtdL4wUrPfVxD43T/Thumbnail_Camelot_Cash_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kraken's Cove",
+      "slug": "krakenscove",
+      "url": "https://www.relax-gaming.com/products/casino/krakenscove",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/krakenscove/thumbnail1x/s4pcBP6zE2hB9HVKqrRW/Thumbnail_Kraken's_Cove_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Pigsby Dream Drop",
+      "slug": "thegreatpigsbydd",
+      "url": "https://www.relax-gaming.com/products/casino/thegreatpigsbydd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/thegreatpigsbydd/thumbnail1x/CzGrAsTsSNBMTYSmnh4w/Thumbnail_The_Great_Pigsby_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Immortal 5",
+      "slug": "immortal5",
+      "url": "https://www.relax-gaming.com/products/casino/immortal5",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/immortal5/thumbnail1x/PwyDcsAZ8rpYp6FTVA3Y/Thumbnail_Immortal_5_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Magawa vs Mines",
+      "slug": "magawavsmines",
+      "url": "https://www.relax-gaming.com/products/casino/magawavsmines",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/magawavsmines/thumbnail1x/kKBehmUPwgbeZ6rh5CwX/Thumbnail_Magawa_VS_Mines_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Winter Champions",
+      "slug": "winterchampions",
+      "url": "https://www.relax-gaming.com/products/casino/winterchampions",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/winterchampions/thumbnail1x/awgbSz3hKC8HhC5e6DcA/Thumbnail_Winter_Champions_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Sleigh",
+      "slug": "moneysleigh",
+      "url": "https://www.relax-gaming.com/products/casino/moneysleigh",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneysleigh/thumbnail1x/vtXsLK3XymEMN989pcWh/Thumbnail_MoneySleigh_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bill & Coin Dream Drop",
+      "slug": "billandcoindd",
+      "url": "https://www.relax-gaming.com/products/casino/billandcoindd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/billandcoindd/thumbnail1x/dHgXHGtG4D6P2dYd4tmn/Thumbnail_Bill&CoinDreamDrop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Feather Fury",
+      "slug": "featherfury",
+      "url": "https://www.relax-gaming.com/products/casino/featherfury",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/featherfury/thumbnail1x/zqwUpL8SmMgrsEBHXM3S/Thumbnail_Feather_Fury_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Freaked out Fish",
+      "slug": "freakedoutfish",
+      "url": "https://www.relax-gaming.com/products/casino/freakedoutfish",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/freakedoutfish/thumbnail1x/VvuRCmVhpLFt2yAN8FPc/Thumbnail_Freakedout_Fish_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Quackin' Reels",
+      "slug": "quackinreels",
+      "url": "https://www.relax-gaming.com/products/casino/quackinreels",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/quackinreels/thumbnail1x/dBrkdKrqKNANHTFqwNaW/Thumbnail_Quackin'_Reels_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Tumbles",
+      "slug": "thetumbles",
+      "url": "https://www.relax-gaming.com/products/casino/thetumbles",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/thetumbles/thumbnail1x/85nXTgHz5TbmFYG4N9eH/Thumbnail_TheTumbles_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bone Raiders",
+      "slug": "boneraiders",
+      "url": "https://www.relax-gaming.com/products/casino/boneraiders",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/boneraiders/thumbnail1x/2U5hXmqevWSu7YEP9BEC/Thumbnail_Bone_Raiders_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Space Attacks Dream Drop",
+      "slug": "spaceattacksdd",
+      "url": "https://www.relax-gaming.com/products/casino/spaceattacksdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/spaceattacksdd/thumbnail1x/3tZdUtLe45rK2yL8Y8KH/Thumbnail_SpaceAttacks_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Atlantis Crush",
+      "slug": "atlantiscrush",
+      "url": "https://www.relax-gaming.com/products/casino/atlantiscrush",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/atlantiscrush/thumbnail1x/Lu2ryNncxZAuR95rxTwF/Thumbnail_Atlantis_Crush_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "St Louis 1904",
+      "slug": "stlouis1904",
+      "url": "https://www.relax-gaming.com/products/casino/stlouis1904",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/stlouis1904/thumbnail1x/P2n4hEGw6Z2H4aBKXNF7/Thumbnail_St.Louis_1904_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fang's Inferno Dream Drop",
+      "slug": "fangsinfernodd",
+      "url": "https://www.relax-gaming.com/products/casino/fangsinfernodd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/fangsinfernodd/thumbnail1x/3bZns2fPyXmPFSBaUV8t/Thumbnail_Fang'sInferno_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ancient Tumble",
+      "slug": "ancienttumble",
+      "url": "https://www.relax-gaming.com/products/casino/ancienttumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/ancienttumble/thumbnail1x/sbKeYp29Enzt3edqURZC/Thumbnail_AncientTumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Line Busters Dream Drop",
+      "slug": "linebustersdd",
+      "url": "https://www.relax-gaming.com/products/casino/linebustersdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/linebustersdd/thumbnail1x/ygVNNqcqL7f529MgsrpH/Thumbnail_Line_Busters_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Epic Dreams",
+      "slug": "epicdreams",
+      "url": "https://www.relax-gaming.com/products/casino/epicdreams",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/epicdreams/thumbnail1x/ZHSprrZx5ywDyVFeTrNk/Thumbnail_EpicDreams_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sultan Spins",
+      "slug": "sultanspins",
+      "url": "https://www.relax-gaming.com/products/casino/sultanspins",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/sultanspins/thumbnail1x/kaDkwV6nBwk747ZsthFM/Thumbnail_SultanSpins_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Space Miners Dream Drop",
+      "slug": "spaceminersdd",
+      "url": "https://www.relax-gaming.com/products/casino/spaceminersdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/spaceminersdd/thumbnail1x/vM9fwcrhfWmNxAmVarW4/Thumbnail_Space_Minors_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Totem Guardians Dream Drop",
+      "slug": "totemguardiansdd",
+      "url": "https://www.relax-gaming.com/products/casino/totemguardiansdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/totemguardiansdd/thumbnail1x/PGGKXPMCbsHLhLpBH8KS/Thumbnail_TotemGuardians_DreamDrop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "FireWins Factory",
+      "slug": "firewinsfactory",
+      "url": "https://www.relax-gaming.com/products/casino/firewinsfactory",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/firewinsfactory/thumbnail1x/tcBffx79e5NByvyRqPec/Thumbnail_Firewins_Factory_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sweetopia Royale",
+      "slug": "sweetopiaroyale",
+      "url": "https://www.relax-gaming.com/products/casino/sweetopiaroyale",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/sweetopiaroyale/thumbnail1x/hBK4WX5Kt7vKy4Mpx7Me/Thumbnail_SweetopiaRoyale_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cowabunga Dream Drop",
+      "slug": "cowabungadd",
+      "url": "https://www.relax-gaming.com/products/casino/cowabungadd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/cowabungadd/thumbnail1x/tAp4xbRyy29rFSNzzcfr/RG_Large_slider_banner_CowabungaDreamDrop_1600x755.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Cart 4",
+      "slug": "moneycart4",
+      "url": "https://www.relax-gaming.com/products/casino/moneycart4",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneycart4/thumbnail1x/4Lc4zHwvNu8DGL9zct6Y/RG_Large_slider_banner_MoneyCart4_1600x755.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hercules Unleashed Dream Drop",
+      "slug": "herculesunleasheddd",
+      "url": "https://www.relax-gaming.com/products/casino/herculesunleasheddd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/herculesunleasheddd/thumbnail1x/LSR7m5pFQQLxFH6Y5hVA/Thumbnail_HerculesUnleashedDreamDrop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Bill & Coin",
+      "slug": "billandcoin",
+      "url": "https://www.relax-gaming.com/products/casino/billandcoin",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/billandcoin/thumbnail1x/7hq7CZNc6XCN9EBbSp2B/Thumbnail_Bill&Coin_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Aussies vs Emus",
+      "slug": "aussiesvsemus",
+      "url": "https://www.relax-gaming.com/products/casino/aussiesvsemus",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/aussiesvsemus/thumbnail1x/RTX3c3Ty46mxtUBHFSrW/Thumbnail_Aussies_VS_Emus_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Galactic Racers Dream Drop",
+      "slug": "galacticracersdd",
+      "url": "https://www.relax-gaming.com/products/casino/galacticracersdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/galacticracersdd/thumbnail1x/vHRtyGsfNucW77Lwzv22/Thumbnail_Galactic_Racers_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Templar Tumble Dream Drop",
+      "slug": "templartumbledd",
+      "url": "https://www.relax-gaming.com/products/casino/templartumbledd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/templartumbledd/thumbnail1x/YrMgVQBGDrmDGCPf2Wp7/Thumbnail_TTDD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Lure of Fortune",
+      "slug": "lureoffortune",
+      "url": "https://www.relax-gaming.com/products/casino/lureoffortune",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/lureoffortune/thumbnail1x/DMpTnWKvYLYdeALUYH3U/Thumbnail_Lure_of_Fortune_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Snake's Gold Dream Drop",
+      "slug": "snakesgolddd",
+      "url": "https://www.relax-gaming.com/products/casino/snakesgolddd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/snakesgolddd/thumbnail1x/mQmVPpsxQR8QNGemdTfQ/Thumbnail_Snake's_Gold_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Titan Strike",
+      "slug": "titanstrike",
+      "url": "https://www.relax-gaming.com/products/casino/titanstrike",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/titanstrike/thumbnail1x/7PdxbSTBhNSr9LQCw6cx/Thumbnail_TitanStrike_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Train 4",
+      "slug": "moneytrain4",
+      "url": "https://www.relax-gaming.com/products/casino/moneytrain4",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneytrain4/thumbnail1x/hKdWexmKcGLGhgRt4LUT/Thumbnail_MoneyTrain4_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dead Mans Trail Dream Drop",
+      "slug": "deadmanstraildd",
+      "url": "https://www.relax-gaming.com/products/casino/deadmanstraildd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/deadmanstraildd/thumbnail1x/GGYrrrUzvRXR2nXcBKvA/Thumbnail_DeadMan'sTrailDD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Joker Split",
+      "slug": "jokersplit",
+      "url": "https://www.relax-gaming.com/products/casino/jokersplit",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/jokersplit/thumbnail1x/RPA79PKNGa9WuAuqhq6X/Thumbnail_Joker_Split_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Pinata Popper Dream Drop",
+      "slug": "pinatapopperdd",
+      "url": "https://www.relax-gaming.com/products/casino/pinatapopperdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/pinatapopperdd/thumbnail1x/H7yDhRMNZ64XsEZN88qC/Thumbnail_Pinata_Poppers_Dream_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Torii Tumble",
+      "slug": "toriitumble",
+      "url": "https://www.relax-gaming.com/products/casino/toriitumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/toriitumble/thumbnail1x/YTVtPS4Tepz6wbh7M5Gh/Thumbnail_ToriiTumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sloth Tumble",
+      "slug": "slothtumble",
+      "url": "https://www.relax-gaming.com/products/casino/slothtumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/slothtumble/thumbnail1x/4R5WNfmWewqWYH265DCM/RG_Sloth_Tumble_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midnight Marauder Dream Drop",
+      "slug": "midnightmarauderdd",
+      "url": "https://www.relax-gaming.com/products/casino/midnightmarauderdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/midnightmarauderdd/thumbnail1x/h2YwB9QuzhnVELKywfeh/Thumbnail_Midnight_Marauder_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Shark Wash",
+      "slug": "sharkwash",
+      "url": "https://www.relax-gaming.com/products/casino/sharkwash",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/sharkwash/thumbnail1x/zVYczfayhy9vHRtg2RDF/Thumbnail_SharkWash_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cluster Tumble Dream Drop",
+      "slug": "clustertumbledd",
+      "url": "https://www.relax-gaming.com/products/casino/clustertumbledd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/clustertumbledd/thumbnail1x/9zt5Hqsh5bPdcZdm8fC4/Thumbnail_ClusterTumbleDD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Train Origins Dream Drop",
+      "slug": "moneytrainoriginsdd",
+      "url": "https://www.relax-gaming.com/products/casino/moneytrainoriginsdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneytrainoriginsdd/thumbnail1x/xWRaPCRyPSRE35XsmTug/Thumbnail_MTOriginsDD_300x300copy.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Fly Cat$ Dream Drop",
+      "slug": "flycatsdd",
+      "url": "https://www.relax-gaming.com/products/casino/flycatsdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/flycatsdd/thumbnail1x/Gy5dz2tgSLYNApn5xdPr/Thumbnail_Fly_Cats_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Heist",
+      "slug": "megaheist",
+      "url": "https://www.relax-gaming.com/products/casino/megaheist",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/megaheist/thumbnail1x/NC5Vwxp5w4EQH3mhFQBZ/Thumbnail_MegaHeist_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hellcatraz 2 Dream Drop",
+      "slug": "hellcatraz2dd",
+      "url": "https://www.relax-gaming.com/products/casino/hellcatraz2dd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/hellcatraz2dd/thumbnail1x/Th9y6YngbGTfQ4xyrRKZ/Thumbnail_Hellcatraz2_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Cart 3",
+      "slug": "moneycart3",
+      "url": "https://www.relax-gaming.com/products/casino/moneycart3",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneycart3/thumbnail1x/MnhpXvkVyerdAxFNrpmV/Thumbnail_MoneyCart3_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Banana Town Dream Drop",
+      "slug": "bananatowndd",
+      "url": "https://www.relax-gaming.com/products/casino/bananatowndd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bananatowndd/thumbnail1x/p7EwaS4V3uaBxyp9cpRE/Thumbnail_Banana_Town_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beellionaires Dream Drop",
+      "slug": "beellionairesdd",
+      "url": "https://www.relax-gaming.com/products/casino/beellionairesdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/beellionairesdd/thumbnail1x/KFHGy2WadeSkfzrgWwMQ/Thumbnail_BeellionairesDreamDrop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of Power",
+      "slug": "bookofpower",
+      "url": "https://www.relax-gaming.com/products/casino/bookofpower",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bookofpower/thumbnail1x/GnF4xNxWgbNyrcAQS5fM/Thumbnail_Book_of_Power_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Chapo 2",
+      "slug": "wildchapo2",
+      "url": "https://www.relax-gaming.com/products/casino/wildchapo2",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildchapo2/thumbnail1x/2fR4B5bMW7CLnarR9vLT/Thumbnail_WildChapo2_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Hike",
+      "slug": "wildhike",
+      "url": "https://www.relax-gaming.com/products/casino/wildhike",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildhike/thumbnail1x/8GDnLPMgkGFSU68Da6Sk/Thumbnail_WildHike_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Horror Hotel",
+      "slug": "horrorhotel",
+      "url": "https://www.relax-gaming.com/products/casino/horrorhotel",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/horrorhotel/thumbnail1x/WNnBTHkHMUgy4fwNQYf2/Thumbnail_HorrorHotel_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Grim The Splitter Dream Drop",
+      "slug": "grimthesplitterdd",
+      "url": "https://www.relax-gaming.com/products/casino/grimthesplitterdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/grimthesplitterdd/thumbnail1x/tLHnwaZFpPfZfFgyWEKB/Thumbnail_GrimtheSplitterDreamDrop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Napoleon vs Rabbits",
+      "slug": "napoleonvsrabbits",
+      "url": "https://www.relax-gaming.com/products/casino/napoleonvsrabbits",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/napoleonvsrabbits/thumbnail1x/rznyFq3cNRVGTTGx3FGr/thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Net Gains",
+      "slug": "netgains",
+      "url": "https://www.relax-gaming.com/products/casino/netgains",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/netgains/thumbnail1x/qV2efGcZhdZh5ELt8BzV/Thumbnail_Net_Gains_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santa's Stack Dream Drop",
+      "slug": "santasstackdd",
+      "url": "https://www.relax-gaming.com/products/casino/santasstackdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/santasstackdd/thumbnail1x/9cYMpX959PvRPRFWHhpb/Thumbnail_Santa's_Stack_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Yield",
+      "slug": "wildyield",
+      "url": "https://www.relax-gaming.com/products/casino/wildyield",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildyield/thumbnail1x/e9Uqzxx9KcqZWyd9fVyt/RG_WIld_Yield_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hot Rod Racers",
+      "slug": "hotrodracers",
+      "url": "https://www.relax-gaming.com/products/casino/hotrodracers",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/hotrodracers/thumbnail1x/3VpBB5yhYnnvXuHq5SE4/Thumbnail_HotRodRacers_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Templar Tumble 2 Dream Drop",
+      "slug": "templartumble2dd",
+      "url": "https://www.relax-gaming.com/products/casino/templartumble2dd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/templartumble2dd/thumbnail1x/Phfpzcs7scbBPswB88Mz/Thumbnail_TemplarTumble2DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Pigsby Megaways",
+      "slug": "greatpigsbymegaways",
+      "url": "https://www.relax-gaming.com/products/casino/greatpigsbymegaways",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/greatpigsbymegaways/thumbnail1x/N7dTECqxRyMmZFV8CWPf/Thumbnail_The_Great_Pigsby_Megaways_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dream Drop Diamonds",
+      "slug": "diamondsdd",
+      "url": "https://www.relax-gaming.com/products/casino/diamondsdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/diamondsdd/thumbnail1x/BPaXEHKFq4vNnrmXadw6/Thumbnail_DreamDropDiamonds_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Train 3",
+      "slug": "moneytrain3",
+      "url": "https://www.relax-gaming.com/products/casino/moneytrain3",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneytrain3/thumbnail1x/G68nZV6H82qh4LA2359Y/Thumbnail_MoneyTrain3_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Neko Night Dream Drop",
+      "slug": "nekonightdd",
+      "url": "https://www.relax-gaming.com/products/casino/nekonightdd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/nekonightdd/thumbnail1x/DsAQpffatk4ybuAd8Rr4/Thumbnail_NekoNightDD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dead Riders Trail",
+      "slug": "deadriderstrail",
+      "url": "https://www.relax-gaming.com/products/casino/deadriderstrail",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/deadriderstrail/thumbnail1x/4hPCfX7zxxCZB6Dkhrxw/Thumbnail_Dead_Riders_Trail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "TNT Tumble Dream Drop",
+      "slug": "tnttumbledd",
+      "url": "https://www.relax-gaming.com/products/casino/tnttumbledd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/tnttumbledd/thumbnail1x/Khc8SKxWMXyYFXhaUq5K/Thumbnail_TNT_Tumble_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Chapo Dream Drop",
+      "slug": "wildchapodd",
+      "url": "https://www.relax-gaming.com/products/casino/wildchapodd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildchapodd/thumbnail1x/Z35sXeQA64R74deVNNwm/Thumbnail_Wild_Chapo_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Volatile Vikings 2 Dream Drop",
+      "slug": "volatilevikings2dd",
+      "url": "https://www.relax-gaming.com/products/casino/volatilevikings2dd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/volatilevikings2dd/thumbnail1x/rCRBcLDvqEDdwxHbx8B3/Thumbnail_Volatile_Vikings2_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Banana Town",
+      "slug": "bananatown",
+      "url": "https://www.relax-gaming.com/products/casino/bananatown",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bananatown/thumbnail1x/kUnYLfwc2uN8kuKPtx8N/Thumbnail_Banana_Town_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blender Blitz",
+      "slug": "blenderblitz",
+      "url": "https://www.relax-gaming.com/products/casino/blenderblitz",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/blenderblitz/thumbnail1x/t7UGttKFxN5QaV69zDpF/Thumbnail_BlenderBlitz_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Curse of the Mummies",
+      "slug": "curseofthemummies",
+      "url": "https://www.relax-gaming.com/products/casino/curseofthemummies",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/curseofthemummies/thumbnail1x/NyRYwxVsy8uXvLECaU9t/Thumbnail_CurseOfTheMummies_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Snake Arena Dream Drop",
+      "slug": "snakearenadd",
+      "url": "https://www.relax-gaming.com/products/casino/snakearenadd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/snakearenadd/thumbnail1x/D34DnnHQduTzA88nXTMM/Thumbnail_SnakeArena_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Midnight Marauder",
+      "slug": "midnightmarauder",
+      "url": "https://www.relax-gaming.com/products/casino/midnightmarauder",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/midnightmarauder/thumbnail1x/D2dCnSA3PRBX5MZQ32zb/Thumbnail_MidnightMarauder_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Temple Tumble 2 Dream Drop",
+      "slug": "templetumble2dd",
+      "url": "https://www.relax-gaming.com/products/casino/templetumble2dd",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/templetumble2dd/thumbnail1x/57H3hSuR35dNUknYMkpb/Thumbnail_Temple_Tumble_2_Dream_Drop_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Jurassic Party",
+      "slug": "jurassicparty",
+      "url": "https://www.relax-gaming.com/products/casino/jurassicparty",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/jurassicparty/thumbnail1x/HSnFtVVVeVswREddP2W2/Thumbnail_Jurassic_Party_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Pigsby Megapays",
+      "slug": "greatpigsbymegapays",
+      "url": "https://www.relax-gaming.com/products/casino/greatpigsbymegapays",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/greatpigsbymegapays/thumbnail1x/Z7tFK4Ucv6tTULFGXXcC/Thumbnail_TheGreatPigsbyMEGAWAYS_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hex",
+      "slug": "hex",
+      "url": "https://www.relax-gaming.com/products/casino/hex",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/hex/thumbnail1x/Se6B767gWFAKX9GNzQ3r/Thumbnail_Hex_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tiger Kingdom Infinity Reels",
+      "slug": "tigerkingdom",
+      "url": "https://www.relax-gaming.com/products/casino/tigerkingdom",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/tigerkingdom/thumbnail1x/akn2LT7CzXT4RX6XHU5a/RG_Tiger_Kingdom_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Beast Mode",
+      "slug": "beastmode",
+      "url": "https://www.relax-gaming.com/products/casino/beastmode",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/beastmode/thumbnail1x/T8WvH2TvTbSTVxycTN4Y/Thumbnail_BeastMode_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Space Miners",
+      "slug": "spaceminers",
+      "url": "https://www.relax-gaming.com/products/casino/spaceminers",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/spaceminers/thumbnail1x/S9EPQ6xuppGdF5CP2CYw/Thumbnail_SpaceMiners_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hazakura Ways",
+      "slug": "hazakuraways",
+      "url": "https://www.relax-gaming.com/products/casino/hazakuraways",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/hazakuraways/thumbnail1x/Lu3c8t2TKyeNGC6eeyKY/Thumbnail_HazakuraWays_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Plunderland",
+      "slug": "plunderland",
+      "url": "https://www.relax-gaming.com/products/casino/plunderland",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/plunderland/thumbnail1x/NeRYEcqmafK9buGzy6wW/Thumbnail_Plunderland_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Cart",
+      "slug": "moneycart",
+      "url": "https://www.relax-gaming.com/products/casino/moneycart",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneycart/thumbnail1x/w2dzGBmXku99TS5Q52tG/Thumbnail_MoneyCart_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Santa's Stack",
+      "slug": "santasstack",
+      "url": "https://www.relax-gaming.com/products/casino/santasstack",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/santasstack/thumbnail1x/uKZGS9LL2urHR8vGXEUy/Thumbnail_Santa'sStack_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Cluster Tumble",
+      "slug": "clustertumble",
+      "url": "https://www.relax-gaming.com/products/casino/clustertumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/clustertumble/thumbnail1x/6fW4mq9y7gBHHhSTXZDW/Thumbnail_CT_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Mine",
+      "slug": "megamine",
+      "url": "https://www.relax-gaming.com/products/casino/megamine",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/megamine/thumbnail1x/3wz8ABYFpBGWWVEwKtbX/Thumbnail_MegaMine_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Helios Fury",
+      "slug": "heliosfury",
+      "url": "https://www.relax-gaming.com/products/casino/heliosfury",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/heliosfury/thumbnail1x/L8MtqPuB6SEfP9gz6NAt/Thumbnail_HF_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Volatile Vikings",
+      "slug": "volatilevikings",
+      "url": "https://www.relax-gaming.com/products/casino/volatilevikings",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/volatilevikings/thumbnail1x/NnMXHgwnT8VhFS36K4bC/Thumbnail_VV_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dead Man's Trail",
+      "slug": "deadmanstrail",
+      "url": "https://www.relax-gaming.com/products/casino/deadmanstrail",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/deadmanstrail/thumbnail1x/6faLUYFDAGLw3krnhB5T/Thumbnail_TD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Troll's Gold",
+      "slug": "trollsgold",
+      "url": "https://www.relax-gaming.com/products/casino/trollsgold",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/trollsgold/thumbnail1x/vzn5UkqKC5hLCLu3gSBm/RG_TG_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Deep Descent",
+      "slug": "deepdescent",
+      "url": "https://www.relax-gaming.com/products/casino/deepdescent",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/deepdescent/thumbnail1x/G3WXpaMdCVR2pcTrUycV/Thumbnail_DD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Cart 2",
+      "slug": "moneycart2",
+      "url": "https://www.relax-gaming.com/products/casino/moneycart2",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneycart2/thumbnail1x/v29Tp4fFn5CWshTTXpyE/Thumbnail_MoneyCart2_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Chip Spin",
+      "slug": "chipspin",
+      "url": "https://www.relax-gaming.com/products/casino/chipspin",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/chipspin/thumbnail1x/pHUz8UKrkDhRD8hURNHD/RG_CS_Thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Spirit of The Beast",
+      "slug": "spiritofthebeast",
+      "url": "https://www.relax-gaming.com/products/casino/spiritofthebeast",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/spiritofthebeast/thumbnail1x/NPrFuNsnYu7Gyg2ENY2D/Thumbnail_TD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Top Dawg$",
+      "slug": "topdawg",
+      "url": "https://www.relax-gaming.com/products/casino/topdawg",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/topdawg/thumbnail1x/88fVrKL5h9dAmcFcwX3C/Thumbnail_TD_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Sails of Fortune",
+      "slug": "sailsoffortune",
+      "url": "https://www.relax-gaming.com/products/casino/sailsoffortune",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/sailsoffortune/thumbnail1x/QrZWnpNq4tnEeTLUsgCr/Thumbnail_SOF_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Book of 99",
+      "slug": "bookof99",
+      "url": "https://www.relax-gaming.com/products/casino/bookof99",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/bookof99/thumbnail1x/Dcb8ZNE2SWbsdGZdWyAp/Thumbnail_B99_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wild Chapo",
+      "slug": "wildchapo",
+      "url": "https://www.relax-gaming.com/products/casino/wildchapo",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildchapo/thumbnail1x/TRKTaYFuyXaAqXrsZgcD/Thumbnail_WildChapo_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Templar Tumble",
+      "slug": "templartumble",
+      "url": "https://www.relax-gaming.com/products/casino/templartumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/templartumble/thumbnail1x/PLx2S7QCuwvRydSE4DDa/Thumbnail_TT_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Emerald's Infinity Reels",
+      "slug": "emeraldsinfinityreels",
+      "url": "https://www.relax-gaming.com/products/casino/emeraldsinfinityreels",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/emeraldsinfinityreels/thumbnail1x/B64qU9ZyVbNW2bZrca5s/Thumbnail_EIR_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Multiplier Odyssey",
+      "slug": "multiplierodyssey",
+      "url": "https://www.relax-gaming.com/products/casino/multiplierodyssey",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/multiplierodyssey/thumbnail1x/FarubqrQCS7K7hmfgDKh/Thumb_MO_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Kluster Krystals Megaclusters",
+      "slug": "klusterkrystalsmegaclusters",
+      "url": "https://www.relax-gaming.com/products/casino/klusterkrystalsmegaclusters",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/klusterkrystalsmegaclusters/thumbnail1x/UgBYXdLywvSxnBpkmC9B/Thumb_KK_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Frequent Flyer",
+      "slug": "frequentflyer",
+      "url": "https://www.relax-gaming.com/products/casino/frequentflyer",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/frequentflyer/thumbnail1x/T2XfMTXL5hmWmfNyf2bp/thumbnail_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Iron Bank",
+      "slug": "ironbank",
+      "url": "https://www.relax-gaming.com/products/casino/ironbank",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/ironbank/thumbnail1x/ygbrRXcz844svmMFWgNu/Thumb_IB_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ramses Revenge",
+      "slug": "ramsesrevenge",
+      "url": "https://www.relax-gaming.com/products/casino/ramsesrevenge",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/ramsesrevenge/thumbnail1x/gawHuxFfpVcf8cg7QfC8/Thumb_Ramseys-Revenge_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Train 2",
+      "slug": "moneytrain2",
+      "url": "https://www.relax-gaming.com/products/casino/moneytrain2",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneytrain2/thumbnail1x/sMuvZNXzaeVpCRWHX9ws/Thumbnail_Money_Train_2_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "La Fiesta",
+      "slug": "lafiesta",
+      "url": "https://www.relax-gaming.com/products/casino/lafiesta",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/lafiesta/thumbnail1x/tFFGaMQhVnVWhRYFAcyV/Thumbnail_La_Fiesta_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Marching Legions",
+      "slug": "marchinglegions",
+      "url": "https://www.relax-gaming.com/products/casino/marchinglegions",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/marchinglegions/thumbnail1x/UaRaQdzWEbBgxhxkyNXe/Thumb_ML_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Flip",
+      "slug": "megaflip",
+      "url": "https://www.relax-gaming.com/products/casino/megaflip",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/megaflip/thumbnail1x/bLM4YXPy4gmEemzWUet6/Thumb_MegaFlip_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Hellcatraz",
+      "slug": "hellcatraz",
+      "url": "https://www.relax-gaming.com/products/casino/hellcatraz",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/hellcatraz/thumbnail1x/KXX7EG7qxWPdqHRS6suE/Thumb_Hellcatraz_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "TNT Tumble",
+      "slug": "tnttumble",
+      "url": "https://www.relax-gaming.com/products/casino/tnttumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/tnttumble/thumbnail1x/8Ck9vZgtmAWYhyGKfHbn/Thumb_TNT_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Mega Masks",
+      "slug": "megamasks",
+      "url": "https://www.relax-gaming.com/products/casino/megamasks",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/megamasks/thumbnail1x/cDbW5NtnB3ActZf8MyYn/thumbnail_Mega_Masks_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Heroes' Gathering",
+      "slug": "heroesgathering",
+      "url": "https://www.relax-gaming.com/products/casino/heroesgathering",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/heroesgathering/thumbnail1x/W3w9Qpc8GynpSgSmACfR/thumbnail_Heroes'_Gathering_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Snake Arena",
+      "slug": "snakearena",
+      "url": "https://www.relax-gaming.com/products/casino/snakearena",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/snakearena/thumbnail1x/EUUPAxLLEtFBbrAtuKaF/Thumbnail_SA_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Wildchemy",
+      "slug": "wildchemy",
+      "url": "https://www.relax-gaming.com/products/casino/wildchemy",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/wildchemy/thumbnail1x/zx9pysGMhqdGddtSfL6z/Wildchemy_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Tower Tumble",
+      "slug": "towertumble",
+      "url": "https://www.relax-gaming.com/products/casino/towertumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/towertumble/thumbnail1x/E5XY6Bp6MUASzeMEdbFK/thumbnail_Tower_Tumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "It's Time",
+      "slug": "itstime",
+      "url": "https://www.relax-gaming.com/products/casino/itstime",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/itstime/thumbnail1x/wKYB2vxWPq26Dmdd4Zfd/thumbnail_Rumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Let's get ready to Rumble",
+      "slug": "rumble",
+      "url": "https://www.relax-gaming.com/products/casino/rumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/rumble/thumbnail1x/A9e8wzeUG3QwwQgReTWr/thumbnail_Rumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Money Train",
+      "slug": "moneytrain",
+      "url": "https://www.relax-gaming.com/products/casino/moneytrain",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/moneytrain/thumbnail1x/prB2kNbLkqSnKMVah9RU/Thumbnail_MT_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Powerspin",
+      "slug": "powerspin",
+      "url": "https://www.relax-gaming.com/products/casino/powerspin",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/powerspin/thumbnail1x/TPHQ8UweDxvYQSQMb6qv/thumbnail_Powerspin_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Ignite The Night",
+      "slug": "ignitethenight",
+      "url": "https://www.relax-gaming.com/products/casino/ignitethenight",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/ignitethenight/thumbnail1x/6BxKFbEk4KyHXrbf2xpB/Thumbnail_ITN_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Caveman Bob",
+      "slug": "cavemanbob",
+      "url": "https://www.relax-gaming.com/products/casino/cavemanbob",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/cavemanbob/thumbnail1x/zse35pwmhauzG4vnzfBh/thumbnail_Caveman_Bob_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "King of Kings",
+      "slug": "kingofkings",
+      "url": "https://www.relax-gaming.com/products/casino/kingofkings",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/kingofkings/thumbnail1x/EABBwNhgbgPwVbwmEwAa/thumbnail_KoK_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Dragons Awakening",
+      "slug": "dragonsawakening",
+      "url": "https://www.relax-gaming.com/products/casino/dragonsawakening",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/dragonsawakening/thumbnail1x/Tyw9x6MVDxxmcXg6NcSN/thumbnail_Temple_Tumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Temple Tumble",
+      "slug": "templetumble",
+      "url": "https://www.relax-gaming.com/products/casino/templetumble",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/templetumble/thumbnail1x/UTwEMV6FCxb5XBgdyc3e/thumbnail_Temple_Tumble_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "The Great Pigsby",
+      "slug": "thegreatpigsby",
+      "url": "https://www.relax-gaming.com/products/casino/thegreatpigsby",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/thegreatpigsby/thumbnail1x/H6TYFZyUMt9fUYGfwwK5/thumbnail_Great_Pigsby_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Epic Joker",
+      "slug": "epicjoker",
+      "url": "https://www.relax-gaming.com/products/casino/epicjoker",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/epicjoker/thumbnail1x/RG_EpicJoker_Thumbnail_300x300_a.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Zombie Circus",
+      "slug": "zombiecircus",
+      "url": "https://www.relax-gaming.com/products/casino/zombiecircus",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/zombiecircus/thumbnail1x/XgpxvYskcTLqHVGk2hfN/RG_ZC_Thumbnail_600x600.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Erik the Red",
+      "slug": "erikthered",
+      "url": "https://www.relax-gaming.com/products/casino/erikthered",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/erikthered/thumbnail1x/65vhd8VWCKZsBHQsuA4K/Erik_Thumbnail300-300A-1.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Roulette Nouveau",
+      "slug": "roulettenouveau",
+      "url": "https://www.relax-gaming.com/products/casino/roulettenouveau",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/roulettenouveau/thumbnail1x/DNxmgwr9d9q6aWrqScTC/thumbnail_Roulette_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Blackjack Neo",
+      "slug": "blackjackneo",
+      "url": "https://www.relax-gaming.com/products/casino/blackjackneo",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/blackjackneo/thumbnail1x/tWDFLK9AXWPkGPd554vn/thumbnail_Blackjack_300x300.png",
+      "studio": "",
+      "category": ""
+    },
+    {
+      "name": "Attila The Hun",
+      "slug": "attila",
+      "url": "https://www.relax-gaming.com/products/casino/attila",
+      "symbol": "",
+      "thumbnail_url": "https://clientarea.relax-gaming.com/gameassets/attila/thumbnail1x/84QL6DaQQdFNq2Z2V6Rp/Thumbnail_AttilaTheHun_300x300.png",
+      "studio": "",
+      "category": ""
+    }
+  ]
+}

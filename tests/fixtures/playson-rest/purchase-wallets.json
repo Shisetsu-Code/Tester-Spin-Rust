@@ -1,0 +1,319 @@
+{
+  "reports": [
+    {
+      "declarations": {
+        "buy_feature_cost": "50,100,300",
+        "chance_booster": null,
+        "total_bet_mult": "10"
+      },
+      "events": [
+        {
+          "entry_index": 679,
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "request_sha256": "e6f645628ee908abffdfee476e4e6809922dbe73294e55d37f9f4764010ea4a4",
+          "response_sha256": "b953b987a584d59c22365009cdb7e4019ce3e2b924d8a192ef75616783eb7fbb",
+          "buy": {
+            "freegame": "true",
+            "type": "2"
+          },
+          "wallet_before": 1100000,
+          "wallet_after": 1070000,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "2"
+          }
+        },
+        {
+          "entry_index": 688,
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "request_sha256": "a426999b55ba75d686d4202176c91655685abc160553834a7cb406cbbae106bb",
+          "response_sha256": "61424322696f82dfa80e2bf167bd91d9ec33be64acded3be48c7c6eeb1d157f2",
+          "buy": null,
+          "wallet_before": 1070000,
+          "wallet_after": 1082500,
+          "game": {
+            "cash-bet": null,
+            "cash-bet-game": null,
+            "cash-win": null,
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "2"
+          }
+        },
+        {
+          "entry_index": 689,
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "request_sha256": "1afcebe6b06a17f3b1e7949efac7450a55f60546cc84c8f35ab9cf0c32459323",
+          "response_sha256": "2c489c2979322066be15d357c64b1d730a11fa92803b2812ba43e3885c3675eb",
+          "buy": {
+            "freegame": "true",
+            "type": "0"
+          },
+          "wallet_before": 1082500,
+          "wallet_after": 1077500,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        },
+        {
+          "entry_index": 696,
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "request_sha256": "225bfa7f40cbf63f9d144c9c9a12ae642f44ee50b41cb9828fda33ec83381245",
+          "response_sha256": "52cb2ae0fb2c99d043f4671841bcecd5895e83940fe3c444c4cd03777b1449ff",
+          "buy": null,
+          "wallet_before": 1077500,
+          "wallet_after": 1079900,
+          "game": {
+            "cash-bet": null,
+            "cash-bet-game": null,
+            "cash-win": null,
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        }
+      ]
+    },
+    {
+      "declarations": {
+        "buy_feature_cost": "75,175,250",
+        "chance_booster": "1.5,5",
+        "total_bet_mult": "10"
+      },
+      "events": [
+        {
+          "entry_index": 1633,
+          "command": "bet",
+          "status": "ok",
+          "state": "idle",
+          "request_sha256": "3de19b9955cba17706998f7a663766077d69bcb680da0e5f9301d79ce22a8bbb",
+          "response_sha256": "a4e042825e239ddd8e0ea8b31045f0d57c20db7ee6ce83538f7e0804755cb1f5",
+          "buy": null,
+          "wallet_before": 1100000,
+          "wallet_after": 1100500,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "1000",
+            "bonus_game_type": null,
+            "bonus_game_sub_type": null
+          }
+        },
+        {
+          "entry_index": 1634,
+          "command": "bet",
+          "status": "ok",
+          "state": "idle",
+          "request_sha256": "0aea451520743d124b5bf27f2236b52efb703ed9b2b9678a9f85dabbc51b850d",
+          "response_sha256": "4fcd5e10c1054dba3253bb44e9f685d1a2acd298aae0a2c53a0dcb17392f7d92",
+          "buy": null,
+          "wallet_before": 1100500,
+          "wallet_after": 1100350,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": null,
+            "bonus_game_sub_type": null
+          }
+        },
+        {
+          "entry_index": 1635,
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "request_sha256": "78424a442f6dc8647aa38036537fdcfff7db33cd3117ee5c8a27851763499c4b",
+          "response_sha256": "d40fbf2d501ef26d0e90ba128bee540be4a53d22b996c3262f2fc27e3c3522f6",
+          "buy": {
+            "freegame": "true",
+            "type": "0"
+          },
+          "wallet_before": 1100350,
+          "wallet_after": 1092850,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        },
+        {
+          "entry_index": 1652,
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "request_sha256": "5c7935c8a64f36a6e6384a13e1cda449d3e5dd708850a92b7f170a73f2fbece5",
+          "response_sha256": "f3f6d10f783ef9b1d4997de5efc8c1c324a37e204aafd806106c9eb0fa2a9669",
+          "buy": null,
+          "wallet_before": 1092850,
+          "wallet_after": 1104650,
+          "game": {
+            "cash-bet": null,
+            "cash-bet-game": null,
+            "cash-win": null,
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        }
+      ]
+    },
+    {
+      "declarations": {
+        "buy_feature_cost": "50,100,300",
+        "chance_booster": null,
+        "total_bet_mult": "10"
+      },
+      "events": [
+        {
+          "entry_index": 679,
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "request_sha256": "e6f645628ee908abffdfee476e4e6809922dbe73294e55d37f9f4764010ea4a4",
+          "response_sha256": "b953b987a584d59c22365009cdb7e4019ce3e2b924d8a192ef75616783eb7fbb",
+          "buy": {
+            "freegame": "true",
+            "type": "2"
+          },
+          "wallet_before": 1100000,
+          "wallet_after": 1070000,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "2"
+          }
+        },
+        {
+          "entry_index": 688,
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "request_sha256": "a426999b55ba75d686d4202176c91655685abc160553834a7cb406cbbae106bb",
+          "response_sha256": "61424322696f82dfa80e2bf167bd91d9ec33be64acded3be48c7c6eeb1d157f2",
+          "buy": null,
+          "wallet_before": 1070000,
+          "wallet_after": 1082500,
+          "game": {
+            "cash-bet": null,
+            "cash-bet-game": null,
+            "cash-win": null,
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "2"
+          }
+        },
+        {
+          "entry_index": 689,
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "request_sha256": "1afcebe6b06a17f3b1e7949efac7450a55f60546cc84c8f35ab9cf0c32459323",
+          "response_sha256": "2c489c2979322066be15d357c64b1d730a11fa92803b2812ba43e3885c3675eb",
+          "buy": {
+            "freegame": "true",
+            "type": "0"
+          },
+          "wallet_before": 1082500,
+          "wallet_after": 1077500,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        },
+        {
+          "entry_index": 696,
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "request_sha256": "225bfa7f40cbf63f9d144c9c9a12ae642f44ee50b41cb9828fda33ec83381245",
+          "response_sha256": "52cb2ae0fb2c99d043f4671841bcecd5895e83940fe3c444c4cd03777b1449ff",
+          "buy": null,
+          "wallet_before": 1077500,
+          "wallet_after": 1079900,
+          "game": {
+            "cash-bet": null,
+            "cash-bet-game": null,
+            "cash-win": null,
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        },
+        {
+          "entry_index": 710,
+          "command": "bet",
+          "status": "bonus",
+          "state": "bonus",
+          "request_sha256": "44730d75a6afbdf0c5282e6c025004474d11229703724f83bfc1ec115668df24",
+          "response_sha256": "c6391f6d3350965fc6d3ddea60da24741a34a42e0414d64db9798ac6c47940cf",
+          "buy": {
+            "freegame": "true",
+            "type": "0"
+          },
+          "wallet_before": 1079900,
+          "wallet_after": 1074900,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        },
+        {
+          "entry_index": 723,
+          "command": "bonus",
+          "status": "bet",
+          "state": "idle",
+          "request_sha256": "2cb75745db243b8aacfc3ff7af177c6e77ce971f09c26f919b604cc2dce753d3",
+          "response_sha256": "ddb4a167f92c3829f9fdc6f921a42bc66b2b43cf43c06efd728d4ce964705a59",
+          "buy": null,
+          "wallet_before": 1074900,
+          "wallet_after": 1080200,
+          "game": {
+            "cash-bet": null,
+            "cash-bet-game": null,
+            "cash-win": null,
+            "bonus_game_type": "bought",
+            "bonus_game_sub_type": "0"
+          }
+        },
+        {
+          "entry_index": 724,
+          "command": "bet",
+          "status": "ok",
+          "state": "idle",
+          "request_sha256": "3d49d1278a1c6a7f0134954eeb7c27bd9790ea4e8cd86a365a8b1f7dcc733ec8",
+          "response_sha256": "2c1d80273aad89a45c0c99e51636a1f6b1fdc316b4c0eeea666ff167415c5d5e",
+          "buy": null,
+          "wallet_before": 1080200,
+          "wallet_after": 1080100,
+          "game": {
+            "cash-bet": "100",
+            "cash-bet-game": "100",
+            "cash-win": "0",
+            "bonus_game_type": null,
+            "bonus_game_sub_type": null
+          }
+        }
+      ]
+    }
+  ]
+}

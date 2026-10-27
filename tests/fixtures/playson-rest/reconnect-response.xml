@@ -1,0 +1,82 @@
+<server command="reconnect" status="ok" session="REDACTED" rnd="1793106115226">
+  <state current_state="idle" />
+  <config>
+    <slot>
+      <combinations>
+        <combination symbol="1" name="H1" count="8" coef="100" />
+        <combination symbol="1" name="H1" count="10" coef="200" />
+        <combination symbol="1" name="H1" count="12" coef="1000" />
+        <combination symbol="2" name="H2" count="8" coef="40" />
+        <combination symbol="2" name="H2" count="10" coef="100" />
+        <combination symbol="2" name="H2" count="12" coef="400" />
+        <combination symbol="3" name="H3" count="8" coef="30" />
+        <combination symbol="3" name="H3" count="10" coef="80" />
+        <combination symbol="3" name="H3" count="12" coef="300" />
+        <combination symbol="4" name="H4" count="8" coef="20" />
+        <combination symbol="4" name="H4" count="10" coef="40" />
+        <combination symbol="4" name="H4" count="12" coef="200" />
+        <combination symbol="5" name="L1" count="8" coef="15" />
+        <combination symbol="5" name="L1" count="10" coef="30" />
+        <combination symbol="5" name="L1" count="12" coef="100" />
+        <combination symbol="6" name="L2" count="8" coef="10" />
+        <combination symbol="6" name="L2" count="10" coef="25" />
+        <combination symbol="6" name="L2" count="12" coef="80" />
+        <combination symbol="7" name="L3" count="8" coef="8" />
+        <combination symbol="7" name="L3" count="10" coef="20" />
+        <combination symbol="7" name="L3" count="12" coef="50" />
+        <combination symbol="8" name="L4" count="8" coef="5" />
+        <combination symbol="8" name="L4" count="10" coef="15" />
+        <combination symbol="8" name="L4" count="12" coef="30" />
+        <combination symbol="9" name="L5" count="8" coef="4" />
+        <combination symbol="9" name="L5" count="10" coef="10" />
+        <combination symbol="9" name="L5" count="12" coef="20" />
+      </combinations>
+      <paylines>
+        <payline id="1" path="1,1,1,1,1,1" />
+      </paylines>
+      <symbols>
+        <symbol id="1" title="H1" />
+        <symbol id="2" title="H2" />
+        <symbol id="3" title="H3" />
+        <symbol id="4" title="H4" />
+        <symbol id="5" title="L1" />
+        <symbol id="6" title="L2" />
+        <symbol id="7" title="L3" />
+        <symbol id="8" title="L4" />
+        <symbol id="9" title="L5" />
+        <symbol id="10" title="WI" />
+        <symbol id="11" title="S1" />
+        <symbol id="12" title="S2" />
+        <symbol id="13" title="S3" />
+        <symbol id="14" title="XM" />
+        <symbol id="15" title="HW" />
+        <symbol id="16" title="HS" />
+        <symbol id="17" title="HX" />
+        <symbol id="99" title="MW" />
+      </symbols>
+      <reels id="1">
+        <reel id="1" length="11" symbols="8,7,4,6,2,16,9,3,15,5,1" />
+        <reel id="2" length="10" symbols="9,2,5,1,7,8,6,15,3,4" />
+        <reel id="3" length="10" symbols="3,6,8,4,9,1,7,2,5,15" />
+        <reel id="4" length="11" symbols="9,3,5,7,8,16,4,6,15,2,1" />
+        <reel id="5" length="11" symbols="3,9,4,7,6,8,5,15,1,16,2" />
+        <reel id="6" length="11" symbols="6,16,1,9,7,8,2,15,3,4,5" />
+      </reels>
+    </slot>
+    <shift server="0,0,0,0,0,0" reel_set="3" reel1="6,7,7,4,4" reel2="3,8,8,9,9" reel3="1,14,9,9,9" reel4="2,2,2,1,5" reel5="7,7,9,9,3" reel6="3,6,6,6,1">
+      <context>
+        <mults values="100" pos="8" />
+      </context>
+    </shift>
+  </config>
+  <game buy_feature_cost="100,400" chance_booster="1.5,2" />
+  <game_version>310826</game_version>
+  <extra>
+    <stakeIncrement>1,2,3,4,5,6,7,8,10,20,30,40,50,75,100,200,250,375,500</stakeIncrement>
+    <defaultBet>4</defaultBet>
+    <maxBonusBetIndex>18</maxBonusBetIndex>
+    <maxBonusBuy>-1</maxBonusBuy>
+  </extra>
+  <source game-ver="57735" />
+  <user_new cash="1100000" />
+</server>
