@@ -1,0 +1,42 @@
+{
+  "provenance": {
+    "actions_run": 40551803690,
+    "kind": "captured-official-page-subtrees-and-public-handler-excerpts",
+    "note": "HTML parser-normalized subtrees; website tokens were redacted by Actions exporter. JavaScript snippets from a public static asset whose full bytes matched the Actions source hash."
+  },
+  "pages": [
+    {
+      "game": {
+        "provider": "elk",
+        "slug": "arcanum",
+        "name": "Arcanum",
+        "url": "https://www.elk-studios.com/games/arcanum/"
+      },
+      "html": "<link href=\"https://www.elk-studios.com/games/arcanum/\" rel=\"canonical\"/>\n<div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12 content-image--content entry-content\">\n<h1>Arcanum</h1>\n<h3><a class=\"btn lightbox-iframe\" data-iframe=\"true\" data-src=\"https://gamelauncher-stage.contentmedia.eu/1.0/game/?gameid=10238&amp;operatorid=44&amp;mode=demo&amp;currency=EUR&amp;device=desktop&amp;token=[REDACTED]&amp;language=en_gb&amp;xdm=1\" href=\"https://gamelauncher-stage.contentmedia.eu/1.0/game/?gameid=10256&amp;operatorid=44&amp;mode=demo&amp;currency=EUR&amp;device=desktop&amp;token=[REDACTED]&amp;language=en_gb&amp;xdm=1\" rel=\"noopener\" target=\"_blank\">Play</a></h3>\n</div>\n<script id=\"app-js\" src=\"https://www.elk-studios.com/app/themes/elkstudios/assets/dist/app.min.js?ver=1.8\"></script>",
+      "page_source_sha256": "194d30a9c04ee6a6e0cc20805b3d47476a4bf4b7d9735ca0455b3a59bf5efd4a"
+    },
+    {
+      "game": {
+        "provider": "elk",
+        "slug": "ashoka",
+        "name": "Ashoka",
+        "url": "https://www.elk-studios.com/games/ashoka/"
+      },
+      "html": "<link href=\"https://www.elk-studios.com/games/ashoka/\" rel=\"canonical\"/>\n<div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12 content-image--content entry-content\">\n<h1>Ashoka</h1>\n<h3></h3>\n<p><a class=\"btn lightbox-iframe\" data-iframe=\"true\" data-src=\"https://gamelauncher-stage.contentmedia.eu/1.0/game/?gameid=10193&amp;operatorid=44&amp;mode=demo&amp;currency=EUR&amp;device=desktop&amp;token=[REDACTED]&amp;language=en_gb&amp;xdm=0\" href=\"https://gamelauncher-stage.contentmedia.eu/1.0/game/?gameid=10193&amp;operatorid=44&amp;mode=demo&amp;currency=EUR&amp;device=desktop&amp;token=[REDACTED]&amp;language=en_gb&amp;xdm=1\" rel=\"noopener\" target=\"_blank\">PLAY</a></p>\n</div>\n<script id=\"app-js\" src=\"https://www.elk-studios.com/app/themes/elkstudios/assets/dist/app.min.js?ver=1.8\"></script>",
+      "page_source_sha256": "f8cdfdea7b5487f5f8041499c6c17684258ccb65bd9aa38fd5d724aa672cdb85"
+    },
+    {
+      "game": {
+        "provider": "elk",
+        "slug": "ashoka-eternal",
+        "name": "Ashoka Eternal",
+        "url": "https://www.elk-studios.com/games/ashoka-eternal/"
+      },
+      "html": "<link href=\"https://www.elk-studios.com/games/ashoka-eternal/\" rel=\"canonical\"/>\n<div class=\"col-lg-6 col-md-6 col-sm-6 col-xs-12 content-image--content entry-content\">\n<h1 style=\"text-align: left;\">Ashoka Eternal</h1>\n<h3>Live now</h3>\n<p><a class=\"btn lightbox-iframe\" data-iframe=\"true\" data-src=\"https://gamelauncher-stage.contentmedia.eu/1.0/game/?gameid=10204&amp;operatorid=44&amp;mode=demo&amp;currency=EUR&amp;device=desktop&amp;token=[REDACTED]&amp;language=en_gb&amp;xdm=0\" href=\"https://gamelauncher-stage.contentmedia.eu/1.0/game/?gameid=10217&amp;operatorid=44&amp;mode=demo&amp;currency=EUR&amp;device=desktop&amp;token=[REDACTED]&amp;language=en_gb&amp;xdm=1\" rel=\"noopener\" target=\"_blank\">PLAY</a></p>\n</div>\n<script id=\"app-js\" src=\"https://www.elk-studios.com/app/themes/elkstudios/assets/dist/app.min.js?ver=1.8\"></script>",
+      "page_source_sha256": "b12fee7ec7d0ecc5a38c44c69103f21c7101b6faf46c64ee65d5e081d0707a82"
+    }
+  ],
+  "script_url": "https://www.elk-studios.com/app/themes/elkstudios/assets/dist/app.min.js?ver=1.8",
+  "script_source_sha256": "5de9bf031729ad6a0b3ddc4df06630486df0d57a1a52ce0c70a8111a92bda057",
+  "script_excerpt": "g=l.$items.eq(c).attr(\"href\")||l.$items.eq(c).attr(\"data-src\");\n.on(\"click\",\".lightbox-iframe\",function(a){if(navigator.userAgent.indexOf(\"Safari\")!=-1&&navigator.userAgent.indexOf(\"Chrome\")==-1)d.body.bind(\"touchend click\",\".lightbox-iframe\",function(a){var b=c(this).prop(\"href\"),d=c(this).prop(\"target\");b&&(\"_blank\"==d?window.open(b,d):window.location=b)});else{var b=c(this).prop(\"href\");c(this).data(\"src\",b)}})"
+}
