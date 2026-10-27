@@ -1,6 +1,6 @@
 # Correcciones posteriores a la auditoría inicial
 
-La referencia inicial está en [el informe de la primera campaña](../2026-10-27-actions/README.md): 72 juegos, 11 OK, 37 PARCIAL, 9 ERROR y 15 SIN_EJECUTOR. Los siguientes cambios requieren una nueva campaña para medir su resultado live.
+La referencia inicial está en [el informe de la primera campaña](../2026-10-27-actions/README.md): 72 juegos, 11 OK, 37 PARCIAL, 9 ERROR y 15 SIN_EJECUTOR. Los cambios se contrastaron en una nueva campaña completa y ejecuciones focalizadas. [El informe de resultados](README.md) distingue cada ejecución y conserva los fallos anteriores.
 
 ## Cambios y evidencia
 
@@ -10,9 +10,10 @@ La referencia inicial está en [el informe de la primera campaña](../2026-10-27
 | Hacksaw | Dos muestras válidas por ruta y por elección; planificación acotada de muestras faltantes. | Se detiene ante ledger inválido, cierre incierto o timeout; no reintenta la operación. |
 | 1Spin4Win | Resuelve flags efectivos sólo con herencia, llamada al padre y asignaciones demostrables; reconoce el ante legado y calcula su coste desde init. | Una propiedad desconocida sigue desconocida; un ante que entra en bonus sin contrato contable queda PARCIAL. |
 | Pragmatic | Acepta el recibo de compra sin `bl` sólo cuando request, apuesta, precio, identificador, cierre y retorno aportan la misma prueba. | Un `bl` contradictorio se rechaza; esta excepción no se aplica al ante. |
-| RubyPlay | Publica el dominio de compra desde menú fresco del servidor y tipo/precio del cliente enlazado. | Ante y elecciones sin dominio exhaustivo permanecen desconocidos. |
+| RubyPlay | Publica el dominio de compra desde menú fresco del servidor y tipo/precio del cliente enlazado; propaga la validación del modo cuando todas sus muestras y retornos están demostrados. | Ante y elecciones sin dominio exhaustivo permanecen desconocidos. |
 | Playtech | Admite un coste de líneas único enlazado; traza el selector default compilado hasta `GLU.game.playMoney`. | No usa una tabla de títulos/UUID ni infiere el binding sólo por cardinalidad o precio. |
 | Yggdrasil | Reconoce reemplazo wild explícito, retiro de multiplicador creado y bonus automático con salida y premio conciliados. | El bonus reconocido no cuenta como base: después exige dos rondas base ordinarias. |
+| ELK | Resuelve la identidad demo desde ficha, canonical, título y código oficial actuales; el handler y loader observados eligen `href` sobre un `data-src` obsoleto. | Una preparación fallida bloquea metadata antigua y no despacha gameplay. Los modos pagados aún requieren ejecución y cobertura. |
 | Amusnet / Play'n GO | Completa la ejecución acotada de paths Amusnet y decodifica longitudes varint del framing Play'n GO. | No certifica semántica ni dominios que todavía carecen de evidencia. |
 
 La evidencia de protocolos procede de [Actions 40550335443](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40550335443). Las observaciones de bootstrap se ejecutan separadamente en Actions y no alteran los estados históricos.
@@ -29,11 +30,20 @@ CashnFruits40 declara `sideBet=1`, `sideBetPercent=.5`, `halfLines=true`, `allWa
 
 Los tests negativos verifican herencia distinta, asignación condicional, orden incorrecto del constructor, cargos inconsistentes, retornos sin débito, premios inconsistentes y bonus sin contrato. Una revisión independiente reprodujo y cerró dos errores encontrados durante la implementación. Los dos probes base del ante deben conciliar cada transición de saldo.
 
-## Validación antes de publicar
+## Segundo conjunto de correcciones
 
-- Suite completa Python: **173 tests, todos pasan**.
+En ELK, ocho pruebas de bootstrap verifican identidad, autoridades, modo demo, contradicciones, redirects y bloqueo de metadata obsoleta. El mismo handler se comprobó contra el asset público completo con SHA-256 `5de9bf031729ad6a0b3ddc4df06630486df0d57a1a52ce0c70a8111a92bda057`. La ejecución focal posterior resolvió los tres juegos y cerró dos rondas base por juego; quedaron pendientes `X01–X05` y el inventario pagado.
+
+En RubyPlay, la compra de Marlin ya tenía dos muestras correctas y retornos confirmados, pero el modo no publicaba `validated`. La propagación nueva exige todas las muestras programadas, terminalidad, ausencia de warnings/errores, directorios de evidencia distintos dentro del run y prueba persistida de dos bases de retorno. Las pruebas negativas cubren muestra faltante, fallo extra, ledger inválido, ruta duplicada y retorno incompleto. En Actions desapareció `PURCHASE_DECLARATION` de los faltantes; ante y la elección `pick` observada siguieron pendientes.
+
+El exportador de diagnóstico también conserva el código que sigue a una propiedad JavaScript `cookie:` sin dejar de ocultar credenciales. El workflow focal crea sus directorios temporales antes de la suite y conserva su log. Un primer intento falló antes de ejecutar juegos por ese orden de preparación; el intento corregido pasó la suite íntegra.
+
+## Validación realizada
+
+- Campaña completa [40553999461](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40553999461): **173 tests Python** y **4 tests Rust/Windows**, incluida la integración con el puente Python real, todos pasan.
+- Conjunto final ELK/Ruby [40557863852](https://github.com/Shisetsu-Code/Tester-Spin-Rust/actions/runs/40557863852): **190 tests Python**, todos pasan en ambos jobs; el mismo conjunto pasó localmente.
 - `git diff --check`: limpio.
 - Pruebas focalizadas verifican los rechazos de protocolos desconocidos y el número exacto de envíos; no se saltan pruebas para obtener verde.
-- Rust/Windows y resultados live: pendientes de la campaña posterior al cambio; se publicarán en el informe de comparación.
+- Hacksaw: 32 muestras y 6 rondas de retorno cerradas en el follow-up con el mismo motor. Se observaron confirmaciones de premio; no hubo selectores de decisión en esos tres juegos. El soporte de muestreo de elecciones se verifica con las pruebas de transporte simulado identificadas como tales.
 
 Los cinco proveedores que sólo tienen catálogo no adquieren un ejecutor mediante estos cambios. HTTP 403, TLS y desafíos del proveedor deben seguir distinguiéndose de errores corregibles del motor.

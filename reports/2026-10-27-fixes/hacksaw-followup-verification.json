@@ -1,0 +1,1639 @@
+{
+  "schema": "tester-spin/hacksaw-followup-verification/v1",
+  "generated_at": "2026-10-27T18:08:17.003508+00:00",
+  "run_id": 40554710711,
+  "commit": "0c1bf60b59c3ada8607cb37cd8285655d79d71e8",
+  "engine_tree_sha": "51a8144169bd8ac34ae1110af5b87497fe000418",
+  "comparison": {
+    "prior_run_id": 40553999461,
+    "prior_commit": "f5d9db2a4734fa5bebf7039fc614ea4fb644da65",
+    "prior_engine_tree_sha": "51a8144169bd8ac34ae1110af5b87497fe000418",
+    "engine_tree_identical": true,
+    "prior_statuses": {
+      "ERROR": 3
+    },
+    "prior_failure": "First SPIN HTTP 404; identical 14-byte response hashes across the three failures. Body content/causal origin not established by audit indexes.",
+    "cause": "UNDETERMINED",
+    "conclusion": "Fresh sessions with the same engine completed all observed sampling and return checks; no endpoint change or infrastructure cause is established.",
+    "dependencies_unchanged_between_main_and_baseline": true
+  },
+  "scope": "Observed paths and preserved sanitized protocol only. Offline replay validates recorded identity/price/balance/terminal checks; it sends no requests and does not claim exhaustive discovery or reproduce remote random outcomes.",
+  "canonical_summary_ref": "artifacts/actions-40554710711/diagnostic-hacksaw/summary.json",
+  "protocol_index_ref": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/index.json",
+  "evidence_note": "References point to sanitized exports of actual captured requests/responses. No credentials or raw session material are reproduced in this verification.",
+  "totals": {
+    "games": 3,
+    "canonical_statuses": {
+      "OK": 3
+    },
+    "closed_sample_rounds": 32,
+    "closed_return_rounds": 6,
+    "closed_rounds_total": 38,
+    "wire_exchanges_total": 69,
+    "decision_choices_observed": 0
+  },
+  "games": [
+    {
+      "provider": "hacksaw",
+      "slug": "2253",
+      "name": "Dr Zappo",
+      "canonical_cli_status": "OK",
+      "callback_result_status": "OK",
+      "samples_per_path": 2,
+      "root_modes": 5,
+      "paid_modes": 4,
+      "closed_sample_rounds": 10,
+      "closed_return_rounds": 2,
+      "closed_rounds_total": 12,
+      "wire_exchanges_total": 23,
+      "modes": [
+        {
+          "id": "SPIN",
+          "kind": "SPIN",
+          "validated": true,
+          "required_options": [
+            "spin"
+          ],
+          "covered_options": [
+            "spin"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "spin": 2
+          }
+        },
+        {
+          "id": "BUY_mod_bonus",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_bonus"
+          ],
+          "covered_options": [
+            "mod_bonus"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_bonus": 2
+          }
+        },
+        {
+          "id": "BUY_mod_laser",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_laser"
+          ],
+          "covered_options": [
+            "mod_laser"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_laser": 2
+          }
+        },
+        {
+          "id": "BUY_fs",
+          "kind": "PURCHASE",
+          "validated": true,
+          "required_options": [
+            "fs"
+          ],
+          "covered_options": [
+            "fs"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "fs": 2
+          }
+        },
+        {
+          "id": "BUY_fs_2",
+          "kind": "PURCHASE",
+          "validated": true,
+          "required_options": [
+            "fs_2"
+          ],
+          "covered_options": [
+            "fs_2"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "fs_2": 2
+          }
+        },
+        {
+          "id": "CONFIRM_WIN",
+          "kind": "CONTINUATION",
+          "validated": true,
+          "required_options": [
+            "win_presentation_complete"
+          ],
+          "covered_options": [
+            "win_presentation_complete"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "win_presentation_complete": 10
+          }
+        }
+      ],
+      "sampling_groups": [
+        {
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_laser",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        }
+      ],
+      "observed_paths_sampled": true,
+      "path_coverage_complete": true,
+      "paid_inventory_complete": true,
+      "paid_inventory_count": 4,
+      "choice_continuations_observed": false,
+      "choice_scope": "No CHOICE_CONTINUATION or decision selector was observed; confirmation is reported separately and is not proof of unobserved choice coverage.",
+      "ledger_replay": {
+        "performed_offline": true,
+        "all_receipts_matched": true,
+        "balance_chain_continuous": true,
+        "root_round_ids_unique_including_return": true,
+        "algorithm": "RoundLedger constructed from authenticated balance, current betLevels[0], and advertised multiplier; accept each sanitized response in capture order; compare proof to stored receipt."
+      },
+      "attempt_ledgers": [
+        {
+          "number": 1,
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "500000",
+            "paid_cost": "10",
+            "win": "5",
+            "balance_after": "499995",
+            "round_id": "59164270",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-001/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-001/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-001/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-001/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-001/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 2,
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499995",
+            "paid_cost": "10",
+            "win": "10",
+            "balance_after": "499995",
+            "round_id": "59164591",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-002/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-002/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-002/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-002/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-002/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 3,
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499995",
+            "paid_cost": "30",
+            "win": "21",
+            "balance_after": "499986",
+            "round_id": "59164877",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-003/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-003/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-003/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-003/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-003/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 4,
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499986",
+            "paid_cost": "30",
+            "win": "1",
+            "balance_after": "499957",
+            "round_id": "59165130",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-004/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-004/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-004/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-004/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-004/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 5,
+          "mode_id": "BUY_mod_laser",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499957",
+            "paid_cost": "1000",
+            "win": "410",
+            "balance_after": "499367",
+            "round_id": "59165532",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-005/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-005/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-005/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-005/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-005/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 6,
+          "mode_id": "BUY_mod_laser",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499367",
+            "paid_cost": "1000",
+            "win": "355",
+            "balance_after": "498722",
+            "round_id": "59165808",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-006/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-006/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-006/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-006/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-006/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 7,
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "498722",
+            "paid_cost": "500",
+            "win": "980",
+            "balance_after": "499202",
+            "round_id": "59166091",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-007/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-007/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-007/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-007/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-007/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 8,
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499202",
+            "paid_cost": "500",
+            "win": "421",
+            "balance_after": "499123",
+            "round_id": "59166340",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-008/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-008/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-008/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-008/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-008/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 9,
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499123",
+            "paid_cost": "2000",
+            "win": "1731",
+            "balance_after": "498854",
+            "round_id": "59166600",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-009/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-009/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-009/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-009/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-009/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 10,
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "498854",
+            "paid_cost": "2000",
+            "win": "376",
+            "balance_after": "497230",
+            "round_id": "59166894",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-010/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-010/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-010/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-010/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/attempt-010/002.response.raw.json.json"
+          ]
+        }
+      ],
+      "return": {
+        "status": "CONFIRMED",
+        "required": 2,
+        "consecutive_base": 2,
+        "probes": [
+          {
+            "number": 1,
+            "ok": true,
+            "known": true,
+            "base": true,
+            "ledger": {
+              "schema": "hacksaw/round-ledger/v1",
+              "currency": "EUR",
+              "balance_before": "497230",
+              "paid_cost": "10",
+              "win": "10",
+              "balance_after": "497230",
+              "round_id": "59167191",
+              "steps": 2,
+              "balance_observations": 2,
+              "closed": true
+            },
+            "offline_replay_matches_receipt": true,
+            "sanitized_evidence_refs": [
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base/probe-001/step-001-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base/probe-001/step-002-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base/probe-001/step-001-response.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base/probe-001/step-002-response.json.json"
+            ]
+          },
+          {
+            "number": 2,
+            "ok": true,
+            "known": true,
+            "base": true,
+            "ledger": {
+              "schema": "hacksaw/round-ledger/v1",
+              "currency": "EUR",
+              "balance_before": "497230",
+              "paid_cost": "10",
+              "win": "0",
+              "balance_after": "497220",
+              "round_id": "59167507",
+              "steps": 1,
+              "balance_observations": 1,
+              "closed": true
+            },
+            "offline_replay_matches_receipt": true,
+            "sanitized_evidence_refs": [
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base/probe-002/step-001-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base/probe-002/step-001-response.json.json"
+            ]
+          }
+        ]
+      },
+      "canonical_result_ref": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/independent/runs/b97b0c0bd7a34376a43b6989032cd99c/ea02e5da5ed34245b74c4f58a9e67f1d.private.result.json.json",
+      "evidence_refs": {
+        "sample-catalog": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/sample-catalog.json.json",
+        "path-coverage": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/path-coverage.json.json",
+        "return-to-base": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/return-to-base.json.json",
+        "paid-option-inventory": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2253/tests/20261027-175851-36675d/paid-option-inventory.json.json"
+      }
+    },
+    {
+      "provider": "hacksaw",
+      "slug": "2347",
+      "name": "Wicked Grin",
+      "canonical_cli_status": "OK",
+      "callback_result_status": "OK",
+      "samples_per_path": 2,
+      "root_modes": 5,
+      "paid_modes": 4,
+      "closed_sample_rounds": 10,
+      "closed_return_rounds": 2,
+      "closed_rounds_total": 12,
+      "wire_exchanges_total": 23,
+      "modes": [
+        {
+          "id": "SPIN",
+          "kind": "SPIN",
+          "validated": true,
+          "required_options": [
+            "spin"
+          ],
+          "covered_options": [
+            "spin"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "spin": 2
+          }
+        },
+        {
+          "id": "BUY_mod_bonus",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_bonus"
+          ],
+          "covered_options": [
+            "mod_bonus"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_bonus": 2
+          }
+        },
+        {
+          "id": "BUY_mod_spread",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_spread"
+          ],
+          "covered_options": [
+            "mod_spread"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_spread": 2
+          }
+        },
+        {
+          "id": "BUY_fs",
+          "kind": "PURCHASE",
+          "validated": true,
+          "required_options": [
+            "fs"
+          ],
+          "covered_options": [
+            "fs"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "fs": 2
+          }
+        },
+        {
+          "id": "BUY_fs_2",
+          "kind": "PURCHASE",
+          "validated": true,
+          "required_options": [
+            "fs_2"
+          ],
+          "covered_options": [
+            "fs_2"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "fs_2": 2
+          }
+        },
+        {
+          "id": "CONFIRM_WIN",
+          "kind": "CONTINUATION",
+          "validated": true,
+          "required_options": [
+            "win_presentation_complete"
+          ],
+          "covered_options": [
+            "win_presentation_complete"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "win_presentation_complete": 9
+          }
+        }
+      ],
+      "sampling_groups": [
+        {
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_spread",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        }
+      ],
+      "observed_paths_sampled": true,
+      "path_coverage_complete": true,
+      "paid_inventory_complete": true,
+      "paid_inventory_count": 4,
+      "choice_continuations_observed": false,
+      "choice_scope": "No CHOICE_CONTINUATION or decision selector was observed; confirmation is reported separately and is not proof of unobserved choice coverage.",
+      "ledger_replay": {
+        "performed_offline": true,
+        "all_receipts_matched": true,
+        "balance_chain_continuous": true,
+        "root_round_ids_unique_including_return": true,
+        "algorithm": "RoundLedger constructed from authenticated balance, current betLevels[0], and advertised multiplier; accept each sanitized response in capture order; compare proof to stored receipt."
+      },
+      "attempt_ledgers": [
+        {
+          "number": 1,
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "500000",
+            "paid_cost": "10",
+            "win": "2",
+            "balance_after": "499992",
+            "round_id": "59183899",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-001/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-001/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-001/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-001/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-001/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 2,
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499992",
+            "paid_cost": "10",
+            "win": "0",
+            "balance_after": "499982",
+            "round_id": "59184232",
+            "steps": 1,
+            "balance_observations": 1,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-002/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-002/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-002/001.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 3,
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499982",
+            "paid_cost": "30",
+            "win": "2",
+            "balance_after": "499954",
+            "round_id": "59184365",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-003/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-003/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-003/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-003/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-003/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 4,
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499954",
+            "paid_cost": "30",
+            "win": "918",
+            "balance_after": "500842",
+            "round_id": "59184717",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-004/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-004/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-004/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-004/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-004/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 5,
+          "mode_id": "BUY_mod_spread",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "500842",
+            "paid_cost": "500",
+            "win": "719",
+            "balance_after": "501061",
+            "round_id": "59185034",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-005/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-005/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-005/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-005/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-005/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 6,
+          "mode_id": "BUY_mod_spread",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "501061",
+            "paid_cost": "500",
+            "win": "1660",
+            "balance_after": "502221",
+            "round_id": "59185368",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-006/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-006/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-006/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-006/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-006/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 7,
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "502221",
+            "paid_cost": "800",
+            "win": "177",
+            "balance_after": "501598",
+            "round_id": "59185987",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-007/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-007/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-007/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-007/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-007/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 8,
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "501598",
+            "paid_cost": "800",
+            "win": "621",
+            "balance_after": "501419",
+            "round_id": "59186353",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-008/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-008/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-008/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-008/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-008/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 9,
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "501419",
+            "paid_cost": "2000",
+            "win": "724",
+            "balance_after": "500143",
+            "round_id": "59186683",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-009/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-009/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-009/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-009/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-009/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 10,
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "500143",
+            "paid_cost": "2000",
+            "win": "1529",
+            "balance_after": "499672",
+            "round_id": "59186984",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-010/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-010/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-010/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-010/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/attempt-010/002.response.raw.json.json"
+          ]
+        }
+      ],
+      "return": {
+        "status": "CONFIRMED",
+        "required": 2,
+        "consecutive_base": 2,
+        "probes": [
+          {
+            "number": 1,
+            "ok": true,
+            "known": true,
+            "base": true,
+            "ledger": {
+              "schema": "hacksaw/round-ledger/v1",
+              "currency": "EUR",
+              "balance_before": "499672",
+              "paid_cost": "10",
+              "win": "4",
+              "balance_after": "499666",
+              "round_id": "59187282",
+              "steps": 2,
+              "balance_observations": 2,
+              "closed": true
+            },
+            "offline_replay_matches_receipt": true,
+            "sanitized_evidence_refs": [
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-001/step-001-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-001/step-002-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-001/step-001-response.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-001/step-002-response.json.json"
+            ]
+          },
+          {
+            "number": 2,
+            "ok": true,
+            "known": true,
+            "base": true,
+            "ledger": {
+              "schema": "hacksaw/round-ledger/v1",
+              "currency": "EUR",
+              "balance_before": "499666",
+              "paid_cost": "10",
+              "win": "1",
+              "balance_after": "499657",
+              "round_id": "59187575",
+              "steps": 2,
+              "balance_observations": 2,
+              "closed": true
+            },
+            "offline_replay_matches_receipt": true,
+            "sanitized_evidence_refs": [
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-002/step-001-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-002/step-002-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-002/step-001-response.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base/probe-002/step-002-response.json.json"
+            ]
+          }
+        ]
+      },
+      "canonical_result_ref": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/independent/runs/b97b0c0bd7a34376a43b6989032cd99c/fc3f045a84944d329f8a3901cb5ce715.private.result.json.json",
+      "evidence_refs": {
+        "sample-catalog": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/sample-catalog.json.json",
+        "path-coverage": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/path-coverage.json.json",
+        "return-to-base": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/return-to-base.json.json",
+        "paid-option-inventory": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2347/tests/20261027-175916-53d644/paid-option-inventory.json.json"
+      }
+    },
+    {
+      "provider": "hacksaw",
+      "slug": "2582",
+      "name": "Le Vampire",
+      "canonical_cli_status": "OK",
+      "callback_result_status": "OK",
+      "samples_per_path": 2,
+      "root_modes": 6,
+      "paid_modes": 5,
+      "closed_sample_rounds": 12,
+      "closed_return_rounds": 2,
+      "closed_rounds_total": 14,
+      "wire_exchanges_total": 23,
+      "modes": [
+        {
+          "id": "SPIN",
+          "kind": "SPIN",
+          "validated": true,
+          "required_options": [
+            "spin"
+          ],
+          "covered_options": [
+            "spin"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "spin": 2
+          }
+        },
+        {
+          "id": "BUY_mod_bonus",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_bonus"
+          ],
+          "covered_options": [
+            "mod_bonus"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_bonus": 2
+          }
+        },
+        {
+          "id": "BUY_mod_rainbow",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_rainbow"
+          ],
+          "covered_options": [
+            "mod_rainbow"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_rainbow": 2
+          }
+        },
+        {
+          "id": "BUY_mod_epic",
+          "kind": "FEATURE_SPIN",
+          "validated": true,
+          "required_options": [
+            "mod_epic"
+          ],
+          "covered_options": [
+            "mod_epic"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "mod_epic": 2
+          }
+        },
+        {
+          "id": "BUY_fs",
+          "kind": "PURCHASE",
+          "validated": true,
+          "required_options": [
+            "fs"
+          ],
+          "covered_options": [
+            "fs"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "fs": 2
+          }
+        },
+        {
+          "id": "BUY_fs_2",
+          "kind": "PURCHASE",
+          "validated": true,
+          "required_options": [
+            "fs_2"
+          ],
+          "covered_options": [
+            "fs_2"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "fs_2": 2
+          }
+        },
+        {
+          "id": "CONFIRM_WIN",
+          "kind": "CONTINUATION",
+          "validated": true,
+          "required_options": [
+            "win_presentation_complete"
+          ],
+          "covered_options": [
+            "win_presentation_complete"
+          ],
+          "required_samples": 2,
+          "sample_counts": {
+            "win_presentation_complete": 9
+          }
+        }
+      ],
+      "sampling_groups": [
+        {
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_rainbow",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_mod_epic",
+          "mode_kind": "FEATURE_SPIN",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        },
+        {
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "choices": [],
+          "validated_samples": 2,
+          "missing_samples": 0
+        }
+      ],
+      "observed_paths_sampled": true,
+      "path_coverage_complete": true,
+      "paid_inventory_complete": true,
+      "paid_inventory_count": 5,
+      "choice_continuations_observed": false,
+      "choice_scope": "No CHOICE_CONTINUATION or decision selector was observed; confirmation is reported separately and is not proof of unobserved choice coverage.",
+      "ledger_replay": {
+        "performed_offline": true,
+        "all_receipts_matched": true,
+        "balance_chain_continuous": true,
+        "root_round_ids_unique_including_return": true,
+        "algorithm": "RoundLedger constructed from authenticated balance, current betLevels[0], and advertised multiplier; accept each sanitized response in capture order; compare proof to stored receipt."
+      },
+      "attempt_ledgers": [
+        {
+          "number": 1,
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "500000",
+            "paid_cost": "5",
+            "win": "7",
+            "balance_after": "500002",
+            "round_id": "59173623",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-001/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-001/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-001/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-001/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-001/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 2,
+          "mode_id": "SPIN",
+          "mode_kind": "SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "500002",
+            "paid_cost": "5",
+            "win": "0",
+            "balance_after": "499997",
+            "round_id": "59173899",
+            "steps": 1,
+            "balance_observations": 1,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-002/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-002/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-002/001.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 3,
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499997",
+            "paid_cost": "15",
+            "win": "0",
+            "balance_after": "499982",
+            "round_id": "59174034",
+            "steps": 1,
+            "balance_observations": 1,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-003/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-003/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-003/001.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 4,
+          "mode_id": "BUY_mod_bonus",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499982",
+            "paid_cost": "15",
+            "win": "0",
+            "balance_after": "499967",
+            "round_id": "59174273",
+            "steps": 1,
+            "balance_observations": 1,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-004/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-004/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-004/001.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 5,
+          "mode_id": "BUY_mod_rainbow",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499967",
+            "paid_cost": "375",
+            "win": "145",
+            "balance_after": "499737",
+            "round_id": "59174427",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-005/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-005/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-005/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-005/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-005/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 6,
+          "mode_id": "BUY_mod_rainbow",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499737",
+            "paid_cost": "375",
+            "win": "92",
+            "balance_after": "499454",
+            "round_id": "59174950",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-006/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-006/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-006/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-006/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-006/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 7,
+          "mode_id": "BUY_mod_epic",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "499454",
+            "paid_cost": "2500",
+            "win": "700",
+            "balance_after": "497654",
+            "round_id": "59175202",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-007/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-007/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-007/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-007/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-007/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 8,
+          "mode_id": "BUY_mod_epic",
+          "mode_kind": "FEATURE_SPIN",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "497654",
+            "paid_cost": "2500",
+            "win": "2115",
+            "balance_after": "497269",
+            "round_id": "59175464",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-008/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-008/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-008/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-008/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-008/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 9,
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "497269",
+            "paid_cost": "300",
+            "win": "818",
+            "balance_after": "497787",
+            "round_id": "59175793",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-009/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-009/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-009/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-009/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-009/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 10,
+          "mode_id": "BUY_fs",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "497787",
+            "paid_cost": "300",
+            "win": "142",
+            "balance_after": "497629",
+            "round_id": "59176202",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-010/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-010/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-010/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-010/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-010/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 11,
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "497629",
+            "paid_cost": "1250",
+            "win": "1235",
+            "balance_after": "497614",
+            "round_id": "59176446",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-011/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-011/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-011/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-011/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-011/002.response.raw.json.json"
+          ]
+        },
+        {
+          "number": 12,
+          "mode_id": "BUY_fs_2",
+          "mode_kind": "PURCHASE",
+          "ok": true,
+          "terminal": true,
+          "warning": "",
+          "error": "",
+          "ledger": {
+            "schema": "hacksaw/round-ledger/v1",
+            "currency": "EUR",
+            "balance_before": "497614",
+            "paid_cost": "1250",
+            "win": "674",
+            "balance_after": "497038",
+            "round_id": "59176735",
+            "steps": 2,
+            "balance_observations": 2,
+            "closed": true
+          },
+          "offline_replay_matches_receipt": true,
+          "sanitized_evidence_refs": [
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-012/ledger.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-012/001.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-012/002.request.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-012/001.response.raw.json.json",
+            "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/attempt-012/002.response.raw.json.json"
+          ]
+        }
+      ],
+      "return": {
+        "status": "CONFIRMED",
+        "required": 2,
+        "consecutive_base": 2,
+        "probes": [
+          {
+            "number": 1,
+            "ok": true,
+            "known": true,
+            "base": true,
+            "ledger": {
+              "schema": "hacksaw/round-ledger/v1",
+              "currency": "EUR",
+              "balance_before": "497038",
+              "paid_cost": "5",
+              "win": "0",
+              "balance_after": "497033",
+              "round_id": "59176957",
+              "steps": 1,
+              "balance_observations": 1,
+              "closed": true
+            },
+            "offline_replay_matches_receipt": true,
+            "sanitized_evidence_refs": [
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/return-to-base/probe-001/step-001-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/return-to-base/probe-001/step-001-response.json.json"
+            ]
+          },
+          {
+            "number": 2,
+            "ok": true,
+            "known": true,
+            "base": true,
+            "ledger": {
+              "schema": "hacksaw/round-ledger/v1",
+              "currency": "EUR",
+              "balance_before": "497033",
+              "paid_cost": "5",
+              "win": "0",
+              "balance_after": "497028",
+              "round_id": "59177108",
+              "steps": 1,
+              "balance_observations": 1,
+              "closed": true
+            },
+            "offline_replay_matches_receipt": true,
+            "sanitized_evidence_refs": [
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/return-to-base/probe-002/step-001-request.json.json",
+              "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/return-to-base/probe-002/step-001-response.json.json"
+            ]
+          }
+        ]
+      },
+      "canonical_result_ref": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/independent/runs/b97b0c0bd7a34376a43b6989032cd99c/27473f01c14a4226aefce0e5b7de03fd.private.result.json.json",
+      "evidence_refs": {
+        "sample-catalog": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/sample-catalog.json.json",
+        "path-coverage": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/path-coverage.json.json",
+        "return-to-base": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/return-to-base.json.json",
+        "paid-option-inventory": "artifacts/actions-40554710711/diagnostic-hacksaw/protocol/providers/hacksaw/2582/tests/20261027-175903-e5366f/paid-option-inventory.json.json"
+      }
+    }
+  ]
+}
